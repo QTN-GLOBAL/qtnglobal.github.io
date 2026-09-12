@@ -4854,6 +4854,149 @@ window.productTranslations = {
         ]
     }
 },
+41: {
+
+    en: {
+
+        name:"OHAUS T31P 100kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T31P 100kg electronic platform scale belongs to the OHAUS Defender 3000 series and is suitable for weighing goods, production, warehousing and inventory applications. The scale supports weighing and simple parts counting, features a backlit LCD display, RS232 communication and a rechargeable battery for extended operation. The 100kg model provides a 10g readability for industrial and commercial weighing applications.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Display Resolution</th>
+</tr>
+
+<tr>
+<td>T31P-100</td>
+<td>100kg</td>
+<td>10g</td>
+<td>1/7,500</td>
+</tr>
+
+</table>`,
+
+"Capacity: 100kg",
+
+"Readability: 10g",
+
+"Display resolution: 1/7,500",
+
+"Functions: Weighing and parts counting",
+
+"Display: 6-digit LCD with backlight",
+
+"Digit height: 25mm",
+
+"Weighing units: kg, g, lb, oz, lb:oz",
+
+"Tare function",
+
+"Zero function",
+
+"Stabilization time: approximately 2 seconds",
+
+"Communication: RS232",
+
+"Power supply: AC adapter and rechargeable battery",
+
+"Battery operating time: up to 80 - 100 hours depending on configuration",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Safe overload: 125% of capacity",
+
+"Platform size: approximately 400 x 500mm",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Indicator housing: High-impact ABS",
+
+"Scale frame: Painted steel with stainless steel 304 platform cover",
+
+"Non-slip rubber feet"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T31P 100kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T31P 100kg电子台秤属于OHAUS Defender 3000系列，适用于货物称重、生产、仓储和库存管理。该型号支持称重和简单计数功能，配备带背光LCD显示屏、RS232通信接口以及可充电电池。100kg型号的分度值为10g，适用于工业及商业称重应用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>显示分辨率</th>
+</tr>
+
+<tr>
+<td>T31P-100</td>
+<td>100kg</td>
+<td>10g</td>
+<td>1/7,500</td>
+</tr>
+
+</table>`,
+
+"最大称量：100kg",
+
+"分度值：10g",
+
+"显示分辨率：1/7,500",
+
+"功能：称重和数量计数",
+
+"显示屏：6位LCD，带背光",
+
+"数字高度：25mm",
+
+"称重单位：kg、g、lb、oz、lb:oz",
+
+"去皮功能",
+
+"归零功能",
+
+"稳定时间：約2秒",
+
+"通信接口：RS232",
+
+"电源：AC适配器和充电电池",
+
+"电池使用时间：根据配置最长约80 - 100小时",
+
+"称重传感器：铝合金，IP65",
+
+"安全过载：最大称量的125%",
+
+"秤台尺寸：約400 x 500mm",
+
+"工作温度：-10°C ~ 40°C",
+
+"显示器外壳：高强度ABS塑料",
+
+"秤体框架：喷涂钢材，304不锈钢秤盘",
+
+"防滑橡胶脚"
+        ]
+    }
+},
+
 };
 
 
