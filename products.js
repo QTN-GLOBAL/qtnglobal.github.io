@@ -1006,7 +1006,7 @@ window.products = [
 
     category:"can-ban",
 
-    folder:"excell-awh4",
+    folder:"awh4",
 
     brand:"Excell",
 
