@@ -1671,21 +1671,21 @@ window.products = [
 "Phù hợp sử dụng trong sản xuất, kho hàng, kiểm kê và đóng gói"
 ]
 },
-     {
-business:"measure",
+    {
+    business:"measure",
     id:19,
 
-    name:"Đầu Cân Điện Tử KWS",
+    name:"Cân điện tử Excell AWH4 + Đèn cảnh báo 3 màu",
 
-    category:"dau-can-dien-tu",
+    category:"can-ban",
 
-    folder:"kws",
+    folder:"dencanhbao",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân điện tử KWS Excell thiết kế công nghiệp chắc chắn, độ ổn định cao, phù hợp cho cân bàn, cân sàn và hệ thống cân công nghiệp. Màn hình LCD lớn dễ quan sát, hỗ trợ nhiều chức năng cân và kiểm tra trọng lượng.",
+    description:"Cân điện tử Excell AWH4 kết hợp đèn cảnh báo 3 màu, phù hợp sử dụng trong cân kiểm tra, phân loại và kiểm soát trọng lượng trong sản xuất. Cân có độ phân giải cao 1/30.000, màn hình LCD 6 số, hỗ trợ nhiều mức cân từ 1.5kg đến 30kg. Đèn cảnh báo 3 màu giúp nhận biết nhanh tình trạng trọng lượng trong quá trình kiểm tra.",
 
     specs:[
 
@@ -1693,54 +1693,70 @@ business:"measure",
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Độ phân giải</th>
-<th>Độ phân giải nội</th>
-<th>Đơn vị cân</th>
-<th>Kết nối Loadcell</th>
+<th>Mức cân</th>
+<th>Độ chia</th>
 </tr>
 
 <tr>
-<td>KWS</td>
-<td>1/15.000</td>
-<td>1/30.000</td>
-<td>kg / lb</td>
-<td>4 dây hoặc 6 dây</td>
+<td>1.5kg</td>
+<td>0.05g</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>7.5kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>30kg</td>
+<td>1g</td>
 </tr>
 
 </table>
 `,
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Độ phân giải: 1/30,000",
 
-"Màn hình LCD 6 số đèn nền LED",
+"Độ phân giải nội bộ: 24 bit",
 
-"Kích thước màn hình: 113 × 45 mm",
+"Màn hình hiển thị: LCD 6 digits",
 
-"Chiều cao số hiển thị: 25 mm",
+"Đèn nền LED",
 
-"Kích thước đầu cân: 245 × 170 × 153 mm",
+"Đèn cảnh báo 3 màu",
 
-"Chức năng: cân trọng lượng, trừ bì, theo dõi điểm zero",
+"Kích thước đĩa cân: 280 x 230mm",
 
-"Chức năng kiểm tra trọng lượng HI / OK / LO",
+"Kích thước cân: 275 x 105 x 310mm",
 
-"Tự động hiệu chỉnh trọng lượng",
+"Nguồn điện: AC 110V/220V",
 
-"Bảo vệ quá tải 2 tầng",
+"Ắc quy: DC 6V/4Ah",
 
-"Bộ lọc chống nhiễu môi trường công nghiệp",
+"Chức năng cân và trừ bì",
 
-"Bàn phím chống nước bằng keo 3M",
+"Chức năng kiểm tra trọng lượng",
 
-"Có thể đặt bàn hoặc treo tường",
+"Phù hợp sử dụng trong sản xuất và kiểm soát trọng lượng",
 
-"Nguồn điện: AC 110V/220V ±10% hoặc pin sạc DC 6V/4Ah",
+"RS232 tùy chọn",
 
-"Nhiệt độ hoạt động: 0°C ~ 40°C",
-
-"Thiết kế phù hợp môi trường công nghiệp và kho vận"
-
+"Bluetooth/WIFI/RJ45 tùy chọn"
 ]
 },
     {

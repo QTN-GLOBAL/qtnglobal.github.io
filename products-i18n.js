@@ -3083,128 +3083,160 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL KWS Industrial Weight Indicator",
+        name:"EXCELL AWH4 Electronic Scale + 3-Color Warning Light",
 
-        origin: "Taiwan",
+        origin:"Taiwan",
 
-        description: "The EXCELL KWS weight indicator is a durable industrial device designed for bench scales, floor scales, and industrial weighing systems. It features a large LCD display for easy reading and supports multiple weighing and check functions with high stability.",
+        description:"The EXCELL AWH4 electronic scale with 3-color warning light is suitable for weighing, checking, sorting and weight control in production environments. It provides 1/30,000 resolution, a 6-digit LCD display and multiple weighing capacities from 1.5kg to 30kg. The 3-color warning light allows operators to quickly identify the weight status during inspection.",
 
-        specs: [
+        specs:[
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Resolution</th>
-<th>Internal Resolution</th>
-<th>Units</th>
-<th>Loadcell Connection</th>
+<th>Capacity</th>
+<th>Division</th>
 </tr>
 
 <tr>
-<td>KWS</td>
-<td>1/15,000</td>
-<td>1/30,000</td>
-<td>kg / lb</td>
-<td>4-wire or 6-wire loadcell</td>
+<td>1.5kg</td>
+<td>0.05g</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>7.5kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>30kg</td>
+<td>1g</td>
 </tr>
 
 </table>`,
 
-"OIML Class III accuracy standard",
+"Resolution: 1/30,000",
 
-"6-digit LCD display with LED backlight",
+"Internal resolution: 24 bit",
 
-"Display size: 113 × 45 mm",
+"Display: 6-digit LCD",
 
-"Digit height: 25 mm",
+"LED backlight",
 
-"Indicator size: 245 × 170 × 153 mm",
+"3-color warning light",
 
-"Functions: weighing, tare, zero tracking",
+"Weighing pan size: 280 x 230mm",
 
-"HI / OK / LO check weighing function",
+"Scale dimensions: 275 x 105 x 310mm",
 
-"Automatic calibration function",
+"Power supply: AC 110V/220V",
 
-"Dual overload protection system",
+"Rechargeable battery: DC 6V/4Ah",
 
-"Industrial-grade anti-interference filtering system",
+"Weighing and tare function",
 
-"Waterproof keypad with 3M adhesive sealing",
+"Weight checking function",
 
-"Desktop or wall-mount installation",
+"Suitable for production and weight control",
 
-"Power supply: AC 110V/220V ±10% or DC 6V/4Ah rechargeable battery",
+"RS232 optional",
 
-"Operating temperature: 0°C ~ 40°C",
-
-"Designed for industrial and warehouse environments"
-
-    ]
+"Bluetooth/WIFI/RJ45 optional"
+        ]
     },
 
     zh: {
 
-        name: "EXCELL KWS工业称重仪表",
+        name:"EXCELL AWH4电子秤 + 三色警示灯",
 
-        origin: "台湾",
+        origin:"中国台湾",
 
-        description: "EXCELL KWS称重仪表是一款坚固耐用的工业设备，适用于台秤、地磅及工业称重系统。配备大尺寸LCD显示屏，读数清晰，并支持多种称重与检重功能，稳定性高。",
+        description:"EXCELL AWH4电子秤配备三色警示灯，适用于生产环境中的称重、检查、分类及重量控制。秤体具有1/30,000的高分辨率，配备6位LCD显示屏，并提供1.5kg至30kg多种称量规格。三色警示灯可帮助操作人员快速识别称重检查过程中的重量状态。",
 
-        specs: [
+        specs:[
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
-<th>分辨率</th>
-<th>内部分辨率</th>
-<th>单位</th>
-<th>传感器连接</th>
+<th>最大称量</th>
+<th>分度值</th>
 </tr>
 
 <tr>
-<td>KWS</td>
-<td>1/15,000</td>
-<td>1/30,000</td>
-<td>kg / lb</td>
-<td>4线或6线传感器</td>
+<td>1.5kg</td>
+<td>0.05g</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>7.5kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>30kg</td>
+<td>1g</td>
 </tr>
 
 </table>`,
 
-"符合OIML III级精度标准",
+"精度：1/30,000",
 
-"6位LCD显示，LED背光",
+"内部解析度：24 bit",
 
-"显示尺寸：113 × 45 mm",
+"显示屏：6位LCD",
 
-"数字高度：25mm",
+"LED背光",
 
-"仪表尺寸：245 × 170 × 153 mm",
+"三色警示灯",
 
-"功能：称重、去皮、零点追踪",
+"秤盘尺寸：280 x 230mm",
 
-"重量检测功能（HI / OK / LO）",
+"秤体尺寸：275 x 105 x 310mm",
 
-"自动校准功能",
+"电源：AC 110V/220V",
 
-"双重过载保护系统",
+"充电电池：DC 6V/4Ah",
 
-"工业级抗干扰滤波系统",
+"称重及去皮功能",
 
-"3M密封防水按键设计",
+"重量检查功能",
 
-"可桌面或壁挂安装",
+"适用于生产及重量控制",
 
-"电源：AC 110V/220V ±10%或DC 6V/4Ah充电电池",
+"RS232可选",
 
-"工作温度：0°C ~ 40°C",
-
-"适用于工业及仓储环境"
-
-    ]
+"Bluetooth/WIFI/RJ45可选"
+        ]
     }
 },
 20: {
