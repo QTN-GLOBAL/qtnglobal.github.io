@@ -1488,21 +1488,21 @@ window.products = [
 
 ]
 },
-    {
-business:"measure",
+  {
+    business:"measure",
     id:17,
 
-    name:"Đầu Hiển Thị BTW-E",
+    name:"Cân bàn điện tử Excell X4252 + FB530",
 
-    category:"dau-can-dien-tu",
+    category:"can-ban-dung",
 
-    folder:"btwe",
+    folder:"fb530",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu hiển thị BTW-E Excell thiết kế công nghiệp chắc chắn, màn hình LED/LCD rõ nét, phù hợp cho cân bàn, cân sàn và các hệ thống cân công nghiệp. Thiết bị có tốc độ xử lý nhanh, độ ổn định cao và hỗ trợ nhiều chức năng kiểm tra trọng lượng.",
+    description:"Cân bàn điện tử Excell X4252 + FB530 là bộ cân bàn công nghiệp sử dụng bàn cân X4252 kết hợp đầu cân FB530, phù hợp cho cân hàng hóa, sản xuất, kho vận và kiểm tra trọng lượng. Hệ thống hỗ trợ độ phân giải cao, cân trọng lượng, trừ bì, cộng dồn, cân kiểm tra HI-OK-LO, cân động vật, giữ trọng lượng và in dữ liệu. Đầu cân FB530 có màn hình LCD 6 số, đèn nền LED, pin sạc tích hợp và hỗ trợ kết nối RS232 tùy chọn.",
 
     specs:[
 
@@ -1510,53 +1510,83 @@ business:"measure",
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Độ phân giải</th>
-<th>Bộ chuyển đổi AD</th>
-<th>Đơn vị cân</th>
-<th>Kết nối Loadcell</th>
+<th>Mức cân</th>
+<th>Bước nhảy</th>
+<th>Kích thước bàn cân</th>
 </tr>
 
 <tr>
-<td>BTW-E</td>
-<td>1/15.000</td>
-<td>24 bits</td>
-<td>kg / lb</td>
-<td>4 dây hoặc 6 dây</td>
+<td>75kg</td>
+<td>5g</td>
+<td rowspan="5">420 × 520 mm</td>
+</tr>
+
+<tr>
+<td>100kg</td>
+<td>10g</td>
+</tr>
+
+<tr>
+<td>150kg</td>
+<td>10g</td>
+</tr>
+
+<tr>
+<td>200kg</td>
+<td>20g</td>
+</tr>
+
+<tr>
+<td>300kg</td>
+<td>20g</td>
 </tr>
 
 </table>
 `,
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Độ phân giải hiển thị: 1/15.000, có thể tùy chọn đến 1/30.000",
 
-"Màn hình LCD 6 số đèn nền xanh hoặc LED đỏ",
+"Độ phân giải nội lên đến 1/60.000",
 
-"Chiều cao số hiển thị: 25mm",
+"Hiệu chuẩn kỹ thuật số",
 
-"Kích thước đầu cân: 235 × 165 × 127 mm",
+"Màn hình LCD 6 số, chiều cao số khoảng 25mm",
 
-"Chức năng: cân trọng lượng, đếm đơn giản, cộng dồn, trừ bì",
+"Đèn nền LED giúp dễ quan sát",
+
+"Đơn vị cân: kg / g / lb / viss",
+
+"Chức năng trừ bì trước và trừ bì toàn phạm vi",
+
+"Chức năng cộng dồn trọng lượng",
+
+"Chức năng cài đặt trước trọng lượng hoặc số lượng",
 
 "Chức năng kiểm tra trọng lượng HI / OK / LO",
 
-"Tự động về zero khi khởi động",
+"Chức năng cân đếm đơn giản",
 
-"Chức năng HOLD giữ số cân",
+"Chức năng cân động vật",
 
-"Board mạch phủ keo chống ẩm và chống nhiễm từ",
+"Chức năng giữ trọng lượng",
 
-"Bàn phím chống bụi và chống nước nhẹ",
+"Hiển thị trọng lượng Gross / Net",
 
-"Cổng giao tiếp RS232",
+"Tự động theo dõi điểm zero",
 
-"Nguồn điện: AC 110V/220V ±10% hoặc pin sạc DC 6V/4Ah",
+"Chức năng cảnh báo quá tải",
 
-"Thời gian sử dụng pin: khoảng 72 giờ",
+"Chức năng tự động tắt nguồn bảo vệ pin",
 
-"Nhiệt độ hoạt động: 0°C ~ 40°C",
+"Pin sạc DC 6V/4Ah tích hợp",
 
-"Thiết kế phù hợp môi trường công nghiệp và kho vận"
+"Nguồn điện AC 110V/220V",
+
+"Cổng RS232 tùy chọn để truyền dữ liệu hoặc kết nối máy in",
+
+"Bàn cân X4252 kích thước 420 × 520 mm",
+
+"Thiết kế phù hợp cho cân hàng hóa, sản xuất, kho vận và kiểm tra trọng lượng"
 
 ]
 },

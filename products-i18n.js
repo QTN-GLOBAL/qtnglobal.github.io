@@ -2747,128 +2747,188 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL BTW-E Industrial Weight Indicator",
+        name: "EXCELL X4252 + FB530 Electronic Platform Scale",
 
         origin: "Taiwan",
 
-        description: "The EXCELL BTW-E weight indicator is a durable industrial display unit designed for bench scales, floor scales, and industrial weighing systems. It features fast processing speed, high stability, and supports multiple check weighing functions.",
+        description: "EXCELL X4252 + FB530 electronic platform scale combines the X4252 weighing platform with the FB530 weighing indicator. It is suitable for goods weighing, production, warehousing and weight checking applications. The system supports high-resolution weighing, tare, accumulation, HI-OK-LO check weighing, animal weighing, hold function and data printing. The FB530 indicator features a 6-digit LCD display with LED backlight, built-in rechargeable battery and optional RS232 communication.",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Resolution</th>
-<th>AD Converter</th>
-<th>Units</th>
-<th>Loadcell Connection</th>
+<th>Capacity</th>
+<th>Division</th>
+<th>Platform Size</th>
 </tr>
 
 <tr>
-<td>BTW-E</td>
-<td>1/15,000</td>
-<td>24-bit</td>
-<td>kg / lb</td>
-<td>4-wire or 6-wire loadcell</td>
+<td>75kg</td>
+<td>5g</td>
+<td rowspan="5">420 × 520 mm</td>
+</tr>
+
+<tr>
+<td>100kg</td>
+<td>10g</td>
+</tr>
+
+<tr>
+<td>150kg</td>
+<td>10g</td>
+</tr>
+
+<tr>
+<td>200kg</td>
+<td>20g</td>
+</tr>
+
+<tr>
+<td>300kg</td>
+<td>20g</td>
 </tr>
 
 </table>`,
 
-"OIML Class III accuracy standard",
+"Display resolution: 1/15,000, with up to 1/30,000 available",
 
-"6-digit LCD display with green backlight or red LED",
+"Internal resolution up to 1/60,000",
 
-"Digit height: 25mm",
+"Digital calibration",
 
-"Indicator size: 235 × 165 × 127 mm",
+"6-digit LCD display with approximately 25mm digit height",
 
-"Functions: weighing, simple counting, accumulation, tare",
+"LED backlight for clear reading",
+
+"Weighing units: kg / g / lb / viss",
+
+"Full-range tare and pre-tare functions",
+
+"Weight accumulation function",
+
+"Preset weight or quantity function",
 
 "HI / OK / LO check weighing function",
 
-"Auto zero tracking at startup",
+"Simple counting function",
 
-"HOLD function for weight retention",
+"Animal weighing function",
 
-"PCB coated for moisture and anti-interference protection",
+"Weight hold function",
 
-"Dust and light water-resistant keypad design",
+"Gross / Net weight indication",
 
-"RS232 communication port",
+"Auto zero tracking",
 
-"Power supply: AC 110V/220V ±10% or DC 6V/4Ah rechargeable battery",
+"Overload warning function",
 
-"Battery operating time: approximately 72 hours",
+"Automatic power-off battery protection",
 
-"Operating temperature: 0°C ~ 40°C",
+"Built-in DC 6V/4Ah rechargeable battery",
 
-"Designed for industrial and warehouse environments"
+"Power supply: AC 110V/220V",
+
+"Optional RS232 interface for data transmission or printer connection",
+
+"X4252 platform size: 420 × 520 mm",
+
+"Suitable for goods weighing, production, warehousing and weight checking"
 
         ]
     },
 
     zh: {
 
-        name: "EXCELL BTW-E工业称重仪表",
+        name: "EXCELL X4252 + FB530电子台秤",
 
         origin: "台湾",
 
-        description: "EXCELL BTW-E称重仪表是一款坚固耐用的工业显示设备，适用于台秤、地磅及工业称重系统。具有快速处理能力、高稳定性，并支持多种检重功能。",
+        description: "EXCELL X4252 + FB530电子台秤由X4252称重平台与FB530称重仪表组成，适用于货物称重、生产、仓储及重量检测。系统支持高分辨率称重、去皮、重量累加、HI-OK-LO检重、动物称重、重量保持及数据打印等功能。FB530仪表采用6位LCD显示屏和LED背光，内置充电电池，并可选RS232通讯接口。",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
-<th>分辨率</th>
-<th>AD转换器</th>
-<th>单位</th>
-<th>传感器连接</th>
+<th>最大秤量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
 </tr>
 
 <tr>
-<td>BTW-E</td>
-<td>1/15,000</td>
-<td>24位</td>
-<td>kg / lb</td>
-<td>4线或6线传感器</td>
+<td>75kg</td>
+<td>5g</td>
+<td rowspan="5">420 × 520 mm</td>
+</tr>
+
+<tr>
+<td>100kg</td>
+<td>10g</td>
+</tr>
+
+<tr>
+<td>150kg</td>
+<td>10g</td>
+</tr>
+
+<tr>
+<td>200kg</td>
+<td>20g</td>
+</tr>
+
+<tr>
+<td>300kg</td>
+<td>20g</td>
 </tr>
 
 </table>`,
 
-"符合OIML III级精度标准",
+"显示分辨率：1/15,000，最高可选1/30,000",
 
-"6位LCD显示，绿色背光或红色LED",
+"内部解析度最高可达1/60,000",
 
-"数字高度：25mm",
+"数字校准功能",
 
-"仪表尺寸：235 × 165 × 127 mm",
+"6位LCD显示屏，字高约25mm",
 
-"功能：称重、简单计数、累计、去皮",
+"LED背光显示",
 
-"重量检测功能（HI / OK / LO）",
+"称重单位：kg / g / lb / viss",
 
-"开机自动置零",
+"全范围去皮及预扣重功能",
 
-"保持（HOLD）功能",
+"重量累加功能",
 
-"电路板防潮防干扰涂层",
+"预设重量或数量功能",
 
-"按键防尘防轻微水溅设计",
+"HI / OK / LO检重功能",
 
-"RS232通讯接口",
+"简易计数功能",
 
-"电源：AC 110V/220V ±10%或DC 6V/4Ah充电电池",
+"动物称重功能",
 
-"电池续航时间约72小时",
+"重量保持功能",
 
-"工作温度：0°C ~ 40°C",
+"毛重/净重显示",
 
-"适用于工业及仓储环境"
+"自动零点跟踪",
 
-    ]
+"超载报警功能",
+
+"自动关机及电池保护功能",
+
+"内置DC 6V/4Ah充电电池",
+
+"电源：AC 110V/220V",
+
+"可选RS232通讯接口，可用于数据传输或连接打印机",
+
+"X4252秤台尺寸：420 × 520 mm",
+
+"适用于货物称重、生产、仓储及重量检测"
+
+        ]
     }
 },
 18: {
