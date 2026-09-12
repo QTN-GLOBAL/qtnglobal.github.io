@@ -4575,6 +4575,676 @@ business:"measure",
 
     ]
 },
+{
+    business:"measure",
+    id:57,
+
+    name:"Cân điện tử Jadever JWI-700C 60kg",
+
+    category:"can-ban-dung",
+
+    folder:"jadever-jwi-700c-60kg",
+
+    brand:"Jadever",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử Jadever JWI-700C 60kg là mẫu cân bàn điện tử đếm số lượng chuyên dụng của Jadever – Đài Loan. Cân có mức cân tối đa 60kg, độ chia 10g, độ phân giải 1/30.000 và màn hình LCD 3 vùng hiển thị đồng thời trọng lượng tổng, trọng lượng đơn vị và số lượng PCS. JWI-700C hỗ trợ các chức năng cân trọng lượng, trừ bì, cân đếm mẫu, lấy mẫu, cộng dồn, kiểm tra số lượng HI-LOW-OK, tự động về 0 và cảnh báo quá tải. Bộ chỉ thị sử dụng vỏ ABS chắc chắn, màn hình LCD nền xanh dễ đọc, hỗ trợ kết nối máy tính, máy in và các thiết bị ngoại vi thông qua RS232 tùy chọn. Cân sử dụng nguồn AC 110/220V hoặc pin sạc 6V/4Ah, phù hợp cho nhà kho, xưởng sản xuất, công ty cơ khí, đóng gói, kiểm kê và các ứng dụng cần cân kết hợp đếm số lượng.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>60 kg</td>
+</tr>
+
+<tr>
+<td>Độ chia</td>
+<td>10 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 3 vùng, 6/5/6 chữ số, chiều cao số 19 mm, đèn nền xanh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Trọng lượng tổng / Trọng lượng đơn vị / Số lượng PCS</td>
+</tr>
+
+<tr>
+<td>Chức năng cân</td>
+<td>Cân trọng lượng, trừ bì, cân đếm PCS, lấy mẫu, cộng dồn</td>
+</tr>
+
+<tr>
+<td>Kiểm tra</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>Tự động</td>
+<td>Tự động về 0, tự động tắt nguồn tiết kiệm pin</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>Cảnh báo quá tải và pin yếu</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Vỏ đầu cân</td>
+<td>ABS chống va đập</td>
+</tr>
+
+<tr>
+<td>Cảm biến</td>
+<td>Loadcell cảm biến lực</td>
+</tr>
+
+<tr>
+<td>Kích thước đầu hiển thị</td>
+<td>274 x 170 x 117 mm</td>
+</tr>
+
+<tr>
+<td>Trọng lượng đầu hiển thị</td>
+<td>2.52 kg net / 2.95 kg gross</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 110/220V ±10% hoặc pin sạc 6V/4Ah</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Cấp III theo OIML</td>
+</tr>
+
+<tr>
+<td>Chứng nhận</td>
+<td>CE</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử kết hợp chức năng cân đếm số lượng PCS",
+
+"Mức cân 60kg, độ chia 10g",
+
+"Độ phân giải 1/30.000 cho khả năng cân chính xác và ổn định",
+
+"Màn hình LCD 3 vùng hiển thị trọng lượng, trọng lượng đơn vị và số lượng PCS",
+
+"Hỗ trợ trừ bì, lấy mẫu, cộng dồn và kiểm tra HI-LOW-OK",
+
+"Kết nối máy tính, máy in và thiết bị ngoại vi qua RS232 tùy chọn",
+
+"Đầu hiển thị vỏ ABS chắc chắn, màn hình LCD nền xanh",
+
+"Sử dụng nguồn AC 110/220V hoặc pin sạc 6V/4Ah",
+
+"Phù hợp cho kho hàng, xưởng sản xuất, đóng gói, kiểm kê và cân đếm linh kiện"
+
+    ]
+},
+{
+    business:"measure",
+    id:58,
+
+    name:"Cân điện tử Jadever JWI-700C 100kg",
+
+    category:"can-ban-dung",
+
+    folder:"jadever-jwi-700c-60kg",
+
+    brand:"Jadever",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử Jadever JWI-700C 100kg là cân bàn điện tử đếm số lượng chuyên dụng của Jadever – Đài Loan. Cân có mức cân tối đa 100kg, độ chia 10g và độ phân giải 1/30.000. Bộ hiển thị JWI-700C sử dụng màn hình LCD 3 vùng, hiển thị đồng thời trọng lượng tổng, trọng lượng đơn vị và số lượng PCS, phù hợp cho các ứng dụng cân kết hợp đếm sản phẩm. Cân hỗ trợ các chức năng trừ bì, cộng dồn, đếm số lượng PCS, lấy mẫu, kiểm tra HI-LOW-OK, cảnh báo quá tải và pin yếu. Đầu cân sử dụng vỏ ABS, màn hình LCD nền xanh, có thể kết nối máy tính, máy in, máy quét và phần mềm thông qua cổng RS232 tùy chọn. Phiên bản 100kg phù hợp với các bàn cân kích thước 30 x 40cm hoặc các kích thước lớn hơn tùy cấu hình.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>Độ chia</td>
+<td>10 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 3 vùng, 6/5/6 chữ số, chiều cao số 19 mm, đèn nền xanh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Trọng lượng tổng / Trọng lượng đơn vị / Số lượng PCS</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, trừ bì, đếm PCS, lấy mẫu, cộng dồn</td>
+</tr>
+
+<tr>
+<td>Kiểm tra trọng lượng</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>Quá tải, pin yếu</td>
+</tr>
+
+<tr>
+<td>Tự động</td>
+<td>Tự động về 0, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Cảm biến lực Loadcell</td>
+</tr>
+
+<tr>
+<td>Vỏ đầu cân</td>
+<td>Nhựa ABS</td>
+</tr>
+
+<tr>
+<td>Kích thước đầu hiển thị</td>
+<td>274 x 170 x 117 mm</td>
+</tr>
+
+<tr>
+<td>Trọng lượng đầu hiển thị</td>
+<td>2.52 kg net / 2.95 kg gross</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 110/220V ±10% hoặc pin sạc 6V/4Ah</td>
+</tr>
+
+<tr>
+<td>Thời gian sử dụng pin</td>
+<td>Khoảng 48–72 giờ sau khi sạc đầy</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Cấp III theo OIML</td>
+</tr>
+
+<tr>
+<td>Chứng nhận</td>
+<td>CE</td>
+</tr>
+
+<tr>
+<td>Nhiệt độ hoạt động</td>
+<td>-10°C đến 40°C</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>30 x 40 cm, 40 x 50 cm, 50 x 60 cm, 60 x 80 cm tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử chuyên dụng cho cân và đếm số lượng PCS",
+
+"Mức cân tối đa 100kg, độ chia 10g",
+
+"Độ phân giải 1/30.000",
+
+"Màn hình LCD 3 vùng hiển thị trọng lượng tổng, trọng lượng đơn vị và số lượng PCS",
+
+"Hỗ trợ trừ bì, lấy mẫu, cộng dồn và kiểm tra HI-LOW-OK",
+
+"Có cảnh báo quá tải và pin yếu",
+
+"RS232 tùy chọn để kết nối máy tính, máy in, máy quét và phần mềm",
+
+"Đầu cân JWI-700C vỏ ABS, màn hình LCD nền xanh",
+
+"Sử dụng nguồn AC 110/220V hoặc pin sạc 6V/4Ah",
+
+"Phù hợp cho nhà kho, xưởng sản xuất, đóng gói, kiểm kê và đếm linh kiện"
+
+    ]
+},
+{
+    business:"measure",
+    id:59,
+
+    name:"Cân điện tử Jadever JWI-700C 150kg",
+
+    category:"can-ban-dung",
+
+    folder:"jadever-jwi-700c-60kg",
+
+    brand:"Jadever",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử Jadever JWI-700C 150kg là cân bàn điện tử kết hợp chức năng cân và đếm số lượng PCS, được sản xuất bởi Jadever – Đài Loan. Cân có mức cân tối đa 150kg, độ chia 20g và độ phân giải 1/30.000. Bộ hiển thị JWI-700C sử dụng màn hình LCD 3 vùng, hiển thị đồng thời trọng lượng, trọng lượng đơn vị và số lượng mẫu đếm. Cân hỗ trợ trừ bì, cộng dồn, đếm PCS, lấy mẫu, kiểm tra HI-LOW-OK, cảnh báo quá tải và pin yếu. Đầu hiển thị bằng nhựa ABS, màn hình LCD nền xanh dễ đọc, có thể kết nối máy tính, máy in, máy quét và phần mềm thông qua cổng RS232 tùy chọn. Cân sử dụng pin sạc 6V/4Ah hoặc nguồn AC 110/220V, phù hợp cho nhà kho, xưởng sản xuất, cơ khí, đóng gói, kiểm kê hàng hóa và đếm linh kiện.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>Độ chia</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Độ chính xác</td>
+<td>Cấp III theo OIML</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 3 vùng, 6/5/6 chữ số, chiều cao số 19 mm, đèn nền xanh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Trọng lượng / Trọng lượng đơn vị / Số lượng PCS</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, trừ bì, đếm PCS, lấy mẫu, cộng dồn</td>
+</tr>
+
+<tr>
+<td>Kiểm tra</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>Quá tải và pin yếu</td>
+</tr>
+
+<tr>
+<td>Tự động</td>
+<td>Tự động về 0, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Cảm biến lực Loadcell</td>
+</tr>
+
+<tr>
+<td>Vỏ đầu hiển thị</td>
+<td>Nhựa ABS kín, hạn chế bụi</td>
+</tr>
+
+<tr>
+<td>Kích thước đầu hiển thị</td>
+<td>274 x 170 x 117 mm</td>
+</tr>
+
+<tr>
+<td>Trọng lượng đầu hiển thị</td>
+<td>2.52 kg net / 2.95 kg gross</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 110/220V ±10% hoặc pin sạc 6V/4Ah</td>
+</tr>
+
+<tr>
+<td>Thời gian sử dụng pin</td>
+<td>Khoảng 48–72 giờ sau khi sạc đầy</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>30 x 40 cm, 40 x 50 cm, 50 x 60 cm, 60 x 80 cm tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép sơn tĩnh điện hoặc inox tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Mặt bàn cân</td>
+<td>Inox chống gỉ</td>
+</tr>
+
+<tr>
+<td>Chứng nhận</td>
+<td>CE</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử kết hợp cân và đếm số lượng PCS",
+
+"Mức cân tối đa 150kg, độ chia 20g",
+
+"Độ phân giải 1/30.000, cấp chính xác III theo OIML",
+
+"Màn hình LCD 3 vùng hiển thị trọng lượng, trọng lượng đơn vị và số lượng PCS",
+
+"Hỗ trợ trừ bì, lấy mẫu, cộng dồn và kiểm tra HI-LOW-OK",
+
+"Cảnh báo quá tải và pin yếu, tự động về 0 và tự động tắt nguồn",
+
+"RS232 tùy chọn để kết nối máy tính, máy in, máy quét và phần mềm",
+
+"Đầu hiển thị JWI-700C bằng nhựa ABS, thiết kế kín hạn chế bụi",
+
+"Khung bàn thép sơn tĩnh điện hoặc inox, mặt bàn inox chống gỉ",
+
+"Phù hợp cho nhà kho, xưởng sản xuất, cơ khí, đóng gói, kiểm kê và đếm linh kiện"
+
+    ]
+},
+{
+    business:"measure",
+    id:60,
+
+    name:"Cân điện tử Jadever JWI-700C 200kg",
+
+    category:"can-ban-dung",
+
+    folder:"jadever-jwi-700c-60kg",
+
+    brand:"Jadever",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử Jadever JWI-700C 200kg là cân bàn điện tử kết hợp chức năng cân và đếm số lượng PCS, sử dụng bộ hiển thị JWI-700C của Jadever – Đài Loan. Cân có mức cân tối đa 200kg, độ chia 20g và độ phân giải 1/30.000. Màn hình LCD 3 vùng hiển thị đồng thời tổng trọng lượng, trọng lượng đơn vị và số lượng PCS. Cân hỗ trợ trừ bì, chuyển đổi đơn vị, cộng dồn, đếm số lượng, lấy mẫu, kiểm tra HI-LOW-OK, cảnh báo quá tải và cảnh báo pin yếu. Bộ hiển thị bằng nhựa ABS khép kín, màn hình LCD nền xanh có độ tương phản cao, hỗ trợ kết nối máy tính, máy in, máy quét và phần mềm thông qua RS232. Cân sử dụng nguồn AC 110/220V hoặc pin sạc 6V/4Ah, phù hợp cho nhà kho, xưởng sản xuất, công ty cơ khí, đóng gói, kiểm kê hàng hóa và đếm linh kiện.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>200 kg</td>
+</tr>
+
+<tr>
+<td>Độ chia</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Cấp III theo OIML</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 3 vùng, 6/5/6 chữ số, chiều cao số 19 mm, đèn nền xanh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Tổng trọng lượng / Trọng lượng đơn vị / Số lượng PCS</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, trừ bì, đếm PCS, lấy mẫu, cộng dồn</td>
+</tr>
+
+<tr>
+<td>Kiểm tra</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>Quá tải và pin yếu</td>
+</tr>
+
+<tr>
+<td>Tự động</td>
+<td>Tự động về 0, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Cảm biến lực Loadcell</td>
+</tr>
+
+<tr>
+<td>Vỏ đầu hiển thị</td>
+<td>Nhựa ABS khép kín</td>
+</tr>
+
+<tr>
+<td>Kích thước đầu hiển thị</td>
+<td>274 x 170 x 117 mm</td>
+</tr>
+
+<tr>
+<td>Trọng lượng đầu hiển thị</td>
+<td>2.52 kg net / 2.95 kg gross</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 110/220V ±10% hoặc pin sạc 6V/4Ah</td>
+</tr>
+
+<tr>
+<td>Thời gian sử dụng pin</td>
+<td>Khoảng 48–72 giờ sau khi sạc đầy</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>30 x 40 cm, 40 x 50 cm, 50 x 60 cm, 60 x 80 cm tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép sơn tĩnh điện hoặc inox tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Mặt bàn cân</td>
+<td>Inox chống gỉ</td>
+</tr>
+
+<tr>
+<td>Chứng nhận</td>
+<td>CE</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử kết hợp cân và đếm số lượng PCS",
+
+"Mức cân tối đa 200kg, độ chia 20g",
+
+"Độ phân giải 1/30.000, cấp chính xác III theo OIML",
+
+"Màn hình LCD 3 vùng hiển thị tổng trọng lượng, trọng lượng đơn vị và số lượng PCS",
+
+"Hỗ trợ trừ bì, lấy mẫu, cộng dồn và kiểm tra HI-LOW-OK",
+
+"Cảnh báo quá tải và pin yếu, hỗ trợ tự động về 0 và tự động tắt nguồn",
+
+"RS232 kết nối máy tính, máy in, máy quét và phần mềm",
+
+"Đầu hiển thị JWI-700C bằng nhựa ABS khép kín, hạn chế bụi vào bo mạch",
+
+"Khung bàn bằng thép sơn tĩnh điện hoặc inox, mặt bàn inox chống gỉ",
+
+"Phù hợp cho nhà kho, xưởng sản xuất, cơ khí, đóng gói, kiểm kê và đếm linh kiện"
+
+    ]
+},
+
         
 
 ];
