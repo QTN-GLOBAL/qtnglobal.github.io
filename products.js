@@ -3539,6 +3539,344 @@ business:"measure",
 "Nhiệt độ hoạt động: -10°C ~ 40°C"
 ]
 },
+{
+    business:"measure",
+    id:47,
+
+    name:"Cân điện tử Ohaus T24PE 60kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t24pe-60kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T24PE 60kg thuộc dòng Ohaus Defender 2000, phù hợp sử dụng trong cân hàng hóa, sản xuất, kho hàng, nhà máy chế biến thực phẩm, thủy sản và nhiều ứng dụng công nghiệp. Model 60kg có độ đọc 10g, bàn cân kích thước 400 x 500mm, màn hình LED đỏ 6 số và thời gian ổn định khoảng 1 giây. Cân hỗ trợ cân, đếm mẫu và tính tổng, sử dụng adapter AC hoặc pin sạc với thời gian hoạt động lên đến 80 giờ.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Kích thước bàn cân</th>
+</tr>
+
+<tr>
+<td>T24PE / D24PE60FL</td>
+<td>60kg</td>
+<td>10g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 60kg",
+
+"Độ đọc: 10g",
+
+"Độ phân giải hiển thị: 1/7,500",
+
+"Loadcell: Hợp kim nhôm, cấp bảo vệ IP65",
+
+"Màn hình: LED đỏ 6 số, chiều cao số 20mm",
+
+"Thời gian ổn định: khoảng 1 giây",
+
+"Chức năng: Cân, đếm mẫu, tính tổng và cộng dồn",
+
+"Đơn vị cân: lb, kg, g",
+
+"Chức năng trừ bì",
+
+"Chức năng Zero",
+
+"Nguồn điện: Adapter AC hoặc pin sạc",
+
+"Thời gian sử dụng pin: khoảng 80 giờ",
+
+"Kết nối: RS232 tùy chọn",
+
+"Kích thước bàn cân: 400 x 500mm",
+
+"Mặt bàn cân: Inox 304",
+
+"Khung cân: Thép carbon sơn",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh cân bằng",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm tương đối: 10% ~ 80%, không ngưng tụ",
+
+"Vỏ đầu cân: Nhựa ABS độ bền cao"
+]
+},
+{
+    business:"measure",
+    id:48,
+
+    name:"Cân điện tử Ohaus T24PE 200kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t24pe-60kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T24PE 200kg thuộc dòng Ohaus Defender 2000, phù hợp sử dụng trong cân hàng hóa, sản xuất, kho hàng, nông sản, thực phẩm và các ứng dụng công nghiệp. Model 200kg có độ đọc 20g, bàn cân kích thước 400 x 500mm, màn hình LED đỏ 6 số và thời gian ổn định khoảng 1 giây. Cân hỗ trợ cân, đếm mẫu, cộng dồn và trừ bì, sử dụng nguồn AC hoặc pin sạc với thời gian hoạt động lên đến khoảng 80 giờ.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Kích thước bàn cân</th>
+</tr>
+
+<tr>
+<td>T24PE</td>
+<td>200kg</td>
+<td>20g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 200kg",
+
+"Độ đọc: 20g",
+
+"Độ phân giải hiển thị: 1/20,000",
+
+"Loadcell: Hợp kim nhôm, chuẩn IP65",
+
+"Màn hình: LED đỏ 6 số, 7 đoạn, chiều cao số 20mm",
+
+"Thời gian ổn định: khoảng 1 giây",
+
+"Chức năng: Cân, đếm mẫu và cộng dồn",
+
+"Chức năng trừ bì toàn dải",
+
+"Chức năng Zero và tự động theo dõi Zero",
+
+"Đơn vị cân: kg, g, lb",
+
+"Phạm vi Zero: 2% hoặc 100% tải trọng",
+
+"Nguồn điện: Adapter AC hoặc pin sạc",
+
+"Thời gian sử dụng pin: khoảng 80 giờ",
+
+"Thời gian sạc: khoảng 12 giờ",
+
+"Kết nối: RS232 tùy chọn",
+
+"Kích thước bàn cân: 400 x 500mm",
+
+"Mặt bàn cân: Inox",
+
+"Khung cân: Thép sơn tĩnh điện",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm hoạt động: tối đa khoảng 80%, không ngưng tụ",
+
+"Vỏ đầu cân: Nhựa ABS",
+
+"Bộ chỉ thị: Ohaus T24PE Defender 2000"
+]
+},
+{
+    business:"measure",
+    id:49,
+
+    name:"Cân điện tử Ohaus T24PE 300kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t24pe-60kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T24PE 300kg thuộc dòng Ohaus Defender 2000, phù hợp sử dụng trong cân hàng hóa, kho hàng, sản xuất, chế biến thực phẩm, nông sản và các ứng dụng công nghiệp. Model 300kg có độ đọc 50g, bàn cân kích thước 500 x 600mm, màn hình LED đỏ 6 số và thời gian ổn định khoảng 1 giây. Cân hỗ trợ cân, đếm mẫu và cộng dồn, sử dụng adapter AC hoặc pin sạc với thời gian hoạt động lên đến khoảng 80 giờ.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Kích thước bàn cân</th>
+</tr>
+
+<tr>
+<td>T24PE / D24PE300FX</td>
+<td>300kg</td>
+<td>50g</td>
+<td>500 x 600mm</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 300kg",
+
+"Độ đọc: 50g",
+
+"Độ phân giải hiển thị: 1/6,000",
+
+"Loadcell: Hợp kim nhôm, cấp bảo vệ IP65",
+
+"Màn hình: LED đỏ 6 số, 7 đoạn, chiều cao số khoảng 20mm",
+
+"Thời gian ổn định: khoảng 1 giây",
+
+"Chức năng: Cân, đếm mẫu và cộng dồn",
+
+"Chức năng trừ bì",
+
+"Chức năng Zero và tự động theo dõi Zero",
+
+"Đơn vị cân: kg, g, lb",
+
+"Nguồn điện: Adapter AC và pin sạc",
+
+"Thời gian sử dụng pin: khoảng 80 giờ",
+
+"Thời gian sạc: khoảng 12 giờ",
+
+"Kết nối: RS232 tùy chọn",
+
+"Kích thước bàn cân: 500 x 600mm",
+
+"Mặt bàn cân: Inox 304",
+
+"Khung cân: Thép carbon sơn",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh cân bằng",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm tương đối: 10% ~ 80%, không ngưng tụ",
+
+"Vỏ đầu cân: Nhựa ABS độ bền cao",
+
+"Bộ chỉ thị: Ohaus T24PE Defender 2000"
+]
+},
+{
+    business:"measure",
+    id:50,
+
+    name:"Cân điện tử Ohaus T24PE 500kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t24pe-60kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T24PE 500kg thuộc dòng Ohaus Defender 2000, phù hợp sử dụng trong cân hàng hóa, kho hàng, logistics, sản xuất, nông sản và các ứng dụng công nghiệp. Model 500kg có độ đọc 100g, bàn cân kích thước 600 x 800mm, màn hình LED đỏ 6 số và thời gian ổn định khoảng 1–2 giây. Cân hỗ trợ cân, đếm mẫu, trừ bì và cộng dồn, sử dụng adapter AC hoặc pin sạc, đáp ứng nhu cầu cân hàng hóa có tải trọng lớn.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Kích thước bàn cân</th>
+</tr>
+
+<tr>
+<td>T24PE</td>
+<td>500kg</td>
+<td>100g</td>
+<td>600 x 800mm</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 500kg",
+
+"Độ đọc: 100g",
+
+"Độ phân giải: 1/5,000",
+
+"Loadcell: Hợp kim nhôm, cấp bảo vệ IP65",
+
+"Màn hình: LED đỏ 6 số, 7 đoạn",
+
+"Thời gian ổn định: khoảng 1–2 giây",
+
+"Chức năng: Cân, đếm mẫu, trừ bì và cộng dồn",
+
+"Chức năng Zero và tự động theo dõi Zero",
+
+"Đơn vị cân: kg, g, lb",
+
+"Phạm vi trừ bì: đến toàn tải",
+
+"Nguồn điện: Adapter AC hoặc pin sạc",
+
+"Pin sạc tích hợp",
+
+"Thời gian sử dụng pin: khoảng 80 giờ",
+
+"Kết nối: RS232 tùy chọn",
+
+"Kích thước bàn cân: 600 x 800mm",
+
+"Mặt bàn cân: Inox",
+
+"Khung cân: Thép sơn phủ",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh cân bằng",
+
+"Quá tải an toàn: tối đa 125% tải trọng cân",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm hoạt động: tối đa khoảng 80%, không ngưng tụ",
+
+"Vỏ đầu cân: Nhựa ABS",
+
+"Bộ chỉ thị: Ohaus T24PE Defender 2000"
+]
+},
 
 
 

@@ -5734,6 +5734,618 @@ window.productTranslations = {
         ]
     }
 },
+47: {
+
+    en: {
+
+        name:"OHAUS T24PE 60kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T24PE 60kg electronic platform scale belongs to the OHAUS Defender 2000 series and is suitable for goods weighing, production, warehousing, food processing, seafood and various industrial applications. The 60kg model provides 10g readability and uses a 400 x 500mm platform. It features a 6-digit red LED display, approximately 1-second stabilization time, weighing, parts counting and totalization functions. The scale operates with an AC adapter or rechargeable battery with up to 80 hours of battery life.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Platform Size</th>
+</tr>
+
+<tr>
+<td>T24PE / D24PE60FL</td>
+<td>60kg</td>
+<td>10g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>`,
+
+"Capacity: 60kg",
+
+"Readability: 10g",
+
+"Display resolution: 1/7,500",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Display: 6-digit red LED, 20mm digit height",
+
+"Stabilization time: approximately 1 second",
+
+"Functions: Weighing, parts counting, totalization and accumulation",
+
+"Weighing units: lb, kg, g",
+
+"Tare function",
+
+"Zero function",
+
+"Power supply: AC adapter or rechargeable battery",
+
+"Battery life: approximately 80 hours",
+
+"Communication: RS232 optional",
+
+"Platform size: 400 x 500mm",
+
+"Platform: Stainless steel 304",
+
+"Frame: Painted carbon steel",
+
+"Adjustable non-slip rubber feet",
+
+"Safe overload: 125% of capacity",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Relative humidity: 10% ~ 80%, non-condensing",
+
+"Indicator housing: High-strength ABS"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T24PE 60kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T24PE 60kg电子台秤属于OHAUS Defender 2000系列，适用于货物称重、生产、仓储、食品加工、水产品及各种工业应用。60kg型号分度值为10g，配备400 x 500mm秤台。秤体采用6位红色LED显示屏，稳定时间约1秒，并支持称重、数量计数、总计及累计功能。秤体可使用AC适配器或充电电池供电，电池使用时间最长约80小时。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
+</tr>
+
+<tr>
+<td>T24PE / D24PE60FL</td>
+<td>60kg</td>
+<td>10g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>`,
+
+"最大称量：60kg",
+
+"分度值：10g",
+
+"显示分辨率：1/7,500",
+
+"称重传感器：铝合金，IP65",
+
+"显示屏：6位红色LED，数字高度20mm",
+
+"稳定时间：約1秒",
+
+"功能：称重、数量计数、总计和累计",
+
+"称重单位：lb、kg、g",
+
+"去皮功能",
+
+"归零功能",
+
+"电源：AC适配器或充电电池",
+
+"电池使用时间：約80小时",
+
+"通信接口：RS232可选",
+
+"秤台尺寸：400 x 500mm",
+
+"秤盘：304不锈钢",
+
+"秤体框架：喷涂碳钢",
+
+"可调节防滑橡胶脚",
+
+"安全过载：最大称量的125%",
+
+"工作温度：-10°C ~ 40°C",
+
+"相对湿度：10% ~ 80%，无冷凝",
+
+"显示器外壳：高强度ABS塑料"
+        ]
+    }
+},
+48: {
+
+    en: {
+
+        name:"OHAUS T24PE 200kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T24PE 200kg electronic platform scale belongs to the OHAUS Defender 2000 series and is suitable for goods weighing, production, warehousing, agricultural products, food and various industrial applications. The 200kg model provides 20g readability and uses a 400 x 500mm platform. It features a 6-digit red LED display and approximately 1-second stabilization time. The scale supports weighing, parts counting, accumulation and tare functions, and operates with an AC adapter or rechargeable battery with up to approximately 80 hours of battery life.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Platform Size</th>
+</tr>
+
+<tr>
+<td>T24PE</td>
+<td>200kg</td>
+<td>20g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>`,
+
+"Capacity: 200kg",
+
+"Readability: 20g",
+
+"Display resolution: 1/20,000",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Display: 6-digit red 7-segment LED, 20mm digit height",
+
+"Stabilization time: approximately 1 second",
+
+"Functions: Weighing, parts counting and accumulation",
+
+"Full-capacity tare function",
+
+"Zero function and automatic zero tracking",
+
+"Weighing units: kg, g, lb",
+
+"Zero range: 2% or 100% of full-scale capacity",
+
+"Power supply: AC adapter or rechargeable battery",
+
+"Battery life: approximately 80 hours",
+
+"Charging time: approximately 12 hours",
+
+"Communication: Optional RS232",
+
+"Platform size: 400 x 500mm",
+
+"Platform: Stainless steel",
+
+"Frame: Powder-coated steel",
+
+"Adjustable non-slip rubber feet",
+
+"Safe overload: 125% of capacity",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Operating humidity: up to approximately 80%, non-condensing",
+
+"Indicator housing: ABS plastic",
+
+"Indicator: OHAUS T24PE Defender 2000"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T24PE 200kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T24PE 200kg电子台秤属于OHAUS Defender 2000系列，适用于货物称重、生产、仓储、农产品、食品及各种工业应用。200kg型号分度值为20g，配备400 x 500mm秤台。秤体采用6位红色LED显示屏，稳定时间约1秒，并支持称重、数量计数、累计和去皮功能。秤体可使用AC适配器或充电电池供电，电池使用时间最长约80小时。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
+</tr>
+
+<tr>
+<td>T24PE</td>
+<td>200kg</td>
+<td>20g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>`,
+
+"最大称量：200kg",
+
+"分度值：20g",
+
+"显示分辨率：1/20,000",
+
+"称重传感器：铝合金，IP65",
+
+"显示屏：6位红色七段LED，数字高度20mm",
+
+"稳定时间：約1秒",
+
+"功能：称重、数量计数和累计",
+
+"全量程去皮功能",
+
+"归零功能和自动零点跟踪",
+
+"称重单位：kg、g、lb",
+
+"零点范围：满量程的2%或100%",
+
+"电源：AC适配器或充电电池",
+
+"电池使用时间：約80小时",
+
+"充电时间：約12小时",
+
+"通信接口：RS232可选",
+
+"秤台尺寸：400 x 500mm",
+
+"秤盘：不锈钢",
+
+"秤体框架：喷涂钢材",
+
+"可调节防滑橡胶脚",
+
+"安全过载：最大称量的125%",
+
+"工作温度：-10°C ~ 40°C",
+
+"工作湿度：最高约80%，无冷凝",
+
+"显示器外壳：ABS塑料",
+
+"显示器：OHAUS T24PE Defender 2000"
+        ]
+    }
+},
+49: {
+
+    en: {
+
+        name:"OHAUS T24PE 300kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T24PE 300kg electronic platform scale belongs to the OHAUS Defender 2000 series and is suitable for goods weighing, warehousing, production, food processing, agricultural products and various industrial applications. The 300kg model provides 50g readability and uses a 500 x 600mm platform. It features a 6-digit red LED display and approximately 1-second stabilization time. The scale supports weighing, parts counting and accumulation, and operates with an AC adapter or rechargeable battery with up to approximately 80 hours of battery life.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Platform Size</th>
+</tr>
+
+<tr>
+<td>T24PE / D24PE300FX</td>
+<td>300kg</td>
+<td>50g</td>
+<td>500 x 600mm</td>
+</tr>
+
+</table>`,
+
+"Capacity: 300kg",
+
+"Readability: 50g",
+
+"Display resolution: 1/6,000",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Display: 6-digit red 7-segment LED, approximately 20mm digit height",
+
+"Stabilization time: approximately 1 second",
+
+"Functions: Weighing, parts counting and accumulation",
+
+"Tare function",
+
+"Zero function and automatic zero tracking",
+
+"Weighing units: kg, g, lb",
+
+"Power supply: AC adapter and rechargeable battery",
+
+"Battery life: approximately 80 hours",
+
+"Charging time: approximately 12 hours",
+
+"Communication: Optional RS232",
+
+"Platform size: 500 x 600mm",
+
+"Platform: Stainless steel 304",
+
+"Frame: Painted carbon steel",
+
+"Adjustable non-slip rubber feet",
+
+"Safe overload: 125% of capacity",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Relative humidity: 10% ~ 80%, non-condensing",
+
+"Indicator housing: High-strength ABS",
+
+"Indicator: OHAUS T24PE Defender 2000"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T24PE 300kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T24PE 300kg电子台秤属于OHAUS Defender 2000系列，适用于货物称重、仓储、生产、食品加工、农产品及各种工业应用。300kg型号分度值为50g，配备500 x 600mm秤台。秤体采用6位红色LED显示屏，稳定时间约1秒，并支持称重、数量计数和累计功能。秤体可使用AC适配器或充电电池供电，电池使用时间最长约80小时。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
+</tr>
+
+<tr>
+<td>T24PE / D24PE300FX</td>
+<td>300kg</td>
+<td>50g</td>
+<td>500 x 600mm</td>
+</tr>
+
+</table>`,
+
+"最大称量：300kg",
+
+"分度值：50g",
+
+"显示分辨率：1/6,000",
+
+"称重传感器：铝合金，IP65",
+
+"显示屏：6位红色七段LED，数字高度约20mm",
+
+"稳定时间：約1秒",
+
+"功能：称重、数量计数和累计",
+
+"去皮功能",
+
+"归零功能和自动零点跟踪",
+
+"称重单位：kg、g、lb",
+
+"电源：AC适配器和充电电池",
+
+"电池使用时间：約80小时",
+
+"充电时间：約12小时",
+
+"通信接口：RS232可选",
+
+"秤台尺寸：500 x 600mm",
+
+"秤盘：304不锈钢",
+
+"秤体框架：喷涂碳钢",
+
+"可调节防滑橡胶脚",
+
+"安全过载：最大称量的125%",
+
+"工作温度：-10°C ~ 40°C",
+
+"相对湿度：10% ~ 80%，无冷凝",
+
+"显示器外壳：高强度ABS塑料",
+
+"显示器：OHAUS T24PE Defender 2000"
+        ]
+    }
+},
+50: {
+
+    en: {
+
+        name:"OHAUS T24PE 500kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T24PE 500kg electronic platform scale belongs to the OHAUS Defender 2000 series and is suitable for goods weighing, warehousing, logistics, production, agricultural products and various industrial applications. The 500kg model provides 100g readability and uses a 600 x 800mm platform. It features a 6-digit red LED display and approximately 1–2 second stabilization time. The scale supports weighing, parts counting, tare and accumulation functions and can operate with an AC adapter or rechargeable battery.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Platform Size</th>
+</tr>
+
+<tr>
+<td>T24PE</td>
+<td>500kg</td>
+<td>100g</td>
+<td>600 x 800mm</td>
+</tr>
+
+</table>`,
+
+"Capacity: 500kg",
+
+"Readability: 100g",
+
+"Resolution: 1/5,000",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Display: 6-digit red 7-segment LED",
+
+"Stabilization time: approximately 1–2 seconds",
+
+"Functions: Weighing, parts counting, tare and accumulation",
+
+"Zero function and automatic zero tracking",
+
+"Weighing units: kg, g, lb",
+
+"Tare range: up to full capacity",
+
+"Power supply: AC adapter or rechargeable battery",
+
+"Integrated rechargeable battery",
+
+"Battery life: approximately 80 hours",
+
+"Communication: Optional RS232",
+
+"Platform size: 600 x 800mm",
+
+"Platform: Stainless steel",
+
+"Frame: Painted steel",
+
+"Adjustable non-slip rubber feet",
+
+"Safe overload: up to 125% of capacity",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Operating humidity: up to approximately 80%, non-condensing",
+
+"Indicator housing: ABS plastic",
+
+"Indicator: OHAUS T24PE Defender 2000"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T24PE 500kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T24PE 500kg电子台秤属于OHAUS Defender 2000系列，适用于货物称重、仓储、物流、生产、农产品及各种工业应用。500kg型号分度值为100g，配备600 x 800mm秤台。秤体采用6位红色LED显示屏，稳定时间约1–2秒，并支持称重、数量计数、去皮和累计功能。秤体可使用AC适配器或充电电池供电，适用于大重量货物的称重需求。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
+</tr>
+
+<tr>
+<td>T24PE</td>
+<td>500kg</td>
+<td>100g</td>
+<td>600 x 800mm</td>
+</tr>
+
+</table>`,
+
+"最大称量：500kg",
+
+"分度值：100g",
+
+"分辨率：1/5,000",
+
+"称重传感器：铝合金，IP65",
+
+"显示屏：6位红色七段LED",
+
+"稳定时间：約1–2秒",
+
+"功能：称重、数量计数、去皮和累计",
+
+"归零功能和自动零点跟踪",
+
+"称重单位：kg、g、lb",
+
+"去皮范围：最高达到满量程",
+
+"电源：AC适配器或充电电池",
+
+"内置充电电池",
+
+"电池使用时间：約80小时",
+
+"通信接口：RS232可选",
+
+"秤台尺寸：600 x 800mm",
+
+"秤盘：不锈钢",
+
+"秤体框架：喷涂钢材",
+
+"可调节防滑橡胶脚",
+
+"安全过载：最高为最大称量的125%",
+
+"工作温度：-10°C ~ 40°C",
+
+"工作湿度：最高约80%，无冷凝",
+
+"显示器外壳：ABS塑料",
+
+"显示器：OHAUS T24PE Defender 2000"
+        ]
+    }
+},
 };
 
 
