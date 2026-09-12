@@ -2935,132 +2935,148 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL EX-2001 Truck Scale Indicator",
+        name:"EXCELL F60x60-KC3 Electronic Counting Platform Scale",
 
-        origin: "Taiwan",
+        origin:"Taiwan",
 
-        description: "The EXCELL EX-2001 truck scale indicator is designed for vehicle scales, tank scales, batching systems, and industrial weighing applications. It offers high stability, strong anti-interference performance, fast processing speed, and supports multiple automatic control functions.",
+        description:"The EXCELL F60x60-KC3 is an electronic industrial platform scale with counting function, suitable for goods weighing, inventory control, production, warehousing and packaging. The scale provides 1/15,000 accuracy and supports counting, accumulation and automatic average unit weight calculation for efficient weighing and quantity checking.",
 
-        specs: [
+        specs:[
 
 `<table class="spec-table">
 
 <tr>
 <th>Model</th>
-<th>Resolution</th>
-<th>A/D Speed</th>
-<th>Loadcell Connection</th>
-<th>Output</th>
+<th>Capacity</th>
+<th>Division</th>
+<th>Accuracy</th>
 </tr>
 
 <tr>
-<td>EX-2001</td>
-<td>1/30,000</td>
-<td>120 times/sec</td>
-<td>8~16 × 350Ω / 700Ω loadcells</td>
-<td>RS232 / Analog / Relay / BCD</td>
+<td>F-6060 KC-30</td>
+<td>30kg</td>
+<td>2g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-75</td>
+<td>75kg</td>
+<td>5g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-150</td>
+<td>150kg</td>
+<td>10g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-300</td>
+<td>300kg</td>
+<td>20g</td>
+<td>1/15,000</td>
 </tr>
 
 </table>`,
 
-"OIML Class III accuracy standard",
-
-"7-digit red LED display, 20mm digit height",
-
-"Input sensitivity: 0.3 μV/d",
-
-"Loadcell signal range: 1 ~ 20mV/V",
-
-"5-point linear calibration",
-
-"Digital filter for vibration and noise reduction",
-
-"Animal weighing function",
-
-"HI / OK / LO check weighing function",
-
-"Accumulation and data storage function",
-
-"Auto zero tracking at startup",
-
-"RS232 communication port",
-
-"Optional outputs: Analog / Relay / BCD",
-
-"Power supply: AC 100V ~ 240V",
-
-"Indicator size: 210 × 108 × 207 mm",
-
 "Operating temperature: 0°C ~ 40°C",
 
-"Designed for truck scales and industrial weighing systems"
+"Power supply: AC 110V/230V (±10%) + DC 6V/4AH rechargeable battery",
 
-    ]
+"Display: LCD, 5.5 / 6 digits, 14mm height, LED backlight",
+
+"Platform sizes: F: 300 x 400mm, 400 x 500mm, 600 x 800mm; X: 420 x 520mm",
+
+"Accuracy: 1/15,000",
+
+"Counting function",
+
+"Accumulation function",
+
+"Automatic average unit weight calculation",
+
+"Weighing function",
+
+"Tare function",
+
+"Suitable for production, warehousing, inventory control and packaging"
+        ]
     },
 
     zh: {
 
-        name: "EXCELL EX-2001汽车衡称重仪表",
+        name:"EXCELL F60x60-KC3电子计数台秤",
 
-        origin: "台湾",
+        origin:"中国台湾",
 
-        description: "EXCELL EX-2001汽车衡称重仪表专为汽车衡、料罐秤、配料系统及工业称重应用设计。具有高稳定性、强抗干扰能力、快速处理速度，并支持多种自动控制功能。",
+        description:"EXCELL F60x60-KC3电子计数台秤是一款适用于工业称重的电子台秤，具有数量计数功能，适用于货物称重、库存管理、生产、仓储及包装等应用。秤体具有1/15,000的精度，并支持计数、累计以及自动计算平均单位重量，提高称重和数量检查效率。",
 
-        specs: [
+        specs:[
 
 `<table class="spec-table">
 
 <tr>
 <th>型号</th>
-<th>分辨率</th>
-<th>A/D速度</th>
-<th>传感器连接</th>
-<th>输出</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>精度</th>
 </tr>
 
 <tr>
-<td>EX-2001</td>
-<td>1/30,000</td>
-<td>120次/秒</td>
-<td>8~16个350Ω / 700Ω传感器</td>
-<td>RS232 / 模拟 / 继电器 / BCD</td>
+<td>F-6060 KC-30</td>
+<td>30kg</td>
+<td>2g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-75</td>
+<td>75kg</td>
+<td>5g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-150</td>
+<td>150kg</td>
+<td>10g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-300</td>
+<td>300kg</td>
+<td>20g</td>
+<td>1/15,000</td>
 </tr>
 
 </table>`,
 
-"符合OIML III级精度标准",
-
-"7位红色LED显示，数字高度20mm",
-
-"输入灵敏度：0.3 μV/d",
-
-"传感器信号范围：1 ~ 20mV/V",
-
-"5点线性校准",
-
-"数字滤波抗震抗干扰设计",
-
-"动物称重功能",
-
-"重量检测功能（HI / OK / LO）",
-
-"累计与数据存储功能",
-
-"开机自动置零",
-
-"RS232通讯接口",
-
-"可选输出：模拟 / 继电器 / BCD",
-
-"电源：AC 100V ~ 240V",
-
-"仪表尺寸：210 × 108 × 207 mm",
-
 "工作温度：0°C ~ 40°C",
 
-"适用于汽车衡及工业称重系统"
+"电源：AC 110V/230V (±10%) + DC 6V/4AH充电电池",
 
-    ]
+"显示屏：LCD，5.5 / 6位数字，数字高度14mm，LED背光",
+
+"秤台尺寸：F：300 x 400mm、400 x 500mm、600 x 800mm；X：420 x 520mm",
+
+"精度：1/15,000",
+
+"数量计数功能",
+
+"累计功能",
+
+"自动计算平均单位重量",
+
+"称重功能",
+
+"去皮功能",
+
+"适用于生产、仓储、库存管理及包装"
+        ]
     }
 },
 19: {

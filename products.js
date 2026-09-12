@@ -1589,22 +1589,21 @@ window.products = [
 "Thiết kế phù hợp cho cân hàng hóa, sản xuất, kho vận và kiểm tra trọng lượng"
 
 ]
-},
-   {
-business:"measure",
+},{
+    business:"measure",
     id:18,
 
-    name:"Đầu Cân Ô Tô EX-2001",
+    name:"Cân bàn điện tử Excell F60x60-KC3",
 
-    category:"dau-can-dien-tu",
+    category:"can-ban",
 
-    folder:"ex-2001",
+    folder:"kc",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân ô tô EX-2001 Excell là bộ hiển thị chuyên dụng cho cân ô tô, cân bồn, cân trạm trộn và hệ thống cân công nghiệp. Thiết bị có độ ổn định cao, chống nhiễu tốt, tốc độ xử lý nhanh và hỗ trợ nhiều chức năng điều khiển tự động.",
+    description:"Cân bàn điện tử Excell F60x60-KC3 là dòng cân bàn công nghiệp có chức năng đếm số lượng, phù hợp sử dụng trong cân hàng hóa, kiểm kê kho, sản xuất, đóng gói và quản lý hàng hóa. Cân có độ chính xác 1/15.000, hỗ trợ chức năng đếm, cộng dồn và tự động tính trọng lượng đơn vị trung bình, giúp nâng cao hiệu quả trong quá trình cân và kiểm đếm.",
 
     specs:[
 
@@ -1612,56 +1611,64 @@ business:"measure",
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Độ phân giải</th>
-<th>Tốc độ A/D</th>
-<th>Kết nối Loadcell</th>
-<th>Ngõ ra</th>
+<th>Loại cân</th>
+<th>Trọng lượng</th>
+<th>Bước nhảy</th>
+<th>Độ chính xác</th>
 </tr>
 
 <tr>
-<td>EX-2001</td>
-<td>1/30.000</td>
-<td>120 lần/giây</td>
-<td>8~16 loadcell 350Ω / 700Ω</td>
-<td>RS232 / Analog / Relay / BCD</td>
+<td>F-6060 KC-30</td>
+<td>30kg</td>
+<td>2g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-75</td>
+<td>75kg</td>
+<td>5g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-150</td>
+<td>150kg</td>
+<td>10g</td>
+<td>1/15,000</td>
+</tr>
+
+<tr>
+<td>F-6060 KC-300</td>
+<td>300kg</td>
+<td>20g</td>
+<td>1/15,000</td>
 </tr>
 
 </table>
 `,
 
-"Tiêu chuẩn chính xác OIML Class III",
+"Nhiệt độ môi trường: 0°C ~ 40°C",
 
-"Màn hình LED đỏ 7 số, chiều cao số 20mm",
+"Nguồn điện: AC 110V/230V (±10%) + Acquy DC 6V/4AH",
 
-"Độ nhạy đầu vào: 0.3 μV/d",
+"Kích thước màn hình hiển thị: LCD, 5.5 / 6 Digits, 14mm (Height), LED backlight",
 
-"Dải tín hiệu loadcell: 1 ~ 20mV/V",
+"Kích thước bàn cân: F: 300 x 400mm, 400 x 500mm, 600 x 800mm; X: 420 x 520mm",
 
-"Hiệu chuẩn tuyến tính 5 điểm",
+"Độ chính xác: 1/15,000",
 
-"Bộ lọc kỹ thuật số chống rung và chống nhiễu",
+"Chức năng đếm số lượng",
 
-"Chức năng cân động vật",
+"Chức năng cộng dồn",
 
-"Chức năng kiểm tra HI / OK / LO",
+"Tự động tính trọng lượng đơn vị trung bình",
 
-"Chức năng cộng dồn và lưu dữ liệu",
+"Chức năng cân hàng hóa",
 
-"Tự động về zero khi khởi động",
+"Chức năng trừ bì",
 
-"Cổng giao tiếp RS232",
-
-"Hỗ trợ ngõ ra Analog / Relay / BCD (Option)",
-
-"Nguồn điện: AC 100V ~ 240V",
-
-"Kích thước đầu cân: 210 × 108 × 207 mm",
-
-"Nhiệt độ hoạt động: 0°C ~ 40°C",
-
-"Thiết kế chuyên dụng cho cân ô tô và hệ thống cân công nghiệp"
-
+"Phù hợp sử dụng trong sản xuất, kho hàng, kiểm kê và đóng gói"
 ]
 },
      {
