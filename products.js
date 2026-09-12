@@ -3972,9 +3972,609 @@ business:"measure",
 "Nhà sản xuất: SHINKO DENSHI CO., LTD"
 ]
 },
+{
+    business:"measure",
+    id:52,
 
+    name:"Cân điện tử Vibra SJ1200CE",
 
+    category:"can-phan-tich",
 
+    folder:"vibra-sj620ce",
+
+    brand:"Vibra",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử Vibra SJ1200CE là dòng cân kỹ thuật chính xác cao của Vibra Shinko, sản xuất tại Nhật Bản. Cân có mức cân tối đa 1200g, độ đọc 0,01g và độ phân giải lên đến 1/100.000 nhờ công nghệ cảm biến Tuning-Fork. Cân phù hợp cho phòng thí nghiệm, ngành vàng, dược phẩm, mỹ phẩm, thực phẩm, cân định lượng, đếm mẫu và các ứng dụng yêu cầu độ chính xác cao. Thiết bị sử dụng màn hình LCD cao 16,5mm, đĩa cân inox kích thước 170 x 142mm và hỗ trợ nhiều đơn vị cân.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>SJ1200CE</td>
+<td>1200g</td>
+<td>0,01g</td>
+<td>1/100.000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân lớn nhất: 1200g",
+
+"Độ đọc: 0,01g",
+
+"Độ chia kiểm: e = 10d",
+
+"Mức cân nhỏ nhất: Min = 20e",
+
+"Độ phân giải: 1/100.000",
+
+"Cấp chính xác: Cấp II theo OIML và ĐLVN16:2009",
+
+"Phạm vi đọc: 0,01g ~ 1200g",
+
+"Phạm vi đo: 2g ~ 1200g",
+
+"Độ lặp lại: 0,01g",
+
+"Độ tuyến tính: ±0,01g",
+
+"Công nghệ cảm biến: Tuning-Fork sensor",
+
+"Thời gian ổn định: khoảng 3 giây",
+
+"Màn hình: LCD, chiều cao số 16,5mm, nền sáng trắng",
+
+"Đĩa cân: Thép không gỉ, kích thước 170 x 142mm",
+
+"Vỏ cân: Nhựa ABS",
+
+"Đơn vị cân: g, ct, oz, lb, ozt, dwt, GN, tl, momme, tola",
+
+"Chức năng: Cân trọng lượng, đếm mẫu, cân tỷ lệ phần trăm và cân vàng",
+
+"Chức năng Zero/Tare",
+
+"Chức năng hiệu chuẩn ngoài",
+
+"Cảnh báo quá tải",
+
+"Quá tải an toàn: 150% tải trọng cân",
+
+"Cổng kết nối: RS232 tùy chọn",
+
+"Nguồn điện: 120–230VAC, Adapter 9–12V/1A",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm hoạt động: 10% ~ 80%",
+
+"Kích thước cân: 235 x 182 x 75mm",
+
+"Kích thước đĩa cân: 170 x 142mm",
+
+"Khối lượng cân: khoảng 1,3kg",
+
+"Nhà sản xuất: SHINKO DENSHI CO., LTD",
+
+"Xuất xứ: Nhật Bản"
+]
+},
+
+{
+    business:"measure",
+    id:53,
+
+    name:"Cân điện tử Vibra SJ2200CE",
+
+    category:"can-phan-tich",
+
+    folder:"vibra-sj620ce",
+
+    brand:"Vibra",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử Vibra SJ2200CE là dòng cân kỹ thuật chính xác cao của Vibra Shinko, sản xuất tại Nhật Bản. Cân có mức cân tối đa 2200g, độ đọc 0,01g và độ phân giải lên đến 1/100.000 nhờ công nghệ cảm biến Tuning-Fork. Cân phù hợp cho phòng thí nghiệm, ngành vàng, dược phẩm, mỹ phẩm, thực phẩm, cân định lượng, đếm mẫu, cân tỷ lệ phần trăm và các ứng dụng cần độ chính xác cao. Thiết bị có màn hình LCD cao 16,5mm với nền sáng trắng, đĩa cân inox kích thước 180 x 160mm và hỗ trợ nhiều đơn vị cân.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>SJ2200CE</td>
+<td>2200g</td>
+<td>0,01g</td>
+<td>1/100.000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân lớn nhất: 2200g",
+
+"Độ đọc: 0,01g",
+
+"Độ chia kiểm: e = 10d",
+
+"Mức cân nhỏ nhất: Min = 20e",
+
+"Độ phân giải: 1/100.000",
+
+"Cấp chính xác: Cấp II theo OIML và ĐLVN16:2009",
+
+"Phạm vi đọc: 0,01g ~ 2200g",
+
+"Phạm vi đo: 2g ~ 2200g",
+
+"Độ lặp lại: 0,01g",
+
+"Công nghệ cảm biến: Tuning-Fork sensor",
+
+"Thời gian ổn định: khoảng 3 giây",
+
+"Màn hình: LCD, chiều cao số 16,5mm, nền sáng trắng",
+
+"Đĩa cân: Inox, kích thước 180 x 160mm",
+
+"Vỏ cân: Nhựa ABS",
+
+"Đơn vị cân: g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola",
+
+"Chức năng: Cân trọng lượng, trừ bì, đếm mẫu, cân tỷ lệ phần trăm và cân kiểm tra",
+
+"Chức năng Zero/Tare",
+
+"Chức năng hiệu chuẩn ngoài",
+
+"Cảnh báo quá tải",
+
+"Quá tải an toàn: 150% tải trọng cân",
+
+"Cổng kết nối: RS232 tùy chọn",
+
+"5 phím chức năng: ON/OFF, Print, Set, Function, Zero/Tare",
+
+"Nguồn điện: 120–230VAC, Adapter 9–12V/1A",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm hoạt động: 10% ~ 80%",
+
+"Kích thước cân: 256 x 192 x 87mm",
+
+"Kích thước đĩa cân: 180 x 160mm",
+
+"Khối lượng cân: khoảng 2,7kg",
+
+"Nhà sản xuất: SHINKO DENSHI CO., LTD",
+
+"Xuất xứ: Nhật Bản"
+]
+},
+{
+    business:"measure",
+    id:54,
+
+    name:"Cân điện tử Vibra SJ3200CE",
+
+    category:"can-phan-tich",
+
+    folder:"vibra-sj620ce",
+
+    brand:"Vibra",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử Vibra SJ3200CE là dòng cân kỹ thuật chính xác cao của Vibra Shinko, sản xuất tại Nhật Bản. Cân có mức cân tối đa 3200g, độ đọc 0,01g và độ phân giải lên đến 1/100.000 nhờ công nghệ cảm biến Tuning-Fork. Cân phù hợp cho phòng thí nghiệm, ngành vàng, dược phẩm, mỹ phẩm, thực phẩm, cân định lượng, đếm mẫu và các ứng dụng yêu cầu độ chính xác cao. Thiết bị sử dụng màn hình LCD cao 16,5mm, đĩa cân inox kích thước 180 x 160mm và hỗ trợ nhiều đơn vị cân.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>SJ3200CE</td>
+<td>3200g</td>
+<td>0,01g</td>
+<td>1/100.000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân lớn nhất: 3200g",
+
+"Độ đọc: 0,01g",
+
+"Độ chia kiểm: e = 10d",
+
+"Mức cân nhỏ nhất: Min = 20e",
+
+"Độ phân giải: 1/100.000",
+
+"Cấp chính xác: Cấp II theo OIML và ĐLVN16:2009",
+
+"Phạm vi đọc: 0,01g ~ 3200g",
+
+"Phạm vi đo: 2g ~ 3200g",
+
+"Độ lặp lại: 0,01g",
+
+"Công nghệ cảm biến: Tuning-Fork sensor",
+
+"Thời gian ổn định: khoảng 3 giây",
+
+"Màn hình: LCD, chiều cao số 16,5mm, nền sáng trắng",
+
+"Đĩa cân: Inox, kích thước 180 x 160mm",
+
+"Vỏ cân: Nhựa ABS",
+
+"Đơn vị cân: g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola",
+
+"Chức năng: Cân trọng lượng, trừ bì, đếm mẫu, cân tỷ lệ phần trăm và cân kiểm tra",
+
+"Chức năng Zero/Tare",
+
+"Chức năng hiệu chuẩn ngoài",
+
+"Cảnh báo quá tải",
+
+"Quá tải an toàn: 150% tải trọng cân",
+
+"Cổng kết nối: RS232 tùy chọn",
+
+"5 phím chức năng: ON/OFF, Print, Set, Function, Zero/Tare",
+
+"Nguồn điện: 120–230VAC, Adapter 9–12V/1A",
+
+"Nhiệt độ hoạt động: 10°C ~ 40°C",
+
+"Độ ẩm hoạt động: 10% ~ 80%",
+
+"Kích thước cân: 256 x 192 x 87mm",
+
+"Kích thước đĩa cân: 180 x 160mm",
+
+"Khối lượng cân: khoảng 2,7kg",
+
+"Khối lượng vận chuyển: khoảng 2,9kg",
+
+"Nhà sản xuất: SHINKO DENSHI CO., LTD",
+
+"Xuất xứ: Nhật Bản"
+]
+},
+
+{
+    business:"measure",
+    id:55,
+
+    name:"Cân điện tử Vibra SJ4200CE",
+
+    category:"can-phan-tich",
+
+    folder:"vibra-sj620ce",
+
+    brand:"Vibra",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử Vibra SJ4200CE là dòng cân kỹ thuật chính xác cao của Vibra Shinko, sản xuất tại Nhật Bản. Cân có mức cân tối đa 4200g, độ đọc 0,01g và độ phân giải lên đến 1/100.000 nhờ công nghệ cảm biến Tuning-Fork. Cân phù hợp cho phòng thí nghiệm, ngành vàng, dược phẩm, mỹ phẩm, thực phẩm, cân định lượng, đếm mẫu, cân tỷ lệ phần trăm và các ứng dụng yêu cầu độ chính xác cao. Thiết bị sử dụng màn hình LCD cao 16,5mm với nền sáng trắng, đĩa cân inox kích thước 180 x 160mm và hỗ trợ nhiều đơn vị cân.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>SJ4200CE</td>
+<td>4200g</td>
+<td>0,01g</td>
+<td>1/100.000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân lớn nhất: 4200g",
+
+"Độ đọc: 0,01g",
+
+"Độ chia kiểm: e = 10d",
+
+"Mức cân nhỏ nhất: Min = 20e",
+
+"Độ phân giải: 1/100.000",
+
+"Cấp chính xác: Cấp II theo OIML và ĐLVN16:2009",
+
+"Phạm vi đọc: 0,01g ~ 4200g",
+
+"Phạm vi đo: 2g ~ 4200g",
+
+"Độ lặp lại: 0,01g",
+
+"Độ tuyến tính: ±0,01g",
+
+"Công nghệ cảm biến: Tuning-Fork sensor",
+
+"Thời gian ổn định: khoảng 3 giây",
+
+"Màn hình: LCD, chiều cao số 16,5mm, nền sáng trắng",
+
+"Đĩa cân: Inox, kích thước 180 x 160mm",
+
+"Vỏ cân: Nhựa ABS",
+
+"Đơn vị cân: g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola",
+
+"Chức năng: Cân trọng lượng, trừ bì, đếm mẫu, cân tỷ lệ phần trăm và cân kiểm tra",
+
+"Chức năng Zero/Tare",
+
+"Chức năng hiệu chuẩn ngoài",
+
+"Cảnh báo quá tải",
+
+"Quá tải an toàn: 150% tải trọng cân",
+
+"Cổng kết nối: RS232 tùy chọn",
+
+"5 phím chức năng: ON/OFF, Print, Set, Function, Zero/Tare",
+
+"Nguồn điện: 120–230VAC, Adapter 9–12V/1A",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm hoạt động: 10% ~ 80%",
+
+"Kích thước cân: 256 x 192 x 87mm",
+
+"Kích thước đĩa cân: 180 x 160mm",
+
+"Khối lượng cân: khoảng 2,7kg",
+
+"Khối lượng vận chuyển: khoảng 2,9kg",
+
+"Nhà sản xuất: SHINKO DENSHI CO., LTD",
+
+"Xuất xứ: Nhật Bản"
+]
+},
+{
+    business:"measure",
+    id:56,
+
+    name:"Cân điện tử Vibra SJ6200CE",
+
+    category:"can-phan-tich",
+
+    folder:"vibra-sj620ce",
+
+    brand:"Vibra",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử Vibra Shinko SJ6200CE là cân kỹ thuật chính xác cao do Shinko Denshi Co., Ltd sản xuất tại Nhật Bản, sử dụng công nghệ cảm biến Tuning-Fork frequency sensing (MMTS). Cân có mức cân tối đa 6200g, độ đọc 0.01g và độ phân giải 1/100.000, phù hợp cho phòng thí nghiệm, kiểm tra chất lượng, cân định lượng, cân đếm mẫu, cân tính phần trăm và các ứng dụng cân vàng. Model SJ6200CE đạt cấp chính xác II theo OIML và ĐLVN 16:2009, có màn hình LCD cao 16.5mm với nền sáng trắng, đĩa cân thép không gỉ kích thước 180 x 160mm, vỏ ABS nhỏ gọn. Cân hỗ trợ nhiều đơn vị cân, trừ bì toàn tải, hiệu chuẩn ngoài, cảnh báo quá tải và có thể kết nối RS232 tùy chọn.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>SJ6200CE</td>
+</tr>
+
+<tr>
+<td>Mức cân lớn nhất</td>
+<td>6200 g</td>
+</tr>
+
+<tr>
+<td>Độ đọc d</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>Độ chia kiểm e</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>Mức cân nhỏ nhất Min</td>
+<td>20e</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/100.000</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Cấp II theo OIML, ĐLVN 16:2009</td>
+</tr>
+
+<tr>
+<td>Phạm vi đọc</td>
+<td>0.01 g – 6200 g</td>
+</tr>
+
+<tr>
+<td>Phạm vi đo</td>
+<td>2 g – 6200 g</td>
+</tr>
+
+<tr>
+<td>Độ lặp lại</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>Độ tuyến tính</td>
+<td>±0.01 g</td>
+</tr>
+
+<tr>
+<td>Công nghệ cảm biến</td>
+<td>Tuning-Fork frequency sensing (MMTS)</td>
+</tr>
+
+<tr>
+<td>Thời gian ổn định</td>
+<td>3 giây</td>
+</tr>
+
+<tr>
+<td>Đĩa cân</td>
+<td>180 x 160 mm, thép không gỉ</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD cao 16.5 mm, số đen, nền sáng trắng</td>
+</tr>
+
+<tr>
+<td>Vỏ cân</td>
+<td>Nhựa ABS</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, trừ bì, đếm mẫu, tính phần trăm, cân kiểm tra HI/LO, cân vàng</td>
+</tr>
+
+<tr>
+<td>Hiệu chuẩn</td>
+<td>Hiệu chuẩn ngoài</td>
+</tr>
+
+<tr>
+<td>Quá tải an toàn</td>
+<td>150% mức cân</td>
+</tr>
+
+<tr>
+<td>Giao tiếp</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Phím chức năng</td>
+<td>5 phím: ON/OFF, Print, Set, Function, Zero/Tare</td>
+</tr>
+
+<tr>
+<td>Nhiệt độ hoạt động</td>
+<td>-10°C đến 40°C</td>
+</tr>
+
+<tr>
+<td>Độ ẩm</td>
+<td>10% – 80%</td>
+</tr>
+
+<tr>
+<td>Kích thước cân</td>
+<td>256 x 192 x 87 mm</td>
+</tr>
+
+<tr>
+<td>Trọng lượng</td>
+<td>2.7 kg</td>
+</tr>
+
+<tr>
+<td>Trọng lượng vận chuyển</td>
+<td>2.9 kg</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>120–230 VAC, Adapter 9–12V/1A</td>
+</tr>
+
+<tr>
+<td>Nhà sản xuất</td>
+<td>Shinko Denshi Co., Ltd.</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Nhật Bản – Made in Japan</td>
+</tr>
+
+</table>`,
+
+"Công nghệ Tuning-Fork frequency sensing (MMTS) cho độ ổn định và độ chính xác cao",
+
+"Độ phân giải 1/100.000, cấp chính xác II theo OIML và ĐLVN 16:2009",
+
+"Trừ bì toàn tải và hiệu chuẩn ngoài",
+
+"Hỗ trợ cân trọng lượng, cân đếm, cân tính phần trăm, cân kiểm tra và cân vàng",
+
+"RS232 kết nối máy tính hoặc máy in, mua thêm tùy chọn",
+
+"Đĩa cân thép không gỉ 180 x 160 mm",
+
+"Màn hình LCD cao 16.5 mm, nền sáng trắng",
+
+"Vỏ cân bằng nhựa ABS, thiết kế nhỏ gọn",
+
+"Quá tải an toàn 150% mức cân",
+
+"Thời gian ổn định khoảng 3 giây"
+
+    ]
+},
         
 
 ];

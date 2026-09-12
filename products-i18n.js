@@ -6520,6 +6520,1132 @@ window.productTranslations = {
         ]
     }
 },
+52: {
+
+    en: {
+
+        name:"Vibra SJ1200CE Precision Balance",
+
+        origin:"Japan",
+
+        description:"The Vibra SJ1200CE is a high-precision precision balance from Vibra Shinko, manufactured in Japan. It has a maximum capacity of 1200g, readability of 0.01g and resolution up to 1/100,000 using Tuning-Fork sensing technology. The balance is suitable for laboratories, gold weighing, pharmaceutical, cosmetic and food applications, quantitative weighing, parts counting and other applications requiring high accuracy. It features a 16.5mm high LCD display and a 170 x 142mm stainless steel weighing pan.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>SJ1200CE</td>
+<td>1200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"Maximum capacity: 1200g",
+
+"Readability: 0.01g",
+
+"Verification scale interval: e = 10d",
+
+"Minimum capacity: Min = 20e",
+
+"Resolution: 1/100,000",
+
+"Accuracy class: Class II according to OIML and Vietnam standard ĐLVN16:2009",
+
+"Display range: 0.01g ~ 1200g",
+
+"Measurement range: 2g ~ 1200g",
+
+"Repeatability: 0.01g",
+
+"Linearity: ±0.01g",
+
+"Sensing technology: Tuning-Fork sensor",
+
+"Stabilization time: approximately 3 seconds",
+
+"Display: LCD, 16.5mm digit height, white backlight",
+
+"Weighing pan: Stainless steel, 170 x 142mm",
+
+"Housing: ABS plastic",
+
+"Weighing units: g, ct, oz, lb, ozt, dwt, GN, tl, momme, tola",
+
+"Functions: Weighing, parts counting, percentage weighing and gold weighing",
+
+"Zero/Tare function",
+
+"External calibration",
+
+"Overload warning",
+
+"Safe overload: 150% of capacity",
+
+"Communication: Optional RS232",
+
+"Power supply: 120–230VAC, 9–12V/1A adapter",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Operating humidity: 10% ~ 80%",
+
+"Scale dimensions: 235 x 182 x 75mm",
+
+"Pan size: 170 x 142mm",
+
+"Scale weight: approximately 1.3kg",
+
+"Manufacturer: SHINKO DENSHI CO., LTD",
+
+"Country of origin: Japan"
+        ]
+    },
+
+    zh: {
+
+        name:"Vibra SJ1200CE高精度电子天平",
+
+        origin:"日本",
+
+        description:"Vibra SJ1200CE是Vibra Shinko生产的高精度电子天平，原产于日本。最大称量1200g，分度值0.01g，采用Tuning-Fork音叉传感技术，分辨率可达1/100,000。适用于实验室、黄金称量、制药、化妆品、食品、定量称量、数量计数以及其他需要高精度称量的应用。天平配备16.5mm高的LCD显示屏，并采用170 x 142mm不锈钢秤盘。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>SJ1200CE</td>
+<td>1200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：1200g",
+
+"分度值：0.01g",
+
+"检定分度值：e = 10d",
+
+"最小称量：Min = 20e",
+
+"分辨率：1/100,000",
+
+"准确度等级：OIML及越南ĐLVN16:2009标准II级",
+
+"显示范围：0.01g ~ 1200g",
+
+"测量范围：2g ~ 1200g",
+
+"重复性：0.01g",
+
+"线性误差：±0.01g",
+
+"传感技术：Tuning-Fork音叉传感器",
+
+"稳定时间：約3秒",
+
+"显示屏：LCD，数字高度16.5mm，白色背光",
+
+"秤盘：不锈钢，尺寸170 x 142mm",
+
+"秤体外壳：ABS塑料",
+
+"称重单位：g、ct、oz、lb、ozt、dwt、GN、tl、momme、tola",
+
+"功能：称重、数量计数、百分比称量和黄金称量",
+
+"归零/去皮功能",
+
+"外部校准",
+
+"超载警告",
+
+"安全过载：最大称量的150%",
+
+"通信接口：RS232可选",
+
+"电源：120–230VAC，9–12V/1A适配器",
+
+"工作温度：-10°C ~ 40°C",
+
+"工作湿度：10% ~ 80%",
+
+"天平尺寸：235 x 182 x 75mm",
+
+"秤盘尺寸：170 x 142mm",
+
+"天平重量：約1.3kg",
+
+"制造商：SHINKO DENSHI CO., LTD",
+
+"原产地：日本"
+        ]
+    }
+},
+53: {
+
+    en: {
+
+        name:"Vibra SJ2200CE Precision Balance",
+
+        origin:"Japan",
+
+        description:"The Vibra SJ2200CE is a high-precision precision balance from Vibra Shinko, manufactured in Japan. It has a maximum capacity of 2200g, readability of 0.01g and resolution up to 1/100,000 using Tuning-Fork sensing technology. The balance is suitable for laboratories, gold weighing, pharmaceutical, cosmetic and food applications, quantitative weighing, parts counting, percentage weighing and other applications requiring high accuracy. It features a 16.5mm high LCD display with white backlight and a 180 x 160mm stainless steel weighing pan.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>SJ2200CE</td>
+<td>2200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"Maximum capacity: 2200g",
+
+"Readability: 0.01g",
+
+"Verification scale interval: e = 10d",
+
+"Minimum capacity: Min = 20e",
+
+"Resolution: 1/100,000",
+
+"Accuracy class: Class II according to OIML and Vietnam standard ĐLVN16:2009",
+
+"Display range: 0.01g ~ 2200g",
+
+"Measurement range: 2g ~ 2200g",
+
+"Repeatability: 0.01g",
+
+"Sensing technology: Tuning-Fork sensor",
+
+"Stabilization time: approximately 3 seconds",
+
+"Display: LCD, 16.5mm digit height, white backlight",
+
+"Weighing pan: Stainless steel, 180 x 160mm",
+
+"Housing: ABS plastic",
+
+"Weighing units: g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola",
+
+"Functions: Weighing, tare, parts counting, percentage weighing and check weighing",
+
+"Zero/Tare function",
+
+"External calibration",
+
+"Overload warning",
+
+"Safe overload: 150% of capacity",
+
+"Communication: Optional RS232",
+
+"5 function keys: ON/OFF, Print, Set, Function, Zero/Tare",
+
+"Power supply: 120–230VAC, 9–12V/1A adapter",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Operating humidity: 10% ~ 80%",
+
+"Scale dimensions: 256 x 192 x 87mm",
+
+"Pan size: 180 x 160mm",
+
+"Scale weight: approximately 2.7kg",
+
+"Manufacturer: SHINKO DENSHI CO., LTD",
+
+"Country of origin: Japan"
+        ]
+    },
+
+    zh: {
+
+        name:"Vibra SJ2200CE高精度电子天平",
+
+        origin:"日本",
+
+        description:"Vibra SJ2200CE是Vibra Shinko生产的高精度电子天平，原产于日本。最大称量2200g，分度值0.01g，采用Tuning-Fork音叉传感技术，分辨率可达1/100,000。适用于实验室、黄金称量、制药、化妆品、食品、定量称量、数量计数、百分比称量以及其他需要高精度称量的应用。天平配备16.5mm高的LCD显示屏和白色背光，并采用180 x 160mm不锈钢秤盘。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>SJ2200CE</td>
+<td>2200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：2200g",
+
+"分度值：0.01g",
+
+"检定分度值：e = 10d",
+
+"最小称量：Min = 20e",
+
+"分辨率：1/100,000",
+
+"准确度等级：OIML及越南ĐLVN16:2009标准II级",
+
+"显示范围：0.01g ~ 2200g",
+
+"测量范围：2g ~ 2200g",
+
+"重复性：0.01g",
+
+"传感技术：Tuning-Fork音叉传感器",
+
+"稳定时间：約3秒",
+
+"显示屏：LCD，数字高度16.5mm，白色背光",
+
+"秤盘：不锈钢，尺寸180 x 160mm",
+
+"秤体外壳：ABS塑料",
+
+"称重单位：g、ct、oz、lb、ozt、dwt、GN、tl（香港）、tl（台湾）、tl（新加坡/马来西亚）、momme、tola",
+
+"功能：称重、去皮、数量计数、百分比称量和检重",
+
+"归零/去皮功能",
+
+"外部校准",
+
+"超载警告",
+
+"安全过载：最大称量的150%",
+
+"通信接口：RS232可选",
+
+"5个功能按键：ON/OFF、Print、Set、Function、Zero/Tare",
+
+"电源：120–230VAC，9–12V/1A适配器",
+
+"工作温度：-10°C ~ 40°C",
+
+"工作湿度：10% ~ 80%",
+
+"天平尺寸：256 x 192 x 87mm",
+
+"秤盘尺寸：180 x 160mm",
+
+"天平重量：約2.7kg",
+
+"制造商：SHINKO DENSHI CO., LTD",
+
+"原产地：日本"
+        ]
+    }
+},
+54: {
+
+    en: {
+
+        name:"Vibra SJ3200CE Precision Balance",
+
+        origin:"Japan",
+
+        description:"The Vibra SJ3200CE is a high-precision technical balance from Vibra Shinko, manufactured in Japan. It has a maximum capacity of 3200g, readability of 0.01g and resolution up to 1/100,000 using Tuning-Fork sensing technology. The balance is suitable for laboratories, gold weighing, pharmaceutical, cosmetic and food applications, quantitative weighing, parts counting and other applications requiring high accuracy. It features a 16.5mm high LCD display with white backlight and a 180 x 160mm stainless steel weighing pan.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>SJ3200CE</td>
+<td>3200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"Maximum capacity: 3200g",
+
+"Readability: 0.01g",
+
+"Verification scale interval: e = 10d",
+
+"Minimum capacity: Min = 20e",
+
+"Resolution: 1/100,000",
+
+"Accuracy class: Class II according to OIML and Vietnam standard ĐLVN16:2009",
+
+"Display range: 0.01g ~ 3200g",
+
+"Measurement range: 2g ~ 3200g",
+
+"Repeatability: 0.01g",
+
+"Sensing technology: Tuning-Fork sensor",
+
+"Stabilization time: approximately 3 seconds",
+
+"Display: LCD, 16.5mm digit height, white backlight",
+
+"Weighing pan: Stainless steel, 180 x 160mm",
+
+"Housing: ABS plastic",
+
+"Weighing units: g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola",
+
+"Functions: Weighing, tare, parts counting, percentage weighing and check weighing",
+
+"Zero/Tare function",
+
+"External calibration",
+
+"Overload warning",
+
+"Safe overload: 150% of capacity",
+
+"Communication: Optional RS232",
+
+"5 function keys: ON/OFF, Print, Set, Function, Zero/Tare",
+
+"Power supply: 120–230VAC, 9–12V/1A adapter",
+
+"Operating temperature: 10°C ~ 40°C",
+
+"Operating humidity: 10% ~ 80%",
+
+"Scale dimensions: 256 x 192 x 87mm",
+
+"Pan size: 180 x 160mm",
+
+"Scale weight: approximately 2.7kg",
+
+"Shipping weight: approximately 2.9kg",
+
+"Manufacturer: SHINKO DENSHI CO., LTD",
+
+"Country of origin: Japan"
+        ]
+    },
+
+    zh: {
+
+        name:"Vibra SJ3200CE高精度电子天平",
+
+        origin:"日本",
+
+        description:"Vibra SJ3200CE是Vibra Shinko生产的高精度电子天平，原产于日本。最大称量3200g，分度值0.01g，采用Tuning-Fork音叉传感技术，分辨率可达1/100,000。适用于实验室、黄金称量、制药、化妆品、食品、定量称量、数量计数以及其他需要高精度称量的应用。天平配备16.5mm高的LCD显示屏和白色背光，并采用180 x 160mm不锈钢秤盘。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>SJ3200CE</td>
+<td>3200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：3200g",
+
+"分度值：0.01g",
+
+"检定分度值：e = 10d",
+
+"最小称量：Min = 20e",
+
+"分辨率：1/100,000",
+
+"准确度等级：OIML及越南ĐLVN16:2009标准II级",
+
+"显示范围：0.01g ~ 3200g",
+
+"测量范围：2g ~ 3200g",
+
+"重复性：0.01g",
+
+"传感技术：Tuning-Fork音叉传感器",
+
+"稳定时间：約3秒",
+
+"显示屏：LCD，数字高度16.5mm，白色背光",
+
+"秤盘：不锈钢，尺寸180 x 160mm",
+
+"秤体外壳：ABS塑料",
+
+"称重单位：g、ct、oz、lb、ozt、dwt、GN、tl（香港）、tl（台湾）、tl（新加坡/马来西亚）、momme、tola",
+
+"功能：称重、去皮、数量计数、百分比称量和检重",
+
+"归零/去皮功能",
+
+"外部校准",
+
+"超载警告",
+
+"安全过载：最大称量的150%",
+
+"通信接口：RS232可选",
+
+"5个功能按键：ON/OFF、Print、Set、Function、Zero/Tare",
+
+"电源：120–230VAC，9–12V/1A适配器",
+
+"工作温度：10°C ~ 40°C",
+
+"工作湿度：10% ~ 80%",
+
+"天平尺寸：256 x 192 x 87mm",
+
+"秤盘尺寸：180 x 160mm",
+
+"天平重量：約2.7kg",
+
+"运输重量：約2.9kg",
+
+"制造商：SHINKO DENSHI CO., LTD",
+
+"原产地：日本"
+        ]
+    }
+},
+55: {
+
+    en: {
+
+        name:"Vibra SJ4200CE Precision Balance",
+
+        origin:"Japan",
+
+        description:"The Vibra SJ4200CE is a high-precision technical balance from Vibra Shinko, manufactured in Japan. It has a maximum capacity of 4200g, readability of 0.01g and resolution up to 1/100,000 using Tuning-Fork sensing technology. The balance is suitable for laboratories, gold weighing, pharmaceutical, cosmetic and food applications, quantitative weighing, parts counting, percentage weighing and other applications requiring high accuracy. It features a 16.5mm high LCD display with white backlight and a 180 x 160mm stainless steel weighing pan.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>SJ4200CE</td>
+<td>4200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"Maximum capacity: 4200g",
+
+"Readability: 0.01g",
+
+"Verification scale interval: e = 10d",
+
+"Minimum capacity: Min = 20e",
+
+"Resolution: 1/100,000",
+
+"Accuracy class: Class II according to OIML and Vietnam standard ĐLVN16:2009",
+
+"Display range: 0.01g ~ 4200g",
+
+"Measurement range: 2g ~ 4200g",
+
+"Repeatability: 0.01g",
+
+"Linearity: ±0.01g",
+
+"Sensing technology: Tuning-Fork sensor",
+
+"Stabilization time: approximately 3 seconds",
+
+"Display: LCD, 16.5mm digit height, white backlight",
+
+"Weighing pan: Stainless steel, 180 x 160mm",
+
+"Housing: ABS plastic",
+
+"Weighing units: g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola",
+
+"Functions: Weighing, tare, parts counting, percentage weighing and check weighing",
+
+"Zero/Tare function",
+
+"External calibration",
+
+"Overload warning",
+
+"Safe overload: 150% of capacity",
+
+"Communication: Optional RS232",
+
+"5 function keys: ON/OFF, Print, Set, Function, Zero/Tare",
+
+"Power supply: 120–230VAC, 9–12V/1A adapter",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Operating humidity: 10% ~ 80%",
+
+"Scale dimensions: 256 x 192 x 87mm",
+
+"Pan size: 180 x 160mm",
+
+"Scale weight: approximately 2.7kg",
+
+"Shipping weight: approximately 2.9kg",
+
+"Manufacturer: SHINKO DENSHI CO., LTD",
+
+"Country of origin: Japan"
+        ]
+    },
+
+    zh: {
+
+        name:"Vibra SJ4200CE高精度电子天平",
+
+        origin:"日本",
+
+        description:"Vibra SJ4200CE是Vibra Shinko生产的高精度电子天平，原产于日本。最大称量4200g，分度值0.01g，采用Tuning-Fork音叉传感技术，分辨率可达1/100,000。适用于实验室、黄金称量、制药、化妆品、食品、定量称量、数量计数、百分比称量以及其他需要高精度称量的应用。天平配备16.5mm高的LCD显示屏和白色背光，并采用180 x 160mm不锈钢秤盘。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>SJ4200CE</td>
+<td>4200g</td>
+<td>0.01g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：4200g",
+
+"分度值：0.01g",
+
+"检定分度值：e = 10d",
+
+"最小称量：Min = 20e",
+
+"分辨率：1/100,000",
+
+"准确度等级：OIML及越南ĐLVN16:2009标准II级",
+
+"显示范围：0.01g ~ 4200g",
+
+"测量范围：2g ~ 4200g",
+
+"重复性：0.01g",
+
+"线性误差：±0.01g",
+
+"传感技术：Tuning-Fork音叉传感器",
+
+"稳定时间：約3秒",
+
+"显示屏：LCD，数字高度16.5mm，白色背光",
+
+"秤盘：不锈钢，尺寸180 x 160mm",
+
+"秤体外壳：ABS塑料",
+
+"称重单位：g、ct、oz、lb、ozt、dwt、GN、tl（香港）、tl（台湾）、tl（新加坡/马来西亚）、momme、tola",
+
+"功能：称重、去皮、数量计数、百分比称量和检重",
+
+"归零/去皮功能",
+
+"外部校准",
+
+"超载警告",
+
+"安全过载：最大称量的150%",
+
+"通信接口：RS232可选",
+
+"5个功能按键：ON/OFF、Print、Set、Function、Zero/Tare",
+
+"电源：120–230VAC，9–12V/1A适配器",
+
+"工作温度：-10°C ~ 40°C",
+
+"工作湿度：10% ~ 80%",
+
+"天平尺寸：256 x 192 x 87mm",
+
+"秤盘尺寸：180 x 160mm",
+
+"天平重量：約2.7kg",
+
+"运输重量：約2.9kg",
+
+"制造商：SHINKO DENSHI CO., LTD",
+
+"原产地：日本"
+        ]
+    }
+},
+56: {
+
+    en: {
+
+        name:"Vibra SJ6200CE Electronic Balance",
+
+        origin:"Japan",
+
+        description:"The Vibra Shinko SJ6200CE is a high-precision precision balance manufactured by Shinko Denshi Co., Ltd. in Japan. It uses Tuning-Fork frequency sensing (MMTS) technology and offers a maximum capacity of 6200g with 0.01g readability and 1/100,000 resolution. The balance is suitable for laboratories, quality control, weighing, counting, percentage weighing and gold weighing applications. The SJ6200CE features Class II accuracy according to OIML and Vietnam standard ĐLVN 16:2009, a 16.5mm high LCD with white backlight, a stainless steel 180 x 160mm weighing pan and a compact ABS housing. It supports multiple weighing units, full-capacity tare, external calibration, overload protection and optional RS232 communication.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>SJ6200CE</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>6200 g</td>
+</tr>
+
+<tr>
+<td>Readability d</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>Verification interval e</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>Minimum capacity</td>
+<td>20e</td>
+</tr>
+
+<tr>
+<td>Resolution</td>
+<td>1/100,000</td>
+</tr>
+
+<tr>
+<td>Accuracy class</td>
+<td>Class II according to OIML, ĐLVN 16:2009</td>
+</tr>
+
+<tr>
+<td>Display range</td>
+<td>0.01 g – 6200 g</td>
+</tr>
+
+<tr>
+<td>Measurement range</td>
+<td>2 g – 6200 g</td>
+</tr>
+
+<tr>
+<td>Repeatability</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>Linearity</td>
+<td>±0.01 g</td>
+</tr>
+
+<tr>
+<td>Sensor technology</td>
+<td>Tuning-Fork frequency sensing (MMTS)</td>
+</tr>
+
+<tr>
+<td>Stabilization time</td>
+<td>3 seconds</td>
+</tr>
+
+<tr>
+<td>Weighing pan</td>
+<td>180 x 160 mm, stainless steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>16.5mm high LCD, black digits, white backlight</td>
+</tr>
+
+<tr>
+<td>Housing</td>
+<td>ABS plastic</td>
+</tr>
+
+<tr>
+<td>Units</td>
+<td>g, ct, oz, lb, ozt, dwt, GN, tl (Hong Kong), tl (Taiwan), tl (Singapore/Malaysia), momme, tola</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, tare, counting, percentage weighing, HI/LO check weighing, gold weighing</td>
+</tr>
+
+<tr>
+<td>Calibration</td>
+<td>External calibration</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>150% of capacity</td>
+</tr>
+
+<tr>
+<td>Interface</td>
+<td>Optional RS232</td>
+</tr>
+
+<tr>
+<td>Function keys</td>
+<td>5 keys: ON/OFF, Print, Set, Function, Zero/Tare</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>-10°C to 40°C</td>
+</tr>
+
+<tr>
+<td>Humidity</td>
+<td>10% – 80%</td>
+</tr>
+
+<tr>
+<td>Dimensions</td>
+<td>256 x 192 x 87 mm</td>
+</tr>
+
+<tr>
+<td>Net weight</td>
+<td>2.7 kg</td>
+</tr>
+
+<tr>
+<td>Shipping weight</td>
+<td>2.9 kg</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>120–230 VAC, 9–12V/1A adapter</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>Shinko Denshi Co., Ltd.</td>
+</tr>
+
+<tr>
+<td>Country of origin</td>
+<td>Japan – Made in Japan</td>
+</tr>
+
+</table>`,
+
+"Tuning-Fork frequency sensing (MMTS) technology for high stability and accuracy",
+
+"1/100,000 resolution, Class II accuracy according to OIML and ĐLVN 16:2009",
+
+"Full-capacity tare and external calibration",
+
+"Weighing, counting, percentage weighing, check weighing and gold weighing functions",
+
+"Optional RS232 interface for computer or printer connection",
+
+"180 x 160 mm stainless steel weighing pan",
+
+"16.5mm high LCD with white backlight",
+
+"Compact ABS housing",
+
+"150% safe overload protection",
+
+"Approximately 3-second stabilization time"
+
+        ]
+    },
+
+    zh: {
+
+        name:"Vibra SJ6200CE 电子天平",
+
+        origin:"日本",
+
+        description:"Vibra Shinko SJ6200CE 是由日本 Shinko Denshi Co., Ltd. 制造的高精度电子天平，采用 Tuning-Fork 音叉式频率传感技术（MMTS）。最大称量 6200g，分度值 0.01g，分辨率达到 1/100,000。适用于实验室、质量检测、精密称量、计数、百分比称量以及黄金称量等应用。SJ6200CE 达到 OIML II 级精度及越南 ĐLVN 16:2009 标准，配备 16.5mm 高白色背光 LCD 显示屏、180 x 160mm 不锈钢秤盘以及 ABS 外壳。支持多种称量单位、全量程去皮、外部校准、过载保护，并可选配 RS232 接口。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>SJ6200CE</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>6200 g</td>
+</tr>
+
+<tr>
+<td>分度值 d</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>检定分度值 e</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>最小称量</td>
+<td>20e</td>
+</tr>
+
+<tr>
+<td>分辨率</td>
+<td>1/100,000</td>
+</tr>
+
+<tr>
+<td>精度等级</td>
+<td>OIML II 级，ĐLVN 16:2009</td>
+</tr>
+
+<tr>
+<td>显示范围</td>
+<td>0.01 g – 6200 g</td>
+</tr>
+
+<tr>
+<td>测量范围</td>
+<td>2 g – 6200 g</td>
+</tr>
+
+<tr>
+<td>重复性</td>
+<td>0.01 g</td>
+</tr>
+
+<tr>
+<td>线性误差</td>
+<td>±0.01 g</td>
+</tr>
+
+<tr>
+<td>传感器技术</td>
+<td>Tuning-Fork 音叉式频率传感技术（MMTS）</td>
+</tr>
+
+<tr>
+<td>稳定时间</td>
+<td>约 3 秒</td>
+</tr>
+
+<tr>
+<td>秤盘尺寸</td>
+<td>180 x 160 mm，不锈钢</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>16.5mm 高 LCD，黑色数字，白色背光</td>
+</tr>
+
+<tr>
+<td>外壳</td>
+<td>ABS 塑料</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>g、ct、oz、lb、ozt、dwt、GN、tl（香港）、tl（台湾）、tl（新加坡/马来西亚）、momme、tola</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重、去皮、计数、百分比称量、HI/LO 检重、黄金称量</td>
+</tr>
+
+<tr>
+<td>校准</td>
+<td>外部校准</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最大称量的 150%</td>
+</tr>
+
+<tr>
+<td>接口</td>
+<td>RS232 可选</td>
+</tr>
+
+<tr>
+<td>功能按键</td>
+<td>5 个按键：ON/OFF、Print、Set、Function、Zero/Tare</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>-10°C 至 40°C</td>
+</tr>
+
+<tr>
+<td>湿度</td>
+<td>10% – 80%</td>
+</tr>
+
+<tr>
+<td>秤体尺寸</td>
+<td>256 x 192 x 87 mm</td>
+</tr>
+
+<tr>
+<td>净重</td>
+<td>2.7 kg</td>
+</tr>
+
+<tr>
+<td>运输重量</td>
+<td>2.9 kg</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>120–230 VAC，9–12V/1A 适配器</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>Shinko Denshi Co., Ltd.</td>
+</tr>
+
+<tr>
+<td>原产地</td>
+<td>日本 – Made in Japan</td>
+</tr>
+
+</table>`,
+
+"Tuning-Fork 音叉式频率传感技术（MMTS），具有高稳定性和高精度",
+
+"1/100,000 高分辨率，符合 OIML II 级及 ĐLVN 16:2009 标准",
+
+"支持全量程去皮和外部校准",
+
+"支持称重、计数、百分比称量、检重和黄金称量",
+
+"可选配 RS232 接口连接电脑或打印机",
+
+"180 x 160 mm 不锈钢秤盘",
+
+"16.5mm 高白色背光 LCD 显示屏",
+
+"ABS 塑料外壳，结构紧凑",
+
+"150% 最大称量安全过载保护",
+
+"稳定时间约 3 秒"
+
+        ]
+    }
+},
 };
 
 
