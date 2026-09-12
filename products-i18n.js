@@ -2559,128 +2559,188 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL BTW Industrial Weight Indicator",
+        name: "EXCELL SI-132 High Resolution Weighing Scale",
 
         origin: "Taiwan",
 
-        description: "The EXCELL BTW weight indicator is a robust industrial design suitable for bench scales, floor scales, and industrial weighing systems. It features a clear LCD/LED display and supports multiple weighing and check functions for stable performance in demanding environments.",
+        description: "EXCELL SI-132 high resolution weighing scale provides 1/30,000 display resolution and is designed for accurate weighing, checking and counting applications in laboratories, production and quality control. It features digital calibration, a large 6-digit LCD display with LED backlight, multiple weighing units and functions including counting, check weighing, weight hold and gross/net indication.",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
+<th>Capacity</th>
+<th>Division</th>
 <th>Resolution</th>
-<th>Internal Resolution</th>
-<th>Units</th>
-<th>Loadcell Connection</th>
 </tr>
 
 <tr>
-<td>BTW</td>
-<td>1/15,000</td>
+<td>1.5kg</td>
+<td>0.05g</td>
 <td>1/30,000</td>
-<td>kg / lb</td>
-<td>4-wire or 6-wire loadcell</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+<td>1/30,000</td>
 </tr>
 
 </table>`,
 
-"OIML Class III accuracy standard",
+"1/30,000 display resolution",
 
-"6-digit LCD display with green backlight or red LED",
+"Digital calibration",
 
-"Digit height: 25mm",
+"6-digit LCD display with 18mm digit height",
 
-"Indicator size: 235 × 165 × 127 mm",
+"LED backlight",
 
-"Functions: weighing, simple counting, tare, accumulation",
+"Weighing units: kg / g / lb / oz",
 
-"HI / OK / LO check weighing function",
+"Full-range tare function",
 
-"Auto zero tracking at startup",
+"Auto-zero tracking",
 
-"Automatic calibration function",
+"Adjustable gravity value",
 
-"Digital filtering for noise reduction",
+"Simple counting function",
 
-"PCB coated for moisture and anti-interference protection",
+"Gross / Net weight indication",
 
-"RS232 communication port",
+"Weight hold function",
 
-"Power supply: AC 110V/220V ±10% or DC 6V/4.4Ah rechargeable battery",
+"Check weighing mode: Lo / Hi / OK",
 
-"Battery operating time: approximately 72 hours",
+"Automatic average unit weight calculation",
+
+"Leveling bubble and adjustable feet",
+
+"Low power indication",
+
+"Automatic power-off function",
+
+"Power supply: DC 12V/1A adapter or 4 × UM-2 1.5V dry batteries",
 
 "Operating temperature: 0°C ~ 40°C",
 
-"Designed for industrial and warehouse environments"
+"Scale dimensions: 213 × 81.2 × 284 mm",
+
+"Plastic platter: 196 × 174 mm",
+
+"Optional stainless steel platter: 198 × 176 mm",
+
+"Optional RS232C or serial printer output",
+
+"Compact design suitable for precision weighing and checking applications"
 
         ]
     },
 
     zh: {
 
-        name: "EXCELL BTW工业称重仪表",
+        name: "EXCELL SI-132高精度计重秤",
 
         origin: "台湾",
 
-        description: "EXCELL BTW称重仪表采用坚固工业设计，适用于台秤、地磅及工业称重系统。配备清晰LCD/LED显示屏，支持多种称重及检重功能，适用于复杂工业环境。",
+        description: "EXCELL SI-132高精度计重秤具有1/30,000显示分辨率，适用于实验室、生产及质量检测中的精密称重、重量检测和计数应用。采用数字校准、大型6位LCD显示屏及LED背光，并支持多种称重单位以及计数、检重、重量保持和毛重/净重显示等功能。",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
+<th>最大秤量</th>
+<th>分度值</th>
 <th>分辨率</th>
-<th>内部分辨率</th>
-<th>单位</th>
-<th>传感器连接</th>
 </tr>
 
 <tr>
-<td>BTW</td>
-<td>1/15,000</td>
+<td>1.5kg</td>
+<td>0.05g</td>
 <td>1/30,000</td>
-<td>kg / lb</td>
-<td>4线或6线传感器</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+<td>1/30,000</td>
 </tr>
 
 </table>`,
 
-"符合OIML III级精度标准",
+"显示分辨率：1/30,000",
 
-"6位LCD显示，绿色背光或红色LED",
+"数字校准功能",
 
-"数字高度：25mm",
+"6位LCD显示屏，字高18mm",
 
-"仪表尺寸：235 × 165 × 127 mm",
+"LED背光显示",
 
-"功能：称重、简单计数、去皮、累计",
+"称重单位：kg / g / lb / oz",
 
-"重量检测功能（HI / OK / LO）",
+"全范围去皮功能",
 
-"开机自动置零",
+"自动零点跟踪",
 
-"自动校准功能",
+"可调重力值",
 
-"数字滤波抗干扰设计",
+"简易计数功能",
 
-"电路板防潮防干扰涂层处理",
+"毛重/净重显示",
 
-"RS232通讯接口",
+"重量保持功能",
 
-"电源：AC 110V/220V ±10%或DC 6V/4.4Ah充电电池",
+"检重模式：Lo / Hi / OK",
 
-"电池续航时间约72小时",
+"自动平均单重计算",
+
+"配备水平气泡及可调脚",
+
+"低电量提示",
+
+"自动关机功能",
+
+"电源：DC 12V/1A适配器或4节UM-2 1.5V干电池",
 
 "工作温度：0°C ~ 40°C",
 
-"适用于工业及仓储环境"
+"秤体尺寸：213 × 81.2 × 284 mm",
 
-    ]
+"塑料秤盘：196 × 174 mm",
+
+"可选不锈钢秤盘：198 × 176 mm",
+
+"可选RS232C或串行打印机输出",
+
+"结构紧凑，适用于精密称重及重量检测"
+
+        ]
     }
 },
 17: {

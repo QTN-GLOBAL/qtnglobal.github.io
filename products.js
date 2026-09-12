@@ -1386,21 +1386,21 @@ window.products = [
 
 ]
 },
-    {
-business:"measure",
+  {
+    business:"measure",
     id:16,
 
-    name:"Đầu Cân Điện Tử BTW",
+    name:"Cân bàn kỹ thuật Excell SI-132",
 
-    category:"dau-can-dien-tu",
+    category:"can-phan-tich",
 
-    folder:"btw",
+    folder:"si132",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân điện tử BTW Excell thiết kế công nghiệp chắc chắn, độ ổn định cao, phù hợp lắp cho cân bàn, cân sàn và hệ thống cân công nghiệp. Màn hình LCD hoặc LED dễ quan sát, hỗ trợ nhiều chức năng cân và kiểm tra trọng lượng.",
+    description:"Cân bàn kỹ thuật Excell SI-132 là dòng cân có độ phân giải cao 1/30.000, thiết kế phù hợp cho các ứng dụng cân chính xác, cân kiểm tra, cân đếm trong phòng thí nghiệm, sản xuất và kiểm soát chất lượng. Cân sử dụng màn hình LCD 6 số có đèn nền LED, hiệu chuẩn kỹ thuật số, hỗ trợ nhiều đơn vị cân và các chức năng cân đếm, kiểm tra trọng lượng, giữ giá trị và hiển thị Gross/Net.",
 
     specs:[
 
@@ -1408,53 +1408,83 @@ business:"measure",
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
+<th>Mức cân</th>
+<th>Bước nhảy</th>
 <th>Độ phân giải</th>
-<th>Độ phân giải nội</th>
-<th>Đơn vị cân</th>
-<th>Kết nối Loadcell</th>
 </tr>
 
 <tr>
-<td>BTW</td>
-<td>1/15.000</td>
+<td>1.5kg</td>
+<td>0.05g</td>
 <td>1/30.000</td>
-<td>kg / lb</td>
-<td>4 dây hoặc 6 dây</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+<td>1/30.000</td>
 </tr>
 
 </table>
 `,
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Độ phân giải hiển thị: 1/30.000",
 
-"Màn hình LCD 6 số đèn nền xanh hoặc LED đỏ",
+"Hiệu chuẩn kỹ thuật số",
 
-"Chiều cao số hiển thị: 25mm",
+"Màn hình LCD 6 số, chiều cao số 18mm",
 
-"Kích thước đầu cân: 235 × 165 × 127 mm",
+"Đèn nền LED",
 
-"Chức năng: cân trọng lượng, đếm đơn giản, trừ bì, cộng dồn",
+"Đơn vị cân: kg / g / lb / oz",
 
-"Chức năng kiểm tra trọng lượng HI / OK / LO",
+"Chức năng trừ bì toàn phần",
 
-"Tự động về zero khi khởi động",
+"Tự động theo dõi điểm zero",
 
-"Tự động hiệu chỉnh trọng lượng",
+"Điều chỉnh giá trị trọng lực",
 
-"Bộ lọc chống nhiễu môi trường",
+"Chức năng cân đếm đơn giản",
 
-"Board mạch phủ keo chống ẩm và chống nhiễm từ",
+"Hiển thị trọng lượng Gross / Net",
 
-"Cổng giao tiếp RS232",
+"Chức năng giữ giá trị trọng lượng",
 
-"Nguồn điện: AC 110V/220V ±10% hoặc pin sạc DC 6V/4.4Ah",
+"Chức năng kiểm tra trọng lượng Lo / Hi / OK",
 
-"Thời gian sử dụng pin: khoảng 72 giờ",
+"Tự động tính trọng lượng đơn vị trung bình",
+
+"Có bọt thủy cân bằng và chân cân điều chỉnh",
+
+"Cảnh báo pin yếu",
+
+"Tự động tắt nguồn",
+
+"Nguồn điện: Adaptor DC 12V/1A hoặc 4 pin UM-2 1.5V",
 
 "Nhiệt độ hoạt động: 0°C ~ 40°C",
 
-"Thiết kế phù hợp môi trường công nghiệp và kho vận"
+"Kích thước cân: 213 × 81.2 × 284 mm",
+
+"Đĩa cân nhựa: 196 × 174 mm",
+
+"Đĩa cân inox tùy chọn: 198 × 176 mm",
+
+"Cổng RS232 hoặc ngõ ra máy in tùy chọn",
+
+"Thiết kế nhỏ gọn, phù hợp cho cân kỹ thuật và kiểm tra chính xác"
 
 ]
 },
