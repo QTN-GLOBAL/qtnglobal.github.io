@@ -3130,6 +3130,83 @@ business:"measure",
 "Chân đế cao su chống trượt"
 ]
 },
+{
+    business:"measure",
+    id:42,
+
+    name:"Cân điện tử Ohaus T31P 150kg",
+
+    category:"can-ban",
+
+    folder:"ohaus-t31p-100kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T31P 150kg thuộc dòng cân bàn Ohaus Defender 3000, phù hợp sử dụng trong cân hàng hóa, sản xuất, kho bãi và kiểm kê. Cân hỗ trợ các chức năng cân, đếm mẫu và trừ bì, màn hình LCD có đèn nền dễ quan sát, kết nối RS232 và sử dụng nguồn AC hoặc pin sạc. Phiên bản 150kg có độ đọc 20g, phù hợp cho các ứng dụng cân hàng hóa và kiểm tra trọng lượng trong công nghiệp.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải hiển thị</th>
+</tr>
+
+<tr>
+<td>T31P-150</td>
+<td>150kg</td>
+<td>20g</td>
+<td>1/6,000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 150kg",
+
+"Độ đọc: 20g",
+
+"Độ phân giải hiển thị: 1/6,000",
+
+"Chức năng: Cân, đếm mẫu, trừ bì",
+
+"Màn hình: LCD 6 số có đèn nền",
+
+"Chiều cao số hiển thị: 25mm",
+
+"Đơn vị cân: kg, g, lb, oz, lb:oz",
+
+"Chức năng zero",
+
+"Chức năng trừ bì",
+
+"Thời gian ổn định: khoảng 2 giây",
+
+"Kết nối: RS232",
+
+"Nguồn điện: AC Adapter và pin sạc",
+
+"Thời gian sử dụng pin: lên đến 80 giờ",
+
+"Loadcell: Hợp kim nhôm, cấp bảo vệ IP65",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Kích thước bàn cân: 400 x 500mm",
+
+"Nắp bàn cân: Inox 304",
+
+"Khung cân: Thép sơn tĩnh điện",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh cân bằng"
+]
+},
 
 
 

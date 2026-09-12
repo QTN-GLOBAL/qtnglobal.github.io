@@ -4996,7 +4996,144 @@ window.productTranslations = {
         ]
     }
 },
+42: {
 
+    en: {
+
+        name:"OHAUS T31P 150kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T31P 150kg electronic platform scale belongs to the OHAUS Defender 3000 series and is suitable for weighing goods, production, warehousing and inventory applications. The scale supports weighing, parts counting and tare functions, with a backlit LCD display, RS232 communication and rechargeable battery operation. The 150kg version provides 20g readability and is suitable for industrial and commercial weighing applications.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Display Resolution</th>
+</tr>
+
+<tr>
+<td>T31P-150</td>
+<td>150kg</td>
+<td>20g</td>
+<td>1/6,000</td>
+</tr>
+
+</table>`,
+
+"Capacity: 150kg",
+
+"Readability: 20g",
+
+"Display resolution: 1/6,000",
+
+"Functions: Weighing, parts counting and tare",
+
+"Display: 6-digit LCD with backlight",
+
+"Digit height: 25mm",
+
+"Weighing units: kg, g, lb, oz, lb:oz",
+
+"Zero function",
+
+"Tare function",
+
+"Stabilization time: approximately 2 seconds",
+
+"Communication: RS232",
+
+"Power supply: AC adapter and rechargeable battery",
+
+"Battery operating time: up to 80 hours",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Safe overload: 125% of capacity",
+
+"Platform size: 400 x 500mm",
+
+"Platform cover: Stainless steel 304",
+
+"Scale frame: Powder-coated steel",
+
+"Adjustable non-slip rubber feet"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T31P 150kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T31P 150kg电子台秤属于OHAUS Defender 3000系列，适用于货物称重、生产、仓储及库存管理。该型号支持称重、数量计数和去皮功能，配备带背光LCD显示屏、RS232通信接口以及可充电电池。150kg型号分度值为20g，适用于工业及商业称重应用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>显示分辨率</th>
+</tr>
+
+<tr>
+<td>T31P-150</td>
+<td>150kg</td>
+<td>20g</td>
+<td>1/6,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：150kg",
+
+"分度值：20g",
+
+"显示分辨率：1/6,000",
+
+"功能：称重、数量计数和去皮",
+
+"显示屏：6位LCD，带背光",
+
+"数字高度：25mm",
+
+"称重单位：kg、g、lb、oz、lb:oz",
+
+"归零功能",
+
+"去皮功能",
+
+"稳定时间：約2秒",
+
+"通信接口：RS232",
+
+"电源：AC适配器和充电电池",
+
+"电池使用时间：最长约80小时",
+
+"称重传感器：铝合金，IP65",
+
+"安全过载：最大称量的125%",
+
+"秤台尺寸：400 x 500mm",
+
+"秤盘：304不锈钢",
+
+"秤体框架：喷涂钢材",
+
+"可调节防滑橡胶脚"
+        ]
+    }
+},
 };
 
 
