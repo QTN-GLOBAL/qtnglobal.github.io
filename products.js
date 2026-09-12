@@ -1316,7 +1316,7 @@ window.products = [
 
     name:"Cân điện tử kỹ thuật Excell KPS",
 
-    category:"can-phan-tich",
+    category:"can-ban",
 
     folder:"kps",
 
