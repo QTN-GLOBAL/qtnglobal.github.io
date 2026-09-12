@@ -5284,6 +5284,306 @@ window.productTranslations = {
         ]
     }
 },
+44: {
+
+    en: {
+
+        name:"OHAUS T31P 300kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T31P 300kg electronic platform scale belongs to the OHAUS Defender 3000 series and is suitable for goods weighing, production, warehousing, inventory and weight checking. The 300kg model provides 50g readability and uses a 500 x 600mm platform. It features a 6-digit backlit LCD display and supports weighing and parts counting. The indicator includes RS232 communication, AC power and a rechargeable battery for industrial and commercial weighing applications.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>T31P-300</td>
+<td>300kg</td>
+<td>50g</td>
+<td>1/6,000</td>
+</tr>
+
+</table>`,
+
+"Capacity: 300kg",
+
+"Readability: 50g",
+
+"Display resolution: 1/6,000",
+
+"User-configurable resolution: up to 1/20,000d",
+
+"Functions: Weighing and parts counting",
+
+"Display: 6-digit, 7-segment LCD, 25mm digit height",
+
+"LED backlight",
+
+"Weighing units: kg, g, lb, oz, lb:oz",
+
+"Tare function",
+
+"Automatic zero tracking",
+
+"Stabilization time: approximately 2 seconds",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Safe overload: 125% of capacity",
+
+"Communication: RS232",
+
+"Power supply: 9 - 12VDC, 0.5A, AC adapter",
+
+"Built-in rechargeable battery, typical operating time up to 100 hours",
+
+"Platform size: 500 x 600mm",
+
+"Scale frame: Painted steel",
+
+"Platform cover: Stainless steel 304",
+
+"Adjustable non-slip rubber feet",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Relative humidity: up to 80%, non-condensing"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T31P 300kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T31P 300kg电子台秤属于OHAUS Defender 3000系列，适用于货物称重、生产、仓储、库存管理及重量检查。300kg型号分度值为50g，配备500 x 600mm秤台。显示器采用6位带背光LCD，并支持称重和数量计数功能。秤体配备RS232通信接口、AC电源及充电电池，适用于工业及商业称重应用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>T31P-300</td>
+<td>300kg</td>
+<td>50g</td>
+<td>1/6,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：300kg",
+
+"分度值：50g",
+
+"显示分辨率：1/6,000",
+
+"用户可设定分辨率：最高1/20,000d",
+
+"功能：称重和数量计数",
+
+"显示屏：6位、7段LCD，数字高度25mm",
+
+"LED背光",
+
+"称重单位：kg、g、lb、oz、lb:oz",
+
+"去皮功能",
+
+"自动零点跟踪",
+
+"稳定时间：約2秒",
+
+"称重传感器：铝合金，IP65",
+
+"安全过载：最大称量的125%",
+
+"通信接口：RS232",
+
+"电源：9 - 12VDC、0.5A、AC适配器",
+
+"内置充电电池，典型使用时间最长约100小时",
+
+"秤台尺寸：500 x 600mm",
+
+"秤体框架：喷涂钢材",
+
+"秤盘：304不锈钢",
+
+"可调节防滑橡胶脚",
+
+"工作温度：-10°C ~ 40°C",
+
+"相对湿度：最高80%，无冷凝"
+        ]
+    }
+},
+45: {
+
+    en: {
+
+        name:"OHAUS T31P 500kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T31P 500kg electronic platform scale is part of the OHAUS Defender 3000 series and is suitable for weighing goods in warehouses, factories, production facilities, agricultural applications and industrial environments. The 500kg model provides 100g readability and uses a 600 x 800mm platform. The T31P indicator features a backlit LCD display, weighing and parts counting functions, RS232 communication and a rechargeable battery for flexible industrial operation.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Platform Size</th>
+</tr>
+
+<tr>
+<td>T31P-500</td>
+<td>500kg</td>
+<td>100g</td>
+<td>600 x 800mm</td>
+</tr>
+
+</table>`,
+
+"Capacity: 500kg",
+
+"Readability: 100g",
+
+"User-configurable resolution: up to 20,000d",
+
+"Certified resolution: 6,000e",
+
+"Functions: Weighing and parts counting",
+
+"Display: 6-digit LCD with backlight",
+
+"Digit height: 25mm",
+
+"Weighing units: kg, g, lb, oz, lb:oz",
+
+"Tare function",
+
+"Automatic zero tracking",
+
+"Stabilization time: approximately 2 seconds",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Safe overload: 125% of capacity",
+
+"Communication: RS232",
+
+"Power supply: AC adapter or rechargeable battery",
+
+"Battery life: up to 100 hours",
+
+"Platform size: 600 x 800mm",
+
+"Powder-coated steel frame",
+
+"Stainless steel 304 platform",
+
+"Adjustable non-slip rubber feet",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Humidity: up to 85%, non-condensing"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T31P 500kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T31P 500kg电子台秤属于OHAUS Defender 3000系列，适用于仓库、工厂、生产、农产品及工业环境中的货物称重。500kg型号分度值为100g，配备600 x 800mm秤台。T31P显示器采用带背光LCD显示屏，支持称重和数量计数功能，并配备RS232通信接口及充电电池，适合工业称重应用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
+</tr>
+
+<tr>
+<td>T31P-500</td>
+<td>500kg</td>
+<td>100g</td>
+<td>600 x 800mm</td>
+</tr>
+
+</table>`,
+
+"最大称量：500kg",
+
+"分度值：100g",
+
+"用户可设定分辨率：最高20,000d",
+
+"认证分辨率：6,000e",
+
+"功能：称重和数量计数",
+
+"显示屏：6位LCD，带背光",
+
+"数字高度：25mm",
+
+"称重单位：kg、g、lb、oz、lb:oz",
+
+"去皮功能",
+
+"自动零点跟踪",
+
+"稳定时间：約2秒",
+
+"称重传感器：铝合金，IP65",
+
+"安全过载：最大称量的125%",
+
+"通信接口：RS232",
+
+"电源：AC适配器或充电电池",
+
+"电池使用时间：最长约100小时",
+
+"秤台尺寸：600 x 800mm",
+
+"喷涂钢制框架",
+
+"304不锈钢秤盘",
+
+"可调节防滑橡胶脚",
+
+"工作温度：-10°C ~ 40°C",
+
+"湿度：最高85%，无冷凝"
+        ]
+    }
+},
 };
 
 

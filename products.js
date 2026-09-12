@@ -3290,6 +3290,172 @@ business:"measure",
 "Đầu cân T31P vỏ nhựa ABS"
 ]
 },
+{
+    business:"measure",
+    id:44,
+
+    name:"Cân điện tử Ohaus T31P 300kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t31p-100kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T31P 300kg thuộc dòng cân bàn Ohaus Defender 3000, phù hợp sử dụng trong cân hàng hóa, sản xuất, kho bãi, kiểm kê và kiểm tra trọng lượng. Model 300kg có độ đọc 50g, bàn cân kích thước 500 x 600mm, màn hình LCD 6 số có đèn nền và hỗ trợ các chức năng cân, đếm mẫu. Cân được trang bị cổng RS232, nguồn AC và pin sạc, đáp ứng tốt các nhu cầu cân trong môi trường công nghiệp và thương mại.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>T31P-300</td>
+<td>300kg</td>
+<td>50g</td>
+<td>1/6,000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 300kg",
+
+"Độ đọc: 50g",
+
+"Độ phân giải hiển thị: 1/6,000",
+
+"Độ phân giải người dùng cấu hình: tối đa 1/20,000d",
+
+"Chức năng: Cân và đếm mẫu",
+
+"Màn hình: LCD 6 số, 7 đoạn, chiều cao số 25mm",
+
+"Đèn nền LED",
+
+"Đơn vị cân: kg, g, lb, oz, lb:oz",
+
+"Chức năng trừ bì",
+
+"Chức năng tự động về Zero",
+
+"Thời gian ổn định: khoảng 2 giây",
+
+"Loadcell: Hợp kim nhôm, cấp bảo vệ IP65",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Kết nối: RS232",
+
+"Nguồn điện: 9 - 12VDC, 0.5A, Adapter AC",
+
+"Pin sạc tích hợp, thời gian sử dụng điển hình lên đến 100 giờ",
+
+"Kích thước bàn cân: 500 x 600mm",
+
+"Khung cân: Thép sơn",
+
+"Nắp bàn cân: Inox 304",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh cân bằng",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm tương đối: tối đa 80%, không ngưng tụ"
+]
+},
+{
+    business:"measure",
+    id:45,
+
+    name:"Cân điện tử Ohaus T31P 500kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t31p-100kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T31P 500kg là dòng cân bàn công nghiệp thuộc Ohaus Defender 3000, phù hợp sử dụng để cân hàng hóa trong kho, nhà xưởng, sản xuất, nông sản và các ứng dụng công nghiệp. Model 500kg có độ đọc 100g, sử dụng bàn cân kích thước 600 x 800mm. Đầu cân T31P được trang bị màn hình LCD có đèn nền, chức năng cân và đếm mẫu, cổng RS232 và pin sạc, mang lại khả năng vận hành linh hoạt trong môi trường công nghiệp.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Kích thước bàn cân</th>
+</tr>
+
+<tr>
+<td>T31P-500</td>
+<td>500kg</td>
+<td>100g</td>
+<td>600 x 800mm</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 500kg",
+
+"Độ đọc: 100g",
+
+"Độ phân giải người dùng cấu hình: tối đa 1/20,000d",
+
+"Độ phân giải được chứng nhận: 1/6,000e",
+
+"Chức năng: Cân và đếm mẫu",
+
+"Màn hình: LCD 6 số, có đèn nền",
+
+"Chiều cao số hiển thị: 25mm",
+
+"Đơn vị cân: kg, g, lb, oz, lb:oz",
+
+"Chức năng trừ bì",
+
+"Chức năng tự động về Zero",
+
+"Thời gian ổn định: khoảng 2 giây",
+
+"Loadcell: Hợp kim nhôm, cấp bảo vệ IP65",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Kết nối: RS232",
+
+"Nguồn điện: Adapter AC hoặc pin sạc",
+
+"Thời gian sử dụng pin: lên đến 100 giờ",
+
+"Kích thước bàn cân: 600 x 800mm",
+
+"Khung cân: Thép sơn tĩnh điện",
+
+"Mặt bàn cân: Inox 304",
+
+"Chân đế cao su chống trượt, có thể điều chỉnh cân bằng",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm: tối đa 85%, không ngưng tụ"
+]
+},
 
 
 
