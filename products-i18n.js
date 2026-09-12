@@ -5584,6 +5584,156 @@ window.productTranslations = {
         ]
     }
 },
+46: {
+
+    en: {
+
+        name:"OHAUS T31P 60kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T31P 60kg electronic platform scale belongs to the OHAUS Defender 3000 series and is suitable for goods weighing, production, warehousing, inventory and weight checking. The 60kg model provides 10g readability and uses a 400 x 500mm platform. It features a 6-digit backlit LCD display and supports weighing, tare and parts counting functions. The indicator includes RS232 communication, AC power and a rechargeable battery for flexible industrial and commercial use.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Platform Size</th>
+</tr>
+
+<tr>
+<td>T31P-60</td>
+<td>60kg</td>
+<td>10g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>`,
+
+"Capacity: 60kg",
+
+"Readability: 10g",
+
+"Display resolution: 1/7,500",
+
+"Certified resolution: 1/3,000e",
+
+"Functions: Weighing, tare and parts counting",
+
+"Display: 6-digit LCD with backlight",
+
+"Digit height: 25mm",
+
+"Weighing units: kg, g, lb, oz, lb:oz",
+
+"Zero function",
+
+"Tare function",
+
+"Parts counting function",
+
+"Stabilization time: approximately 2 seconds",
+
+"Load cell: Aluminum alloy, IP65",
+
+"Safe overload: 125% of capacity",
+
+"Communication: RS232",
+
+"Power supply: 9VDC, 0.5A, AC adapter",
+
+"Built-in rechargeable battery, operating time up to 80 hours",
+
+"Platform size: 400 x 500mm",
+
+"Powder-coated steel frame",
+
+"Stainless steel 304 platform",
+
+"Adjustable non-slip rubber feet",
+
+"Operating temperature: -10°C ~ 40°C"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T31P 60kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T31P 60kg电子台秤属于OHAUS Defender 3000系列，适用于货物称重、生产、仓储、库存管理及重量检查。60kg型号分度值为10g，配备400 x 500mm秤台。秤体采用6位带背光LCD显示屏，并支持称重、去皮和数量计数功能。显示器配备RS232通信接口，并使用AC电源及充电电池，适合工业及商业称重应用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>秤台尺寸</th>
+</tr>
+
+<tr>
+<td>T31P-60</td>
+<td>60kg</td>
+<td>10g</td>
+<td>400 x 500mm</td>
+</tr>
+
+</table>`,
+
+"最大称量：60kg",
+
+"分度值：10g",
+
+"显示分辨率：1/7,500",
+
+"认证分辨率：1/3,000e",
+
+"功能：称重、去皮和数量计数",
+
+"显示屏：6位LCD，带背光",
+
+"数字高度：25mm",
+
+"称重单位：kg、g、lb、oz、lb:oz",
+
+"归零功能",
+
+"去皮功能",
+
+"数量计数功能",
+
+"稳定时间：約2秒",
+
+"称重传感器：铝合金，IP65",
+
+"安全过载：最大称量的125%",
+
+"通信接口：RS232",
+
+"电源：9VDC、0.5A、AC适配器",
+
+"内置充电电池，使用时间最长约80小时",
+
+"秤台尺寸：400 x 500mm",
+
+"喷涂钢制框架",
+
+"304不锈钢秤盘",
+
+"可调节防滑橡胶脚",
+
+"工作温度：-10°C ~ 40°C"
+        ]
+    }
+},
 };
 
 
