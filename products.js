@@ -1392,7 +1392,7 @@ window.products = [
 
     name:"Cân bàn kỹ thuật Excell SI-132",
 
-    category:"can-phan-tich",
+    category:"can-ban",
 
     folder:"si132",
 
