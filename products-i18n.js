@@ -1847,118 +1847,180 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL GW Waterproof Weight Indicator (IP68)",
+        name: "EXCELL AWH4 Electronic Weighing Scale",
 
         origin: "Taiwan",
 
-        description: "EXCELL GW IP68 waterproof weight indicator is specially designed for wet, seafood, food processing and industrial environments. Stainless steel waterproof housing, super bright LED display, stable operation under harsh conditions.",
+        description: "EXCELL AWH4 electronic weighing scale is a high-precision bench scale designed for weighing, counting and weight checking applications. With a clear LCD display, digital calibration and stable operation, the AWH4 is suitable for production, warehousing, packaging and industrial environments.",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Resolution</th>
-<th>Units</th>
-<th>Power Supply</th>
+<th>Capacity</th>
+<th>Graduation</th>
+<th>Pan Size</th>
+<th>Scale Size</th>
 </tr>
 
 <tr>
-<td>GW-IP68</td>
-<td>1/30,000</td>
-<td>kg</td>
-<td>AC 220V or rechargeable 6V/4Ah battery</td>
+<td>1.5kg</td>
+<td>0.05g</td>
+<td rowspan="6">280 × 230 mm</td>
+<td rowspan="6">275 × 105 × 310 mm</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>7.5kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>30kg</td>
+<td>1g</td>
 </tr>
 
 </table>`,
 
-"IP68 waterproof protection standard",
+"Resolution: 1/30,000",
 
-"Super bright red LED display",
+"High-speed reading with 24-bit signal processing",
 
-"OIML Class III accuracy standard",
+"Digital calibration",
 
-"Supports 4-wire or 6-wire load cell connection",
+"6-digit LCD display",
 
-"Supports multiple capacities: 30kg / 60kg / 100kg / 150kg / 300kg / 500kg / 1 ton",
+"Stainless steel weighing pan, 280 × 230 mm",
 
-"Functions: weighing, tare, accumulation, weight check",
+"Weighing function",
 
-"Automatic zero tracking on startup",
+"Tare and zero functions",
 
-"Overload alarm function",
+"Counting function",
 
-"Waterproof and dustproof keypad",
+"Weight check function with HI-OK-LO indication",
 
-"Stainless steel 304 housing, anti-corrosion",
+"Low battery and full battery warning",
 
-"RS232 communication port",
+"Automatic stable weight detection",
 
-"Battery life approx. 60 ~ 80 hours",
+"Power supply: AC 110V/220V and rechargeable DC 6V/4Ah battery",
 
-"Operating temperature: -10°C ~ 40°C",
+"Operating temperature: 0°C ~ 40°C",
 
-"Designed for seafood and food processing environments"
+"Optional RS232 communication port",
+
+"Optional Bluetooth, WIFI or RJ45 communication",
+
+"OIML R76 accuracy standard",
+
+"Compact design suitable for production, warehousing and packaging"
 
         ]
     },
 
     zh: {
 
-        name: "EXCELL GW防水称重仪表（IP68）",
+        name: "EXCELL AWH4电子台秤",
 
         origin: "台湾",
 
-        description: "EXCELL GW IP68防水称重仪表专为潮湿、水产、食品加工及工业环境设计。不锈钢防水外壳，超亮LED显示屏，在恶劣环境下仍保持稳定运行。",
+        description: "EXCELL AWH4电子台秤是一款高精度电子秤，适用于称重、计数及重量检测等应用。采用清晰LCD显示屏、数字校准及稳定的称重系统，适合生产、仓储、包装及工业环境使用。",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
-<th>分辨率</th>
-<th>计量单位</th>
-<th>电源</th>
+<th>最大秤量</th>
+<th>分度值</th>
+<th>秤盘尺寸</th>
+<th>秤体尺寸</th>
 </tr>
 
 <tr>
-<td>GW-IP68</td>
-<td>1/30,000</td>
-<td>kg</td>
-<td>AC 220V或6V/4Ah充电电池</td>
+<td>1.5kg</td>
+<td>0.05g</td>
+<td rowspan="6">280 × 230 mm</td>
+<td rowspan="6">275 × 105 × 310 mm</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>7.5kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>30kg</td>
+<td>1g</td>
 </tr>
 
 </table>`,
 
-"IP68防水等级",
+"分辨率：1/30,000",
 
-"超亮红色LED显示屏",
+"高速读取，采用24位信号处理",
 
-"符合OIML III级精度标准",
+"数字校准功能",
 
-"支持4线或6线称重传感器",
+"6位LCD液晶显示屏",
 
-"支持多种量程：30kg / 60kg / 100kg / 150kg / 300kg / 500kg / 1吨",
+"不锈钢秤盘，尺寸280 × 230 mm",
 
-"功能：称重、去皮、累加、重量检测",
+"称重功能",
 
-"开机自动归零",
+"去皮及归零功能",
 
-"过载报警功能",
+"计数功能",
 
-"防水防尘按键设计",
+"重量检重功能，支持HI-OK-LO提示",
 
-"304不锈钢外壳，防腐蚀",
+"低电量及充电完成提示",
 
-"RS232通讯接口",
+"自动稳定检测功能",
 
-"电池续航约60~80小时",
+"电源：AC 110V/220V及DC 6V/4Ah充电电池",
 
-"工作温度：-10°C ~ 40°C",
+"工作温度：0°C ~ 40°C",
 
-"专用于水产及食品加工环境"
+"可选RS232通讯接口",
+
+"可选蓝牙、WIFI或RJ45通讯功能",
+
+"符合OIML R76精度标准",
+
+"结构紧凑，适用于生产、仓储及包装环境"
 
         ]
     }
@@ -1967,138 +2029,174 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL KW Weight Indicator",
+        name: "EXCELL SI-130 Electronic Weighing Scale",
 
         origin: "Taiwan",
 
-        description: "EXCELL KW weight indicator is a high-precision multi-function display unit designed for bench scales, floor scales, and industrial weighing systems. Large LCD display, supports weighing, counting, and weight check functions.",
+        description: "EXCELL SI-130 electronic weighing scale is a compact and accurate weighing scale designed for general weighing, checking, retail, production and warehouse applications. It supports kg, g, lb and oz weighing units, full-range tare, auto-zero tracking, simple counting and gross/net weight indication. The scale features a large LCD display with optional LED backlight and can operate with an AC adapter or dry batteries.",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
+<th>Capacity</th>
+<th>Division</th>
 <th>Resolution</th>
-<th>Units</th>
-<th>Power Supply</th>
 </tr>
 
 <tr>
-<td>KW</td>
-<td>1/15,000</td>
-<td>kg / lb</td>
-<td>AC 110V/220V or DC 6V/4Ah rechargeable battery</td>
+<td>2.5kg</td>
+<td>0.5g</td>
+<td>1/5,000</td>
+</tr>
+
+<tr>
+<td>5kg</td>
+<td>1g</td>
+<td>1/5,000</td>
+</tr>
+
+<tr>
+<td>10kg</td>
+<td>2g</td>
+<td>1/5,000</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>5g</td>
+<td>1/5,000</td>
 </tr>
 
 </table>`,
 
-"Brand: Excell",
+"Up to 1/5,000 display resolution",
 
-"OIML Class III accuracy standard",
+"Digital calibration",
 
-"6-digit LCD display with LED backlight",
+"LCD 5 1/2 digits, 18mm digit height",
 
-"Digit height: 25mm",
+"LED backlight option",
 
-"Display size: 132 × 49mm",
+"Weighing units: kg / g / lb / oz",
 
-"Indicator size: 245 × 170 × 153mm",
+"Full-range tare function",
+
+"Auto-zero tracking",
+
+"Adjustable gravity value",
+
+"Simple counting function",
+
+"Gross / Net weight indication",
+
+"Weight hold function",
+
+"Environmental filter setting for stable operation",
+
+"Low battery indication",
+
+"Automatic power-off function",
+
+"Power supply: DC 12V/1A adapter or 4 × UM-2 1.5V dry batteries",
 
 "Operating temperature: 0°C ~ 40°C",
 
-"Supports 4-wire or 6-wire load cell connection",
+"Scale dimensions: 213 × 80.4 × 284 mm",
 
-"Functions: weighing, counting, percentage calculation",
+"Plastic platter: 196 × 174 mm",
 
-"Check weigh function (HI / OK / LO)",
+"Optional stainless steel platter: 198 × 176 mm",
 
-"Automatic calibration and zero tracking",
-
-"Full tare and preset tare functions",
-
-"2-level overload protection",
-
-"15-level anti-interference filter settings",
-
-"3 HOLD modes for weight retention",
-
-"RS232 communication port",
-
-"Desktop or wall-mount installation",
-
-"Waterproof keypad with 3M adhesive seal",
-
-"Designed for industrial environments"
+"Compact design for convenient transportation and use"
 
         ]
     },
 
     zh: {
 
-        name: "EXCELL KW称重仪表",
+        name: "EXCELL SI-130电子秤",
 
         origin: "台湾",
 
-        description: "EXCELL KW称重仪表是一款高精度多功能显示设备，适用于台秤、地磅及工业称重系统。配备大屏LCD显示，可实现称重、计数及重量检测功能。",
+        description: "EXCELL SI-130电子秤是一款结构紧凑、精度稳定的电子秤，适用于一般称重、重量检测、零售、生产及仓储等应用。支持kg、g、lb和oz多种称重单位，具有全范围去皮、自动零点跟踪、简易计数及毛重/净重显示功能。采用大型LCD显示屏，可选LED背光，并支持适配器或干电池供电。",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
+<th>最大秤量</th>
+<th>分度值</th>
 <th>分辨率</th>
-<th>计量单位</th>
-<th>电源</th>
 </tr>
 
 <tr>
-<td>KW</td>
-<td>1/15,000</td>
-<td>kg / lb</td>
-<td>AC 110V/220V或DC 6V/4Ah充电电池</td>
+<td>2.5kg</td>
+<td>0.5g</td>
+<td>1/5,000</td>
+</tr>
+
+<tr>
+<td>5kg</td>
+<td>1g</td>
+<td>1/5,000</td>
+</tr>
+
+<tr>
+<td>10kg</td>
+<td>2g</td>
+<td>1/5,000</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>5g</td>
+<td>1/5,000</td>
 </tr>
 
 </table>`,
 
-"品牌：Excell",
+"显示分辨率最高可达1/5,000",
 
-"符合OIML III级精度标准",
+"数字校准功能",
 
-"6位LCD显示屏，LED背光",
+"LCD 5½位显示屏，字高18mm",
 
-"数字高度：25mm",
+"可选LED背光功能",
 
-"显示尺寸：132 × 49mm",
+"称重单位：kg / g / lb / oz",
 
-"仪表尺寸：245 × 170 × 153mm",
+"全范围去皮功能",
+
+"自动零点跟踪",
+
+"可调重力值",
+
+"简易计数功能",
+
+"毛重/净重显示",
+
+"重量保持功能",
+
+"环境滤波设置，提高称重稳定性",
+
+"低电量提示",
+
+"自动关机功能",
+
+"电源：DC 12V/1A适配器或4节UM-2 1.5V干电池",
 
 "工作温度：0°C ~ 40°C",
 
-"支持4线或6线称重传感器",
+"秤体尺寸：213 × 80.4 × 284 mm",
 
-"功能：称重、计数、百分比计算",
+"塑料秤盘：196 × 174 mm",
 
-"检重功能（HI / OK / LO）",
+"可选不锈钢秤盘：198 × 176 mm",
 
-"自动校准与零点追踪",
-
-"全量程去皮及预设去皮",
-
-"双级过载保护",
-
-"15级抗干扰滤波设置",
-
-"三种保持模式",
-
-"RS232通讯接口",
-
-"可桌面或壁挂安装",
-
-"3M防水密封按键设计",
-
-"适用于工业环境"
+"结构紧凑，方便移动和使用"
 
         ]
     }
@@ -2107,142 +2205,216 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL KC Counting Indicator",
+        name: "EXCELL BH High Precision Weighing Balance",
 
         origin: "Taiwan",
 
-        description: "EXCELL KC counting indicator is designed for industrial counting scales with high accuracy. It features a clear LCD display, supports piece counting and data accumulation. Suitable for bench scales, floor scales, and warehouse inventory systems.",
+        description: "EXCELL BH high precision weighing balance is designed for accurate weighing, counting and percentage applications in laboratories, production and quality control. It features high-speed 24-bit signal processing, digital calibration, an LCD display with LED backlight and support for multiple weighing units. The balance provides stable operation with auto zero tracking, double overload protection and built-in RS232 communication.",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Resolution</th>
-<th>Units</th>
-<th>Power Supply</th>
+<th>Capacity</th>
+<th>Division</th>
 </tr>
 
 <tr>
-<td>KC</td>
-<td>1/15,000</td>
-<td>kg / lb</td>
-<td>AC 110V/220V or DC 6V/4.5Ah rechargeable battery</td>
+<td>150g</td>
+<td>0.005g</td>
+</tr>
+
+<tr>
+<td>300g</td>
+<td>0.005g / 0.01g</td>
+</tr>
+
+<tr>
+<td>600g</td>
+<td>0.01g / 0.02g</td>
+</tr>
+
+<tr>
+<td>1200g</td>
+<td>0.02g</td>
+</tr>
+
+<tr>
+<td>1500g</td>
+<td>0.05g</td>
+</tr>
+
+<tr>
+<td>3000g</td>
+<td>0.05g / 0.1g</td>
 </tr>
 
 </table>`,
 
-"Brand: Excell",
+"Display resolution: 1/30,000 or 1/60,000",
 
-"OIML Class III accuracy standard",
+"Internal resolution: 600,000",
 
-"3-window LCD display with LED backlight",
+"High-speed 24-bit A/D signal processing",
 
-"Display: weight / sample weight / counting quantity",
+"Digital calibration",
 
-"Display size: 132 × 49mm",
+"LCD 6 1/2 digits, 16mm digit height",
 
-"Digit height: 25mm",
+"LED backlight for improved visibility and energy saving",
 
-"Indicator size: 175 × 56 × 226mm",
+"Auto zero tracking",
 
-"Functions: weighing, counting, accumulation",
+"Double overload protection",
 
-"Automatic sample averaging function",
+"Weighing function",
 
-"Automatic sample counting and sampling function",
+"Counting function",
 
-"Automatic calibration and zero tracking",
+"Percentage weighing function",
 
-"Full tare and preset tare functions",
+"Supports up to 13 weighing units",
 
-"Pre-set 10 unit weights",
+"Automatic temperature and linearity compensation",
 
-"Dual-level overload protection",
+"Adjustable gravity value",
 
-"Waterproof keypad with 3M adhesive sealing",
+"Automatic average unit weight calculation",
 
-"Desktop or wall-mount installation",
+"Pre-tare function",
 
-"LED charging indicator with auto power cutoff",
+"Weight and quantity over-limit warning",
 
-"Operating temperature: 0°C ~ 40°C",
+"Stable sampling range setting",
 
-"RS232 communication port (optional)",
+"Low power and charging status indication",
 
-"Designed for industrial and warehouse environments"
+"Automatic power-off function",
+
+"Built-in bi-directional RS232 interface",
+
+"Power supply: DC 12V adapter or 4 × UM-2 1.5V dry batteries",
+
+"Operating temperature: 5°C ~ 35°C",
+
+"Dimensions: 175 × 56 × 226 mm",
+
+"Round platter: Ø116 mm",
+
+"Square platter: 144 × 124 mm",
+
+"Plastic wind shield included",
+
+"Adjustable leveling feet for stable operation"
 
         ]
     },
 
     zh: {
 
-        name: "EXCELL KC计数仪表",
+        name: "EXCELL BH高精度电子天平",
 
         origin: "台湾",
 
-        description: "EXCELL KC计数仪表专为工业计数秤设计，具有高精度性能。配备清晰LCD显示屏，支持计数与数据累加功能，适用于台秤、地磅及仓储管理系统。",
+        description: "EXCELL BH高精度电子天平专为实验室、生产及质量检测中的精密称重、计数和百分比称重应用而设计。采用高速24位信号处理、数字校准、带LED背光的LCD显示屏，并支持多种称重单位。具有自动零点跟踪、双重超载保护及内置RS232通讯接口，可提供稳定可靠的称重性能。",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
-<th>分辨率</th>
-<th>计量单位</th>
-<th>电源</th>
+<th>最大秤量</th>
+<th>分度值</th>
 </tr>
 
 <tr>
-<td>KC</td>
-<td>1/15,000</td>
-<td>kg / lb</td>
-<td>AC 110V/220V或DC 6V/4.5Ah充电电池</td>
+<td>150g</td>
+<td>0.005g</td>
+</tr>
+
+<tr>
+<td>300g</td>
+<td>0.005g / 0.01g</td>
+</tr>
+
+<tr>
+<td>600g</td>
+<td>0.01g / 0.02g</td>
+</tr>
+
+<tr>
+<td>1200g</td>
+<td>0.02g</td>
+</tr>
+
+<tr>
+<td>1500g</td>
+<td>0.05g</td>
+</tr>
+
+<tr>
+<td>3000g</td>
+<td>0.05g / 0.1g</td>
 </tr>
 
 </table>`,
 
-"品牌：Excell",
+"显示分辨率：1/30,000或1/60,000",
 
-"符合OIML III级精度标准",
+"内部解析度：600,000",
 
-"三窗口LCD显示，LED背光",
+"高速24位A/D信号处理",
 
-"显示：重量 / 样品重量 / 数量",
+"数字校准功能",
 
-"显示尺寸：132 × 49mm",
+"LCD 6½位显示屏，字高16mm",
 
-"数字高度：25mm",
+"LED背光显示，节能耐用",
 
-"仪表尺寸：175 × 56 × 226mm",
+"自动零点跟踪",
 
-"功能：称重、计数、累加",
+"双重超载保护",
 
-"自动平均取样功能",
+"称重功能",
 
-"自动计数与取样功能",
+"计数功能",
 
-"自动校准与零点追踪",
+"百分比称重功能",
 
-"全量程去皮及预设去皮",
+"最多支持13种称重单位",
 
-"预设10种单位重量",
+"自动温度及线性补偿",
 
-"双级过载保护",
+"可调重力值",
 
-"防水按键设计（3M密封）",
+"自动平均单重计算",
 
-"可桌面或壁挂安装",
+"预扣重功能",
 
-"充电指示灯与自动断电功能",
+"重量及数量超限报警",
 
-"工作温度：0°C ~ 40°C",
+"稳定采样范围设置功能",
 
-"RS232通讯接口（选配）",
+"低电量及充电状态提示",
 
-"适用于工业及仓储环境"
+"自动关机功能",
+
+"内置双向RS232通讯接口",
+
+"电源：DC 12V适配器或4节UM-2 1.5V干电池",
+
+"工作温度：5°C ~ 35°C",
+
+"秤体尺寸：175 × 56 × 226 mm",
+
+"圆形秤盘：直径116 mm",
+
+"方形秤盘：144 × 124 mm",
+
+"附带塑料防风罩",
+
+"可调水平脚，确保称重稳定"
 
         ]
     }
@@ -2251,140 +2423,136 @@ window.productTranslations = {
 
     en: {
 
-        name: "EXCELL FB530 Printing Weight Indicator",
+        name: "EXCELL KPS Technical Electronic Weighing Scale",
 
         origin: "Taiwan",
 
-        description: "The EXCELL FB530 printing weight indicator is a high-end industrial display unit integrated with a thermal printer. It is designed for floor scales, bench scales, animal weighing systems, and industrial applications. It supports receipt printing, weight checking, counting, and fast data storage.",
+        description: "EXCELL KPS technical electronic weighing scale is a compact and accurate scale suitable for technical weighing, checking, laboratory, production and other applications where a lightweight weighing solution is required. It supports auto calibration, multiple weighing units, full-range tare and auto zero tracking. The scale can operate with an AC adapter or battery and features low power indication and automatic power-off.",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Resolution</th>
-<th>Internal Resolution</th>
-<th>Units</th>
-<th>Loadcell Connection</th>
+<th>Capacity</th>
+<th>Division</th>
 </tr>
 
 <tr>
-<td>FB530</td>
-<td>1/30,000</td>
-<td>1/600,000</td>
-<td>kg / g / lb</td>
-<td>4 × 350Ω loadcells</td>
+<td>500g</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>1kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>2kg</td>
+<td>0.5g</td>
 </tr>
 
 </table>`,
 
-"OIML Class III accuracy standard",
+"Up to 1/5,000 display resolution",
 
-"6-digit LCD display with LED backlight",
+"Auto calibration",
 
-"Digit height: 25mm",
+"Weighing units: g / ozt / dwt / lb / oz",
 
-"Indicator size: 276 × 172 × 153 mm",
+"Full-range tare function",
 
-"Functions: weighing, counting, accumulation, tare",
+"Auto zero tracking",
 
-"HI / OK / LO check weighing function",
+"Low power indication",
 
-"HOLD function for weight retention",
+"Automatic power-off function",
 
-"Animal weighing function",
+"LCD 5-digit display",
 
-"Auto zero tracking at startup",
+"Platter size: 135 × 135 mm",
 
-"Automatic calibration function",
+"Power supply: DC 9V adapter or 1 × 9V 100mA dry battery",
 
-"Data retention during power failure",
+"Dry battery is not included",
 
-"Built-in mini thermal printer",
+"Operating temperature: 10°C ~ 30°C",
 
-"Prints date/time, ticket number, total weight",
+"Scale dimensions: 138 × 45 × 190 mm",
 
-"RS232 communication port",
+"Optional stainless steel platter",
 
-"Power supply: AC 110V/220V ±10% + DC 6V/4Ah rechargeable battery",
-
-"Battery operating time: approximately 48 ~ 72 hours",
-
-"Operating temperature: -10°C ~ 40°C",
-
-"Anti-dust design suitable for industrial environments"
+"Compact and lightweight design for convenient transportation and use"
 
         ]
     },
 
     zh: {
 
-        name: "EXCELL FB530打印称重仪表",
+        name: "EXCELL KPS电子技术秤",
 
         origin: "台湾",
 
-        description: "EXCELL FB530打印称重仪表是一款高端工业称重显示设备，内置热敏打印机，适用于地磅、台秤、动物称重及工业称重系统。支持小票打印、重量检测、计数及数据快速存储。",
+        description: "EXCELL KPS电子技术秤是一款结构紧凑、称重准确的电子秤，适用于技术称重、重量检测、实验室、生产及其他需要轻便称重设备的应用。支持自动校准、多种称重单位、全范围去皮及自动零点跟踪功能。可使用适配器或电池供电，并具有低电量提示和自动关机功能。",
 
         specs: [
 
 `<table class="spec-table">
 
 <tr>
-<th>型号</th>
-<th>分辨率</th>
-<th>内部分辨率</th>
-<th>单位</th>
-<th>传感器连接</th>
+<th>最大秤量</th>
+<th>分度值</th>
 </tr>
 
 <tr>
-<td>FB530</td>
-<td>1/30,000</td>
-<td>1/600,000</td>
-<td>kg / g / lb</td>
-<td>4 × 350Ω 传感器</td>
+<td>500g</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>1kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>2kg</td>
+<td>0.5g</td>
 </tr>
 
 </table>`,
 
-"符合OIML III级精度标准",
-
-"6位LCD显示，LED背光",
-
-"数字高度：25mm",
-
-"仪表尺寸：276 × 172 × 153 mm",
-
-"功能：称重、计数、累计、去皮",
-
-"重量分级检测功能（HI / OK / LO）",
-
-"保持（HOLD）功能",
-
-"动物称重功能",
-
-"开机自动置零",
+"显示分辨率最高可达1/5,000",
 
 "自动校准功能",
 
-"断电数据保存",
+"称重单位：g / ozt / dwt / lb / oz",
 
-"内置微型热敏打印机",
+"全范围去皮功能",
 
-"支持打印日期时间、票号、总重量",
+"自动零点跟踪",
 
-"RS232通讯接口",
+"低电量提示",
 
-"电源：AC 110V/220V ±10% + DC 6V/4Ah充电电池",
+"自动关机功能",
 
-"电池续航时间约48~72小时",
+"LCD 5位显示屏",
 
-"工作温度：-10°C ~ 40°C",
+"秤盘尺寸：135 × 135 mm",
 
-"防尘设计，适用于工业环境"
+"电源：DC 9V适配器或1节9V 100mA干电池",
 
-    ]
+"干电池不随产品提供",
+
+"工作温度：10°C ~ 30°C",
+
+"秤体尺寸：138 × 45 × 190 mm",
+
+"可选不锈钢秤盘",
+
+"结构紧凑、重量轻，方便移动和使用"
+
+        ]
     }
 },
 16: {

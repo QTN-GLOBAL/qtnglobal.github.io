@@ -998,21 +998,21 @@ window.products = [
 
 ]
 },
-   {
+  {
     business:"measure",
     id:12,
 
-    name:"Đầu Cân Điện Tử Chống Nước GW",
+    name:"Cân điện tử Excell AWH4",
 
-    category:"dau-can-dien-tu",
+    category:"can-ban",
 
-    folder:"gw",
+    folder:"excell-awh4",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân điện tử chống nước GW IP68 thiết kế chuyên dụng cho môi trường ẩm ướt, thủy sản, thực phẩm và công nghiệp. Vỏ inox chống nước, màn hình LED siêu sáng, hoạt động ổn định trong điều kiện môi trường khắc nghiệt.",
+    description:"Cân điện tử Excell AWH4 là dòng cân kỹ thuật có độ chính xác cao, thiết kế chắc chắn và dễ sử dụng, phù hợp cho cân kiểm tra trọng lượng, sản xuất, kho vận, đóng gói và các ứng dụng công nghiệp. Cân sử dụng màn hình LCD 6 số, độ phân giải 1/30.000, tốc độ xử lý cao và hỗ trợ hiệu chuẩn kỹ thuật số.",
 
     specs:[
 
@@ -1020,49 +1020,80 @@ window.products = [
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Độ phân giải</th>
-<th>Đơn vị cân</th>
-<th>Nguồn điện</th>
+<th>Mức cân</th>
+<th>Bước nhảy</th>
+<th>Kích thước đĩa cân</th>
+<th>Kích thước cân</th>
 </tr>
 
 <tr>
-<td>GW-IP68</td>
-<td>1/30.000</td>
-<td>kg</td>
-<td>AC 220V hoặc pin sạc 6V/4Ah</td>
+<td>1.5kg</td>
+<td>0.05g</td>
+<td rowspan="6">280 × 230 mm</td>
+<td rowspan="6">275 × 105 × 310 mm</td>
+</tr>
+
+<tr>
+<td>3kg</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>6kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>7.5kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>0.5g</td>
+</tr>
+
+<tr>
+<td>30kg</td>
+<td>1g</td>
 </tr>
 
 </table>
 `,
 
-"Tiêu chuẩn chống nước: IP68",
+"Độ phân giải: 1/30.000",
 
-"Màn hình LED đỏ siêu sáng",
+"Tốc độ đọc cao, xử lý tín hiệu 24bit",
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Kỹ thuật số hiệu chuẩn",
 
-"Kết nối loadcell 4 dây hoặc 6 dây",
+"Màn hình LCD 6 chữ số",
 
-"Hỗ trợ nhiều mức tải: 30kg / 60kg / 100kg / 150kg / 300kg / 500kg / 1 tấn",
+"Đĩa cân inox chống gỉ, kích thước 280 × 230 mm",
 
-"Chức năng: cân trọng lượng, trừ bì, cộng dồn, kiểm tra trọng lượng",
+"Chức năng cân trọng lượng",
 
-"Tự động về zero khi khởi động",
+"Chức năng trừ bì và về zero",
 
-"Chức năng cảnh báo quá tải",
+"Chức năng cân đếm số lượng",
 
-"Bàn phím chống nước và chống bụi",
+"Chức năng kiểm tra trọng lượng và cảnh báo HI-OK-LO",
 
-"Vỏ đầu cân inox 304 chống gỉ",
+"Cảnh báo pin yếu và báo đầy pin",
 
-"Cổng giao tiếp RS232",
+"Tự động báo ổn định khi cân",
 
-"Thời gian sử dụng pin: khoảng 60 ~ 80 giờ",
+"Nguồn điện AC 110V/220V và pin sạc DC 6V/4Ah",
 
-"Nhiệt độ hoạt động: -10°C ~ 40°C",
+"Nhiệt độ hoạt động: 0°C ~ 40°C",
 
-"Thiết kế chuyên dụng cho môi trường thủy sản và thực phẩm"
+"Cổng giao tiếp RS232 tùy chọn",
+
+"Có thể tùy chọn Bluetooth, WIFI hoặc RJ45",
+
+"Tiêu chuẩn độ chính xác OIML R76",
+
+"Thiết kế phù hợp sử dụng trong sản xuất, kho vận và đóng gói"
 
 ]
 },
@@ -1070,17 +1101,17 @@ window.products = [
     business:"measure",
     id:13,
 
-    name:"Đầu Cân Điện Tử KW",
+    name:"Cân điện tử Excell SI-130",
 
-    category:"dau-can-dien-tu",
+    category:"can-phan-tich",
 
-    folder:"kw",
+    folder:"excell-si130",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân điện tử KW Excell là bộ hiển thị đa năng có độ chính xác cao, thiết kế chắc chắn, phù hợp lắp cho cân bàn, cân sàn và hệ thống cân công nghiệp. Màn hình LCD lớn, hỗ trợ cân trọng lượng, đếm số lượng và kiểm tra trọng lượng.",
+    description:"Cân điện tử Excell SI-130 là dòng cân điện tử nhỏ gọn, có độ chính xác cao, phù hợp cho các ứng dụng cân trọng lượng, cân kiểm tra, bán lẻ, sản xuất và kho vận. Cân hỗ trợ nhiều đơn vị kg, g, lb và oz, chức năng trừ bì toàn phần, tự động theo dõi điểm zero, cân đếm đơn giản và hiển thị trọng lượng Gross/Net. Màn hình LCD lớn có thể trang bị đèn nền LED, thiết kế sử dụng được bằng adaptor hoặc pin khô.",
 
     specs:[
 
@@ -1088,59 +1119,77 @@ window.products = [
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
+<th>Mức cân</th>
+<th>Bước nhảy</th>
 <th>Độ phân giải</th>
-<th>Đơn vị cân</th>
-<th>Nguồn điện</th>
 </tr>
 
 <tr>
-<td>KW</td>
-<td>1/15.000</td>
-<td>kg / lb</td>
-<td>AC 110V/220V hoặc pin sạc DC 6V/4Ah</td>
+<td>2.5kg</td>
+<td>0.5g</td>
+<td>1/5.000</td>
+</tr>
+
+<tr>
+<td>5kg</td>
+<td>1g</td>
+<td>1/5.000</td>
+</tr>
+
+<tr>
+<td>10kg</td>
+<td>2g</td>
+<td>1/5.000</td>
+</tr>
+
+<tr>
+<td>15kg</td>
+<td>5g</td>
+<td>1/5.000</td>
 </tr>
 
 </table>
 `,
 
-"Thương hiệu: Excell",
+"Độ phân giải hiển thị lên đến 1/5.000",
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Hiệu chuẩn kỹ thuật số",
 
-"Màn hình LCD 6 số, đèn nền LED",
+"Màn hình LCD 5½ số, chiều cao số 18mm",
 
-"Chiều cao số hiển thị: 25mm",
+"Đèn nền LED cho màn hình, tùy chọn",
 
-"Kích thước màn hình: 132 × 49mm",
+"Đơn vị cân: kg / g / lb / oz",
 
-"Kích thước đầu cân: 245 × 170 × 153mm",
+"Chức năng trừ bì toàn phần",
+
+"Tự động theo dõi điểm zero",
+
+"Điều chỉnh giá trị trọng lực",
+
+"Chức năng cân đếm đơn giản",
+
+"Hiển thị trọng lượng Gross / Net",
+
+"Chức năng giữ giá trị trọng lượng",
+
+"Cài đặt bộ lọc môi trường giúp cân hoạt động ổn định",
+
+"Cảnh báo pin yếu",
+
+"Tự động tắt nguồn",
+
+"Nguồn điện: Adaptor DC 12V/1A hoặc 4 pin khô UM-2 1.5V",
 
 "Nhiệt độ hoạt động: 0°C ~ 40°C",
 
-"Kết nối loadcell 4 dây hoặc 6 dây",
+"Kích thước cân: 213 × 80.4 × 284 mm",
 
-"Chức năng: cân trọng lượng, đếm số lượng, tính phần trăm",
+"Đĩa cân nhựa: 196 × 174 mm",
 
-"Chức năng kiểm tra trọng lượng CHECK WEIGH (HI / OK / LO)",
+"Đĩa cân inox tùy chọn: 198 × 176 mm",
 
-"Tự động hiệu chỉnh trọng lượng và theo dõi điểm zero",
-
-"Trừ bì toàn phần và trừ bì định trước",
-
-"Bảo vệ quá tải 2 cấp",
-
-"Thiết lập 15 mức lọc chống nhiễu",
-
-"3 chế độ HOLD lưu trọng lượng",
-
-"Cổng giao tiếp RS232",
-
-"Có thể đặt bàn hoặc treo tường",
-
-"Bàn phím chống nước bằng keo 3M",
-
-"Thiết kế phù hợp môi trường công nghiệp"
+"Thiết kế nhỏ gọn, thuận tiện di chuyển và sử dụng"
 
 ]
 },
@@ -1148,17 +1197,17 @@ window.products = [
     business:"measure",
     id:14,
 
-    name:"Đầu Cân Đếm Số Lượng KC",
+    name:"Cân phân tích Excell BH",
 
-    category:"dau-can-dien-tu",
+    category:"can-phan-tich",
 
-    folder:"kc",
+    folder:"excell-bh",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân đếm số lượng KC Excell thiết kế chuyên dụng cho cân đếm công nghiệp, độ chính xác cao, màn hình LCD rõ nét, hỗ trợ đếm số lượng và tích lũy dữ liệu. Phù hợp lắp cho cân bàn, cân sàn và hệ thống kiểm đếm hàng hóa.",
+    description:"Cân phân tích Excell BH là dòng cân độ chính xác cao, được thiết kế cho các ứng dụng cân chính xác, cân đếm và cân phần trăm trong phòng thí nghiệm, sản xuất và kiểm tra chất lượng. Cân sử dụng công nghệ xử lý tín hiệu 24 bit, hiệu chuẩn kỹ thuật số, màn hình LCD có đèn nền LED và hỗ trợ nhiều đơn vị cân. Thiết kế ổn định với chức năng tự động theo dõi điểm zero, bảo vệ quá tải kép và giao tiếp RS232.",
 
     specs:[
 
@@ -1166,61 +1215,98 @@ window.products = [
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Độ phân giải</th>
-<th>Đơn vị cân</th>
-<th>Nguồn điện</th>
+<th>Mức cân</th>
+<th>Bước nhảy</th>
 </tr>
 
 <tr>
-<td>KC</td>
-<td>1/15.000</td>
-<td>kg / lb</td>
-<td>AC 110V/220V hoặc pin sạc DC 6V/4.5Ah</td>
+<td>150g</td>
+<td>0.005g</td>
+</tr>
+
+<tr>
+<td>300g</td>
+<td>0.005g / 0.01g</td>
+</tr>
+
+<tr>
+<td>600g</td>
+<td>0.01g / 0.02g</td>
+</tr>
+
+<tr>
+<td>1200g</td>
+<td>0.02g</td>
+</tr>
+
+<tr>
+<td>1500g</td>
+<td>0.05g</td>
+</tr>
+
+<tr>
+<td>3000g</td>
+<td>0.05g / 0.1g</td>
 </tr>
 
 </table>
 `,
 
-"Thương hiệu: Excell",
+"Độ phân giải hiển thị: 1/30.000 hoặc 1/60.000",
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Độ phân giải nội bộ: 600.000",
 
-"Màn hình LCD 3 cửa sổ, đèn nền LED",
+"Xử lý tín hiệu A/D 24 bit tốc độ cao",
 
-"Hiển thị: trọng lượng / trọng lượng mẫu / số lượng đếm",
+"Hiệu chuẩn kỹ thuật số",
 
-"Kích thước màn hình: 132 × 49mm",
+"Màn hình LCD 6½ số, chiều cao số 16mm",
 
-"Chiều cao số hiển thị: 25mm",
+"Đèn nền LED, tiết kiệm năng lượng",
 
-"Kích thước đầu cân: 175 × 56 × 226mm",
+"Tự động theo dõi điểm zero",
 
-"Chức năng: cân trọng lượng, đếm số lượng, cộng dồn",
+"Bảo vệ quá tải kép",
 
-"Chức năng tự động chia đều trọng lượng từng mẫu",
+"Chức năng cân trọng lượng",
 
-"Chức năng xác định số lượng và lấy mẫu tự động",
+"Chức năng cân đếm",
 
-"Tự động hiệu chỉnh trọng lượng và theo dõi điểm zero",
+"Chức năng cân phần trăm",
 
-"Trừ bì toàn phần và trừ bì định trước",
+"Hỗ trợ tối đa 13 đơn vị cân",
 
-"Cài đặt trước 10 trọng lượng đơn",
+"Tự động bù nhiệt độ và độ tuyến tính",
 
-"Bảo vệ quá tải 2 cấp",
+"Điều chỉnh giá trị trọng lực",
 
-"Bàn phím nhạy chống nước bằng keo 3M",
+"Tự động tính trọng lượng đơn vị trung bình",
 
-"Có thể đặt bàn hoặc treo tường",
+"Chức năng trừ bì trước",
 
-"Đèn LED báo sạc và tự động ngắt điện",
+"Cảnh báo giới hạn trọng lượng và số lượng",
 
-"Nhiệt độ hoạt động: 0°C ~ 40°C",
+"Cài đặt phạm vi lấy mẫu ổn định",
 
-"Cổng giao tiếp RS232 (tùy chọn)",
+"Cảnh báo pin yếu và trạng thái sạc",
 
-"Thiết kế phù hợp môi trường công nghiệp và kho vận"
+"Tự động tắt nguồn",
+
+"Giao tiếp RS232 hai chiều tích hợp",
+
+"Nguồn điện: Adaptor DC 12V hoặc 4 pin UM-2 1.5V",
+
+"Nhiệt độ hoạt động: 5°C ~ 35°C",
+
+"Kích thước cân: 175 × 56 × 226 mm",
+
+"Đĩa cân tròn: đường kính 116 mm",
+
+"Đĩa cân vuông: 144 × 124 mm",
+
+"Có tấm chắn gió bằng nhựa đi kèm",
+
+"Chân cân điều chỉnh giúp cân ổn định"
 
 ]
 },
@@ -1228,17 +1314,17 @@ window.products = [
     business:"measure",
     id:15,
 
-    name:"Đầu Cân Điện Tử In Biểu FB530",
+    name:"Cân điện tử kỹ thuật Excell KPS",
 
-    category:"dau-can-dien-tu",
+    category:"can-phan-tich",
 
-    folder:"fb530",
+    folder:"excell-kps",
 
-    brand:"EXCELL",
+    brand:"Excell",
 
     origin:"Đài Loan",
 
-    description:"Đầu cân điện tử in biểu FB530 Excell là bộ hiển thị cân công nghiệp cao cấp tích hợp máy in nhiệt, chuyên dùng cho cân sàn, cân bàn, cân động vật và hệ thống cân công nghiệp. Thiết bị hỗ trợ in phiếu cân, kiểm tra trọng lượng, đếm số lượng và lưu dữ liệu nhanh chóng.",
+    description:"Cân điện tử kỹ thuật Excell KPS là dòng cân nhỏ gọn, độ chính xác cao, phù hợp cho các ứng dụng cân kỹ thuật, cân kiểm tra, phòng thí nghiệm, sản xuất và sử dụng trong các môi trường cần thiết bị cân gọn nhẹ. Cân hỗ trợ hiệu chuẩn tự động, nhiều đơn vị cân, trừ bì toàn phần và tự động theo dõi điểm zero. Thiết kế sử dụng nguồn adaptor hoặc pin, có chức năng cảnh báo pin yếu và tự động tắt nguồn.",
 
     specs:[
 
@@ -1246,59 +1332,57 @@ window.products = [
 <table class="spec-table">
 
 <tr>
-<th>Model</th>
-<th>Độ phân giải</th>
-<th>Độ phân giải nội</th>
-<th>Đơn vị cân</th>
-<th>Kết nối Loadcell</th>
+<th>Mức cân</th>
+<th>Bước nhảy</th>
 </tr>
 
 <tr>
-<td>FB530</td>
-<td>1/30.000</td>
-<td>1/600.000</td>
-<td>kg / g / lb</td>
-<td>4 loadcell 350Ω</td>
+<td>500g</td>
+<td>0.1g</td>
+</tr>
+
+<tr>
+<td>1kg</td>
+<td>0.2g</td>
+</tr>
+
+<tr>
+<td>2kg</td>
+<td>0.5g</td>
 </tr>
 
 </table>
 `,
 
-"Tiêu chuẩn chính xác cấp III theo OIML",
+"Độ phân giải hiển thị lên đến 1/5.000",
 
-"Màn hình LCD 6 số, đèn nền LED",
+"Hiệu chuẩn tự động",
 
-"Chiều cao số hiển thị: 25mm",
+"Đơn vị cân: g / ozt / dwt / lb / oz",
 
-"Kích thước đầu cân: 276 × 172 × 153 mm",
+"Chức năng trừ bì toàn phần",
 
-"Chức năng: cân trọng lượng, đếm số lượng, cộng dồn, trừ bì",
+"Tự động theo dõi điểm zero",
 
-"Chức năng kiểm tra trọng lượng HI / OK / LO",
+"Cảnh báo pin yếu",
 
-"Chức năng HOLD giữ số cân",
+"Tự động tắt nguồn",
 
-"Chức năng cân động vật",
+"Màn hình LCD 5 số",
 
-"Tự động về zero khi khởi động",
+"Đĩa cân kích thước 135 × 135 mm",
 
-"Tự động hiệu chỉnh trọng lượng",
+"Nguồn điện: Adaptor DC 9V hoặc 1 pin khô 9V 100mA",
 
-"Lưu dữ liệu khi mất nguồn",
+"Pin khô không đi kèm theo sản phẩm",
 
-"Máy in nhiệt mini tích hợp",
+"Nhiệt độ hoạt động: 10°C ~ 30°C",
 
-"Hỗ trợ in ngày giờ, số phiếu, tổng trọng lượng",
+"Kích thước cân: 138 × 45 × 190 mm",
 
-"Cổng giao tiếp RS232",
+"Đĩa cân inox là tùy chọn",
 
-"Nguồn điện: AC 110V/220V ±10% + pin sạc DC 6V/4Ah",
-
-"Thời gian sử dụng pin: khoảng 48 ~ 72 giờ",
-
-"Nhiệt độ hoạt động: -10°C ~ 40°C",
-
-"Thiết kế chống bụi, phù hợp môi trường công nghiệp"
+"Thiết kế nhỏ gọn, trọng lượng nhẹ, thuận tiện di chuyển và sử dụng"
 
 ]
 },
