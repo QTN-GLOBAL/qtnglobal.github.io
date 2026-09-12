@@ -3877,6 +3877,101 @@ business:"measure",
 "Bộ chỉ thị: Ohaus T24PE Defender 2000"
 ]
 },
+{
+    business:"measure",
+    id:51,
+
+    name:"Cân điện tử Vibra SJ620CE",
+
+    category:"can-phan-tich",
+
+    folder:"vibra-sj620ce",
+
+    brand:"Vibra",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử Vibra SJ620CE là dòng cân kỹ thuật độ chính xác cao của Vibra Shinko, sản xuất tại Nhật Bản. Cân có mức cân tối đa 620g, độ đọc 0,001g và độ phân giải lên đến 1/100.000 nhờ công nghệ cảm biến Tuning-Fork. Thiết bị phù hợp cho phòng thí nghiệm, cân ngành vàng, cân dược phẩm, thực phẩm, cân tỷ lệ phần trăm, cân đếm mẫu và các ứng dụng cần độ chính xác cao. Cân có màn hình LCD cao 16,5mm với nền sáng trắng, đĩa cân inox đường kính 140mm và hỗ trợ nhiều đơn vị cân.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>SJ620CE</td>
+<td>620g</td>
+<td>0,001g</td>
+<td>1/100.000</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân lớn nhất: 620g",
+
+"Độ đọc: 0,001g",
+
+"Độ chia kiểm: e = 10d",
+
+"Mức cân nhỏ nhất: Min = 20e",
+
+"Độ phân giải: 1/100.000",
+
+"Cấp chính xác: Cấp II theo OIML và ĐLVN16:2009",
+
+"Phạm vi đọc: 0,001g ~ 620g",
+
+"Phạm vi đo: 0,2g ~ 620g",
+
+"Độ lặp lại: 0,001g",
+
+"Độ tuyến tính: ±0,001g",
+
+"Công nghệ cảm biến: Tuning-Fork sensor",
+
+"Thời gian ổn định: khoảng 3 giây",
+
+"Màn hình: LCD, chiều cao số 16,5mm, nền sáng trắng",
+
+"Đĩa cân: Inox, đường kính Ø140mm",
+
+"Vỏ cân: Nhựa ABS",
+
+"Đơn vị cân: g, ct, oz, lb, ozt, dwt, GN, tl và các đơn vị vàng",
+
+"Chức năng: Cân trọng lượng, trừ bì, đếm mẫu, cân tỷ lệ phần trăm và cân kiểm tra",
+
+"Chức năng Zero/Tare",
+
+"Cảnh báo quá tải",
+
+"Quá tải an toàn: 150%",
+
+"Cổng kết nối: RS232 tùy chọn",
+
+"Nguồn điện: Adapter 9–12V/1A",
+
+"Nhiệt độ hoạt động: 10°C ~ 40°C",
+
+"Độ ẩm hoạt động: 10% ~ 80%",
+
+"Kích thước cân: 235 x 182 x 75mm",
+
+"Khối lượng cân: khoảng 1,3kg",
+
+"Xuất xứ: Nhật Bản",
+
+"Nhà sản xuất: SHINKO DENSHI CO., LTD"
+]
+},
 
 
 

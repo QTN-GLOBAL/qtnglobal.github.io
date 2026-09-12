@@ -6346,6 +6346,180 @@ window.productTranslations = {
         ]
     }
 },
+51: {
+
+    en: {
+
+        name:"Vibra SJ620CE Precision Balance",
+
+        origin:"Japan",
+
+        description:"The Vibra SJ620CE is a high-precision precision balance from Vibra Shinko, manufactured in Japan. It has a maximum capacity of 620g, readability of 0.001g and internal resolution up to 1/100,000 using Tuning-Fork sensing technology. The balance is suitable for laboratories, gold weighing, pharmaceutical and food applications, percentage weighing, parts counting and other applications requiring high accuracy. It features a 16.5mm high LCD display with white backlight and a 140mm diameter stainless steel weighing pan.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>SJ620CE</td>
+<td>620g</td>
+<td>0.001g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"Maximum capacity: 620g",
+
+"Readability: 0.001g",
+
+"Verification scale interval: e = 10d",
+
+"Minimum capacity: Min = 20e",
+
+"Resolution: 1/100,000",
+
+"Accuracy class: Class II according to OIML and Vietnam standard ĐLVN16:2009",
+
+"Display range: 0.001g ~ 620g",
+
+"Measurement range: 0.2g ~ 620g",
+
+"Repeatability: 0.001g",
+
+"Linearity: ±0.001g",
+
+"Sensing technology: Tuning-Fork sensor",
+
+"Stabilization time: approximately 3 seconds",
+
+"Display: LCD, 16.5mm digit height, white backlight",
+
+"Weighing pan: Stainless steel, Ø140mm",
+
+"Housing: ABS plastic",
+
+"Weighing units: g, ct, oz, lb, ozt, dwt, GN, tl and gold weighing units",
+
+"Functions: Weighing, tare, parts counting, percentage weighing and check weighing",
+
+"Zero/Tare function",
+
+"Overload warning",
+
+"Safe overload: 150%",
+
+"Communication: Optional RS232",
+
+"Power supply: 9–12V/1A adapter",
+
+"Operating temperature: 10°C ~ 40°C",
+
+"Operating humidity: 10% ~ 80%",
+
+"Scale dimensions: 235 x 182 x 75mm",
+
+"Scale weight: approximately 1.3kg",
+
+"Country of origin: Japan",
+
+"Manufacturer: SHINKO DENSHI CO., LTD"
+        ]
+    },
+
+    zh: {
+
+        name:"Vibra SJ620CE高精度电子天平",
+
+        origin:"日本",
+
+        description:"Vibra SJ620CE是Vibra Shinko生产的高精度电子天平，原产于日本。最大称量620g，分度值0.001g，采用Tuning-Fork音叉传感技术，内部显示分辨率可达1/100,000。适用于实验室、黄金称量、制药、食品、百分比称量、数量计数以及其他需要高精度称量的应用。天平配备16.5mm高的LCD显示屏和白色背光，采用直径140mm的不锈钢秤盘。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>SJ620CE</td>
+<td>620g</td>
+<td>0.001g</td>
+<td>1/100,000</td>
+</tr>
+
+</table>`,
+
+"最大称量：620g",
+
+"分度值：0.001g",
+
+"检定分度值：e = 10d",
+
+"最小称量：Min = 20e",
+
+"分辨率：1/100,000",
+
+"准确度等级：OIML及越南ĐLVN16:2009标准II级",
+
+"显示范围：0.001g ~ 620g",
+
+"测量范围：0.2g ~ 620g",
+
+"重复性：0.001g",
+
+"线性误差：±0.001g",
+
+"传感技术：Tuning-Fork音叉传感器",
+
+"稳定时间：約3秒",
+
+"显示屏：LCD，数字高度16.5mm，白色背光",
+
+"秤盘：不锈钢，直径Ø140mm",
+
+"秤体外壳：ABS塑料",
+
+"称重单位：g、ct、oz、lb、ozt、dwt、GN、tl及黄金称量单位",
+
+"功能：称重、去皮、数量计数、百分比称量和检重",
+
+"归零/去皮功能",
+
+"超载警告",
+
+"安全过载：150%",
+
+"通信接口：RS232可选",
+
+"电源：9–12V/1A适配器",
+
+"工作温度：10°C ~ 40°C",
+
+"工作湿度：10% ~ 80%",
+
+"天平尺寸：235 x 182 x 75mm",
+
+"天平重量：約1.3kg",
+
+"原产地：日本",
+
+"制造商：SHINKO DENSHI CO., LTD"
+        ]
+    }
+},
 };
 
 
