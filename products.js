@@ -3207,6 +3207,89 @@ business:"measure",
 "Chân đế cao su chống trượt, có thể điều chỉnh cân bằng"
 ]
 },
+{
+    business:"measure",
+    id:43,
+
+    name:"Cân điện tử Ohaus T31P 200kg",
+
+    category:"can-ban-dung",
+
+    folder:"ohaus-t31p-100kg",
+
+    brand:"Ohaus",
+
+    origin:"Mỹ",
+
+    description:"Cân điện tử Ohaus T31P 200kg thuộc dòng cân bàn Ohaus Defender 3000, phù hợp sử dụng trong cân hàng hóa, sản xuất, kho bãi, kiểm kê và kiểm tra trọng lượng. Cân có mức cân tối đa 200kg, độ đọc 20g, màn hình LCD 6 số có đèn nền, hỗ trợ cân, đếm số lượng và trừ bì. Cân sử dụng nguồn AC kết hợp pin sạc và có cổng RS232 để kết nối với thiết bị ngoại vi.",
+
+    specs:[
+
+`
+<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Mức cân</th>
+<th>Độ đọc</th>
+<th>Độ phân giải</th>
+</tr>
+
+<tr>
+<td>T31P-200</td>
+<td>200kg</td>
+<td>20g</td>
+<td>1/20,000d / 1/6,000e</td>
+</tr>
+
+</table>
+`,
+
+"Mức cân: 200kg",
+
+"Độ đọc: 20g",
+
+"Độ phân giải: 1/20,000d / 1/6,000e",
+
+"Cấp chính xác: Class III",
+
+"Màn hình: LCD 6 số, 7 đoạn, chiều cao số 25mm",
+
+"Đèn nền LED giúp dễ dàng quan sát",
+
+"Chức năng cân",
+
+"Chức năng đếm số lượng",
+
+"Chức năng trừ bì",
+
+"Chức năng tự động về Zero",
+
+"Chức năng cộng dồn",
+
+"Đơn vị cân: kg, g, lb, oz",
+
+"Cổng giao tiếp: RS232",
+
+"Nguồn điện: 9VDC, 0.5A / Adapter AC",
+
+"Pin sạc hỗ trợ sử dụng khi không có nguồn điện trực tiếp",
+
+"Thời gian ổn định: khoảng 2 giây",
+
+"Nhiệt độ hoạt động: -10°C ~ 40°C",
+
+"Độ ẩm hoạt động: nhỏ hơn 80%",
+
+"Quá tải an toàn: 125% tải trọng cân",
+
+"Kích thước bàn cân: 400 x 500mm",
+
+"Khung cân bằng thép sơn tĩnh điện",
+
+"Đầu cân T31P vỏ nhựa ABS"
+]
+},
 
 
 

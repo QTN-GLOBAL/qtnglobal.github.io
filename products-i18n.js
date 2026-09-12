@@ -5134,6 +5134,156 @@ window.productTranslations = {
         ]
     }
 },
+43: {
+
+    en: {
+
+        name:"OHAUS T31P 200kg Electronic Platform Scale",
+
+        origin:"USA",
+
+        description:"The OHAUS T31P 200kg electronic platform scale belongs to the OHAUS Defender 3000 series and is suitable for goods weighing, production, warehousing, inventory and weight checking. The scale has a maximum capacity of 200kg with 20g readability, a 6-digit backlit LCD display, weighing, parts counting and tare functions. It operates with an AC power adapter and rechargeable battery and provides an RS232 communication interface.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>Capacity</th>
+<th>Readability</th>
+<th>Resolution</th>
+</tr>
+
+<tr>
+<td>T31P-200</td>
+<td>200kg</td>
+<td>20g</td>
+<td>1/20,000d / 1/6,000e</td>
+</tr>
+
+</table>`,
+
+"Capacity: 200kg",
+
+"Readability: 20g",
+
+"Resolution: 1/20,000d / 1/6,000e",
+
+"Accuracy class: Class III",
+
+"Display: 6-digit, 7-segment LCD, 25mm digit height",
+
+"LED backlight for easy viewing",
+
+"Weighing function",
+
+"Parts counting function",
+
+"Tare function",
+
+"Automatic zero function",
+
+"Accumulation function",
+
+"Weighing units: kg, g, lb, oz",
+
+"Communication: RS232",
+
+"Power supply: 9VDC, 0.5A / AC adapter",
+
+"Rechargeable battery for operation without direct AC power",
+
+"Stabilization time: approximately 2 seconds",
+
+"Operating temperature: -10°C ~ 40°C",
+
+"Operating humidity: less than 80%",
+
+"Safe overload: 125% of capacity",
+
+"Platform size: 400 x 500mm",
+
+"Powder-coated steel scale frame",
+
+"T31P indicator with ABS housing"
+        ]
+    },
+
+    zh: {
+
+        name:"OHAUS T31P 200kg电子台秤",
+
+        origin:"美国",
+
+        description:"OHAUS T31P 200kg电子台秤属于OHAUS Defender 3000系列，适用于货物称重、生产、仓储、库存管理及重量检查。该型号最大称量200kg，分度值20g，配备6位带背光LCD显示屏，并支持称重、数量计数和去皮功能。秤体使用AC适配器及充电电池供电，并配备RS232通信接口。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>最大称量</th>
+<th>分度值</th>
+<th>分辨率</th>
+</tr>
+
+<tr>
+<td>T31P-200</td>
+<td>200kg</td>
+<td>20g</td>
+<td>1/20,000d / 1/6,000e</td>
+</tr>
+
+</table>`,
+
+"最大称量：200kg",
+
+"分度值：20g",
+
+"分辨率：1/20,000d / 1/6,000e",
+
+"准确度等级：Class III",
+
+"显示屏：6位、7段LCD，数字高度25mm",
+
+"LED背光，便于读取",
+
+"称重功能",
+
+"数量计数功能",
+
+"去皮功能",
+
+"自动归零功能",
+
+"累计功能",
+
+"称重单位：kg、g、lb、oz",
+
+"通信接口：RS232",
+
+"电源：9VDC、0.5A / AC适配器",
+
+"配备充电电池，可在无市电情况下使用",
+
+"稳定时间：約2秒",
+
+"工作温度：-10°C ~ 40°C",
+
+"工作湿度：小于80%",
+
+"安全过载：最大称量的125%",
+
+"秤台尺寸：400 x 500mm",
+
+"喷涂钢制秤体框架",
+
+"T31P显示器采用ABS外壳"
+        ]
+    }
+},
 };
 
 
