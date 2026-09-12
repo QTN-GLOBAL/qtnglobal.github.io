@@ -1006,7 +1006,7 @@ window.products = [
 
     category:"can-ban",
 
-    folder:"excell-awh4",
+    folder:"awh4",
 
     brand:"Excell",
 
@@ -1105,7 +1105,7 @@ window.products = [
 
     category:"can-phan-tich",
 
-    folder:"excell-si130",
+    folder:"si130",
 
     brand:"Excell",
 
@@ -1201,7 +1201,7 @@ window.products = [
 
     category:"can-phan-tich",
 
-    folder:"excell-bh",
+    folder:"bh",
 
     brand:"Excell",
 
@@ -1318,7 +1318,7 @@ window.products = [
 
     category:"can-phan-tich",
 
-    folder:"excell-kps",
+    folder:"kps",
 
     brand:"Excell",
 
