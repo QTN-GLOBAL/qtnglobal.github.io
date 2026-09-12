@@ -1595,7 +1595,7 @@ window.products = [
 
     name:"Cân bàn điện tử Excell F60x60-KC3",
 
-    category:"can-ban",
+    category:"can-ban-dung",
 
     folder:"kc",
 
