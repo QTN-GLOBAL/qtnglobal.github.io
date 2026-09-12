@@ -3462,7 +3462,7 @@ business:"measure",
 
     name:"Cân điện tử Ohaus T31P 60kg",
 
-    category:"can-ban",
+    category:"can-ban-dung",
 
     folder:"ohaus-t31p-100kg",
 
