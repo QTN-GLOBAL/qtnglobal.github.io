@@ -8936,7 +8936,342 @@ window.productTranslations = {
         ]
     }
 },
+61: {
 
+    en: {
+
+        name:"Jadever JWI-700C 300kg Electronic Counting Scale",
+
+        origin:"Taiwan",
+
+        description:"The Jadever JWI-700C 300kg is an industrial bench counting scale designed for weighing goods and counting pieces in warehouses, factories, workshops, packaging lines and inventory operations. The JWI-700C indicator features a three-section LCD display that simultaneously shows total weight, unit weight and piece count. The 300kg version provides a 50g division and 1/30,000 resolution, with a stainless steel weighing platform, counting functions, tare, accumulation, HI-LOW-OK checking, overload and low-battery warnings, and optional RS232 communication.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Division</td>
+<td>50 g</td>
+</tr>
+
+<tr>
+<td>Resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Accuracy class</td>
+<td>OIML Class III</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>40 × 50 cm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Load cell</td>
+<td>Imported load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>3-section LCD, 6/5/6 digits</td>
+</tr>
+
+<tr>
+<td>Character height</td>
+<td>19 mm</td>
+</tr>
+
+<tr>
+<td>Backlight</td>
+<td>Green LED</td>
+</tr>
+
+<tr>
+<td>Display information</td>
+<td>Total weight / unit weight / piece count</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, tare, accumulation, piece counting, unit conversion</td>
+</tr>
+
+<tr>
+<td>Warning functions</td>
+<td>HI / LOW / OK, overload, low battery</td>
+</tr>
+
+<tr>
+<td>Automatic functions</td>
+<td>Auto zero and automatic shut-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>Optional RS232</td>
+</tr>
+
+<tr>
+<td>Indicator housing</td>
+<td>Enclosed ABS plastic</td>
+</tr>
+
+<tr>
+<td>Rechargeable battery</td>
+<td>6V/4Ah or 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>AC 110V/220V ±10%</td>
+</tr>
+
+<tr>
+<td>Battery operating time</td>
+<td>Approximately 48–72 hours after full charge</td>
+</tr>
+
+<tr>
+<td>Indicator dimensions</td>
+<td>274 × 170 × 117 mm</td>
+</tr>
+
+<tr>
+<td>Indicator weight</td>
+<td>Net 2.52 kg / Gross 2.95 kg</td>
+</tr>
+
+<tr>
+<td>Certification</td>
+<td>CE</td>
+</tr>
+
+</table>`,
+
+"Industrial bench scale designed for weighing goods and counting pieces.",
+
+"High 1/30,000 resolution for accurate and stable weighing.",
+
+"Three-section LCD display simultaneously shows total weight, unit weight and piece count.",
+
+"Stainless steel weighing platform with steel or stainless steel frame options.",
+
+"HI-LOW-OK check weighing function for sorting and quality control.",
+
+"Optional RS232 interface for computers, printers, software and external displays.",
+
+"Rechargeable battery allows independent operation when direct power is unavailable.",
+
+"Ideal for warehouses, factories, workshops, packaging, logistics and inventory operations."
+        ]
+    },
+
+    zh: {
+
+        name:"Jadever JWI-700C 300kg 电子计数台秤",
+
+        origin:"中国台湾",
+
+        description:"Jadever JWI-700C 300kg是一款工业台式电子计数秤，适用于仓库、工厂、生产车间、包装线及库存管理等场合。JWI-700C显示器采用三窗口LCD显示，可同时显示总重量、单重和PCS数量。300kg规格的分度值为50g，内部精度可达1/30000，配备不锈钢秤盘，支持去皮、累计、单位转换、数量计数、HI-LOW-OK检重、超载及低电量提示，并可选配RS232通讯接口。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>生产品牌</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>50 g</td>
+</tr>
+
+<tr>
+<td>分辨率</td>
+<td>1/30000</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>精度等级</td>
+<td>OIML III级</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>40 × 50 cm</td>
+</tr>
+
+<tr>
+<td>秤盘</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>称重传感器</td>
+<td>进口称重传感器</td>
+</tr>
+
+<tr>
+<td>显示器</td>
+<td>三窗口LCD，6/5/6位数字</td>
+</tr>
+
+<tr>
+<td>字高</td>
+<td>19 mm</td>
+</tr>
+
+<tr>
+<td>背光</td>
+<td>绿色LED背光</td>
+</tr>
+
+<tr>
+<td>显示内容</td>
+<td>总重量 / 单重 / PCS数量</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重、去皮、累计、计数、单位转换</td>
+</tr>
+
+<tr>
+<td>报警功能</td>
+<td>HI / LOW / OK、超载、低电量</td>
+</tr>
+
+<tr>
+<td>自动功能</td>
+<td>自动置零、自动关机</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232可选</td>
+</tr>
+
+<tr>
+<td>显示器外壳</td>
+<td>密封ABS塑料</td>
+</tr>
+
+<tr>
+<td>充电电池</td>
+<td>6V/4Ah或6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>AC 110V/220V ±10%</td>
+</tr>
+
+<tr>
+<td>电池使用时间</td>
+<td>充满电后约48–72小时</td>
+</tr>
+
+<tr>
+<td>显示器尺寸</td>
+<td>274 × 170 × 117 mm</td>
+</tr>
+
+<tr>
+<td>显示器重量</td>
+<td>净重2.52 kg / 毛重2.95 kg</td>
+</tr>
+
+<tr>
+<td>认证</td>
+<td>CE</td>
+</tr>
+
+</table>`,
+
+"适用于仓库、工厂及生产车间的工业台式称重和计数。",
+
+"高达1/30000的内部分辨率，称重稳定准确。",
+
+"三窗口LCD同时显示总重量、单重和PCS数量。",
+
+"不锈钢秤盘，可根据使用环境选择钢制或不锈钢秤台。",
+
+"HI-LOW-OK检重功能，方便货物分类和质量控制。",
+
+"可选RS232接口，可连接电脑、打印机及其他外围设备。",
+
+"配备充电电池，可在无市电环境下独立工作。",
+
+"适用于仓储、工厂、生产、包装、物流及库存管理。"
+        ]
+    }
+},
 };
 
 

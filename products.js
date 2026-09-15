@@ -5244,6 +5244,180 @@ business:"measure",
 
     ]
 },
+{
+    business:"measure",
+    id:61,
+
+    name:"Cân điện tử Jadever JWI-700C 300kg",
+
+    category:"can-ban-dung",
+
+    folder:"jadever-jwi-700c-60kg",
+
+    brand:"Jadever",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử Jadever JWI-700C 300kg là dòng cân bàn điện tử kết hợp chức năng cân và đếm số lượng PCS, phù hợp sử dụng tại nhà kho, xưởng sản xuất, nhà máy, cơ khí, đóng gói và kiểm kê hàng hóa. Cân sử dụng đầu hiển thị JWI-700C với màn hình LCD 3 vùng, hiển thị đồng thời tổng trọng lượng, trọng lượng đơn vị và số lượng PCS. Model 300kg có bước nhảy 50g, độ phân giải 1/30.000, mặt bàn inox và khung cân chắc chắn. Cân hỗ trợ trừ bì, cộng dồn, chuyển đổi đơn vị, đếm mẫu, cảnh báo HI-LOW-OK, báo quá tải và kết nối RS232 với máy tính, máy in hoặc thiết bị ngoại vi.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>50 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Tiêu chuẩn</td>
+<td>OIML cấp III</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>40 × 50 cm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn cân</td>
+<td>Inox chống gỉ</td>
+</tr>
+
+<tr>
+<td>Loadcell</td>
+<td>Loadcell nhập khẩu</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 3 vùng, 6/5/6 chữ số</td>
+</tr>
+
+<tr>
+<td>Chiều cao chữ</td>
+<td>19 mm</td>
+</tr>
+
+<tr>
+<td>Đèn nền</td>
+<td>LED màu xanh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Tổng trọng lượng / trọng lượng đơn vị / số lượng PCS</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, trừ bì, cộng dồn, đếm PCS, chuyển đổi đơn vị</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>HI / LOW / OK, quá tải, pin yếu</td>
+</tr>
+
+<tr>
+<td>Tự động</td>
+<td>Tự động về 0, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng kết nối</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Vỏ đầu cân</td>
+<td>Nhựa ABS khép kín</td>
+</tr>
+
+<tr>
+<td>Ắc quy</td>
+<td>6V/4Ah hoặc 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 110V/220V ±10%</td>
+</tr>
+
+<tr>
+<td>Thời gian sử dụng pin</td>
+<td>Khoảng 48–72 giờ sau khi sạc đầy</td>
+</tr>
+
+<tr>
+<td>Kích thước đầu hiển thị</td>
+<td>274 × 170 × 117 mm</td>
+</tr>
+
+<tr>
+<td>Khối lượng đầu cân</td>
+<td>Net 2,52 kg / Gross 2,95 kg</td>
+</tr>
+
+<tr>
+<td>Chứng nhận</td>
+<td>CE</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử chuyên dụng cho cân hàng hóa và đếm số lượng PCS.",
+
+"Độ phân giải cao 1/30.000, tốc độ xử lý nhanh và hoạt động ổn định.",
+
+"Màn hình LCD 3 vùng hiển thị đồng thời trọng lượng tổng, trọng lượng đơn vị và số lượng sản phẩm.",
+
+"Mặt bàn inox chống gỉ, khung cân bằng thép hoặc inox tùy theo nhu cầu sử dụng.",
+
+"Chức năng HI-LOW-OK hỗ trợ kiểm tra và phân loại hàng hóa.",
+
+"Hỗ trợ RS232 để kết nối máy tính, máy in, phần mềm bán hàng và thiết bị ngoại vi.",
+
+"Pin sạc giúp cân có thể hoạt động độc lập khi không có nguồn điện trực tiếp.",
+
+"Phù hợp cho nhà kho, nhà máy, xưởng sản xuất, cơ khí, đóng gói, vận chuyển và kiểm kê hàng hóa."
+]
+},
 
         
 
