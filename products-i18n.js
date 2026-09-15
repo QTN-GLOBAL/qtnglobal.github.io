@@ -9642,6 +9642,1840 @@ window.productTranslations = {
         ]
     }
 },
+63: {
+
+    en: {
+
+        name:"ONEKO MDJ-620S Solid Density Analytical Balance",
+
+        origin:"Japan",
+
+        description:"The ONEKO JPA MDJ-620S solid density analytical balance is designed for measuring the density of solid materials using hydrostatic weighing and density measurement methods. It provides a weighing range of 0.01–300g, density measurement with 0.01g/cm³ resolution, volume display with 0.01cm³ resolution and repeatability of ±0.01g/cm³. The instrument can measure density and volume, evaluate changes in density, perform temperature compensation for water and operate in Comparator Mode. It features a chemical-resistant styrol tank and standard RS232C communication for computer connection. The MDJ-620S is suitable for plastics, rubber, electronics, paper, food, glass, wood products, pharmaceuticals and other industrial materials.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>MDJ-620S</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>ONEKO JPA</td>
+</tr>
+
+<tr>
+<td>Weighing range</td>
+<td>0.01 – 300 g</td>
+</tr>
+
+<tr>
+<td>Density resolution</td>
+<td>0.01 g/cm³</td>
+</tr>
+
+<tr>
+<td>Density measurement</td>
+<td>0.01 g/cm³</td>
+</tr>
+
+<tr>
+<td>Volume display</td>
+<td>0.01 cm³</td>
+</tr>
+
+<tr>
+<td>Repeatability</td>
+<td>±0.01 g/cm³</td>
+</tr>
+
+<tr>
+<td>Maximum sample size</td>
+<td>100 × 70 × 25 mm</td>
+</tr>
+
+<tr>
+<td>Measurement method</td>
+<td>Hydrostatic weighing and density measurement</td>
+</tr>
+
+<tr>
+<td>Measurement time</td>
+<td>Approximately 10 seconds</td>
+</tr>
+
+<tr>
+<td>Measurement modes</td>
+<td>Density, volume and density change measurement</td>
+</tr>
+
+<tr>
+<td>Comparator mode</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Temperature compensation</td>
+<td>Water temperature compensation</td>
+</tr>
+
+<tr>
+<td>Tank</td>
+<td>Chemical-resistant styrol tank</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232C</td>
+</tr>
+
+<tr>
+<td>Dimensions</td>
+<td>218 × 190 × 170 mm</td>
+</tr>
+
+<tr>
+<td>Weight</td>
+<td>1.6 kg</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>AC 100 – 240V</td>
+</tr>
+
+<tr>
+<td>Standards</td>
+<td>JIS K6268A, JIS K6350, JIS K7112, ASTM D297-93-16, D797-00, JIS, UL, ISO</td>
+</tr>
+
+</table>`,
+
+"Designed for solid material density measurement using hydrostatic weighing",
+
+"Weighing range from 0.01 to 300g",
+
+"Density resolution of 0.01 g/cm³",
+
+"Volume display resolution of 0.01 cm³",
+
+"Repeatability of ±0.01 g/cm³",
+
+"Fast measurement time of approximately 10 seconds",
+
+"Measures density, volume and density change",
+
+"Comparator Mode for result comparison",
+
+"Water temperature compensation function",
+
+"Chemical-resistant styrol tank",
+
+"Standard RS232C interface for computer connection",
+
+"Suitable for plastics, rubber, electronics, paper, food, glass, wood products and pharmaceuticals",
+
+"Designed according to JIS, ASTM, UL and ISO standards"
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO MDJ-620S 固体密度分析天平",
+
+        origin:"日本",
+
+        description:"ONEKO JPA MDJ-620S 固体密度分析天平采用静水称量和密度测量方法，专门用于测量固体材料的密度。仪器称量范围为0.01–300g，密度分辨率为0.01g/cm³，体积显示分辨率为0.01cm³，重复性为±0.01g/cm³。设备可测量密度和体积，并可分析密度变化，支持水温补偿和Comparator Mode比较模式。配备耐化学腐蚀的Styrol储液槽，并通过RS232C接口连接电脑。适用于塑料、橡胶、电子、纸张、食品、玻璃、木制品、药品及制药等行业。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>MDJ-620S</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>ONEKO JPA</td>
+</tr>
+
+<tr>
+<td>称量范围</td>
+<td>0.01 – 300 g</td>
+</tr>
+
+<tr>
+<td>密度分辨率</td>
+<td>0.01 g/cm³</td>
+</tr>
+
+<tr>
+<td>密度测量能力</td>
+<td>0.01 g/cm³</td>
+</tr>
+
+<tr>
+<td>体积显示</td>
+<td>0.01 cm³</td>
+</tr>
+
+<tr>
+<td>重复性</td>
+<td>±0.01 g/cm³</td>
+</tr>
+
+<tr>
+<td>最大样品尺寸</td>
+<td>100 × 70 × 25 mm</td>
+</tr>
+
+<tr>
+<td>测量方法</td>
+<td>静水称量法和密度测量法</td>
+</tr>
+
+<tr>
+<td>测量时间</td>
+<td>约10秒</td>
+</tr>
+
+<tr>
+<td>测量模式</td>
+<td>密度、体积及密度变化测量</td>
+</tr>
+
+<tr>
+<td>比较模式</td>
+<td>Comparator Mode</td>
+</tr>
+
+<tr>
+<td>温度补偿</td>
+<td>水温补偿</td>
+</tr>
+
+<tr>
+<td>储液槽</td>
+<td>耐化学腐蚀Styrol储液槽</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232C</td>
+</tr>
+
+<tr>
+<td>仪器尺寸</td>
+<td>218 × 190 × 170 mm</td>
+</tr>
+
+<tr>
+<td>重量</td>
+<td>1.6 kg</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>AC 100 – 240V</td>
+</tr>
+
+<tr>
+<td>符合标准</td>
+<td>JIS K6268A、JIS K6350、JIS K7112、ASTM D297-93-16、D797-00、JIS、UL、ISO</td>
+</tr>
+
+</table>`,
+
+"采用静水称量法测量固体材料密度",
+
+"称量范围0.01–300g",
+
+"密度分辨率0.01 g/cm³",
+
+"体积显示分辨率0.01 cm³",
+
+"重复性±0.01 g/cm³",
+
+"测量时间约10秒",
+
+"可测量密度、体积及密度变化",
+
+"支持Comparator Mode比较模式",
+
+"支持水温补偿功能",
+
+"采用耐化学腐蚀Styrol储液槽",
+
+"通过RS232C接口连接电脑",
+
+"适用于塑料、橡胶、电子、纸张、食品、玻璃、木制品及制药行业",
+
+"符合JIS、ASTM、UL和ISO等相关标准"
+
+        ]
+    }
+},
+64: {
+
+    en: {
+
+        name:"ONEKO OK-100 100kg/10g Electronic Platform Scale",
+
+        origin:"Japan",
+
+        description:"The ONEKO OK-100 is a heavy-duty electronic platform scale designed for industrial weighing applications including manufacturing, packaging, construction, production workshops and material handling. It features a sturdy platform frame, stainless steel weighing surface and a ONEKO indicator with a clear 6-digit LCD and green LED backlight. The indicator provides ZERO, TARE, ACCUM, FUNC and automatic power-off functions, while the RS232 interface allows connection to a computer or printer. The load cell provides safe overload protection of up to 200%, making the scale suitable for demanding industrial environments.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>ONEKO SCALE OK-100</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>Accuracy standard</td>
+<td>OIML Class III</td>
+</tr>
+
+<tr>
+<td>Capacity</td>
+<td>60kg – 100kg</td>
+</tr>
+
+<tr>
+<td>Division</td>
+<td>20g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform sizes</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Platform surface</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Weighing method</td>
+<td>Load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD / green LED</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, calibration, tare, accumulation, automatic power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>Operating humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Indicator housing</td>
+<td>ABS plastic</td>
+</tr>
+
+<tr>
+<td>Battery indicator</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+</table>`,
+
+"Heavy-duty ONEKO OK-100 electronic platform scale designed for industrial weighing.",
+
+"6-digit LCD display with green LED backlight for clear weight reading.",
+
+"Stainless steel weighing platform that is easy to remove, clean and maintain.",
+
+"Strong rust-resistant steel platform frame.",
+
+"Load cell with safe overload protection of up to 200%.",
+
+"Supports ZERO, TARE, ACCUM, FUNC and automatic power-off functions.",
+
+"RS232 interface for connection to computers and printers.",
+
+"LED battery indicator and rechargeable DC 6V/4.5Ah battery.",
+
+"Suitable for manufacturing, packaging, production, construction, factories and workshops."
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO OK-100 100kg/10g 电子台秤",
+
+        origin:"日本",
+
+        description:"ONEKO OK-100是一款坚固耐用的工业电子台秤，适用于生产、包装、制造、建筑、工厂及生产车间等工业称重环境。秤体采用坚固的平台结构，不锈钢秤面易于清洁，并配备ONEKO电子称重显示器，采用6位LCD绿色LED背光显示。显示器支持ZERO、TARE、ACCUM、FUNC及自动关机功能，并通过RS232接口连接电脑或打印机。称重传感器具有最高200%的安全过载能力，适合工业环境中的长期使用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>ONEKO SCALE OK-100</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>精度标准</td>
+<td>OIML III级</td>
+</tr>
+
+<tr>
+<td>称量范围</td>
+<td>60kg – 100kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>20g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30000</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>秤体尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>秤台表面</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>秤台框架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>显示器</td>
+<td>6位LCD / 绿色LED</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重、校准、去皮、累计、自动关机</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>工作湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>显示器外壳</td>
+<td>ABS塑料</td>
+</tr>
+
+<tr>
+<td>电池指示灯</td>
+<td>有</td>
+</tr>
+
+<tr>
+<td>产品组成</td>
+<td>显示器 + 秤台 + 使用说明书</td>
+</tr>
+
+</table>`,
+
+"坚固耐用的ONEKO OK-100工业电子台秤。",
+
+"6位LCD绿色LED背光显示，数字清晰易读。",
+
+"不锈钢秤面，可拆卸、易清洁、防锈。",
+
+"采用坚固的防锈钢秤台框架。",
+
+"称重传感器安全过载能力最高可达200%。",
+
+"支持ZERO、TARE、ACCUM、FUNC及自动关机功能。",
+
+"RS232接口可连接电脑和打印机。",
+
+"配备LED电池指示灯和DC 6V/4.5Ah充电电池。",
+
+"适用于生产、包装、制造、建筑、工厂及生产车间。"
+
+        ]
+    }
+},
+65: {
+
+    en: {
+
+        name:"ONEKO OK-150 150kg/20g Electronic Platform Scale",
+
+        origin:"Japan",
+
+        description:"The ONEKO OK-150 150kg/20g is an industrial electronic platform scale with a sturdy structure, stainless steel weighing platform and ONEKO indicator. It is suitable for factories, warehouses, production workshops, packaging, manufacturing and industrial weighing applications. The indicator supports ZERO, TARE, ACCUM, FUNC and automatic power-off functions, with RS232 communication for connection to computers or printers. The scale is designed for stable operation and high overload resistance in industrial environments.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>ONEKO SCALE OK-150</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>Accuracy standard</td>
+<td>OIML Class III</td>
+</tr>
+
+<tr>
+<td>Capacity</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>Division</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform sizes</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Platform surface</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Weighing method</td>
+<td>Load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD / green LED</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, calibration, tare, accumulation, automatic power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>Operating humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Indicator housing</td>
+<td>ABS plastic</td>
+</tr>
+
+<tr>
+<td>Battery indicator</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+</table>`,
+
+"ONEKO OK-150 electronic platform scale with 150kg capacity and 20g readability.",
+
+"Strong construction suitable for factories, warehouses and production workshops.",
+
+"6-digit LCD display with green LED backlight for clear weight reading.",
+
+"Stainless steel weighing platform that is easy to remove and clean.",
+
+"Rust-resistant steel platform frame with strong construction.",
+
+"Load cell designed with high safe overload resistance.",
+
+"Supports ZERO, TARE, ACCUM, FUNC and automatic power-off functions.",
+
+"RS232 interface for connection to computers and printers.",
+
+"Rechargeable DC 6V/4.5Ah battery with battery status indicator.",
+
+"Suitable for manufacturing, packaging, production, warehouses, factories and workshops."
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO OK-150 150kg/20g 电子台秤",
+
+        origin:"日本",
+
+        description:"ONEKO OK-150 150kg/20g是一款工业电子台秤，采用坚固结构、不锈钢秤面和ONEKO称重显示器，适用于工厂、仓库、生产车间、包装及制造等工业称重环境。显示器支持ZERO、TARE、ACCUM、FUNC及自动关机功能，并可通过RS232接口连接电脑或打印机。秤体结构坚固，称重传感器具有较高的过载承受能力，适合工业环境长期使用。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>ONEKO SCALE OK-150</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>精度标准</td>
+<td>OIML III级</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30000</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>秤体尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>秤台表面</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>秤台框架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>显示器</td>
+<td>6位LCD / 绿色LED</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重、校准、去皮、累计、自动关机</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>工作湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>显示器外壳</td>
+<td>ABS塑料</td>
+</tr>
+
+<tr>
+<td>电池指示灯</td>
+<td>有</td>
+</tr>
+
+<tr>
+<td>产品组成</td>
+<td>显示器 + 秤台 + 使用说明书</td>
+</tr>
+
+</table>`,
+
+"ONEKO OK-150电子台秤，最大称量150kg，分度值20g。",
+
+"结构坚固，适用于工厂、仓库及生产车间。",
+
+"6位LCD绿色LED背光显示，数字清晰易读。",
+
+"不锈钢秤面，方便拆卸、清洁和维护。",
+
+"采用坚固的防锈钢秤台框架。",
+
+"称重传感器具有较高的安全过载能力。",
+
+"支持ZERO、TARE、ACCUM、FUNC及自动关机功能。",
+
+"RS232接口可连接电脑和打印机。",
+
+"配备DC 6V/4.5Ah充电电池及电池状态指示灯。",
+
+"适用于生产、包装、制造、仓库、工厂及生产车间。"
+
+        ]
+    }
+},
+66: {
+
+    en: {
+
+        name:"ONEKO OK-200 200kg/50g Electronic Platform Scale",
+
+        origin:"Japan",
+
+        description:"The ONEKO OK-200 200kg/50g is a heavy-duty electronic platform scale designed for industrial weighing applications. It features a strong platform structure, stainless steel weighing surface and a ONEKO indicator with a clear 6-digit LCD and green LED display. The scale is suitable for manufacturing, packaging, production, construction, factories and workshops. Its load cell provides safe overload protection of up to 200%, while the indicator supports weighing, calibration, tare and automatic power-off functions. An RS232 interface allows connection to a computer or printer, and the scale operates with a rechargeable DC 6V/4.5Ah battery.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>ONEKO SCALE OK-200</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>Accuracy standard</td>
+<td>OIML Class III</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>200 kg</td>
+</tr>
+
+<tr>
+<td>Division</td>
+<td>20g – 50g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Platform surface</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Weighing method</td>
+<td>Load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD / green LED</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing / Calibration / Tare / Automatic power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>Operating humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Indicator housing</td>
+<td>ABS plastic</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+</table>`,
+
+"ONEKO OK-200 electronic platform scale with a maximum capacity of 200kg.",
+
+"Division available from 20g to 50g depending on configuration.",
+
+"Internal resolution of 1/30,000.",
+
+"Stainless steel weighing platform with rust-resistant, scratch-resistant and easy-to-clean surface.",
+
+"Strong rust-resistant steel platform frame.",
+
+"Load cell with safe overload protection of up to 200%.",
+
+"6-digit LCD display with green LED backlight for clear readings.",
+
+"Supports weighing, calibration, tare and automatic power-off functions.",
+
+"RS232 interface for connection to computers or printers.",
+
+"Powered by a rechargeable DC 6V/4.5Ah battery.",
+
+"Suitable for manufacturing, packaging, production, construction, factories and workshops."
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO OK-200 200kg/50g 电子台秤",
+
+        origin:"日本",
+
+        description:"ONEKO OK-200 200kg/50g是一款适用于工业称重的坚固型电子台秤。秤体采用坚固的平台结构和不锈钢秤面，并配备ONEKO称重显示器，采用6位LCD绿色LED显示。适用于生产、包装、制造、建筑、工厂及生产车间等环境。称重传感器具有最高200%的安全过载能力，显示器支持称重、校准、去皮及自动关机功能，并通过RS232接口连接电脑或打印机。设备采用DC 6V/4.5Ah充电电池供电。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>ONEKO SCALE OK-200</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>精度标准</td>
+<td>OIML III级</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>200 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>20g – 50g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30000</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>秤体尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>秤台框架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>秤台表面</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>显示器</td>
+<td>6位LCD / 绿色LED</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重 / 校准 / 去皮 / 自动关机</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>工作湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>显示器外壳</td>
+<td>ABS塑料</td>
+</tr>
+
+<tr>
+<td>产品组成</td>
+<td>显示器 + 秤台 + 使用说明书</td>
+</tr>
+
+</table>`,
+
+"ONEKO OK-200电子台秤，最大称量200kg。",
+
+"根据配置不同，分度值为20g至50g。",
+
+"内部分辨率为1/30000。",
+
+"采用不锈钢秤面，防锈、防刮且易于清洁。",
+
+"采用坚固的防锈钢秤台框架。",
+
+"称重传感器安全过载能力最高可达200%。",
+
+"6位LCD绿色LED显示，数字清晰易读。",
+
+"支持称重、校准、去皮及自动关机功能。",
+
+"RS232接口可连接电脑或打印机。",
+
+"采用DC 6V/4.5Ah充电电池供电。",
+
+"适用于生产、包装、制造、建筑、工厂及生产车间。"
+
+        ]
+    }
+},
+67: {
+
+    en: {
+
+        name:"ONEKO OK-300 300kg/50g Electronic Platform Scale",
+
+        origin:"Japan",
+
+        description:"The ONEKO OK-300 300kg/50g is an industrial electronic platform scale with a strong structure, stainless steel weighing surface and ONEKO indicator. It is suitable for manufacturing, packaging, production, construction, factories and workshops. The scale uses a load cell with safe overload protection of up to 200%, a clear 6-digit LCD with green LED display and functions including weighing, calibration, tare, accumulation and automatic power-off. The RS232 interface allows connection to computers or printers for weighing data management.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>ONEKO SCALE OK-300</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>Accuracy standard</td>
+<td>OIML Class III</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Division</td>
+<td>20g – 50g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform sizes</td>
+<td>400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Platform surface</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Weighing method</td>
+<td>Load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD / green LED</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing / Calibration / Tare / Accumulation / Automatic power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>Operating humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Indicator housing</td>
+<td>ABS plastic</td>
+</tr>
+
+<tr>
+<td>Battery indicator</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+</table>`,
+
+"ONEKO OK-300 electronic platform scale with a maximum capacity of 300kg.",
+
+"Division from 20g to 50g depending on the scale configuration.",
+
+"Internal resolution of 1/30,000 for industrial weighing applications.",
+
+"6-digit LCD display with green LED backlight for clear readings.",
+
+"Stainless steel weighing platform with rust-resistant and easy-to-clean surface.",
+
+"Strong rust-resistant steel platform frame.",
+
+"Load cell with safe overload protection of up to 200%.",
+
+"Supports weighing, calibration, tare, accumulation and automatic power-off functions.",
+
+"RS232 interface for connection to computers or printers.",
+
+"Rechargeable DC 6V/4.5Ah battery with battery status indicator.",
+
+"Suitable for manufacturing, packaging, production, construction, factories and workshops."
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO OK-300 300kg/50g 电子台秤",
+
+        origin:"日本",
+
+        description:"ONEKO OK-300 300kg/50g是一款工业电子台秤，采用坚固的秤体结构、不锈钢秤面和ONEKO称重显示器。适用于生产、包装、制造、建筑、工厂及生产车间等工业称重环境。设备采用具有最高200%安全过载能力的称重传感器，配备6位LCD绿色LED显示器，并支持称重、校准、去皮、累计和自动关机等功能。通过RS232接口可以连接电脑或打印机，实现称重数据管理。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>ONEKO SCALE OK-300</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>精度标准</td>
+<td>OIML III级</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>20g – 50g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30000</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>秤体尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤台框架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>秤台表面</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>显示器</td>
+<td>6位LCD / 绿色LED</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重 / 校准 / 去皮 / 累计 / 自动关机</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>工作湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>显示器外壳</td>
+<td>ABS塑料</td>
+</tr>
+
+<tr>
+<td>电池指示灯</td>
+<td>有</td>
+</tr>
+
+<tr>
+<td>产品组成</td>
+<td>显示器 + 秤台 + 使用说明书</td>
+</tr>
+
+</table>`,
+
+"ONEKO OK-300电子台秤，最大称量300kg。",
+
+"根据配置不同，分度值为20g至50g。",
+
+"内部分辨率为1/30000，适用于工业称重。",
+
+"6位LCD绿色LED显示，数字清晰易读。",
+
+"采用不锈钢秤面，防锈、耐刮且易于清洁。",
+
+"采用坚固的防锈钢秤台框架。",
+
+"称重传感器安全过载能力最高可达200%。",
+
+"支持称重、校准、去皮、累计及自动关机功能。",
+
+"RS232接口可连接电脑或打印机，实现称重数据管理。",
+
+"配备DC 6V/4.5Ah充电电池及电池状态指示灯。",
+
+"适用于生产、包装、制造、建筑、工厂及生产车间。"
+
+        ]
+    }
+},
+68: {
+
+    en: {
+
+        name:"ONEKO OK-500 Electronic Platform Scale 500kg/50g",
+
+        origin:"Japan",
+
+        description:"ONEKO OK-500 electronic platform scale with a maximum capacity of 500kg and 50g readability. It features a robust steel frame, stainless steel platform, 6-digit LCD with green LED backlight, and is suitable for production, packaging, manufacturing, factories, workshops and construction.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>ONEKO SCALE OK-500</td>
+</tr>
+
+<tr>
+<td>Quality standard</td>
+<td>Class III-OIML</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>50 g – 100 g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel, easy to clean and rust-resistant</td>
+</tr>
+
+<tr>
+<td>Weighing system</td>
+<td>Load cell sensor</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD with green LED</td>
+</tr>
+
+<tr>
+<td>Units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, calibration, tare, accumulation, auto power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+</table>`,
+
+"Heavy-duty industrial platform scale",
+
+"Strong steel frame with adjustable feet",
+
+"Stainless steel platform, easy to clean and rust-resistant",
+
+"Load cell sensor with safe overload protection up to 200%",
+
+"6-digit LCD display with green LED backlight",
+
+"Rechargeable DC 6V/4.5Ah battery",
+
+"RS-232 connection for computer or printer",
+
+"Suitable for production, packaging, manufacturing, factories and workshops"
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO OK-500 电子台秤 500kg/50g",
+
+        origin:"日本",
+
+        description:"ONEKO OK-500电子台秤，最大称量500kg，分度值50g。采用坚固钢制秤架、不锈钢秤台和6位LCD绿色LED显示屏，适用于生产、包装、制造、工厂、车间及建筑等领域。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>ONEKO SCALE OK-500</td>
+</tr>
+
+<tr>
+<td>质量标准</td>
+<td>III级 OIML</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>50 g – 100 g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>整机尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>秤台</td>
+<td>不锈钢，易于清洁并具有防锈性能</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器（Load Cell）</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>6位LCD绿色LED显示</td>
+</tr>
+
+<tr>
+<td>单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>普通称重、校准、去皮、累计、自动关机</td>
+</tr>
+
+<tr>
+<td>接口</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>产品配置</td>
+<td>显示仪表 + 秤台 + 使用说明书</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+</table>`,
+
+"大称量工业电子台秤",
+
+"坚固钢制秤架，支脚高度可调",
+
+"不锈钢秤台，易于清洁并防锈",
+
+"称重传感器，安全过载能力最高达200%",
+
+"6位LCD绿色LED显示屏",
+
+"DC 6V/4.5Ah可充电电池",
+
+"配备RS-232接口，可连接电脑或打印机",
+
+"适用于生产、包装、制造、工厂和车间"
+
+        ]
+    }
+},
 };
 
 
