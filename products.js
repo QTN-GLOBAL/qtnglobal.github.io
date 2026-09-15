@@ -6660,7 +6660,7 @@ business:"measure",
 
     folder:"osk-banh-xe-300kg",
 
-    brand:"OSK",
+    brand:"OKS",
 
     origin:"Không công bố",
 
