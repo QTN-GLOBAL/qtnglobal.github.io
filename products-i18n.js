@@ -11476,6 +11476,566 @@ window.productTranslations = {
         ]
     }
 },
+69: {
+
+    en: {
+
+        name:"ONEKO PCA8601 Counting Scale",
+
+        origin:"Japan",
+
+        description:"ONEKO PCA8601 is an electronic counting scale combining weighing, piece counting and quantity checking with an over/under warning light. It is suitable for factories, warehouses, production workshops, packaging lines and inventory control.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>PCA8601</td>
+</tr>
+
+<tr>
+<td>Brand</td>
+<td>ONEKO</td>
+</tr>
+
+<tr>
+<td>Available capacities</td>
+<td>60kg – 500kg</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing and piece counting</td>
+</tr>
+
+<tr>
+<td>Quantity checking</td>
+<td>Fast product quantity checking</td>
+</tr>
+
+<tr>
+<td>Warning</td>
+<td>Over/under quantity warning light</td>
+</tr>
+
+<tr>
+<td>Applications</td>
+<td>Warehouses, factories, production workshops, packaging lines and inventory control</td>
+</tr>
+
+<tr>
+<td>Suitable products</td>
+<td>Components, bolts, nuts, accessories, mechanical parts, packaged products and production materials</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>ONEKO Japan</td>
+</tr>
+
+</table>`,
+
+"Weighing and piece counting in one device",
+
+"Fast product counting based on sample weight",
+
+"Warning light helps identify over or under quantities",
+
+"Available capacities from 60kg to 500kg",
+
+"Suitable for counting components, bolts, nuts and packaged products",
+
+"Suitable for factories, warehouses and production workshops",
+
+"Helps reduce counting time and manual counting errors"
+
+        ]
+    },
+
+    zh: {
+
+        name:"ONEKO PCA8601 电子计数秤",
+
+        origin:"日本",
+
+        description:"ONEKO PCA8601电子计数秤集称重、数量计数和超欠量检查于一体，并配备超量/不足警示灯。适用于工厂、仓库、生产车间、包装生产线和库存管理。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>PCA8601</td>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>ONEKO</td>
+</tr>
+
+<tr>
+<td>可选量程</td>
+<td>60kg – 500kg</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重、数量计数</td>
+</tr>
+
+<tr>
+<td>数量检查</td>
+<td>快速检查产品数量</td>
+</tr>
+
+<tr>
+<td>警示功能</td>
+<td>超量/不足数量警示灯</td>
+</tr>
+
+<tr>
+<td>应用领域</td>
+<td>仓库、工厂、生产车间、包装生产线、库存管理</td>
+</tr>
+
+<tr>
+<td>适用产品</td>
+<td>电子元件、螺栓、螺母、配件、机械零件、包装产品及生产物料</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>ONEKO 日本</td>
+</tr>
+
+</table>`,
+
+"称重、计数和检查一体化",
+
+"根据样品重量快速计算产品数量",
+
+"警示灯帮助识别数量过多或不足",
+
+"可选择60kg至500kg不同量程",
+
+"适用于电子元件、螺栓、螺母和包装产品计数",
+
+"适用于工厂、仓库和生产车间",
+
+"减少人工计数时间并降低计数错误"
+
+        ]
+    }
+},
+70: {
+
+    en: {
+
+        name:"OSK 300kg Electronic Platform Scale with Wheels",
+
+        origin:"Not specified",
+
+        description:"OSK 300kg electronic platform scale with a heavy-duty steel tread plate, strong load-bearing steel frame and wheels for convenient movement in warehouses, workshops and stores. It features a clear LED display, high-quality load cell and rechargeable battery with direct power supply.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS</td>
+</tr>
+
+<tr>
+<td>Capacity</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Available capacities</td>
+<td>300 kg or 500 kg</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Heavy-duty steel tread plate</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>400 × 500 mm – 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Frame</td>
+<td>Heavy-duty load-bearing steel construction</td>
+</tr>
+
+<tr>
+<td>Wheels</td>
+<td>Yes, for convenient movement</td>
+</tr>
+
+<tr>
+<td>Sensor</td>
+<td>High-quality load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Clear LED display</td>
+</tr>
+
+<tr>
+<td>Accuracy</td>
+<td>High and stable</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>Rechargeable battery and direct power supply</td>
+</tr>
+
+<tr>
+<td>Applications</td>
+<td>Warehouses, logistics, agricultural stores, factories, production workshops, scrap collection centers and mechanical workshops</td>
+</tr>
+
+</table>`,
+
+"Heavy-duty steel tread plate with good impact resistance and anti-slip properties",
+
+"Strong load-bearing steel frame for heavy goods weighing",
+
+"Equipped with wheels for convenient movement",
+
+"Bright and clear LED display",
+
+"High-quality load cell for fast and stable weighing",
+
+"Rechargeable battery with direct power supply",
+
+"Suitable for warehouses, factories, workshops and stores",
+
+"Available in 300kg and 500kg capacities"
+
+        ]
+    },
+
+    zh: {
+
+        name:"OSK 300kg 带轮电子台秤",
+
+        origin:"未公布",
+
+        description:"OSK 300kg带轮电子台秤采用加厚防滑钢花纹秤台、坚固的承重钢制秤架和移动脚轮，方便在仓库、车间和商店之间移动。配备清晰LED显示屏、高品质称重传感器，并支持充电电池和直接供电。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>OKS</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>可选量程</td>
+<td>300 kg 或 500 kg</td>
+</tr>
+
+<tr>
+<td>秤台</td>
+<td>加厚钢制花纹板</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>400 × 500 mm – 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤架</td>
+<td>高强度承重钢结构</td>
+</tr>
+
+<tr>
+<td>脚轮</td>
+<td>配备脚轮，方便移动</td>
+</tr>
+
+<tr>
+<td>传感器</td>
+<td>高品质称重传感器</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>清晰LED显示</td>
+</tr>
+
+<tr>
+<td>精度</td>
+<td>高精度、稳定称重</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>充电电池，可直接接入电源</td>
+</tr>
+
+<tr>
+<td>应用</td>
+<td>仓库、物流、农产品商店、工厂、生产车间、废品回收站和机械车间</td>
+</tr>
+
+</table>`,
+
+"加厚钢制花纹秤台，具有良好的抗冲击和防滑性能",
+
+"坚固承重钢架，适合大型货物称重",
+
+"配备脚轮，方便移动秤体",
+
+"明亮清晰的LED显示屏",
+
+"高品质称重传感器，称重快速稳定",
+
+"充电电池结合直接供电",
+
+"适用于仓库、工厂、车间和商店",
+
+"提供300kg和500kg两种量程版本"
+
+        ]
+    }
+},
+71: {
+
+    en: {
+
+        name:"OSK 500kg Electronic Platform Scale with Wheels",
+
+        origin:"Not specified",
+
+        description:"OSK 500kg electronic platform scale with wheels, featuring a heavy-duty steel tread plate, strong load-bearing steel frame and wheels for easy movement in warehouses, workshops and stores. It uses a clear LED display, high-quality load cell and rechargeable battery with direct power supply.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS</td>
+</tr>
+
+<tr>
+<td>Capacity</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Available capacities</td>
+<td>300 kg or 500 kg</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Heavy-duty steel tread plate</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>400 × 500 mm – 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Frame</td>
+<td>Heavy-duty load-bearing steel construction</td>
+</tr>
+
+<tr>
+<td>Wheels</td>
+<td>Yes, for convenient movement</td>
+</tr>
+
+<tr>
+<td>Sensor</td>
+<td>High-quality load cell</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Clear LED display</td>
+</tr>
+
+<tr>
+<td>Accuracy</td>
+<td>High and stable</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>Rechargeable battery and direct power supply</td>
+</tr>
+
+<tr>
+<td>Applications</td>
+<td>Warehouses, logistics, agricultural stores, factories, production workshops, scrap collection centers and mechanical workshops</td>
+</tr>
+
+</table>`,
+
+"Heavy-duty steel tread plate with good impact resistance and anti-slip properties",
+
+"Strong load-bearing steel frame for heavy goods weighing",
+
+"Equipped with wheels for convenient movement",
+
+"High-quality load cell for fast and stable weighing",
+
+"Bright and clear LED display",
+
+"Rechargeable battery with direct power supply",
+
+"Suitable for warehouses, factories, workshops and stores",
+
+"Suitable for weighing packaged goods, food, animal feed and other heavy goods"
+
+        ]
+    },
+
+    zh: {
+
+        name:"OSK 500kg 带轮电子台秤",
+
+        origin:"未公布",
+
+        description:"OSK 500kg带轮电子台秤采用加厚钢制花纹秤台、坚固承重钢架和移动脚轮，方便在仓库、车间和商店之间移动。配备清晰LED显示屏、高品质称重传感器，并支持充电电池和直接供电，适合大型货物称重。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>OKS</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>可选量程</td>
+<td>300 kg 或 500 kg</td>
+</tr>
+
+<tr>
+<td>秤台</td>
+<td>加厚钢制花纹板</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>400 × 500 mm – 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤架</td>
+<td>高强度承重钢结构</td>
+</tr>
+
+<tr>
+<td>脚轮</td>
+<td>配备脚轮，方便移动</td>
+</tr>
+
+<tr>
+<td>传感器</td>
+<td>高品质称重传感器</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>清晰LED显示</td>
+</tr>
+
+<tr>
+<td>精度</td>
+<td>高精度、稳定称重</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>充电电池，可直接接入电源</td>
+</tr>
+
+<tr>
+<td>应用</td>
+<td>仓库、物流、农产品商店、工厂、生产车间、废品回收站和机械车间</td>
+</tr>
+
+</table>`,
+
+"加厚钢制花纹秤台，具有良好的抗冲击和防滑性能",
+
+"坚固承重钢架，适合大型货物称重",
+
+"配备脚轮，方便移动秤体",
+
+"高品质称重传感器，称重快速稳定",
+
+"明亮清晰的LED显示屏",
+
+"充电电池结合直接供电",
+
+"适用于仓库、工厂、车间和商店",
+
+"适用于包装货物、食品、动物饲料及其他大型货物称重"
+
+        ]
+    }
+},
 };
 
 

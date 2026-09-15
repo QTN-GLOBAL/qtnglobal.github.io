@@ -6561,6 +6561,303 @@ business:"measure",
 "Phù hợp sản xuất, đóng gói, chế tạo, nhà máy và phân xưởng"
 
     ]
-},      
+}, 
+{
+    business:"measure",
+    id:69,
 
+    name:"Cân đếm mẫu ONEKO PCA8601",
+
+    category:"can-ban-dung",
+
+    folder:"oneko-pca8601",
+
+    brand:"ONEKO",
+
+    origin:"Nhật Bản",
+
+    description:"Cân điện tử đếm mẫu ONEKO PCA8601 kết hợp chức năng cân trọng lượng, đếm số lượng sản phẩm và kiểm tra thừa thiếu bằng đèn cảnh báo. Sản phẩm phù hợp cho nhà máy, kho hàng, xưởng sản xuất, dây chuyền đóng gói và kiểm kê hàng hóa.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>PCA8601</td>
+</tr>
+
+<tr>
+<td>Thương hiệu</td>
+<td>ONEKO</td>
+</tr>
+
+<tr>
+<td>Tải trọng lựa chọn</td>
+<td>60kg – 500kg</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, đếm số lượng sản phẩm</td>
+</tr>
+
+<tr>
+<td>Kiểm tra số lượng</td>
+<td>Hỗ trợ kiểm tra nhanh số lượng sản phẩm</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>Đèn cảnh báo thừa – thiếu sản phẩm</td>
+</tr>
+
+<tr>
+<td>Ứng dụng</td>
+<td>Kho hàng, nhà máy, xưởng sản xuất, dây chuyền đóng gói, kiểm kê hàng hóa</td>
+</tr>
+
+<tr>
+<td>Sản phẩm phù hợp</td>
+<td>Linh kiện, bulong, ốc vít, phụ kiện, chi tiết cơ khí, sản phẩm đóng gói, vật tư sản xuất</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>ONEKO Nhật Bản</td>
+</tr>
+
+</table>`,
+
+"Cân trọng lượng và đếm số lượng trong cùng một thiết bị",
+
+"Đếm sản phẩm nhanh chóng dựa trên trọng lượng mẫu",
+
+"Đèn cảnh báo giúp nhận biết sản phẩm thừa hoặc thiếu",
+
+"Dải tải trọng lựa chọn từ 60kg đến 500kg",
+
+"Phù hợp đếm linh kiện, bulong, ốc vít và các sản phẩm đóng gói",
+
+"Ứng dụng trong nhà máy, kho hàng và xưởng sản xuất",
+
+"Giúp giảm thời gian kiểm đếm và hạn chế sai sót thủ công"
+
+    ]
+},     
+{
+    business:"measure",
+    id:70,
+
+    name:"Cân bàn điện tử OSK có bánh xe 300kg",
+
+    category:"can-ban-dung",
+
+    folder:"osk-banh-xe-300kg",
+
+    brand:"OSK",
+
+    origin:"Không công bố",
+
+    description:"Cân bàn điện tử OSK tải trọng 300kg được thiết kế với mặt bàn thép gân siêu dày, khung thép chịu lực chắc chắn và hệ thống bánh xe giúp dễ dàng di chuyển trong kho, xưởng hoặc cửa hàng. Cân sử dụng màn hình LED rõ nét, cảm biến lực cho kết quả cân ổn định và nguồn pin sạc kết hợp nguồn điện trực tiếp.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS</td>
+</tr>
+
+<tr>
+<td>Tải trọng</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Phiên bản tải trọng</td>
+<td>300 kg hoặc 500 kg</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Thép gân siêu dày</td>
+</tr>
+
+<tr>
+<td>Kích thước mặt bàn</td>
+<td>400 × 500 mm – 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Khung cân</td>
+<td>Kết cấu thép chịu lực</td>
+</tr>
+
+<tr>
+<td>Bánh xe</td>
+<td>Có, thuận tiện di chuyển</td>
+</tr>
+
+<tr>
+<td>Cảm biến</td>
+<td>Cảm biến lực chất lượng cao</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LED rõ nét</td>
+</tr>
+
+<tr>
+<td>Độ chính xác</td>
+<td>Cao, ổn định</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>Pin sạc kết hợp nguồn điện trực tiếp</td>
+</tr>
+
+<tr>
+<td>Ứng dụng</td>
+<td>Kho hàng, logistics, cửa hàng nông sản, nhà máy, xưởng sản xuất, đại lý thu mua phế liệu, xưởng cơ khí</td>
+</tr>
+
+</table>`,
+
+"Mặt bàn thép gân siêu dày, chịu va đập và hạn chế trơn trượt",
+
+"Khung thép chịu lực chắc chắn, phù hợp cân hàng hóa tải trọng lớn",
+
+"Trang bị bánh xe giúp dễ dàng di chuyển cân",
+
+"Màn hình LED sáng rõ, dễ quan sát",
+
+"Cảm biến lực cho kết quả cân nhanh và ổn định",
+
+"Pin sạc kết hợp nguồn điện trực tiếp",
+
+"Phù hợp sử dụng trong kho hàng, nhà máy, xưởng sản xuất và cửa hàng",
+
+"Có phiên bản tải trọng 300kg và 500kg"
+
+    ]
+},
+{
+    business:"measure",
+    id:71,
+
+    name:"Cân bàn điện tử OSK có bánh xe 500kg",
+
+    category:"can-ban-dung",
+
+    folder:"osk-banh-xe-300kg",
+
+    brand:"OSK",
+
+    origin:"Không công bố",
+
+    description:"Cân bàn điện tử OSK có bánh xe tải trọng 500kg, thiết kế mặt bàn thép gân siêu dày, khung thép chịu lực chắc chắn và bánh xe giúp dễ dàng di chuyển trong kho, xưởng hoặc cửa hàng. Cân sử dụng màn hình LED rõ nét, cảm biến lực chất lượng cao và pin sạc kết hợp nguồn điện trực tiếp, phù hợp cân hàng hóa tải trọng lớn.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS</td>
+</tr>
+
+<tr>
+<td>Tải trọng</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Phiên bản tải trọng</td>
+<td>300 kg hoặc 500 kg</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Thép gân siêu dày</td>
+</tr>
+
+<tr>
+<td>Kích thước mặt bàn</td>
+<td>400 × 500 mm – 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Khung cân</td>
+<td>Kết cấu thép chịu lực</td>
+</tr>
+
+<tr>
+<td>Bánh xe</td>
+<td>Có, dễ dàng di chuyển</td>
+</tr>
+
+<tr>
+<td>Cảm biến</td>
+<td>Cảm biến lực chất lượng cao</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LED rõ nét</td>
+</tr>
+
+<tr>
+<td>Độ chính xác</td>
+<td>Cao, ổn định</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>Pin sạc kết hợp nguồn điện trực tiếp</td>
+</tr>
+
+<tr>
+<td>Ứng dụng</td>
+<td>Kho hàng, logistics, cửa hàng nông sản, nhà máy, xưởng sản xuất, đại lý thu mua phế liệu, xưởng cơ khí</td>
+</tr>
+
+</table>`,
+
+"Mặt bàn thép gân siêu dày, chịu va đập tốt và hạn chế trơn trượt",
+
+"Khung thép chịu lực chắc chắn, phù hợp cân hàng hóa tải trọng lớn",
+
+"Trang bị bánh xe giúp dễ dàng di chuyển cân",
+
+"Cảm biến lực chất lượng cao cho kết quả cân nhanh và ổn định",
+
+"Màn hình LED sáng rõ, dễ quan sát",
+
+"Pin sạc kết hợp nguồn điện trực tiếp",
+
+"Phù hợp sử dụng trong kho hàng, nhà máy, xưởng sản xuất và cửa hàng",
+
+"Thích hợp cân bao bì, thực phẩm, thức ăn chăn nuôi và nhiều loại hàng hóa khác"
+
+    ]
+},
 ];
