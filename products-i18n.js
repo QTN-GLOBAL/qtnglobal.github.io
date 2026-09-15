@@ -9272,6 +9272,376 @@ window.productTranslations = {
         ]
     }
 },
+62: {
+
+    en: {
+
+        name:"Jadever JWI-700C 500kg Electronic Counting Scale",
+
+        origin:"Taiwan",
+
+        description:"The Jadever JWI-700C 500kg is an industrial electronic platform scale designed for weighing goods and counting PCS quantities in warehouses, factories, workshops, packaging and inventory operations. The 500kg model provides 100g readability and 1/30,000 resolution. The JWI-700C indicator features a three-section LCD displaying total weight, unit weight and PCS quantity simultaneously. The scale supports tare, accumulation, unit conversion, piece counting, sampling and HI-LOW-OK checking. The enclosed ABS indicator supports RS232 communication with computers, printers, barcode scanners and software. The 500kg version uses a 50 × 60cm platform with a stainless steel weighing surface and a durable steel or stainless steel frame.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>100 g</td>
+</tr>
+
+<tr>
+<td>Resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Accuracy standard</td>
+<td>OIML Class III</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>50 × 60 cm</td>
+</tr>
+
+<tr>
+<td>Platform surface</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Painted steel or stainless steel depending on configuration</td>
+</tr>
+
+<tr>
+<td>Load cell</td>
+<td>MAVIN NA3, MAVIN NA4, KELI UDA, ZEMIC L6E or equivalent</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>3-section LCD, 6/5/6 digits</td>
+</tr>
+
+<tr>
+<td>Character height</td>
+<td>19 mm</td>
+</tr>
+
+<tr>
+<td>Backlight</td>
+<td>Green LED</td>
+</tr>
+
+<tr>
+<td>Display information</td>
+<td>Total weight / Unit weight / PCS quantity</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, tare, accumulation, piece counting, unit conversion</td>
+</tr>
+
+<tr>
+<td>Check weighing</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>Warnings</td>
+<td>Overload and low battery</td>
+</tr>
+
+<tr>
+<td>Automatic functions</td>
+<td>Auto zero and automatic power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Indicator housing</td>
+<td>Enclosed ABS plastic</td>
+</tr>
+
+<tr>
+<td>Rechargeable battery</td>
+<td>6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>AC 110V/220V ±10%</td>
+</tr>
+
+<tr>
+<td>Battery operating time</td>
+<td>Approximately 48–72 hours after full charging</td>
+</tr>
+
+<tr>
+<td>Indicator dimensions</td>
+<td>274 × 170 × 117 mm</td>
+</tr>
+
+<tr>
+<td>Indicator weight</td>
+<td>Net 2.52 kg / Gross 2.95 kg</td>
+</tr>
+
+<tr>
+<td>Certification</td>
+<td>CE</td>
+</tr>
+
+</table>`,
+
+"Industrial 500kg electronic platform scale designed for weighing goods and counting PCS quantities.",
+
+"500kg maximum capacity with 100g readability.",
+
+"1/30,000 resolution for stable and accurate weighing.",
+
+"Three-section LCD displays total weight, unit weight and PCS quantity.",
+
+"50 × 60cm platform suitable for the 500kg capacity configuration.",
+
+"Stainless steel weighing surface with painted steel or stainless steel frame.",
+
+"Supports tare, accumulation, PCS counting, unit conversion and HI-LOW-OK checking.",
+
+"Overload and low-battery warnings with automatic zero and power-off functions.",
+
+"RS232 interface supports computers, printers, barcode scanners and software.",
+
+"Enclosed ABS JWI-700C indicator designed to reduce dust exposure.",
+
+"Ideal for warehouses, factories, mechanical workshops, packaging, logistics and inventory management."
+
+        ]
+    },
+
+    zh: {
+
+        name:"Jadever JWI-700C 500kg 电子计数台秤",
+
+        origin:"中国台湾",
+
+        description:"Jadever JWI-700C 500kg 是一款工业电子台秤，适用于仓库、工厂、生产车间、包装及库存管理等场合，可用于称重和PCS数量计数。500kg规格的分度值为100g，显示分辨率为1/30000。JWI-700C显示器采用三窗口LCD，可同时显示总重量、单件重量和PCS数量。秤具备去皮、累计、单位转换、数量计数、取样及HI-LOW-OK检重功能，并支持超载和低电量报警。封闭式ABS显示器可通过RS232连接电脑、打印机、条码扫描器及软件。500kg版本采用50 × 60cm秤台，不锈钢秤面，并可根据配置选择钢制或不锈钢框架。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>技术参数</th>
+<th>参数值</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>制造商</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>100 g</td>
+</tr>
+
+<tr>
+<td>分辨率</td>
+<td>1/30000</td>
+</tr>
+
+<tr>
+<td>称量单位</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>精度标准</td>
+<td>OIML III级</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>50 × 60 cm</td>
+</tr>
+
+<tr>
+<td>秤台表面</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>秤台框架</td>
+<td>喷涂钢材或不锈钢，根据配置选择</td>
+</tr>
+
+<tr>
+<td>称重传感器</td>
+<td>MAVIN NA3、MAVIN NA4、KELI UDA、ZEMIC L6E或同等级产品</td>
+</tr>
+
+<tr>
+<td>显示器</td>
+<td>三窗口LCD，6/5/6位数字</td>
+</tr>
+
+<tr>
+<td>字高</td>
+<td>19 mm</td>
+</tr>
+
+<tr>
+<td>背光</td>
+<td>绿色LED背光</td>
+</tr>
+
+<tr>
+<td>显示内容</td>
+<td>总重量 / 单件重量 / PCS数量</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>称重、去皮、累计、计数、单位转换</td>
+</tr>
+
+<tr>
+<td>检重功能</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>报警</td>
+<td>超载、低电量</td>
+</tr>
+
+<tr>
+<td>自动功能</td>
+<td>自动置零、自动关机</td>
+</tr>
+
+<tr>
+<td>通讯接口</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>显示器外壳</td>
+<td>封闭式ABS塑料</td>
+</tr>
+
+<tr>
+<td>充电电池</td>
+<td>6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>AC 110V/220V ±10%</td>
+</tr>
+
+<tr>
+<td>电池使用时间</td>
+<td>充满电后约48–72小时</td>
+</tr>
+
+<tr>
+<td>显示器尺寸</td>
+<td>274 × 170 × 117 mm</td>
+</tr>
+
+<tr>
+<td>显示器重量</td>
+<td>净重2.52 kg / 毛重2.95 kg</td>
+</tr>
+
+<tr>
+<td>认证</td>
+<td>CE</td>
+</tr>
+
+</table>`,
+
+"500kg工业电子台秤，适用于货物称重和PCS数量计数。",
+
+"最大称量500kg，分度值100g。",
+
+"1/30000显示分辨率，称重稳定准确。",
+
+"三窗口LCD同时显示总重量、单件重量和PCS数量。",
+
+"50 × 60cm秤台，适用于500kg规格。",
+
+"不锈钢秤面，可根据配置选择喷涂钢材或不锈钢秤台框架。",
+
+"支持去皮、累计、PCS计数、单位转换和HI-LOW-OK检重。",
+
+"具备超载和低电量报警，并支持自动归零和自动关机。",
+
+"RS232接口可连接电脑、打印机、条码扫描器及软件。",
+
+"封闭式ABS JWI-700C显示器，可减少灰尘进入内部。",
+
+"适用于仓库、工厂、机械加工、包装、物流及库存管理。"
+
+        ]
+    }
+},
 };
 
 

@@ -5418,6 +5418,197 @@ business:"measure",
 "Phù hợp cho nhà kho, nhà máy, xưởng sản xuất, cơ khí, đóng gói, vận chuyển và kiểm kê hàng hóa."
 ]
 },
+{
+    business:"measure",
+    id:62,
+
+    name:"Cân điện tử Jadever JWI-700C 500kg",
+
+    category:"can-ban-dung",
+
+    folder:"jadever-jwi-700c-60kg",
+
+    brand:"Jadever",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử Jadever JWI-700C 500kg là cân bàn điện tử chuyên dụng cho cân hàng hóa và đếm số lượng PCS trong nhà kho, nhà máy, xưởng sản xuất, cơ khí, đóng gói và kiểm kê. Model 500kg có bước nhảy 100g, độ phân giải 1/30.000 và sử dụng bộ hiển thị JWI-700C với màn hình LCD 3 vùng, hiển thị đồng thời tổng trọng lượng, trọng lượng đơn vị và số lượng PCS. Cân hỗ trợ trừ bì, cộng dồn, chuyển đổi đơn vị, đếm số lượng, lấy mẫu và kiểm tra HI-LOW-OK. Bộ hiển thị bằng nhựa ABS khép kín, hỗ trợ kết nối máy tính, máy in, máy quét và phần mềm thông qua RS232. Phiên bản 500kg sử dụng bàn cân kích thước 50 × 60cm, mặt bàn inox chống gỉ và khung cân chắc chắn.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>JWI-700C</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Jadever</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>100 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb</td>
+</tr>
+
+<tr>
+<td>Tiêu chuẩn chính xác</td>
+<td>OIML cấp III</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>50 × 60 cm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn cân</td>
+<td>Inox chống gỉ</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép sơn tĩnh điện hoặc inox tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Loadcell</td>
+<td>MAVIN NA3, MAVIN NA4, KELI UDA, ZEMIC L6E hoặc tương đương</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 3 vùng, 6/5/6 chữ số</td>
+</tr>
+
+<tr>
+<td>Chiều cao chữ</td>
+<td>19 mm</td>
+</tr>
+
+<tr>
+<td>Đèn nền</td>
+<td>LED màu xanh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Tổng trọng lượng / Trọng lượng đơn vị / Số lượng PCS</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân trọng lượng, trừ bì, cộng dồn, đếm PCS, chuyển đổi đơn vị</td>
+</tr>
+
+<tr>
+<td>Kiểm tra trọng lượng</td>
+<td>HI / LOW / OK</td>
+</tr>
+
+<tr>
+<td>Cảnh báo</td>
+<td>Quá tải và pin yếu</td>
+</tr>
+
+<tr>
+<td>Tự động</td>
+<td>Tự động về 0, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Vỏ đầu hiển thị</td>
+<td>Nhựa ABS khép kín, hạn chế bụi</td>
+</tr>
+
+<tr>
+<td>Ắc quy</td>
+<td>6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 110V/220V ±10%</td>
+</tr>
+
+<tr>
+<td>Thời gian sử dụng pin</td>
+<td>Khoảng 48–72 giờ sau khi sạc đầy</td>
+</tr>
+
+<tr>
+<td>Kích thước đầu hiển thị</td>
+<td>274 × 170 × 117 mm</td>
+</tr>
+
+<tr>
+<td>Trọng lượng đầu hiển thị</td>
+<td>Net 2.52 kg / Gross 2.95 kg</td>
+</tr>
+
+<tr>
+<td>Chứng nhận</td>
+<td>CE</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử 500kg chuyên dụng cho cân hàng hóa và đếm số lượng PCS.",
+
+"Mức cân tối đa 500kg, bước nhảy 100g.",
+
+"Độ phân giải 1/30.000, hoạt động ổn định và chính xác.",
+
+"Màn hình LCD 3 vùng hiển thị tổng trọng lượng, trọng lượng đơn vị và số lượng PCS.",
+
+"Bàn cân kích thước 50 × 60cm, phù hợp với mức cân 500kg.",
+
+"Mặt bàn inox chống gỉ, khung bàn bằng thép sơn tĩnh điện hoặc inox tùy cấu hình.",
+
+"Hỗ trợ trừ bì, cộng dồn, đếm PCS, chuyển đổi đơn vị và kiểm tra HI-LOW-OK.",
+
+"Có cảnh báo quá tải và pin yếu, hỗ trợ tự động về 0 và tự động tắt nguồn.",
+
+"Cổng RS232 hỗ trợ kết nối máy tính, máy in, máy quét và phần mềm.",
+
+"Đầu hiển thị JWI-700C bằng nhựa ABS khép kín, hạn chế bụi xâm nhập.",
+
+"Phù hợp cho nhà kho, nhà máy, xưởng cơ khí, đóng gói, logistics và kiểm kê hàng hóa."
+
+    ]
+},
 
         
 
