@@ -13686,6 +13686,822 @@ window.productTranslations = {
         ]
     }
 },
+78: {
+
+    en: {
+
+        name:"JLS 86A 100kg Electronic Chicken Scale",
+
+        origin:"Taiwan",
+
+        description:"JLS 86A 100kg electronic scale designed for weighing chickens, pigs, agricultural products and livestock applications. It features a strong stainless steel platform, large LED display and animal weighing function to reduce the effect of animal movement during weighing.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Large red or green LED</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Battery</td>
+<td>Built into the indicator</td>
+</tr>
+
+<tr>
+<td>Battery charging</td>
+<td>Charging through the scale power supply</td>
+</tr>
+
+<tr>
+<td>Animal weighing function</td>
+<td>Yes, vibration compensation and stable weight locking</td>
+</tr>
+
+</table>`,
+
+"Chicken weighing",
+
+"Pig and livestock weighing",
+
+"Agricultural product weighing",
+
+"Fruit weighing",
+
+"Automatic zero at startup",
+
+"Zero function",
+
+"Tare function",
+
+"Animal weighing with vibration compensation",
+
+"Stable and accurate weight locking",
+
+"Low battery warning",
+
+"Strong stainless steel platform",
+
+"Designed for livestock farms"
+        ]
+    },
+
+    zh: {
+
+        name:"JLS 86A 100kg 电子鸡秤",
+
+        origin:"中国台湾",
+
+        description:"JLS 86A 100kg 电子秤，专为鸡、猪、农产品及养殖场称重设计。采用坚固不锈钢秤台、大型 LED 显示屏，并配备动物称重功能，可减少动物晃动对称重结果的影响。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>坚固不锈钢</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>大型红色或绿色 LED</td>
+</tr>
+
+<tr>
+<td>称重单位</td>
+<td>kg、g、lb</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>电池</td>
+<td>内置于显示仪表</td>
+</tr>
+
+<tr>
+<td>电池充电</td>
+<td>通过电子秤电源直接充电</td>
+</tr>
+
+<tr>
+<td>动物称重功能</td>
+<td>支持，可减少晃动并锁定稳定重量</td>
+</tr>
+
+</table>`,
+
+"鸡称重",
+
+"猪及牲畜称重",
+
+"农产品称重",
+
+"水果称重",
+
+"开机自动置零",
+
+"置零功能",
+
+"去皮功能",
+
+"动物称重防晃动",
+
+"稳定重量锁定",
+
+"低电量报警",
+
+"坚固不锈钢秤台",
+
+"适用于养殖场"
+        ]
+    }
+},
+79: {
+
+    en: {
+
+        name:"JLS 86A 150kg Electronic Chicken Scale",
+
+        origin:"Taiwan",
+
+        description:"JLS 86A 150kg electronic scale designed for weighing chickens, pigs, agricultural products and livestock applications. It features a strong stainless steel platform, large LED display, built-in rechargeable battery and animal weighing function to reduce the effect of animal movement during weighing.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Strong stainless steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Large, high-brightness red or green LED</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Battery</td>
+<td>Built into the indicator</td>
+</tr>
+
+<tr>
+<td>Battery charging</td>
+<td>Charging through the scale power supply</td>
+</tr>
+
+<tr>
+<td>Animal weighing function</td>
+<td>Yes, vibration compensation and stable weight locking</td>
+</tr>
+
+</table>`,
+
+"Chicken weighing",
+
+"Pig and livestock weighing",
+
+"Agricultural product weighing",
+
+"Fruit weighing",
+
+"Zero at startup",
+
+"Zero function",
+
+"Tare function",
+
+"Animal weighing with vibration compensation",
+
+"Stable and accurate weight locking",
+
+"Low battery warning",
+
+"Strong stainless steel platform",
+
+"Designed for livestock farms"
+        ]
+    },
+
+    zh: {
+
+        name:"JLS 86A 150kg 电子鸡秤",
+
+        origin:"中国台湾",
+
+        description:"JLS 86A 150kg 电子秤，专为鸡、猪、农产品及养殖场称重设计。采用坚固不锈钢秤台、大型高亮度 LED 显示屏、内置充电电池，并配备动物称重功能，可减少动物晃动对称重结果的影响。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>坚固不锈钢</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>大型高亮度红色或绿色 LED</td>
+</tr>
+
+<tr>
+<td>称重单位</td>
+<td>kg、g、lb</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>电池</td>
+<td>内置于显示仪表</td>
+</tr>
+
+<tr>
+<td>电池充电</td>
+<td>通过电子秤电源充电</td>
+</tr>
+
+<tr>
+<td>动物称重功能</td>
+<td>支持，可减少晃动并锁定稳定重量</td>
+</tr>
+
+</table>`,
+
+"鸡称重",
+
+"猪及牲畜称重",
+
+"农产品称重",
+
+"水果称重",
+
+"开机置零",
+
+"置零功能",
+
+"去皮功能",
+
+"动物称重防晃动",
+
+"稳定重量锁定",
+
+"低电量报警",
+
+"坚固不锈钢秤台",
+
+"适用于养殖场"
+        ]
+    }
+},
+80: {
+
+    en: {
+
+        name:"JLS 86A 300kg Electronic Chicken Scale",
+
+        origin:"Taiwan",
+
+        description:"JLS 86A 300kg electronic scale designed for weighing chickens, pigs, livestock and agricultural products. It features a strong stainless steel platform, large high-brightness LED display, built-in rechargeable battery and animal weighing function to reduce the effect of animal movement during weighing.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Strong stainless steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Large, high-brightness red or green LED</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Battery</td>
+<td>Built into the indicator</td>
+</tr>
+
+<tr>
+<td>Battery charging</td>
+<td>Charging through the scale power supply</td>
+</tr>
+
+<tr>
+<td>Animal weighing function</td>
+<td>Yes, vibration compensation and stable weight locking</td>
+</tr>
+
+</table>`,
+
+"Chicken weighing",
+
+"Pig and livestock weighing",
+
+"Agricultural product weighing",
+
+"Fruit weighing",
+
+"Zero at startup",
+
+"Zero function",
+
+"Tare function",
+
+"Animal weighing with vibration compensation",
+
+"Stable and accurate weight locking",
+
+"Low battery warning",
+
+"Strong stainless steel platform",
+
+"Strong and stable construction",
+
+"Suitable for livestock farms and agricultural production"
+        ]
+    },
+
+    zh: {
+
+        name:"JLS 86A 300kg 电子鸡秤",
+
+        origin:"中国台湾",
+
+        description:"JLS 86A 300kg 电子秤，专为鸡、猪、牲畜及农产品称重设计。采用坚固不锈钢秤台、大型高亮度 LED 显示屏、内置充电电池，并配备动物称重功能，可减少动物晃动对称重结果的影响。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>坚固不锈钢</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>大型高亮度红色或绿色 LED</td>
+</tr>
+
+<tr>
+<td>称重单位</td>
+<td>kg、g、lb</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>电池</td>
+<td>内置于显示仪表</td>
+</tr>
+
+<tr>
+<td>电池充电</td>
+<td>通过电子秤电源充电</td>
+</tr>
+
+<tr>
+<td>动物称重功能</td>
+<td>支持，可减少晃动并锁定稳定重量</td>
+</tr>
+
+</table>`,
+
+"鸡称重",
+
+"猪及牲畜称重",
+
+"农产品称重",
+
+"水果称重",
+
+"开机置零",
+
+"置零功能",
+
+"去皮功能",
+
+"动物称重防晃动",
+
+"稳定重量锁定",
+
+"低电量报警",
+
+"坚固不锈钢秤台",
+
+"坚固稳定的结构",
+
+"适用于养殖场和农产品生产"
+        ]
+    }
+},
+81: {
+
+    en: {
+
+        name:"JLS 86A 500kg Electronic Chicken Scale",
+
+        origin:"Taiwan",
+
+        description:"JLS 86A 500kg electronic scale designed for weighing chickens, pigs, livestock and agricultural products. It features a strong stainless steel platform, large high-brightness LED display, built-in rechargeable battery and animal weighing function to reduce the effect of animal movement during weighing.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Strong stainless steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Large, high-brightness red or green LED</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Battery</td>
+<td>Built into the indicator</td>
+</tr>
+
+<tr>
+<td>Battery charging</td>
+<td>Charging through the scale power supply</td>
+</tr>
+
+<tr>
+<td>Animal weighing function</td>
+<td>Yes, vibration compensation and stable weight locking</td>
+</tr>
+
+</table>`,
+
+"Chicken weighing",
+
+"Pig and livestock weighing",
+
+"Agricultural product weighing",
+
+"Fruit weighing",
+
+"Zero at startup",
+
+"Zero function",
+
+"Tare function",
+
+"Animal weighing with vibration compensation",
+
+"Stable and accurate weight locking",
+
+"Low battery warning",
+
+"Strong stainless steel platform",
+
+"Strong and stable construction",
+
+"Suitable for livestock farms and agricultural production"
+        ]
+    },
+
+    zh: {
+
+        name:"JLS 86A 500kg 电子鸡秤",
+
+        origin:"中国台湾",
+
+        description:"JLS 86A 500kg 电子秤，专为鸡、猪、牲畜及农产品称重设计。采用坚固不锈钢秤台、大型高亮度 LED 显示屏、内置充电电池，并配备动物称重功能，可减少动物晃动对称重结果的影响。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>坚固不锈钢</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>大型高亮度红色或绿色 LED</td>
+</tr>
+
+<tr>
+<td>称重单位</td>
+<td>kg、g、lb</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>电池</td>
+<td>内置于显示仪表</td>
+</tr>
+
+<tr>
+<td>电池充电</td>
+<td>通过电子秤电源充电</td>
+</tr>
+
+<tr>
+<td>动物称重功能</td>
+<td>支持，可减少晃动并锁定稳定重量</td>
+</tr>
+
+</table>`,
+
+"鸡称重",
+
+"猪及牲畜称重",
+
+"农产品称重",
+
+"水果称重",
+
+"开机置零",
+
+"置零功能",
+
+"去皮功能",
+
+"动物称重防晃动",
+
+"稳定重量锁定",
+
+"低电量报警",
+
+"坚固不锈钢秤台",
+
+"坚固稳定的结构",
+
+"适用于养殖场和农产品生产"
+        ]
+    }
+},
 };
 
 

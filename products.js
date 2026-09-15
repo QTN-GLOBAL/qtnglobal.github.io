@@ -7720,4 +7720,436 @@ business:"measure",
 "RS232 tùy chọn để kết nối thiết bị ngoại vi"
 ]
 },
+{
+    business:"measure",
+    id:78,
+
+    name:"Cân điện tử cân gà JLS 86A 100kg",
+
+    category:"can-ghe-ngoi",
+
+    folder:"jls-86a-100kg",
+
+    brand:"HP THW",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử JLS 86A 100kg chuyên dụng cho cân gà, cân heo, cân nông sản và các trang trại chăn nuôi. Cân có thiết kế chắc chắn, mặt bàn inox, màn hình LED lớn và chức năng cân động vật giúp hạn chế ảnh hưởng của rung lắc khi cân.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>Kích thước mặt bàn</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox chắc chắn</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LED đỏ hoặc LED xanh, kích thước lớn</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Ắc quy</td>
+<td>Tích hợp trong đầu hiển thị</td>
+</tr>
+
+<tr>
+<td>Sạc ắc quy</td>
+<td>Sạc trực tiếp bằng nguồn điện của cân</td>
+</tr>
+
+<tr>
+<td>Chức năng cân động vật</td>
+<td>Có, chống rung và chốt số chính xác</td>
+</tr>
+
+</table>`,
+
+"Cân gà",
+
+"Cân heo, cân lợn",
+
+"Cân nông sản",
+
+"Cân trái cây",
+
+"Đưa cân về 0 khi khởi động",
+
+"Chức năng Zero",
+
+"Chức năng Tare trừ bì",
+
+"Cân động vật chống rung lắc",
+
+"Chốt số ổn định và chính xác",
+
+"Cảnh báo khi ắc quy yếu",
+
+"Mặt bàn inox chắc chắn",
+
+"Thiết kế phù hợp cho trang trại chăn nuôi"
+]
+},
+{
+    business:"measure",
+    id:79,
+
+    name:"Cân điện tử cân gà JLS 86A 150kg",
+
+    category:"can-ghe-ngoi",
+
+    folder:"jls-86a-100kg",
+
+    brand:"HP THW",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử JLS 86A 150kg chuyên dụng cho cân gà, cân heo, cân nông sản và các trang trại chăn nuôi. Cân có mặt bàn inox chắc chắn, màn hình LED lớn, ắc quy tích hợp và chức năng cân động vật giúp hạn chế ảnh hưởng của rung lắc khi cân.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>Kích thước mặt bàn</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox chắc chắn</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LED đỏ hoặc LED xanh siêu lớn, siêu sáng</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Ắc quy</td>
+<td>Tích hợp trong đầu hiển thị</td>
+</tr>
+
+<tr>
+<td>Sạc ắc quy</td>
+<td>Sạc bằng nguồn điện có sẵn trong cân</td>
+</tr>
+
+<tr>
+<td>Chức năng cân động vật</td>
+<td>Có, chống rung lắc và chốt số chính xác</td>
+</tr>
+
+</table>`,
+
+"Cân gà",
+
+"Cân heo, cân lợn",
+
+"Cân nông sản",
+
+"Cân trái cây",
+
+"Về 0 khi khởi động",
+
+"Chức năng Zero",
+
+"Chức năng Tare trừ bì",
+
+"Cân động vật chống rung lắc",
+
+"Chốt số ổn định và chính xác",
+
+"Báo nháy màn hình khi ắc quy yếu",
+
+"Mặt bàn inox chắc chắn",
+
+"Thiết kế phù hợp cho trang trại chăn nuôi"
+]
+},
+{
+    business:"measure",
+    id:80,
+
+    name:"Cân điện tử cân gà JLS 86A 300kg",
+
+    category:"can-ghe-ngoi",
+
+    folder:"jls-86a-100kg",
+
+    brand:"HP THW",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử JLS 86A 300kg chuyên dụng cho cân gà, cân heo, cân lợn, cân nông sản và các trang trại chăn nuôi. Cân có mặt bàn inox chắc chắn, màn hình LED lớn, ắc quy tích hợp và chức năng cân động vật giúp hạn chế ảnh hưởng của rung lắc khi cân.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Kích thước mặt bàn</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox chắc chắn</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LED đỏ hoặc LED xanh siêu lớn, siêu sáng</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Ắc quy</td>
+<td>Tích hợp trong đầu hiển thị</td>
+</tr>
+
+<tr>
+<td>Sạc ắc quy</td>
+<td>Sạc bằng nguồn điện có sẵn trong cân</td>
+</tr>
+
+<tr>
+<td>Chức năng cân động vật</td>
+<td>Có, chống rung lắc và chốt số chính xác</td>
+</tr>
+
+</table>`,
+
+"Cân gà",
+
+"Cân heo, cân lợn",
+
+"Cân nông sản",
+
+"Cân trái cây",
+
+"Về 0 khi khởi động",
+
+"Chức năng Zero",
+
+"Chức năng Tare trừ bì",
+
+"Cân động vật chống rung lắc",
+
+"Chốt số ổn định và chính xác",
+
+"Báo nháy màn hình khi ắc quy yếu",
+
+"Mặt bàn inox chắc chắn",
+
+"Thiết kế vững chắc",
+
+"Phù hợp cho trang trại chăn nuôi và sản xuất nông sản"
+]
+},
+{
+    business:"measure",
+    id:81,
+
+    name:"Cân điện tử cân gà JLS 86A 500kg",
+
+    category:"can-ghe-ngoi",
+
+    folder:"jls-86a-100kg",
+
+    brand:"HP THW",
+
+    origin:"Đài Loan",
+
+    description:"Cân điện tử JLS 86A 500kg chuyên dụng cho cân gà, cân heo, cân lợn, cân nông sản và các trang trại chăn nuôi. Cân có mặt bàn inox chắc chắn, màn hình LED lớn, ắc quy tích hợp và chức năng cân động vật giúp hạn chế ảnh hưởng của rung lắc khi cân.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>JLS 86A</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>HP THW</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Kích thước mặt bàn</td>
+<td>300 × 400 mm / 400 × 500 mm / 500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox chắc chắn</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LED đỏ hoặc LED xanh siêu lớn, siêu sáng</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg, g, lb</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>220V</td>
+</tr>
+
+<tr>
+<td>Ắc quy</td>
+<td>Tích hợp trong đầu hiển thị</td>
+</tr>
+
+<tr>
+<td>Sạc ắc quy</td>
+<td>Sạc bằng nguồn điện có sẵn trong cân</td>
+</tr>
+
+<tr>
+<td>Chức năng cân động vật</td>
+<td>Có, chống rung lắc và chốt số chính xác</td>
+</tr>
+
+</table>`,
+
+"Cân gà",
+
+"Cân heo, cân lợn",
+
+"Cân nông sản",
+
+"Cân trái cây",
+
+"Về 0 khi khởi động",
+
+"Chức năng Zero",
+
+"Chức năng Tare trừ bì",
+
+"Cân động vật chống rung lắc",
+
+"Chốt số ổn định và chính xác",
+
+"Báo nháy màn hình khi ắc quy yếu",
+
+"Mặt bàn inox chắc chắn",
+
+"Thiết kế vững chắc",
+
+"Phù hợp cho trang trại chăn nuôi và sản xuất nông sản"
+]
+},
 ];
