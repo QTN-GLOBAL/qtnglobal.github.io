@@ -12036,6 +12036,1656 @@ window.productTranslations = {
         ]
     }
 },
+72: {
+
+    en: {
+
+        name:"Yaohua XK3190 A12 Electronic Platform Scale 60kg",
+
+        origin:"Taiwan",
+
+        description:"Yaohua XK3190 A12 60kg electronic platform scale uses the A12 indicator with a 6-digit LCD green LED display, strong steel frame, stainless steel platform and load cell sensor. It is suitable for production, warehouses, factories, workshops and general goods weighing.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Brand</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Quality standard</td>
+<td>Class III-OIML</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>60 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>5 g – 10 g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD with green LED</td>
+</tr>
+
+<tr>
+<td>Units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Weighing system</td>
+<td>Load cell sensor</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, calibration, tare, accumulation, auto power-off</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+</table>`,
+
+"Yaohua XK3190 A12 indicator widely used for platform and floor scales",
+
+"6-digit LCD display with bright green LED backlight",
+
+"Strong steel frame with high load-bearing capacity",
+
+"Durable stainless steel platform, rust-resistant and easy to clean",
+
+"Internal resolution of 1/30,000",
+
+"Load cell with safe overload protection up to 200%",
+
+"Supports tare, accumulation, calibration and auto power-off",
+
+"Rechargeable DC 6V/4.5Ah battery",
+
+"RS-232 interface for computer or printer connection",
+
+"Suitable for warehouses, factories, workshops and general goods weighing"
+
+        ]
+    },
+
+    zh: {
+
+        name:"Yaohua XK3190 A12 电子台秤 60kg",
+
+        origin:"台湾",
+
+        description:"Yaohua XK3190 A12 60kg电子台秤采用A12称重仪表，配备6位LCD绿色LED显示屏、坚固钢制秤架、不锈钢秤台和称重传感器。适用于生产、仓库、工厂、车间及一般货物称重。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>质量标准</td>
+<td>III级 OIML</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>60 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>5 g – 10 g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>秤台</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>整机尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>6位LCD绿色LED显示</td>
+</tr>
+
+<tr>
+<td>单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>普通称重、校准、去皮、累计、自动关机</td>
+</tr>
+
+<tr>
+<td>接口</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>产品配置</td>
+<td>称重仪表 + 秤台 + 使用说明书</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>台湾</td>
+</tr>
+
+</table>`,
+
+"Yaohua XK3190 A12仪表广泛用于电子台秤和地磅",
+
+"6位LCD绿色LED显示屏，数字清晰易读",
+
+"坚固钢制秤架，承重能力强",
+
+"耐用不锈钢秤台，防锈且易于清洁",
+
+"内部分辨率达到1/30,000",
+
+"称重传感器安全过载能力最高达200%",
+
+"支持去皮、累计、校准和自动关机",
+
+"DC 6V/4.5Ah可充电电池",
+
+"RS-232接口，可连接电脑或打印机",
+
+"适用于仓库、工厂、车间及一般货物称重"
+
+        ]
+    }
+},
+73: {
+
+    en: {
+
+        name:"Yaohua XK3190 A12 Electronic Platform Scale 100kg",
+
+        origin:"Taiwan",
+
+        description:"Yaohua XK3190 A12 100kg electronic platform scale features the A12 indicator with a 6-digit LCD green LED display, stainless steel platform and strong rust-resistant steel frame. With 1/30,000 internal resolution and 10g readability, it supports tare, accumulation, calibration and RS-232 communication.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Brand</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Quality standard</td>
+<td>Class III-OIML</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>10 g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel, 300 × 400 mm – 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD with green LED</td>
+</tr>
+
+<tr>
+<td>Units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Weighing system</td>
+<td>Load cell sensor</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, calibration, tare, auto power-off, accumulation</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+</table>`,
+
+"Yaohua XK3190 A12 indicator widely used for platform and floor scales",
+
+"Maximum capacity of 100kg with 10g readability",
+
+"Internal resolution of 1/30,000",
+
+"Durable stainless steel platform, rust-resistant and easy to clean",
+
+"Strong rust-resistant steel frame",
+
+"6-digit LCD display with clear green LED",
+
+"Load cell with safe overload protection up to 200%",
+
+"Supports weighing, calibration, tare and accumulation",
+
+"Rechargeable DC 6V/4.5Ah battery",
+
+"RS-232 interface for computer or printer connection",
+
+"Suitable for factories, warehouses, production workshops and general goods weighing"
+
+        ]
+    },
+
+    zh: {
+
+        name:"Yaohua XK3190 A12 电子台秤 100kg",
+
+        origin:"台湾",
+
+        description:"Yaohua XK3190 A12 100kg电子台秤采用A12称重仪表，配备6位LCD绿色LED显示屏、不锈钢秤台和坚固的防锈钢制秤架。内部分辨率1/30,000，分度值10g，支持去皮、累计、校准和RS-232通信。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>质量标准</td>
+<td>III级 OIML</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>10 g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>秤台</td>
+<td>不锈钢，300 × 400 mm – 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>整机尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>6位LCD绿色LED显示</td>
+</tr>
+
+<tr>
+<td>单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>普通称重、校准、去皮、自动关机、累计</td>
+</tr>
+
+<tr>
+<td>接口</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>产品配置</td>
+<td>称重仪表 + 秤台 + 使用说明书</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>台湾</td>
+</tr>
+
+</table>`,
+
+"Yaohua XK3190 A12仪表广泛用于电子台秤和地磅",
+
+"最大称量100kg，分度值10g",
+
+"内部分辨率达到1/30,000",
+
+"耐用不锈钢秤台，防锈且易于清洁",
+
+"坚固的防锈钢制秤架",
+
+"6位LCD绿色LED显示屏，数字清晰易读",
+
+"称重传感器安全过载能力最高达200%",
+
+"支持称重、校准、去皮和累计",
+
+"DC 6V/4.5Ah可充电电池",
+
+"RS-232接口，可连接电脑或打印机",
+
+"适用于工厂、仓库、生产车间及一般货物称重"
+
+        ]
+    }
+},
+74: {
+
+    en: {
+
+        name:"Yaohua XK3190 A12 Electronic Platform Scale 150kg",
+
+        origin:"Taiwan",
+
+        description:"Yaohua XK3190 A12 150kg electronic platform scale features the A12 indicator with a 6-digit LCD green LED display, stainless steel platform and strong rust-resistant steel frame. With 1/30,000 internal resolution and 10–20g readability, it supports tare, accumulation, calibration and RS-232 communication.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Brand</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Quality standard</td>
+<td>Class III-OIML</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>10 g – 20 g</td>
+</tr>
+
+<tr>
+<td>Internal resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel, 300 × 400 mm – 500 × 600 mm – 600 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Scale dimensions</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform frame</td>
+<td>Rust-resistant steel</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD with green LED</td>
+</tr>
+
+<tr>
+<td>Units</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Weighing system</td>
+<td>Load cell sensor</td>
+</tr>
+
+<tr>
+<td>Safe overload</td>
+<td>Up to 200%</td>
+</tr>
+
+<tr>
+<td>Destructive overload</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Functions</td>
+<td>Weighing, calibration, tare, auto power-off, accumulation</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Operating temperature</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Humidity</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Package</td>
+<td>Indicator + platform + user manual</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+</table>`,
+
+"Yaohua XK3190 A12 indicator designed for platform and floor scales",
+
+"Maximum capacity of 150kg with 10–20g readability",
+
+"Internal resolution of 1/30,000",
+
+"Durable stainless steel platform, rust-resistant and easy to clean",
+
+"Strong rust-resistant steel frame",
+
+"6-digit LCD display with clear green LED",
+
+"Load cell with safe overload protection up to 200%",
+
+"Supports weighing, calibration, tare and accumulation",
+
+"Rechargeable DC 6V/4.5Ah battery",
+
+"RS-232 interface for computer or printer connection",
+
+"Suitable for factories, warehouses, production workshops and general goods weighing"
+
+        ]
+    },
+
+    zh: {
+
+        name:"Yaohua XK3190 A12 电子台秤 150kg",
+
+        origin:"台湾",
+
+        description:"Yaohua XK3190 A12 150kg电子台秤采用A12称重仪表，配备6位LCD绿色LED显示屏、不锈钢秤台和坚固的防锈钢制秤架。内部分辨率1/30,000，分度值10–20g，支持去皮、累计、校准和RS-232通信。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细参数</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>质量标准</td>
+<td>III级 OIML</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>10 g – 20 g</td>
+</tr>
+
+<tr>
+<td>内部分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>秤台</td>
+<td>不锈钢，300 × 400 mm – 500 × 600 mm – 600 × 800 mm</td>
+</tr>
+
+<tr>
+<td>整机尺寸</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤架</td>
+<td>防锈钢材</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>6位LCD绿色LED显示</td>
+</tr>
+
+<tr>
+<td>单位</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>称重方式</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>安全过载</td>
+<td>最高200%</td>
+</tr>
+
+<tr>
+<td>破坏性过载</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>功能</td>
+<td>普通称重、校准、去皮、自动关机、累计</td>
+</tr>
+
+<tr>
+<td>接口</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>工作温度</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>湿度</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>产品配置</td>
+<td>称重仪表 + 秤台 + 使用说明书</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>台湾</td>
+</tr>
+
+</table>`,
+
+"Yaohua XK3190 A12仪表专用于电子台秤和地磅",
+
+"最大称量150kg，分度值10–20g",
+
+"内部分辨率达到1/30,000",
+
+"耐用不锈钢秤台，防锈且易于清洁",
+
+"坚固的防锈钢制秤架",
+
+"6位LCD绿色LED显示屏，数字清晰易读",
+
+"称重传感器安全过载能力最高达200%",
+
+"支持称重、校准、去皮和累计",
+
+"DC 6V/4.5Ah可充电电池",
+
+"RS-232接口，可连接电脑或打印机",
+
+"适用于工厂、仓库、生产车间及一般货物称重"
+
+        ]
+    }
+},
+75: {
+
+    en: {
+
+        name:"Yaohua XK3190 A12 200kg Electronic Platform Scale",
+
+        origin:"Taiwan",
+
+        description:"Yaohua XK3190 A12 electronic platform scale with a 200kg capacity and 20g readability. The scale features a stainless steel platform, strong steel frame and XK3190 A12 indicator. It is suitable for weighing goods, agricultural products, food, production and warehouse applications.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>200 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>Minimum capacity</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>Resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Accuracy class</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Frame</td>
+<td>Powder-coated steel</td>
+</tr>
+
+<tr>
+<td>Load cell</td>
+<td>High-precision load cell</td>
+</tr>
+
+<tr>
+<td>Indicator</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>AC 220V/50Hz</td>
+</tr>
+
+<tr>
+<td>Rechargeable battery</td>
+<td>6V/4Ah</td>
+</tr>
+
+</table>`,
+
+"Weighing",
+
+"Check weighing",
+
+"Tare",
+
+"Piece counting",
+
+"Accumulation",
+
+"RS232 connection for printer and computer",
+
+"Clear LCD/LED display",
+
+"Low battery monitoring and warning",
+
+"Automatic power-off",
+
+"Adjustable leveling feet",
+
+"Strong construction for warehouses, workshops and retail applications"
+        ]
+    },
+
+    zh: {
+
+        name:"Yaohua XK3190 A12 200kg 电子台秤",
+
+        origin:"中国台湾",
+
+        description:"Yaohua XK3190 A12 电子台秤，最大称量 200kg，分度值 20g。采用不锈钢秤台、坚固钢制秤架和 XK3190 A12 显示仪表，适用于货物、农产品、食品、生产及仓储称重。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>200 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>最小称量</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>精度等级</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>秤架材质</td>
+<td>喷塑钢结构</td>
+</tr>
+
+<tr>
+<td>传感器</td>
+<td>高精度称重传感器</td>
+</tr>
+
+<tr>
+<td>显示仪表</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>通信接口</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>AC 220V/50Hz</td>
+</tr>
+
+<tr>
+<td>充电电池</td>
+<td>6V/4Ah</td>
+</tr>
+
+</table>`,
+
+"称重",
+
+"检重",
+
+"去皮",
+
+"计数",
+
+"累计",
+
+"RS232 连接打印机和电脑",
+
+"清晰 LCD/LED 显示",
+
+"低电量检测与报警",
+
+"自动关机",
+
+"可调节水平脚",
+
+"坚固结构，适用于仓库、车间和商业称重"
+        ]
+    }
+},
+76: {
+
+    en: {
+
+        name:"Yaohua XK3190 A12 300kg Electronic Platform Scale",
+
+        origin:"Taiwan",
+
+        description:"Yaohua XK3190 A12 electronic platform scale with a maximum capacity of 300kg and 50g readability. The scale features a stainless steel platform, strong steel frame and XK3190 A12 indicator. It is suitable for weighing goods, agricultural products, production, warehouses and industrial applications.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>50 g</td>
+</tr>
+
+<tr>
+<td>Minimum capacity</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>Resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Accuracy class</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel</td>
+</tr>
+
+<tr>
+<td>Frame</td>
+<td>Heavy-duty steel</td>
+</tr>
+
+<tr>
+<td>Load cell</td>
+<td>Load cell sensor</td>
+</tr>
+
+<tr>
+<td>Indicator</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg, g</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232 optional</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>220V/50Hz</td>
+</tr>
+
+<tr>
+<td>Battery</td>
+<td>Rechargeable battery, approximately 80 hours</td>
+</tr>
+
+</table>`,
+
+"Weighing",
+
+"Tare",
+
+"Stable weighing indication",
+
+"Low battery warning",
+
+"Automatic power-off",
+
+"High internal resolution and fast processing",
+
+"Dust-resistant design",
+
+"Class III accuracy according to OIML",
+
+"Zero and tare functions",
+
+"Industrial design",
+
+"Optional RS232 interface for peripheral devices"
+        ]
+    },
+
+    zh: {
+
+        name:"Yaohua XK3190 A12 300kg 电子台秤",
+
+        origin:"中国台湾",
+
+        description:"Yaohua XK3190 A12 电子台秤，最大称量 300kg，分度值 50g。采用不锈钢秤台、坚固钢制秤架和 XK3190 A12 显示仪表，符合 OIML Class III 精度等级，适用于货物、农产品、生产、仓储及工业称重。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>50 g</td>
+</tr>
+
+<tr>
+<td>最小称量</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>精度等级</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>不锈钢</td>
+</tr>
+
+<tr>
+<td>秤架材质</td>
+<td>坚固钢结构</td>
+</tr>
+
+<tr>
+<td>传感器</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>显示仪表</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>称重单位</td>
+<td>kg、g</td>
+</tr>
+
+<tr>
+<td>通信接口</td>
+<td>RS232 可选</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>220V/50Hz</td>
+</tr>
+
+<tr>
+<td>电池</td>
+<td>充电电池，约可使用 80 小时</td>
+</tr>
+
+</table>`,
+
+"称重",
+
+"去皮",
+
+"稳定状态提示",
+
+"低电量报警",
+
+"自动关机",
+
+"高内部分辨率，处理速度快",
+
+"防尘设计",
+
+"符合 OIML Class III 精度等级",
+
+"置零和去皮功能",
+
+"工业型设计",
+
+"可选 RS232 接口连接外围设备"
+        ]
+    }
+},
+77: {
+
+    en: {
+
+        name:"Yaohua XK3190 A12 500kg Electronic Platform Scale",
+
+        origin:"Taiwan",
+
+        description:"Yaohua XK3190 A12 electronic platform scale with a maximum capacity of 500kg and 100g readability. The scale features a strong platform structure and XK3190 A12 indicator, suitable for goods, agricultural products, warehouses, production and industrial weighing applications.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>Manufacturer</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Origin</td>
+<td>Taiwan</td>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Readability</td>
+<td>100 g</td>
+</tr>
+
+<tr>
+<td>Minimum capacity</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>Resolution</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>Accuracy class</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>Platform size</td>
+<td>500 × 600 mm or 600 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Platform</td>
+<td>Stainless steel or steel depending on configuration</td>
+</tr>
+
+<tr>
+<td>Frame</td>
+<td>Heavy-duty steel</td>
+</tr>
+
+<tr>
+<td>Load cell</td>
+<td>Load cell sensor</td>
+</tr>
+
+<tr>
+<td>Indicator</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>6-digit LCD/LED</td>
+</tr>
+
+<tr>
+<td>Weighing units</td>
+<td>kg, g, lb, ct, oz</td>
+</tr>
+
+<tr>
+<td>Communication</td>
+<td>RS232 optional</td>
+</tr>
+
+<tr>
+<td>Power supply</td>
+<td>220V/50Hz</td>
+</tr>
+
+<tr>
+<td>Battery</td>
+<td>Rechargeable battery</td>
+</tr>
+
+</table>`,
+
+"Weighing",
+
+"Tare",
+
+"Stable weighing indication",
+
+"Low battery warning",
+
+"Automatic power-off",
+
+"High internal resolution and fast processing",
+
+"Dust-resistant design",
+
+"Class III accuracy according to OIML",
+
+"Zero and tare functions",
+
+"Industrial design",
+
+"Optional RS232 interface for peripheral devices"
+        ]
+    },
+
+    zh: {
+
+        name:"Yaohua XK3190 A12 500kg 电子台秤",
+
+        origin:"中国台湾",
+
+        description:"Yaohua XK3190 A12 电子台秤，最大称量 500kg，分度值 100g。采用坚固的秤台结构和 XK3190 A12 显示仪表，符合 OIML Class III 精度等级，适用于货物、农产品、仓储、生产及工业称重。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>品牌</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>产地</td>
+<td>中国台湾</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>分度值</td>
+<td>100 g</td>
+</tr>
+
+<tr>
+<td>最小称量</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>分辨率</td>
+<td>1/30,000</td>
+</tr>
+
+<tr>
+<td>精度等级</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>秤台尺寸</td>
+<td>500 × 600 mm 或 600 × 800 mm</td>
+</tr>
+
+<tr>
+<td>秤台材质</td>
+<td>不锈钢或钢制，视配置而定</td>
+</tr>
+
+<tr>
+<td>秤架材质</td>
+<td>坚固钢结构</td>
+</tr>
+
+<tr>
+<td>传感器</td>
+<td>称重传感器</td>
+</tr>
+
+<tr>
+<td>显示仪表</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>显示屏</td>
+<td>6位 LCD/LED</td>
+</tr>
+
+<tr>
+<td>称重单位</td>
+<td>kg、g、lb、ct、oz</td>
+</tr>
+
+<tr>
+<td>通信接口</td>
+<td>RS232 可选</td>
+</tr>
+
+<tr>
+<td>电源</td>
+<td>220V/50Hz</td>
+</tr>
+
+<tr>
+<td>电池</td>
+<td>充电电池</td>
+</tr>
+
+</table>`,
+
+"称重",
+
+"去皮",
+
+"稳定状态提示",
+
+"低电量报警",
+
+"自动关机",
+
+"高内部分辨率，处理速度快",
+
+"防尘设计",
+
+"符合 OIML Class III 精度等级",
+
+"置零和去皮功能",
+
+"工业型设计",
+
+"可选 RS232 接口连接外围设备"
+        ]
+    }
+},
 };
 
 

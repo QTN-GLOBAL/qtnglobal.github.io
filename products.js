@@ -6860,4 +6860,864 @@ business:"measure",
 
     ]
 },
+{
+    business:"measure",
+    id:72,
+
+    name:"Cân bàn điện tử XK3190 A12 60kg",
+
+    category:"can-ban-dung",
+
+    folder:"xk3190-a12-60kg",
+
+    brand:"Yaohua",
+
+    origin:"Đài Loan",
+
+    description:"Cân bàn điện tử Yaohua XK3190 A12 60kg sử dụng đầu cân A12 với màn hình LCD 6 số LED xanh, khung bàn cân thép chắc chắn, mặt bàn inox và loadcell cảm biến lực. Cân phù hợp sử dụng trong sản xuất, kho hàng, nhà máy, xưởng và các ứng dụng cân hàng hóa.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Thương hiệu</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Tiêu chuẩn chất lượng</td>
+<td>Cấp III-OIML</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>60 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>5 g – 10 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải bên trong</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Bàn cân</td>
+<td>INOX</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Kích thước cân</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép chống gỉ</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 6 số, LED xanh</td>
+</tr>
+
+<tr>
+<td>Đơn vị</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Loadcell cảm biến lực</td>
+</tr>
+
+<tr>
+<td>Quá tải an toàn</td>
+<td>Tối đa 200%</td>
+</tr>
+
+<tr>
+<td>Quá tải phá hủy</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân thường, hiệu chỉnh, trừ bì, cộng dồn, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Kết nối</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Nhiệt độ hoạt động</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Độ ẩm</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Bộ sản phẩm</td>
+<td>Đầu cân + bàn cân + sách hướng dẫn</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+</table>`,
+
+"Đầu cân Yaohua XK3190 A12 phổ biến cho cân bàn và cân sàn",
+
+"Màn hình LCD 6 số LED xanh, hiển thị rõ ràng",
+
+"Khung cân thép chắc chắn, chịu lực tốt",
+
+"Mặt bàn inox bền, chống gỉ và dễ vệ sinh",
+
+"Độ phân giải bên trong 1/30.000",
+
+"Loadcell cảm biến lực chịu quá tải an toàn tối đa 200%",
+
+"Hỗ trợ trừ bì, cộng dồn, hiệu chỉnh và tự động tắt nguồn",
+
+"Pin sạc DC 6V/4.5Ah, thuận tiện sử dụng ở nhiều vị trí",
+
+"Cổng RS-232 hỗ trợ kết nối với máy tính hoặc máy in",
+
+"Phù hợp kho hàng, nhà máy, xưởng sản xuất và cân hàng hóa"
+    ]
+},
+{
+    business:"measure",
+    id:73,
+
+    name:"Cân bàn điện tử XK3190 A12 100kg",
+
+    category:"can-ban-dung",
+
+    folder:"xk3190-a12-60kg",
+
+    brand:"Yaohua",
+
+    origin:"Đài Loan",
+
+    description:"Cân bàn điện tử Yaohua XK3190 A12 100kg sử dụng đầu cân A12 với màn hình LCD 6 số LED xanh, bàn cân inox và khung thép chống gỉ chắc chắn. Cân có độ phân giải bên trong 1/30.000, bước nhảy 10g, hỗ trợ trừ bì, cộng dồn, hiệu chỉnh và kết nối RS-232, phù hợp sử dụng trong nhà máy, kho hàng, xưởng sản xuất và các ứng dụng cân hàng hóa.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Thương hiệu</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Tiêu chuẩn chất lượng</td>
+<td>Cấp III-OIML</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>100 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>10 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải bên trong</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Bàn cân</td>
+<td>INOX 300 × 400 mm – 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Kích thước cân</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép chống gỉ</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 6 số, LED xanh</td>
+</tr>
+
+<tr>
+<td>Đơn vị</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Loadcell cảm biến</td>
+</tr>
+
+<tr>
+<td>Quá tải an toàn</td>
+<td>Tối đa 200%</td>
+</tr>
+
+<tr>
+<td>Quá tải phá hủy</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân thường, hiệu chỉnh, trừ bì, tự động tắt nguồn, cộng dồn</td>
+</tr>
+
+<tr>
+<td>Kết nối</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Nhiệt độ hoạt động</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Độ ẩm</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Bộ sản phẩm</td>
+<td>Đầu cân + bàn cân + sách hướng dẫn</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Taiwan</td>
+</tr>
+
+</table>`,
+
+"Đầu cân Yaohua XK3190 A12 phổ biến cho cân bàn và cân sàn",
+
+"Mức cân tối đa 100kg, bước nhảy 10g",
+
+"Độ phân giải bên trong 1/30.000",
+
+"Mặt bàn inox bền bỉ, chống gỉ và dễ vệ sinh",
+
+"Khung thép chống gỉ chắc chắn, chịu lực tốt",
+
+"Màn hình LCD 6 số với LED xanh rõ nét",
+
+"Loadcell cảm biến lực, khả năng quá tải an toàn tối đa 200%",
+
+"Hỗ trợ cân thường, hiệu chỉnh, trừ bì và cộng dồn",
+
+"Pin sạc DC 6V/4.5Ah, có thể sử dụng khi không có điện",
+
+"Cổng RS-232 hỗ trợ kết nối máy tính hoặc máy in",
+
+"Phù hợp sử dụng trong nhà máy, kho hàng, xưởng sản xuất và cân hàng hóa"
+
+    ]
+},
+{
+    business:"measure",
+    id:74,
+
+    name:"Cân bàn điện tử XK3190 A12 150kg",
+
+    category:"can-ban-dung",
+
+    folder:"xk3190-a12-60kg",
+
+    brand:"Yaohua",
+
+    origin:"Đài Loan",
+
+    description:"Cân bàn điện tử Yaohua XK3190 A12 150kg sử dụng đầu cân A12 với màn hình LCD 6 số LED xanh, bàn cân inox và khung thép chống gỉ chắc chắn. Cân có độ phân giải bên trong 1/30.000, bước nhảy 10–20g, hỗ trợ trừ bì, cộng dồn, hiệu chỉnh và kết nối RS-232, phù hợp sử dụng trong nhà máy, kho hàng, xưởng sản xuất và cân hàng hóa.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Thương hiệu</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Tiêu chuẩn chất lượng</td>
+<td>Cấp III-OIML</td>
+</tr>
+
+<tr>
+<td>Mức cân tối đa</td>
+<td>150 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>10 g – 20 g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải bên trong</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Bàn cân</td>
+<td>INOX 300 × 400 mm – 500 × 600 mm – 600 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Kích thước cân</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép chống gỉ</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 6 số, LED xanh</td>
+</tr>
+
+<tr>
+<td>Đơn vị</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Loadcell cảm biến</td>
+</tr>
+
+<tr>
+<td>Quá tải an toàn</td>
+<td>Tối đa 200%</td>
+</tr>
+
+<tr>
+<td>Quá tải phá hủy</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân thường, hiệu chỉnh, trừ bì, tự động tắt nguồn, cộng dồn</td>
+</tr>
+
+<tr>
+<td>Kết nối</td>
+<td>RS-232</td>
+</tr>
+
+<tr>
+<td>Nhiệt độ hoạt động</td>
+<td>0 – 40°C</td>
+</tr>
+
+<tr>
+<td>Độ ẩm</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Bộ sản phẩm</td>
+<td>Đầu cân + bàn cân + sách hướng dẫn</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Taiwan</td>
+</tr>
+
+</table>`,
+
+"Đầu cân Yaohua XK3190 A12 chuyên dụng cho cân bàn và cân sàn",
+
+"Mức cân tối đa 150kg, bước nhảy 10–20g",
+
+"Độ phân giải bên trong 1/30.000",
+
+"Mặt bàn inox bền bỉ, chống gỉ và dễ vệ sinh",
+
+"Khung thép chống gỉ chắc chắn, chịu lực tốt",
+
+"Màn hình LCD 6 số với LED xanh rõ nét",
+
+"Loadcell cảm biến lực, khả năng quá tải an toàn tối đa 200%",
+
+"Hỗ trợ cân thường, hiệu chỉnh, trừ bì và cộng dồn",
+
+"Pin sạc DC 6V/4.5Ah, thuận tiện sử dụng khi không có nguồn điện",
+
+"Cổng RS-232 hỗ trợ kết nối máy tính hoặc máy in",
+
+"Phù hợp nhà máy, kho hàng, xưởng sản xuất và cân hàng hóa"
+
+    ]
+},
+{
+    business:"measure",
+    id:75,
+
+    name:"Cân bàn điện tử XK3190 A12 200kg",
+
+    category:"can-ban-dung",
+
+    folder:"xk3190-a12-60kg",
+
+    brand:"Yaohua",
+
+    origin:"Đài Loan",
+
+    description:"Cân bàn điện tử Yaohua XK3190 A12 tải trọng 200kg, bước nhảy 20g, đạt độ chính xác cấp III theo tiêu chuẩn OIML. Cân sử dụng mặt bàn inox, khung thép chắc chắn và đầu hiển thị XK3190 A12, phù hợp cân hàng hóa, nông sản, thực phẩm, sản xuất và kho bãi.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>200 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>20 g</td>
+</tr>
+
+<tr>
+<td>Mức cân tối thiểu</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox chống gỉ</td>
+</tr>
+
+<tr>
+<td>Khung cân</td>
+<td>Thép sơn tĩnh điện</td>
+</tr>
+
+<tr>
+<td>Loadcell</td>
+<td>Cảm biến lực độ chính xác cao</td>
+</tr>
+
+<tr>
+<td>Đầu hiển thị</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>AC 220V/50Hz</td>
+</tr>
+
+<tr>
+<td>Pin sạc</td>
+<td>6V/4Ah</td>
+</tr>
+
+</table>`,
+
+"Cân trọng lượng",
+
+"Cân kiểm tra",
+
+"Trừ bì",
+
+"Đếm số lượng",
+
+"Cộng dồn",
+
+"Kết nối máy in và máy tính qua RS232",
+
+"Hiển thị LCD/LED rõ nét",
+
+"Tự động kiểm tra và cảnh báo pin yếu",
+
+"Tự động tắt nguồn khi không sử dụng",
+
+"Chân đế điều chỉnh độ cân bằng",
+
+"Khung cân chắc chắn, phù hợp sử dụng trong kho, xưởng và cửa hàng"
+]
+},
+{
+    business:"measure",
+    id:76,
+
+    name:"Cân bàn điện tử XK3190 A12 300kg",
+
+    category:"can-ban-dung",
+
+    folder:"xk3190-a12-60kg",
+
+    brand:"Yaohua",
+
+    origin:"Đài Loan",
+
+    description:"Cân bàn điện tử Yaohua XK3190 A12 tải trọng 300kg, bước nhảy 50g, độ chính xác cấp III theo tiêu chuẩn OIML. Cân sử dụng mặt bàn inox, khung thép chắc chắn và đầu hiển thị XK3190 A12, phù hợp cân hàng hóa, nông sản, sản xuất, kho bãi và các ứng dụng công nghiệp.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>300 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>50 g</td>
+</tr>
+
+<tr>
+<td>Mức cân tối thiểu</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>500 × 600 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox chống gỉ</td>
+</tr>
+
+<tr>
+<td>Khung cân</td>
+<td>Thép chắc chắn</td>
+</tr>
+
+<tr>
+<td>Loadcell</td>
+<td>Cảm biến lực</td>
+</tr>
+
+<tr>
+<td>Đầu hiển thị</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg, g</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>220V/50Hz</td>
+</tr>
+
+<tr>
+<td>Pin</td>
+<td>Pin sạc, thời gian sử dụng khoảng 80 giờ</td>
+</tr>
+
+</table>`,
+
+"Cân trọng lượng",
+
+"Cân trừ bì",
+
+"Thông báo trạng thái ổn định",
+
+"Cảnh báo pin yếu",
+
+"Tự động tắt nguồn",
+
+"Độ phân giải nội cao, tốc độ xử lý nhanh",
+
+"Thiết kế chống bụi và ảnh hưởng môi trường",
+
+"Đạt độ chính xác cấp III theo tiêu chuẩn OIML",
+
+"Chức năng zero và tare",
+
+"Thiết kế kiểu dáng công nghiệp",
+
+"RS232 tùy chọn để kết nối thiết bị ngoại vi"
+]
+},
+{
+    business:"measure",
+    id:77,
+
+    name:"Cân bàn điện tử XK3190 A12 500kg",
+
+    category:"can-ban-dung",
+
+    folder:"xk3190-a12-60kg",
+
+    brand:"Yaohua",
+
+    origin:"Đài Loan",
+
+    description:"Cân bàn điện tử Yaohua XK3190 A12 tải trọng 500kg, bước nhảy 100g, độ chính xác cấp III theo tiêu chuẩn OIML. Cân sử dụng đầu hiển thị XK3190 A12, thiết kế chắc chắn, phù hợp cân hàng hóa, nông sản, kho bãi, sản xuất và các ứng dụng công nghiệp.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>XK3190 A12</th>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>Yaohua</td>
+</tr>
+
+<tr>
+<td>Xuất xứ</td>
+<td>Đài Loan</td>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>500 kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>100 g</td>
+</tr>
+
+<tr>
+<td>Mức cân tối thiểu</td>
+<td>20d</td>
+</tr>
+
+<tr>
+<td>Độ phân giải</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Cấp chính xác</td>
+<td>Class III – OIML</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>500 × 600 mm hoặc 600 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn</td>
+<td>Inox hoặc thép tùy cấu hình</td>
+</tr>
+
+<tr>
+<td>Khung cân</td>
+<td>Thép chắc chắn</td>
+</tr>
+
+<tr>
+<td>Loadcell</td>
+<td>Cảm biến lực</td>
+</tr>
+
+<tr>
+<td>Đầu hiển thị</td>
+<td>XK3190 A12</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD/LED 6 số</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg, g, lb, ct, oz</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232 tùy chọn</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>220V/50Hz</td>
+</tr>
+
+<tr>
+<td>Pin</td>
+<td>Pin sạc</td>
+</tr>
+
+</table>`,
+
+"Cân trọng lượng",
+
+"Cân trừ bì",
+
+"Thông báo tình trạng ổn định",
+
+"Cảnh báo pin yếu",
+
+"Tự động tắt nguồn",
+
+"Độ phân giải nội cao, tốc độ xử lý nhanh",
+
+"Thiết kế chống bụi và ảnh hưởng của môi trường",
+
+"Đạt độ chính xác cấp III theo tiêu chuẩn OIML",
+
+"Chức năng Zero và Tare",
+
+"Thiết kế kiểu dáng công nghiệp",
+
+"RS232 tùy chọn để kết nối thiết bị ngoại vi"
+]
+},
 ];
