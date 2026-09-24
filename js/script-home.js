@@ -293,33 +293,58 @@ window.scrollTo({
 ========================= */
 
 function createBrandSection(brandKey, items) {
-
-    const id = brandKey.toLowerCase();
-
     return `
-<section class="brand-section">
+    <section class="brand-section">
+        <h2 class="brand-title">${formatBrandName(brandKey)}</h2>
 
-    <div class="brand-wrapper">
+        <div class="product-grid">
+            ${items.map(p => {
+                const product = getTranslatedProduct(p) || p;
 
-        <button class="slider-btn left"
-                onclick="moveBrand('${id}', -1)">
-            ❮
-        </button>
+                return `
+                <div class="product-card">
 
-        <div class="brand-track"
-             id="${id}"
-             data-index="0"
-             data-items='${JSON.stringify(items)}'>
+                    <img
+                        src="images/${p.category}/${p.folder}/main.jpg"
+                        alt="${product.name}"
+                    >
+
+                    <div class="product-info">
+                        <h3>${product.name}</h3>
+
+                        <div class="product-buttons">
+                            <a
+                                class="detail-btn"
+                                href="${p.brand === 'Amway'
+                                    ? 'amway.html'
+                                    : 'chitiet.html'}?id=${p.id}"
+                            >
+                                ${t("detailBtn")}
+                            </a>
+
+                            <button
+                                class="quote-btn"
+                                onclick="${
+                                    (p.brand || '').trim().toUpperCase() === 'AMWAY'
+                                        ? "location.href='amway-contact.html'"
+                                        : `showQuote(${p.id})`
+                                }"
+                            >
+                                ${
+                                    (p.brand || '').trim().toUpperCase() === 'AMWAY'
+                                        ? t("contactConsultationBtn")
+                                        : t("quoteBtn")
+                                }
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                `;
+            }).join("")}
         </div>
-
-        <button class="slider-btn right"
-                onclick="moveBrand('${id}', 1)">
-            ❯
-        </button>
-
-    </div>
-
-</section>`;
+    </section>
+    `;
 }
 function renderSingleSlider(products, title) {
 
@@ -378,7 +403,7 @@ function goHomePage() {
     renderHomeByBrand();
 
     initHeroSlider();
-    initBrandSliders();
+    
 }
 
 /* =========================
