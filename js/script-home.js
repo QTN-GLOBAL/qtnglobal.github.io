@@ -29,7 +29,7 @@ const brandOrder = [
 ========================= */
 
 const BRANDS_PER_PAGE = 4;
-
+const PRODUCTS_PER_PAGE = 12;
 let currentBrandPage = 1;
 
 /* =========================
@@ -119,24 +119,200 @@ function renderHomeByBrand(productList = null) {
 
     const products = productList || getProducts();
 
-    const brands = {};
+    const sortedProducts = [...products].sort((a, b) => {
 
-    products.forEach(p => {
+        const aId = String(a.id ?? "");
+        const bId = String(b.id ?? "");
 
-        if (!p.brand) return;
+        const aNum = Number(aId);
+        const bNum = Number(bId);
 
-        const key = p.brand.trim().toUpperCase();
-
-        if (!brands[key]) {
-            brands[key] = [];
+        if (!isNaN(aNum) && !isNaN(bNum)) {
+            return aNum - bNum;
         }
 
-        brands[key].push(p);
+        return aId.localeCompare(bId, undefined, {
+            numeric: true,
+            sensitivity: "base"
+        });
 
     });
 
-    renderBrandPage(brands);
+    currentBrandPage = 1;
 
+    renderHomeGridPage(sortedProducts);
+}
+/* =========================
+   HOME GRID PAGINATION
+   12 PRODUCTS / PAGE
+========================= */
+
+const PRODUCTS_PER_PAGE = 12;
+
+
+/* =========================
+   RENDER HOME GRID PAGE
+========================= */
+
+function renderHomeGridPage(products) {
+
+    const container =
+        document.getElementById("homeContainer");
+
+    if (!container) return;
+
+
+    const totalPages = Math.ceil(
+        products.length / PRODUCTS_PER_PAGE
+    );
+
+
+    if (currentBrandPage > totalPages) {
+        currentBrandPage = 1;
+    }
+
+
+    const start =
+        (currentBrandPage - 1) * PRODUCTS_PER_PAGE;
+
+
+    const pageProducts =
+        products.slice(
+            start,
+            start + PRODUCTS_PER_PAGE
+        );
+
+
+    let html = `
+        <div class="product-grid">
+    `;
+
+
+    html += pageProducts.map(p => {
+
+        const product =
+            getTranslatedProduct(p) || p;
+
+        return `
+            <div class="product-card">
+
+                <div class="brand-overlay">
+                    ${p.brand
+                        ? formatBrandName(p.brand)
+                        : ""}
+                </div>
+
+                <img
+                    src="images/${p.category}/${p.folder}/main.jpg"
+                    alt="${product.name}"
+                >
+
+                <div class="product-info">
+
+                    <h3>${product.name}</h3>
+
+                    <div class="product-buttons">
+
+                        <a
+                            class="detail-btn"
+                            href="${p.brand === 'Amway'
+                                ? 'amway.html'
+                                : 'chitiet.html'}?id=${p.id}"
+                        >
+                            ${t("detailBtn")}
+                        </a>
+
+                        <button
+                            class="quote-btn"
+                            onclick="${
+                                (p.brand || '')
+                                    .trim()
+                                    .toUpperCase() === 'AMWAY'
+                                    ? "location.href='amway-contact.html'"
+                                    : `showQuote(${p.id})`
+                            }"
+                        >
+                            ${
+                                (p.brand || '')
+                                    .trim()
+                                    .toUpperCase() === 'AMWAY'
+                                    ? t("contactConsultationBtn")
+                                    : t("quoteBtn")
+                            }
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        `;
+
+    }).join("");
+
+
+    html += `
+        </div>
+    `;
+
+
+    /* =========================
+       PAGINATION
+    ========================= */
+
+    if (totalPages > 1) {
+
+        html += `
+            <div class="brand-pagination">
+
+                <button
+                    onclick="changeBrandPage(-1)"
+                    ${currentBrandPage === 1
+                        ? "disabled"
+                        : ""}
+                >
+                    ❮
+                </button>
+        `;
+
+
+        for (
+            let i = 1;
+            i <= totalPages;
+            i++
+        ) {
+
+            html += `
+                <button
+                    class="${i === currentBrandPage
+                        ? "active"
+                        : ""}"
+                    onclick="changeBrandPage(${i})"
+                >
+                    ${i}
+                </button>
+            `;
+
+        }
+
+
+        html += `
+                <button
+                    onclick="changeBrandPage(-2)"
+                    ${currentBrandPage === totalPages
+                        ? "disabled"
+                        : ""}
+                >
+                    ❯
+                </button>
+
+            </div>
+        `;
+
+    }
+
+
+    container.innerHTML = html;
 }
 /* =========================
    RENDER BRAND PAGE
@@ -148,73 +324,175 @@ function renderBrandPage(brands) {
 
     if (!container) return;
 
-    let html = "";
+    /*
+       =========================
+       TẠO DANH SÁCH SẢN PHẨM
+       THEO THỨ TỰ THƯƠNG HIỆU
+       =========================
+    */
 
-    const existBrands = brandOrder.filter(key => brands[key]);
+    let allProducts = [];
 
-    const totalPages = Math.ceil(
-        existBrands.length / BRANDS_PER_PAGE
-    );
+    brandOrder.forEach(brandKey => {
 
-    if (currentBrandPage > totalPages) {
-        currentBrandPage = 1;
-    }
+        if (brands[brandKey]) {
 
-    const start = (currentBrandPage - 1) * BRANDS_PER_PAGE;
-
-    const end = start + BRANDS_PER_PAGE;
-
-    existBrands
-        .slice(start, end)
-        .forEach(key => {
-
-            html += createBrandSection(
-                key,
-                brands[key]
+            allProducts = allProducts.concat(
+                brands[brandKey]
             );
 
-        });
+        }
+
+    });
+
+
+    /*
+       =========================
+       TÍNH SỐ TRANG
+       =========================
+    */
+
+    const totalPages = Math.ceil(
+        allProducts.length / PRODUCTS_PER_PAGE
+    );
+
+
+    if (totalPages === 0) {
+
+        container.innerHTML = "";
+
+        return;
+
+    }
+
+
+    if (currentBrandPage > totalPages) {
+
+        currentBrandPage = 1;
+
+    }
+
+
+    /*
+       =========================
+       LẤY 12 SẢN PHẨM CỦA TRANG
+       =========================
+    */
+
+    const start =
+        (currentBrandPage - 1) * PRODUCTS_PER_PAGE;
+
+    const pageProducts =
+        allProducts.slice(
+            start,
+            start + PRODUCTS_PER_PAGE
+        );
+
+
+    /*
+       =========================
+       NHÓM LẠI THEO THƯƠNG HIỆU
+       =========================
+    */
+
+    const pageBrands = {};
+
+
+    pageProducts.forEach(product => {
+
+        if (!product.brand) return;
+
+        const key =
+            product.brand.trim().toUpperCase();
+
+
+        if (!pageBrands[key]) {
+
+            pageBrands[key] = [];
+
+        }
+
+
+        pageBrands[key].push(product);
+
+    });
+
+
+    /*
+       =========================
+       HIỂN THỊ GRID
+       =========================
+    */
+
+    let html = "";
+
+
+    brandOrder.forEach(brandKey => {
+
+        if (!pageBrands[brandKey]) return;
+
+
+        html += createBrandSection(
+            brandKey,
+            pageBrands[brandKey]
+        );
+
+    });
+
+
+    /*
+       =========================
+       PHÂN TRANG
+       =========================
+    */
 
     if (totalPages > 1) {
 
         html += `
-<div class="brand-pagination">
+        <div class="brand-pagination">
 
-<button
-onclick="changeBrandPage(-1)">
-❮
-</button>
+            <button
+                onclick="changeBrandPage(-1)"
+                ${currentBrandPage === 1 ? "disabled" : ""}
+            >
+                ❮
+            </button>
+        `;
 
-`;
 
-        for (let i = 1; i <= totalPages; i++) {
+        for (
+            let i = 1;
+            i <= totalPages;
+            i++
+        ) {
 
             html += `
-<button
-class="${i===currentBrandPage?'active':''}"
-onclick="changeBrandPage(${i})">
-
-${i}
-
-</button>
-`;
+                <button
+                    class="${i === currentBrandPage ? "active" : ""}"
+                    onclick="changeBrandPage(${i})"
+                >
+                    ${i}
+                </button>
+            `;
 
         }
 
-        html += `
-<button
-onclick="changeBrandPage(-2)">
-❯
-</button>
 
-</div>
-`;
+        html += `
+            <button
+                onclick="changeBrandPage(-2)"
+                ${currentBrandPage === totalPages ? "disabled" : ""}
+            >
+                ❯
+            </button>
+
+        </div>
+        `;
 
     }
 
-    container.innerHTML = html;
 
-    initBrandSliders();
+    container.innerHTML = html;
 
 }
 
@@ -222,71 +500,86 @@ onclick="changeBrandPage(-2)">
    CHANGE PAGE
 ========================= */
 
-function changeBrandPage(page){
+function changeBrandPage(page) {
 
     const products = getProducts();
 
-    const brands = {};
+    const sortedProducts = [...products].sort((a, b) => {
 
-    products.forEach(p=>{
+        const aId = String(a.id ?? "");
+        const bId = String(b.id ?? "");
 
-        if(!p.brand) return;
+        const aNum = Number(aId);
+        const bNum = Number(bId);
 
-        const key =
-            p.brand.trim().toUpperCase();
-
-        if(!brands[key]){
-
-            brands[key]=[];
-
+        if (!isNaN(aNum) && !isNaN(bNum)) {
+            return aNum - bNum;
         }
 
-        brands[key].push(p);
+        return aId.localeCompare(bId, undefined, {
+            numeric: true,
+            sensitivity: "base"
+        });
 
     });
 
+
     const totalPages = Math.ceil(
-
-        brandOrder.filter(
-            b=>brands[b]
-        ).length
-
-        / BRANDS_PER_PAGE
-
+        sortedProducts.length / PRODUCTS_PER_PAGE
     );
 
-    if(page===-1){
 
-        if(currentBrandPage>1){
+    /* NÚT TRANG TRƯỚC */
 
+    if (page === -1) {
+
+        if (currentBrandPage > 1) {
             currentBrandPage--;
-
         }
 
     }
 
-    else if(page===-2){
 
-        if(currentBrandPage<totalPages){
+    /* NÚT TRANG SAU */
 
+    else if (page === -2) {
+
+        if (currentBrandPage < totalPages) {
             currentBrandPage++;
-
         }
 
     }
 
-    else{
 
-        currentBrandPage=page;
+    /* BẤM SỐ TRANG */
+
+    else {
+
+        currentBrandPage = page;
 
     }
 
-   renderBrandPage(brands);
 
-window.scrollTo({
-    top: document.getElementById("homeContainer").offsetTop - 20,
-    behavior: "smooth"
-});
+    renderHomeGridPage(sortedProducts);
+
+
+    /* CUỘN VỀ ĐẦU DANH SÁCH */
+
+    const container =
+        document.getElementById("homeContainer");
+
+    if (container) {
+
+        window.scrollTo({
+
+            top: container.offsetTop - 20,
+
+            behavior: "smooth"
+
+        });
+
+    }
+
 }
 /* =========================
    BRAND SECTION (ONLY HTML)
