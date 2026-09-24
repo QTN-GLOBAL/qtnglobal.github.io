@@ -1,268 +1,262 @@
-/* =====================================================
-   HERO SLIDER
-===================================================== */
+/* =========================================================
+   QTN GLOBAL — HOME HERO SLIDER
+   5 BANNER
+   images/banner/1.jpg -> 5.jpg
+========================================================= */
 
-let heroIndex = 0;
-let heroSlides = [];
-let heroTimer = null;
+(function () {
 
-/* =====================================================
-   HEADER INFO DATA
-===================================================== */
+    const bannerImages = [
+        "images/banner/1.jpg",
+        "images/banner/2.jpg",
+        "images/banner/3.jpg",
+        "images/banner/4.jpg",
+        "images/banner/5.jpg"
+    ];
 
-const HEADER_INFO = [
+    let currentSlide = 0;
+    let slideTimer = null;
 
-{
-    title: "QTN GLOBAL",
+    function initHeroSlider() {
 
-    items: [
+        const track = document.getElementById("slider-track");
+        const dots = document.getElementById("slider-dots");
 
-        "✔ Chính xác trong từng giá trị",
-
-        "✔ Thiết bị đo lường chất lượng cao",
-
-        "✔ Đại lý chính hãng Excell - Ohaus - Jadever",
-
-        "✔ Giải pháp cân điện tử cho doanh nghiệp",
-
-        "✔ Hỗ trợ kỹ thuật toàn quốc"
-
-    ]
-},
-
-{
-    title: "THIẾT BỊ ĐO LƯỜNG",
-
-    items: [
-
-        "✔ Cân điện tử",
-
-        "✔ Đầu cân điện tử",
-
-        "✔ Cảm biến lực",
-
-        "✔ Quả cân chuẩn",
-
-        "✔ Thiết bị phòng thí nghiệm"
-
-    ]
-},
-
-{
-    title: "QTN GLOBAL",
-
-    items: [
-
-        "✔ Uy tín",
-
-        "✔ Chuyên nghiệp",
-
-        "✔ Chính hãng",
-
-        "✔ Giá cạnh tranh",
-
-        "✔ Bảo hành toàn quốc"
-
-    ]
-}
-
-];
-
-let headerInfoIndex = 0;
-let headerInfoTimer = null;
-
-/* =====================================================
-   HERO SLIDER
-===================================================== */
-
-function initHeroSlider(){
-
-    if(heroTimer){
-
-        clearInterval(heroTimer);
-
-    }
-
-    if(
-
-        window.APP_MODE &&
-        window.APP_MODE.mode !== "home"
-
-    ){
-
-        return;
-
-    }
-
-    const track = document.getElementById("slider-track");
-    const dots  = document.getElementById("slider-dots");
-
-    if(!track || !dots) return;
-
-    heroSlides = getProducts()
-
-        .filter(p =>
-
-            (p.brand || "").toLowerCase().includes("excell")
-
-        )
-
-        .map(p =>
-
-            `images/${p.category}/${p.folder}/main.jpg`
-
-        );
-
-    if(heroSlides.length === 0){
-
-        return;
-
-    }
-
-    heroIndex = 0;
-
-    track.innerHTML = "";
-    dots.innerHTML = "";
-
-    heroSlides.forEach((src,index)=>{
-
-        const img = document.createElement("img");
-
-        img.src = src;
-
-        if(index===0){
-
-            img.classList.add("active");
-
+        if (!track) {
+            return;
         }
 
-        track.appendChild(img);
+        /* XÓA NỘI DUNG CŨ */
+        track.innerHTML = "";
 
-        const dot = document.createElement("div");
-
-        dot.className = "slider-dot";
-
-        if(index===0){
-
-            dot.classList.add("active");
-
+        if (dots) {
+            dots.innerHTML = "";
         }
 
-        dot.onclick = ()=>{
+        /* =================================================
+           TẠO 5 BANNER
+        ================================================= */
 
-            showHeroSlide(index);
+        bannerImages.forEach(function (src, index) {
 
-        };
+            const img = document.createElement("img");
 
-        dots.appendChild(dot);
+            img.src = src;
+            img.alt = "QTN GLOBAL Banner " + (index + 1);
 
-    });
+            img.className =
+                index === 0
+                    ? "active"
+                    : "";
 
-    function showHeroSlide(index){
+            img.loading =
+                index === 0
+                    ? "eager"
+                    : "lazy";
 
-        heroIndex = index;
+            track.appendChild(img);
 
-        track.querySelectorAll("img").forEach(img=>{
 
-            img.classList.remove("active");
+            /* =============================================
+               TẠO NÚT CHẤM
+            ============================================= */
+
+            if (dots) {
+
+                const dot =
+                    document.createElement("button");
+
+                dot.type = "button";
+
+                dot.setAttribute(
+                    "aria-label",
+                    "Xem banner " + (index + 1)
+                );
+
+                if (index === 0) {
+                    dot.classList.add("active");
+                }
+
+                dot.addEventListener(
+                    "click",
+                    function () {
+
+                        showSlide(index);
+
+                        restartTimer();
+
+                    }
+                );
+
+                dots.appendChild(dot);
+
+            }
 
         });
 
-        dots.querySelectorAll(".slider-dot").forEach(dot=>{
 
-            dot.classList.remove("active");
+        /* =================================================
+           HIỂN THỊ SLIDE
+        ================================================= */
 
-        });
+        function showSlide(index) {
 
-        track.querySelectorAll("img")[heroIndex].classList.add("active");
+            const slides =
+                track.querySelectorAll("img");
 
-        dots.querySelectorAll(".slider-dot")[heroIndex].classList.add("active");
+            const dotButtons =
+                dots
+                    ? dots.querySelectorAll("button")
+                    : [];
 
-    }
 
-    heroTimer = setInterval(()=>{
+            if (!slides.length) {
+                return;
+            }
 
-        heroIndex++;
 
-        if(heroIndex>=heroSlides.length){
+            /* Xử lý vòng lặp */
 
-            heroIndex=0;
+            if (index < 0) {
+                index = slides.length - 1;
+            }
 
-        }
+            if (index >= slides.length) {
+                index = 0;
+            }
 
-        showHeroSlide(heroIndex);
 
-    },5000);
+            currentSlide = index;
 
-    initHeaderInfo();
 
-}
+            /* Ẩn tất cả */
 
-/* =====================================================
-   HEADER INFO
-===================================================== */
+            slides.forEach(function (slide) {
 
-function initHeaderInfo(){
-
-    const title = document.getElementById("headerTitle");
-    const list  = document.getElementById("headerList");
-
-    if(!title || !list){
-
-        return;
-
-    }
-
-    if(headerInfoTimer){
-
-        clearInterval(headerInfoTimer);
-
-    }
-
-    function render(){
-
-        const data = HEADER_INFO[headerInfoIndex];
-
-        title.style.opacity = 0;
-
-        list.innerHTML = "";
-
-        setTimeout(()=>{
-
-            title.textContent = data.title;
-
-            title.style.opacity = 1;
-
-            data.items.forEach((text,index)=>{
-
-                const li = document.createElement("li");
-
-                li.textContent = text;
-
-                list.appendChild(li);
-
-                setTimeout(()=>{
-
-                    li.classList.add("show");
-
-                },index*450);
+                slide.classList.remove("active");
 
             });
 
-        },250);
 
-        headerInfoIndex++;
+            /* Hiện slide hiện tại */
 
-        if(headerInfoIndex>=HEADER_INFO.length){
+            slides[currentSlide]
+                .classList.add("active");
 
-            headerInfoIndex=0;
+
+            /* Cập nhật dots */
+
+            dotButtons.forEach(function (dot, i) {
+
+                dot.classList.toggle(
+                    "active",
+                    i === currentSlide
+                );
+
+            });
 
         }
 
+
+        /* =================================================
+           SLIDE TIẾP THEO
+        ================================================= */
+
+        function nextSlide() {
+
+            showSlide(currentSlide + 1);
+
+        }
+
+
+        /* =================================================
+           TỰ ĐỘNG CHUYỂN 5 GIÂY
+        ================================================= */
+
+        function startTimer() {
+
+            clearInterval(slideTimer);
+
+            slideTimer =
+                setInterval(
+                    nextSlide,
+                    5000
+                );
+
+        }
+
+
+        /* =================================================
+           KHỞI ĐỘNG LẠI TIMER
+        ================================================= */
+
+        function restartTimer() {
+
+            clearInterval(slideTimer);
+
+            startTimer();
+
+        }
+
+
+        /* =================================================
+           PAUSE KHI RÊ CHUỘT
+        ================================================= */
+
+        const slider =
+            track.closest(".banner-slider");
+
+        if (slider) {
+
+            slider.addEventListener(
+                "mouseenter",
+                function () {
+
+                    clearInterval(slideTimer);
+
+                }
+            );
+
+            slider.addEventListener(
+                "mouseleave",
+                function () {
+
+                    startTimer();
+
+                }
+            );
+
+        }
+
+
+        /* =================================================
+           BẮT ĐẦU
+        ================================================= */
+
+        showSlide(0);
+
+        startTimer();
+
     }
 
-    render();
 
-    headerInfoTimer = setInterval(render,7000);
+    /* =====================================================
+       CHỜ DOM
+    ===================================================== */
 
-}
+    if (
+        document.readyState === "loading"
+    ) {
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            initHeroSlider
+        );
+
+    } else {
+
+        initHeroSlider();
+
+    }
+
+})();
