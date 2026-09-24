@@ -2439,3 +2439,49 @@ color:#777;
 
     padding-left:16px;
 }
+/* =====================================================
+   FIX PRODUCT GRID - FULL WIDTH
+===================================================== */
+
+.main-layout{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    padding:10px 20px !important;
+    margin:0 !important;
+    box-sizing:border-box;
+}
+
+.content-area{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    min-width:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+    box-sizing:border-box;
+}
+
+#homeContainer{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    margin:0 !important;
+    padding:0 !important;
+    box-sizing:border-box;
+}
+
+.product-grid{
+    display:grid !important;
+    grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+    gap:20px !important;
+    width:100% !important;
+    max-width:none !important;
+    box-sizing:border-box;
+}
+
+.product-card{
+    width:100%;
+    min-width:0;
+    box-sizing:border-box;
+}
