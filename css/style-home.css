@@ -2485,3 +2485,122 @@ color:#777;
     min-width:0;
     box-sizing:border-box;
 }
+/* =========================================
+   PHÂN TRANG SẢN PHẨM - QTN GLOBAL
+========================================= */
+
+.brand-pagination {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 7px;
+    margin: 22px 0 32px !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+/* Tất cả nút */
+.brand-pagination button {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    padding: 0;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #d5e2f0;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #1769aa;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+    box-sizing: border-box;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.15s ease,
+        box-shadow 0.2s ease;
+}
+
+/* Hover */
+.brand-pagination button:hover {
+    background: #eaf4ff;
+    border-color: #1976d2;
+    color: #1565c0;
+    box-shadow: 0 2px 7px rgba(25, 118, 210, 0.15);
+    transform: translateY(-1px);
+}
+
+/* Trang đang chọn */
+.brand-pagination button.active {
+    background: #1976d2;
+    border-color: #1976d2;
+    color: #ffffff;
+    font-weight: 700;
+
+    box-shadow: 0 3px 8px rgba(25, 118, 210, 0.25);
+}
+
+/* Hover trang đang chọn */
+.brand-pagination button.active:hover {
+    background: #1565c0;
+    border-color: #1565c0;
+    color: #ffffff;
+}
+
+/* Nút ← và → */
+.brand-pagination button:first-child,
+.brand-pagination button:last-child {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/* Khi nút mũi tên bị disabled */
+.brand-pagination button:disabled {
+    background: #f5f7fa;
+    border-color: #e1e6eb;
+    color: #b8c0c8;
+    cursor: default;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Không hover khi disabled */
+.brand-pagination button:disabled:hover {
+    background: #f5f7fa;
+    border-color: #e1e6eb;
+    color: #b8c0c8;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .brand-pagination {
+        gap: 5px;
+        margin: 18px 0 26px !important;
+    }
+
+    .brand-pagination button {
+        width: 34px;
+        height: 34px;
+        min-width: 34px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+
+    .brand-pagination button:first-child,
+    .brand-pagination button:last-child {
+        font-size: 18px;
+    }
+}
