@@ -147,7 +147,7 @@ function renderHomeByBrand(productList = null) {
    12 PRODUCTS / PAGE
 ========================= */
 
-const PRODUCTS_PER_PAGE = 12;
+
 
 
 /* =========================
