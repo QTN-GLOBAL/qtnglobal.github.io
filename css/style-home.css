@@ -677,17 +677,10 @@
 ===================================================== */
 
 .main-layout{
-
-    display:grid;
-
-    grid-template-columns:240px 1fr;
-
-    gap:8px;
-
-    padding:4px 12px 10px;
-
-    align-items:start;
-
+    display:block;
+    width:100%;
+    padding:4px 20px 10px;
+    box-sizing:border-box;
 }
 /* =====================================================
    SIDEBAR
@@ -906,42 +899,32 @@
 ===================================================== */
 
 .content-area{
-
-    min-width:0;
-
     width:100%;
-
+    max-width:none;
+    min-width:0;
+    box-sizing:border-box;
 }
-
 /* =====================================================
    HOME CONTAINER
 ===================================================== */
 
 #homeContainer{
-
     display:flex;
-
     flex-direction:column;
-
     gap:2px;
-
-    padding:0 12px 0;
-
-    margin-bottom:0;
-
+    width:100%;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
 }
 /* =====================================================
    PRODUCT GRID
 ===================================================== */
-
 .product-grid{
-
     display:grid;
-
     grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
-
-    gap:24px;
-
+    gap:20px;
+    width:100%;
 }
 
 /* =====================================================
@@ -2307,4 +2290,152 @@ color:#777;
 
     text-align:center;
 
+}
+/* =====================================================
+   PRODUCT NAV DROPDOWN
+   ===================================================== */
+
+.nav-dropdown{
+    position:relative;
+}
+
+.nav-dropdown-toggle{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:700;
+    white-space:nowrap;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.nav-dropdown-toggle:hover{
+    color:#ffd54f;
+}
+
+.dropdown-arrow{
+    font-size:10px;
+    margin-left:2px;
+    transition:.25s;
+}
+
+
+/* =====================================================
+   MEGA MENU
+   ===================================================== */
+
+.product-menu{
+    position:absolute;
+    top:calc(100% + 1px);
+    left:0;
+
+    width:600px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    gap:0;
+
+    background:#fff;
+
+    border-radius:0 0 12px 12px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.18);
+
+    padding:18px;
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(8px);
+
+    transition:
+        opacity .2s ease,
+        visibility .2s ease,
+        transform .2s ease;
+
+    z-index:9999;
+}
+
+
+/* HIỆN MENU KHI RÊ CHUỘT */
+
+.nav-dropdown:hover .product-menu{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+.nav-dropdown:hover .dropdown-arrow{
+    transform:rotate(180deg);
+}
+
+
+/* =====================================================
+   MENU COLUMN
+   ===================================================== */
+
+.product-menu-column{
+    display:flex;
+    flex-direction:column;
+    padding:0 12px;
+}
+
+.product-menu-column:first-child{
+    border-right:1px solid #e5e5e5;
+}
+
+
+/* =====================================================
+   MENU TITLE
+   ===================================================== */
+
+.product-menu-column h3{
+    margin:0 0 10px;
+
+    padding-bottom:8px;
+
+    color:#1565c0;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    border-bottom:2px solid #e8eef8;
+}
+
+
+/* =====================================================
+   MENU ITEM
+   ===================================================== */
+
+.product-menu-column a{
+    display:block;
+
+    padding:9px 10px;
+
+    color:#333;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    border-radius:6px;
+
+    transition:
+        background .2s ease,
+        color .2s ease,
+        padding-left .2s ease;
+}
+
+.product-menu-column a:hover{
+    background:#eef5ff;
+
+    color:#1565c0;
+
+    padding-left:16px;
 }

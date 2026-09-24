@@ -6,8 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+
 
 <title>QTN GLOBAL</title>
 
@@ -163,155 +162,185 @@ aria-label="Open Menu">
 
 <div class="nav-content" id="navContent">
 
+    <!-- MOBILE CLOSE -->
+    <button
+        class="menu-close"
+        id="menuClose"
+        aria-label="Close Menu">
+        <i class="fas fa-times"></i>
+    </button>
+
+    <!-- TRANG CHỦ -->
+    <a href="index.html">
+        <i class="fas fa-house"></i>
+        <span data-i18n="home">Trang chủ</span>
+    </a>
+
+    <!-- GIỚI THIỆU -->
+    <a href="about.html">
+        <i class="fas fa-circle-info"></i>
+        <span data-i18n="about">Giới thiệu</span>
+    </a>
+
+    <!-- SẢN PHẨM -->
+    <div class="nav-dropdown">
+
+        <a href="javascript:void(0)" class="nav-dropdown-toggle">
+            <i class="fas fa-scale-balanced"></i>
+            <span>Sản phẩm</span>
+            <i class="fas fa-chevron-down dropdown-arrow"></i>
+        </a>
+
+        <div class="product-menu">
+
+            <div class="product-menu-column">
+
+                <h3>Danh mục sản phẩm</h3>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-ban')">
+                    Cân bàn
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-ban-dung')">
+                    Cân bàn đứng
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-dem')">
+                    Cân đếm
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-treo')">
+                    Cân treo
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('dau-can-dien-tu')">
+                    Đầu cân điện tử
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-phan-tich')">
+                    Cân phân tích
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-chong-nuoc')">
+                    Cân chống nước
+                </a>
+
+            </div>
 
 
+            <div class="product-menu-column">
+
+                <h3>&nbsp;</h3>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-in-tem-ma-vach')">
+                    Cân in tem mã vạch
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('can-ghe-ngoi')">
+                    Cân ghế ngồi
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('air-purifier')">
+                    Máy lọc không khí
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('air-filter')">
+                    Phụ kiện máy lọc không khí
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('water-purifier')">
+                    Máy lọc nước
+                </a>
+
+                <a href="javascript:void(0)"
+                   onclick="goHomeAndCategory('water-filter')">
+                    Lõi lọc &amp; phụ kiện
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 
-<button
-class="menu-close"
-id="menuClose"
-aria-label="Close Menu">
-
-<i class="fas fa-times"></i>
-
-</button>
+    <!-- TIN TỨC -->
+    <a href="news.html">
+        <i class="fas fa-newspaper"></i>
+        <span data-i18n="news">Tin tức</span>
+    </a>
 
 
+    <!-- LIÊN HỆ -->
+    <a href="#"
+       onclick="goContact();return false;">
+
+        <i class="fas fa-phone"></i>
+
+        <span data-i18n="contact">
+            Liên hệ
+        </span>
+
+    </a>
 
 
+    <!-- SEARCH -->
+    <div class="search-box">
+
+        <input
+            id="searchInput"
+            type="text"
+            autocomplete="off"
+            data-i18n-placeholder="searchPlaceholder"
+            placeholder="Tìm kiếm sản phẩm...">
+
+        <button
+            type="button"
+            onclick="runSearch()">
+
+            <i class="fas fa-search"></i>
+
+        </button>
+
+    </div>
 
 
-<a href="index.html">
+    <!-- LANGUAGE -->
+    <div class="language-switcher">
 
-<i class="fas fa-house"></i>
+        <select id="languageSelect">
 
-<span data-i18n="home">
-Trang chủ
-</span>
+            <option value="vi">
+                🇻🇳 Tiếng Việt
+            </option>
 
-</a>
+            <option value="en">
+                🇺🇸 English
+            </option>
 
+            <option value="zh">
+                🇨🇳 中文
+            </option>
 
+        </select>
 
-
-
-<a href="about.html">
-
-<i class="fas fa-circle-info"></i>
-
-<span data-i18n="about">
-Giới thiệu
-</span>
-
-</a>
-
-
-
-
-
-<a href="news.html">
-
-<i class="fas fa-newspaper"></i>
-
-<span data-i18n="news">
-Tin tức
-</span>
-
-</a>
-
-
-
-
-
-<a href="#"
-onclick="goContact();return false;">
-
-<i class="fas fa-phone"></i>
-
-<span data-i18n="contact">
-Liên hệ
-</span>
-
-</a>
-
-
-
-
-
-
-
-
-<div class="search-box">
-
-
-<input
-id="searchInput"
-type="text"
-autocomplete="off"
-data-i18n-placeholder="searchPlaceholder"
-placeholder="Tìm kiếm sản phẩm...">
-
-
-
-
-
-<button
-type="button"
-onclick="runSearch()">
-
-<i class="fas fa-search"></i>
-
-</button>
-
+    </div>
 
 </div>
-
-
-
-
-
-
-
-<div class="language-switcher">
-
-
-<select id="languageSelect">
-
-
-<option value="vi">
-🇻🇳 Tiếng Việt
-</option>
-
-
-<option value="en">
-🇺🇸 English
-</option>
-
-
-<option value="zh">
-🇨🇳 中文
-</option>
-
-
-</select>
-
-
-</div>
-
-
-
-
-
-
-</div>
-
-
-
-
 
 <div class="menu-overlay" id="menuOverlay"></div>
-
-
 
 </nav>
 
@@ -325,121 +354,12 @@ onclick="runSearch()">
 ========================= -->
 
 <section class="main-layout">
-<!-- =====================================================
-     SIDEBAR - DANH MỤC SẢN PHẨM
-===================================================== -->
 
-<aside class="sidebar">
+    <main class="content-area">
 
-    <h2 data-i18n="productCategories">
-        DANH MỤC SẢN PHẨM
-    </h2>
+        <div id="homeContainer"></div>
 
-    <ul>
-
-        <li onclick="goHomeAndCategory('can-ban')"
-            data-i18n="catPlatformScale">
-            Cân bàn
-        </li>
-
-        <li onclick="goHomeAndCategory('can-ban-dung')"
-            data-i18n="catFloorStandingScale">
-            Cân bàn đứng
-        </li>
-
-        <li onclick="goHomeAndCategory('can-dem')"
-            data-i18n="catCountingScale">
-            Cân đếm
-        </li>
-
-        <li onclick="goHomeAndCategory('can-treo')"
-            data-i18n="catCraneScale">
-            Cân treo
-        </li>
-
-        <li onclick="goHomeAndCategory('dau-can-dien-tu')"
-            data-i18n="catIndicator">
-            Đầu cân điện tử
-        </li>
-
-        <li onclick="goHomeAndCategory('can-phan-tich')"
-            data-i18n="catAnalyticalScale">
-            Cân phân tích
-        </li>
-
-        <li onclick="goHomeAndCategory('can-chong-nuoc')"
-            data-i18n="catWaterproofScale">
-            Cân chống nước
-        </li>
-
-        <li onclick="goHomeAndCategory('can-in-tem-ma-vach')"
-            data-i18n="catLabelPrintingScale">
-            Cân in tem mã vạch
-        </li>
-
-        <li onclick="goHomeAndCategory('can-ghe-ngoi')"
-            data-i18n="catChairScale">
-            Cân ghế ngồi
-        </li>
-
-        <li onclick="goHomeAndCategory('air-purifier')"
-            data-i18n="catAirPurifier">
-            Máy lọc không khí
-        </li>
-
-        <li onclick="goHomeAndCategory('air-filter')"
-            data-i18n="catAirFilter">
-            Phụ kiện máy lọc không khí
-        </li>
-
-        <li onclick="goHomeAndCategory('water-purifier')"
-            data-i18n="catWaterPurifier">
-            Máy lọc nước
-        </li>
-
-        <li onclick="goHomeAndCategory('water-filter')"
-            data-i18n="catWaterFilter">
-            Lõi lọc & phụ kiện
-        </li>
-
-    </ul>
-
-</aside>
-<!-- MAIN PRODUCT -->
-<main class="content-area">
-
-    <div id="homeContainer"></div>
-
-</main>
-
-
-<!-- =========================
-     SIDEBAR RIGHT - NEWS
-========================= -->
-
-<aside class="sidebar-right">
-
-
-    <div class="news-box">
-
-        <h3
-    data-i18n="news"
-    class="news-sidebar-title"
->
-    TIN TỨC
-</h3>
-
-
-        <!-- script-news.js hoặc script-news-sidebar.js render vào đây -->
-
-        <div class="featured-news-sidebar"></div>
-
-
-    </div>
-
-
-</aside>
-
+    </main>
 
 </section>
 
