@@ -3836,3 +3836,41 @@ color:#777;
         color: #ffffff !important;
     }
 }
+.home-hero .banner-slider {
+    position: relative;
+    width: 100% !important;
+    max-width: none !important;
+
+    /* thấp hơn một chút */
+    height: clamp(220px, 26vw, 420px) !important;
+
+    margin: 0 !important;
+    overflow: hidden;
+
+    background: #ffffff;
+}
+.home-hero .slider-track img {
+    position: absolute;
+
+    inset: 0;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    /*
+       KHÔNG CẮT LOGO / NỘI DUNG BANNER
+    */
+    object-fit: contain !important;
+    object-position: center center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    opacity: 0;
+
+    transition: opacity .45s ease;
+}
+
+.home-hero .slider-track img.active {
+    opacity: 1;
+}
