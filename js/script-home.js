@@ -703,10 +703,60 @@ function goHomePage() {
    PRODUCT LIST PAGE
 ========================= */
 
-function renderProductList(products, title) {
+/* =========================
+   CATEGORY / BRAND GRID
+========================= */
+
+let currentListProducts = [];
+let currentListTitle = "";
+
+
+function renderProductList(products = [], title = "") {
+
+    currentListProducts = [...products]
+        .filter(p => p && p.id && p.name)
+        .sort((a, b) => Number(a.id) - Number(b.id));
+
+    currentListTitle = title;
+
+    renderListPage(1);
+}
+
+
+function renderListPage(page = 1) {
 
     const container = document.getElementById("homeContainer");
     if (!container) return;
+
+    const totalPages = Math.ceil(
+        currentListProducts.length / PRODUCTS_PER_PAGE
+    );
+
+    if (totalPages === 0) {
+        container.innerHTML = `
+            <div class="list-header">
+
+                <button onclick="goHomePage()">
+                    ${t("home")}
+                </button>
+
+                <h2>${formatBrandName(currentListTitle)}</h2>
+
+            </div>
+
+            <div class="product-grid"></div>
+        `;
+
+        return;
+    }
+
+    // Đảm bảo page luôn hợp lệ
+    page = Math.max(1, Math.min(page, totalPages));
+
+    const start = (page - 1) * PRODUCTS_PER_PAGE;
+    const end = start + PRODUCTS_PER_PAGE;
+
+    const products = currentListProducts.slice(start, end);
 
     container.innerHTML = `
 <div class="list-header">
@@ -715,7 +765,7 @@ function renderProductList(products, title) {
         ${t("home")}
     </button>
 
-    <h2>${formatBrandName(title)}</h2>
+    <h2>${formatBrandName(currentListTitle)}</h2>
 
 </div>
 
@@ -744,22 +794,22 @@ ${products.map(p => {
         <div class="product-buttons">
 
             <a class="detail-btn"
-   href="${p.brand === 'Amway'
-       ? 'amway.html'
-       : 'chitiet.html'}?id=${p.id}">
+               href="${p.brand === 'Amway'
+                   ? 'amway.html'
+                   : 'chitiet.html'}?id=${p.id}">
                 ${t("detailBtn")}
             </a>
 
-           <button class="quote-btn"
-        onclick="${(p.brand || '').trim().toUpperCase() === 'AMWAY'
-            ? 'location.href=\'amway-contact.html\''
-            : 'showQuote(' + p.id + ')'}">
+            <button class="quote-btn"
+                    onclick="${(p.brand || '').trim().toUpperCase() === 'AMWAY'
+                        ? 'location.href=\'amway-contact.html\''
+                        : 'showQuote(' + p.id + ')'}">
 
-    ${(p.brand || '').trim().toUpperCase() === 'AMWAY'
-        ? t("contactConsultationBtn")
-        : t("quoteBtn")}
+                ${(p.brand || '').trim().toUpperCase() === 'AMWAY'
+                    ? t("contactConsultationBtn")
+                    : t("quoteBtn")}
 
-</button>
+            </button>
 
         </div>
 
@@ -768,7 +818,54 @@ ${products.map(p => {
 </div>`;
 }).join("")}
 
-</div>`;
+</div>
+
+${totalPages > 1 ? `
+<div class="pagination">
+
+    <button
+        onclick="changeListPage(${page - 1})"
+        ${page === 1 ? "disabled" : ""}>
+        ❮
+    </button>
+
+    ${Array.from({ length: totalPages }, (_, i) => i + 1)
+        .map(i => `
+            <button
+                class="${i === page ? "active" : ""}"
+                onclick="changeListPage(${i})">
+                ${i}
+            </button>
+        `)
+        .join("")}
+
+    <button
+        onclick="changeListPage(${page + 1})"
+        ${page === totalPages ? "disabled" : ""}>
+        ❯
+    </button>
+
+</div>
+` : ""}
+
+`;
+}
+
+
+function changeListPage(page) {
+
+    const totalPages = Math.ceil(
+        currentListProducts.length / PRODUCTS_PER_PAGE
+    );
+
+    if (page < 1 || page > totalPages) return;
+
+    renderListPage(page);
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }
 /* =========================
    SESSION NAV
