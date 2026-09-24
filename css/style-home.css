@@ -2604,3 +2604,1057 @@ color:#777;
         font-size: 18px;
     }
 }
+/* =========================================================
+   QTN GLOBAL — HEADER + NAVBAR + HOME HERO
+   DÁN KHỐI NÀY Ở CUỐI style-home.css
+========================================================= */
+
+/* =========================================================
+   RESET RIÊNG CHO HEADER
+========================================================= */
+
+.header,
+.header * {
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .10);
+}
+
+/* =========================================================
+   TOP HEADER
+========================================================= */
+
+.header-top {
+    width: 100%;
+    background: #ffffff;
+}
+
+.header-top-inner {
+    width: 100%;
+    max-width: 1500px;
+    min-height: 105px;
+    margin: 0 auto;
+    padding: 10px 28px;
+
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.logo-area {
+    flex: 0 0 190px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.brand-logo {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.brand-logo img {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* =========================================================
+   COMPANY NAME
+========================================================= */
+
+.header-company {
+    flex: 1 1 auto;
+    min-width: 230px;
+    padding: 0 10px;
+}
+
+.header-company-name {
+    margin: 0;
+    color: #0d3c88;
+    font-size: 28px;
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: .4px;
+}
+
+.header-company-slogan {
+    margin-top: 7px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 500;
+    letter-spacing: .6px;
+}
+
+/* =========================================================
+   CONTACT / ACTIONS
+========================================================= */
+
+.header-actions {
+    flex: 0 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 8px;
+}
+
+.header-action,
+.header-cart {
+    min-height: 50px;
+    padding: 5px 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #23466f;
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    transition:
+        background-color .2s ease,
+        color .2s ease,
+        transform .2s ease;
+}
+
+.header-action:hover,
+.header-cart:hover {
+    background: #f2f7fc;
+    color: #0d47a1;
+    transform: translateY(-1px);
+}
+
+.header-action > span:last-child,
+.header-cart > span:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: nowrap;
+}
+
+.header-action small,
+.header-cart small {
+    display: block;
+    margin-bottom: 2px;
+
+    color: #777777;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.header-action strong,
+.header-cart strong {
+    color: #0d47a1;
+    font-size: 13px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+/* =========================================================
+   ICONS
+========================================================= */
+
+.header-action-icon,
+.header-cart-icon {
+    position: relative;
+
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eaf3ff;
+    color: #1769aa;
+
+    font-size: 17px;
+}
+
+.zalo-mark {
+    width: 23px;
+    height: 23px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    background: #1688f0;
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* =========================================================
+   CART
+========================================================= */
+
+.header-cart-icon b {
+    position: absolute;
+
+    top: -5px;
+    right: -5px;
+
+    min-width: 17px;
+    height: 17px;
+    padding: 0 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 999px;
+
+    background: #d4a017;
+    color: #ffffff;
+
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+/* =========================================================
+   ẨN HEADER CŨ
+========================================================= */
+
+.legacy-header-info {
+    position: absolute !important;
+
+    width: 1px !important;
+    height: 1px !important;
+
+    margin: -1px !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(50%) !important;
+
+    white-space: nowrap !important;
+
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar {
+    position: relative;
+
+    width: 100%;
+    min-height: 58px;
+
+    background: #0d3c88;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .12);
+}
+
+.nav-content {
+    width: 100%;
+    max-width: 1500px;
+    min-height: 58px;
+
+    margin: 0 auto;
+    padding: 0 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2px;
+}
+
+/* =========================================================
+   NAV LINKS
+========================================================= */
+
+.nav-content > a,
+.nav-dropdown-toggle {
+    position: relative;
+
+    min-height: 58px;
+    padding: 0 15px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 7px;
+
+    color: #ffffff !important;
+    text-decoration: none !important;
+
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+
+    transition:
+        background-color .2s ease,
+        color .2s ease;
+}
+
+.nav-content > a:hover,
+.nav-dropdown-toggle:hover {
+    background: #164d9d;
+    color: #ffffff !important;
+}
+
+.nav-content > a i,
+.nav-dropdown-toggle i {
+    font-size: 15px;
+}
+
+/* =========================================================
+   HOME
+========================================================= */
+
+.nav-home-link {
+    border-radius: 6px;
+}
+
+/* =========================================================
+   SẢN PHẨM DROPDOWN
+========================================================= */
+
+.nav-dropdown {
+    position: relative;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-dropdown-toggle {
+    height: 58px;
+    cursor: pointer;
+}
+
+.nav-chevron {
+    margin-left: 2px;
+    font-size: 11px !important;
+    transition: transform .2s ease;
+}
+
+.nav-dropdown:hover .nav-chevron {
+    transform: rotate(180deg);
+}
+
+/* =========================================================
+   DROPDOWN MENU
+========================================================= */
+
+.nav-dropdown-menu {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 330px;
+
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+
+    background: #ffffff;
+
+    border: 1px solid #dce5ef;
+    border-radius: 0 0 10px 10px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .16);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transform: translateY(6px);
+
+    transition:
+        opacity .18s ease,
+        visibility .18s ease,
+        transform .18s ease;
+
+    z-index: 10000;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.nav-dropdown-menu a {
+    min-height: 38px;
+    padding: 8px 10px;
+
+    display: flex;
+    align-items: center;
+
+    color: #23466f !important;
+    background: #ffffff;
+
+    text-decoration: none !important;
+
+    border-radius: 6px;
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.nav-dropdown-menu a:hover {
+    background: #eaf4ff;
+    color: #0d47a1 !important;
+}
+
+/* =========================================================
+   SEARCH
+========================================================= */
+
+.search-box {
+    width: 245px;
+    height: 40px;
+
+    margin-left: 8px;
+
+    display: flex;
+    align-items: stretch;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid #d9e3ef;
+    border-radius: 22px;
+
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .10);
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+
+    height: 100%;
+
+    padding: 0 14px;
+
+    border: 0;
+    outline: 0;
+
+    background: #ffffff;
+
+    color: #333333;
+
+    font-size: 13px;
+}
+
+.search-box input::placeholder {
+    color: #9aa5b1;
+}
+
+.search-box button {
+    width: 48px;
+    min-width: 48px;
+
+    border: 0;
+
+    background: #d4a017 !important;
+    color: #ffffff;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    transition: background-color .2s ease;
+}
+
+.search-box button:hover {
+    background: #bd890f !important;
+}
+
+/* =========================================================
+   LANGUAGE
+========================================================= */
+
+.language-switcher {
+    margin-left: 5px;
+}
+
+.language-switcher select {
+    width: 145px;
+    height: 40px;
+
+    padding: 0 10px;
+
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #23466f;
+
+    outline: none;
+
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* =========================================================
+   MOBILE BUTTON
+========================================================= */
+
+.menu-toggle {
+    display: none;
+
+    width: 44px;
+    height: 44px;
+
+    margin: 7px 10px;
+
+    border: 0;
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #0d3c88;
+
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+/* =========================================================
+   MENU CLOSE
+========================================================= */
+
+.menu-close {
+    display: none;
+}
+
+/* =========================================================
+   OVERLAY
+========================================================= */
+
+.menu-overlay {
+    display: none;
+}
+
+/* =========================================================
+   HOME HERO — CHỈ INDEX
+========================================================= */
+
+.home-hero {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background: #ffffff;
+
+    overflow: hidden;
+}
+
+.home-hero .banner-slider {
+    position: relative;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    height: clamp(250px, 31vw, 510px) !important;
+
+    margin: 0 !important;
+
+    overflow: hidden;
+
+    background: #f6f8fb;
+}
+
+.home-hero .slider-track {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+
+.home-hero .slider-track img {
+    position: absolute;
+
+    inset: 0;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    object-fit: cover !important;
+    object-position: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    opacity: 0;
+
+    transition:
+        opacity .45s ease,
+        transform .45s ease;
+}
+
+.home-hero .slider-track img.active {
+    opacity: 1;
+}
+
+/* =========================================================
+   HERO DOTS
+========================================================= */
+
+.home-hero .slider-dots {
+    position: absolute;
+
+    left: 50%;
+    bottom: 15px;
+
+    transform: translateX(-50%);
+
+    z-index: 20;
+
+    display: flex !important;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 7px;
+}
+
+.home-hero .slider-dots button,
+.home-hero .slider-dots span {
+    width: 8px;
+    height: 8px;
+
+    min-width: 8px;
+
+    padding: 0;
+
+    border: 0;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.70);
+
+    cursor: pointer;
+}
+
+.home-hero .slider-dots .active {
+    width: 24px;
+
+    border-radius: 999px;
+
+    background: #d4a017;
+}
+
+/* =========================================================
+   RESPONSIVE — 1100PX
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .header-top-inner {
+        padding: 10px 16px;
+        gap: 14px;
+    }
+
+    .logo-area {
+        flex-basis: 155px;
+        width: 155px;
+    }
+
+    .brand-logo img {
+        width: 150px;
+    }
+
+    .header-company {
+        min-width: 180px;
+        padding: 0 5px;
+    }
+
+    .header-company-name {
+        font-size: 21px;
+    }
+
+    .header-company-slogan {
+        font-size: 11px;
+    }
+
+    .header-actions {
+        gap: 3px;
+    }
+
+    .header-action,
+    .header-cart {
+        padding: 4px;
+        gap: 5px;
+    }
+
+    .header-action-icon,
+    .header-cart-icon {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+    }
+
+    .header-action strong,
+    .header-cart strong {
+        font-size: 11px;
+    }
+
+    .header-action small,
+    .header-cart small {
+        font-size: 9px;
+    }
+
+    .nav-content {
+        padding: 0 10px;
+    }
+
+    .nav-content > a,
+    .nav-dropdown-toggle {
+        padding: 0 9px;
+        font-size: 13px;
+    }
+
+    .search-box {
+        width: 210px;
+    }
+
+    .language-switcher select {
+        width: 125px;
+    }
+}
+
+/* =========================================================
+   RESPONSIVE — MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+
+    .header {
+        position: sticky;
+        top: 0;
+    }
+
+    .header-top-inner {
+        min-height: 72px;
+
+        padding: 7px 12px;
+
+        gap: 10px;
+    }
+
+    .logo-area {
+        flex: 0 0 125px;
+        width: 125px;
+    }
+
+    .brand-logo img {
+        width: 120px;
+    }
+
+    .header-company {
+        flex: 1;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .header-company-name {
+        font-size: 18px;
+    }
+
+    .header-company-slogan {
+        margin-top: 4px;
+
+        font-size: 9px;
+        line-height: 1.2;
+
+        letter-spacing: .2px;
+    }
+
+    .header-actions {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 52px;
+    }
+
+    .menu-toggle {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-content {
+        position: fixed;
+
+        top: 0;
+        left: 0;
+
+        width: 300px;
+        max-width: 85vw;
+        height: 100vh;
+
+        min-height: 100vh;
+
+        margin: 0;
+        padding: 65px 12px 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+
+        gap: 2px;
+
+        background: #0d3c88;
+
+        overflow-y: auto;
+
+        transform: translateX(-105%);
+        transition: transform .25s ease;
+
+        z-index: 10001;
+    }
+
+    .nav-content.active,
+    .nav-content.open,
+    .nav-content.mobile-open {
+        transform: translateX(0) !important;
+    }
+
+    .menu-close {
+        position: absolute;
+
+        top: 14px;
+        right: 14px;
+
+        width: 38px;
+        height: 38px;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        border: 0;
+        border-radius: 7px;
+
+        background: rgba(255,255,255,.12);
+        color: #ffffff;
+
+        cursor: pointer;
+
+        font-size: 18px;
+    }
+
+    .nav-content > a,
+    .nav-dropdown-toggle {
+        width: 100%;
+        min-height: 48px;
+
+        padding: 0 14px;
+
+        justify-content: flex-start;
+
+        border-radius: 7px;
+
+        font-size: 14px;
+    }
+
+    .nav-dropdown {
+        width: 100%;
+        height: auto;
+
+        display: block;
+    }
+
+    .nav-dropdown-toggle {
+        height: 48px;
+    }
+
+    .nav-dropdown-menu {
+        position: static;
+
+        width: 100%;
+
+        margin: 0;
+        padding: 4px 0 4px 10px;
+
+        display: none;
+
+        grid-template-columns: 1fr;
+
+        border: 0;
+        border-radius: 0;
+
+        box-shadow: none;
+
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+
+        transform: none;
+
+        background: transparent;
+    }
+
+    .nav-dropdown:hover .nav-dropdown-menu {
+        display: grid;
+    }
+
+    .nav-dropdown-menu a {
+        min-height: 40px;
+
+        background: rgba(255,255,255,.08);
+
+        color: #ffffff !important;
+
+        font-size: 13px;
+    }
+
+    .nav-dropdown-menu a:hover {
+        background: rgba(255,255,255,.18);
+        color: #ffffff !important;
+    }
+
+    .search-box {
+        width: 100%;
+        height: 42px;
+
+        margin: 8px 0;
+    }
+
+    .language-switcher {
+        width: 100%;
+        margin: 0;
+    }
+
+    .language-switcher select {
+        width: 100%;
+        height: 42px;
+    }
+
+    .menu-overlay {
+        position: fixed;
+
+        inset: 0;
+
+        display: block;
+
+        background: rgba(0,0,0,.45);
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+        z-index: 10000;
+
+        transition:
+            opacity .25s ease,
+            visibility .25s ease;
+    }
+
+    .menu-overlay.active,
+    .menu-overlay.open {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+    }
+
+    .home-hero .banner-slider {
+        height: 58vw !important;
+        min-height: 190px;
+        max-height: 330px;
+    }
+}
+
+/* =========================================================
+   RESPONSIVE — SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .header-top-inner {
+        min-height: 65px;
+        padding: 6px 9px;
+    }
+
+    .logo-area {
+        flex-basis: 105px;
+        width: 105px;
+    }
+
+    .brand-logo img {
+        width: 102px;
+    }
+
+    .header-company-name {
+        font-size: 15px;
+    }
+
+    .header-company-slogan {
+        font-size: 8px;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 40px;
+        margin: 6px 8px;
+    }
+
+    .home-hero .banner-slider {
+        height: 60vw !important;
+        min-height: 165px;
+    }
+}
+
+/* =========================================================
+   TRÁNH HEADER CŨ LÀM HỎNG HERO
+========================================================= */
+
+.header-slider {
+    display: none !important;
+}
+
+.header .banner-slider {
+    max-width: none;
+}
+
+/* =========================================================
+   KẾT THÚC HEADER QTN GLOBAL
+========================================================= */
