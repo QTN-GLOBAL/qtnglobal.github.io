@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QTN GLOBAL</title>
+
+<link rel="stylesheet" href="css/style-base.css">
+<link rel="stylesheet" href="css/style-home.css">
+<link rel="stylesheet" href="css/style-detail-layout.css">
+<link rel="stylesheet" href="css/style-detail-addcart.css">
+<link rel="stylesheet" href="css/style-detail-buynow.css">
+<link rel="stylesheet" href="css/style-cart.css">
+<link rel="stylesheet" href="css/style-mobile.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER FULL CONTENT
+========================= -->
+
+<header class="header">
+
+    <div class="header-top">
+
+        <div class="header-top-inner">
+
+            <div class="logo-area">
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.png" alt="QTN GLOBAL">
+                </a>
+            </div>
+
+            <div class="header-company">
+                <div class="header-company-name">QTN GLOBAL</div>
+                <div class="header-company-slogan">CHÍNH XÁC TRONG TỪNG GIÁ TRỊ</div>
+            </div>
+
+            <div class="header-actions">
+
+                <a href="tel:0905913636" class="header-action">
+                    <span class="header-action-icon"><i class="fa-solid fa-phone"></i></span>
+                    <span>
+                        <small>HOTLINE</small>
+                        <strong>0905 913 636</strong>
+                    </span>
+                </a>
+
+                <a href="tel:0383598603" class="header-action">
+                    <span class="header-action-icon"><i class="fa-solid fa-headset"></i></span>
+                    <span>
+                        <small>HỖ TRỢ</small>
+                        <strong>0383 598 603</strong>
+                    </span>
+                </a>
+
+                <a href="https://zalo.me/0383598603" target="_blank" class="header-action header-social">
+                    <span class="header-action-icon"><span class="zalo-mark">Z</span></span>
+                    <span>
+                        <small>LIÊN HỆ</small>
+                        <strong>Zalo</strong>
+                    </span>
+                </a>
+
+                <a href="javascript:void(0)" class="header-cart" onclick="openCart()">
+                    <span class="header-cart-icon"><i class="fa-solid fa-cart-shopping"></i><b id="cartCount">0</b></span>
+                    <span>
+                        <small>GIỎ HÀNG</small>
+                        <strong>Giỏ hàng</strong>
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- GIỮ LẠI 2 PHẦN NÀY ĐỂ CÁC SCRIPT CŨ KHÔNG BỊ LỖI -->
+    <div class="header-info legacy-header-info" aria-hidden="true">
+        <h2 id="headerTitle"></h2>
+        <ul id="headerList"></ul>
+    </div>
+
+    <nav class="navbar">
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-content" id="navContent">
+
+            <button class="menu-close" id="menuClose" aria-label="Close Menu">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <a href="index.html" class="nav-home-link">
+                <i class="fas fa-house"></i>
+                <span data-i18n="home">Trang chủ</span>
+            </a>
+
+            <div class="nav-dropdown">
+                <a href="index.html" class="nav-dropdown-toggle">
+                    <i class="fas fa-scale-balanced"></i>
+                    <span>Sản phẩm</span>
+                    <i class="fas fa-chevron-down nav-chevron"></i>
+                </a>
+
+                <div class="nav-dropdown-menu">
+                    <a href="#" onclick="goHomeAndCategory('can-ban');return false;">Cân bàn</a>
+                    <a href="#" onclick="goHomeAndCategory('can-ban-dung');return false;">Cân bàn đứng</a>
+                    <a href="#" onclick="goHomeAndCategory('can-dem');return false;">Cân đếm</a>
+                    <a href="#" onclick="goHomeAndCategory('can-treo');return false;">Cân treo</a>
+                    <a href="#" onclick="goHomeAndCategory('dau-can-dien-tu');return false;">Đầu cân điện tử</a>
+                    <a href="#" onclick="goHomeAndCategory('can-phan-tich');return false;">Cân phân tích</a>
+                    <a href="#" onclick="goHomeAndCategory('can-chong-nuoc');return false;">Cân chống nước</a>
+                    <a href="#" onclick="goHomeAndCategory('can-in-tem-ma-vach');return false;">Cân in tem mã vạch</a>
+                    <a href="#" onclick="goHomeAndCategory('can-ghe-ngoi');return false;">Cân ghế ngồi</a>
+                    <a href="#" onclick="goHomeAndCategory('air-purifier');return false;">Máy lọc không khí</a>
+                    <a href="#" onclick="goHomeAndCategory('air-filter');return false;">Phụ kiện máy lọc không khí</a>
+                    <a href="#" onclick="goHomeAndCategory('water-purifier');return false;">Máy lọc nước</a>
+                    <a href="#" onclick="goHomeAndCategory('water-filter');return false;">Lõi lọc &amp; phụ kiện</a>
+                </div>
+            </div>
+
+            <a href="about.html">
+                <i class="fas fa-circle-info"></i>
+                <span data-i18n="about">Giới thiệu</span>
+            </a>
+
+            <a href="#" onclick="document.getElementById('contactSection')?.scrollIntoView({behavior:'smooth'});return false;">
+                <i class="fas fa-industry"></i>
+            </a>
+
+            <a href="news.html">
+                <i class="fas fa-newspaper"></i>
+                <span data-i18n="news">Tin tức</span>
+            </a>
+
+            <a href="#" onclick="goContact();return false;">
+                <i class="fas fa-phone"></i>
+                <span data-i18n="contact">Liên hệ</span>
+            </a>
+
+            <div class="search-box">
+                <input id="searchInput" type="text" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Tìm kiếm sản phẩm...">
+                <button type="button" onclick="runSearch()" aria-label="Tìm kiếm">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="language-switcher">
+                <select id="languageSelect">
+                    <option value="vi">🇻🇳 Tiếng Việt</option>
+                    <option value="en">🇺🇸 English</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="menu-overlay" id="menuOverlay"></div>
+
+    </nav>
+
+</header>
+
+<!-- =========================
+     HOME HERO BANNER
+     CHỈ HIỂN THỊ TRÊN INDEX
+========================= -->
+<section class="home-hero" aria-label="QTN GLOBAL banner">
+    <div class="banner-slider">
+        <div class="slider-track" id="slider-track"></div>
+        <div class="slider-dots" id="slider-dots"></div>
+    </div>
+</section>
+<!-- =========================
+     MAIN
+========================= -->
+
+<section class="main-layout">
+<!-- =====================================================
+     SIDEBAR - DANH MỤC SẢN PHẨM
+===================================================== -->
+
+<aside class="sidebar">
+
+    <h2 data-i18n="productCategories">
+        DANH MỤC SẢN PHẨM
+    </h2>
+
+    <ul>
+
+        <li onclick="goHomeAndCategory('can-ban')"
+            data-i18n="catPlatformScale">
+            Cân bàn
+        </li>
+
+        <li onclick="goHomeAndCategory('can-ban-dung')"
+            data-i18n="catFloorStandingScale">
+            Cân bàn đứng
+        </li>
+
+        <li onclick="goHomeAndCategory('can-dem')"
+            data-i18n="catCountingScale">
+            Cân đếm
+        </li>
+
+        <li onclick="goHomeAndCategory('can-treo')"
+            data-i18n="catCraneScale">
+            Cân treo
+        </li>
+
+        <li onclick="goHomeAndCategory('dau-can-dien-tu')"
+            data-i18n="catIndicator">
+            Đầu cân điện tử
+        </li>
+
+        <li onclick="goHomeAndCategory('can-phan-tich')"
+            data-i18n="catAnalyticalScale">
+            Cân phân tích
+        </li>
+
+        <li onclick="goHomeAndCategory('can-chong-nuoc')"
+            data-i18n="catWaterproofScale">
+            Cân chống nước
+        </li>
+
+        <li onclick="goHomeAndCategory('can-in-tem-ma-vach')"
+            data-i18n="catLabelPrintingScale">
+            Cân in tem mã vạch
+        </li>
+
+        <li onclick="goHomeAndCategory('can-ghe-ngoi')"
+            data-i18n="catChairScale">
+            Cân ghế ngồi
+        </li>
+
+        <li onclick="goHomeAndCategory('air-purifier')"
+            data-i18n="catAirPurifier">
+            Máy lọc không khí
+        </li>
+
+        <li onclick="goHomeAndCategory('air-filter')"
+            data-i18n="catAirFilter">
+            Phụ kiện máy lọc không khí
+        </li>
+
+        <li onclick="goHomeAndCategory('water-purifier')"
+            data-i18n="catWaterPurifier">
+            Máy lọc nước
+        </li>
+
+        <li onclick="goHomeAndCategory('water-filter')"
+            data-i18n="catWaterFilter">
+            Lõi lọc & phụ kiện
+        </li>
+
+    </ul>
+
+</aside>
+<!-- MAIN PRODUCT -->
+<main class="content-area">
+
+    <div id="homeContainer"></div>
+
+</main>
+
+
+<!-- =========================
+     SIDEBAR RIGHT - NEWS
+========================= -->
+
+<aside class="sidebar-right">
+
+
+    <div class="news-box">
+
+        <h3
+    data-i18n="news"
+    class="news-sidebar-title"
+>
+    TIN TỨC
+</h3>
+
+
+        <!-- script-news.js hoặc script-news-sidebar.js render vào đây -->
+
+        <div class="featured-news-sidebar"></div>
+
+
+    </div>
+
+
+</aside>
+
+
+</section>
+
+<!-- =========================
+     CART
+========================= -->
+
+<div id="cartOverlay"
+class="cart-overlay"
+onclick="closeCart()">
+
+</div>
+
+<div id="cartModal"
+class="cart-modal">
+
+<div class="cart-header">
+
+<h2 data-i18n="cart">
+    Giỏ hàng
+</h2>
+
+<button onclick="closeCart()">
+✕
+</button>
+
+</div>
+
+<div id="cartBody"
+class="cart-body">
+
+</div>
+
+<div class="cart-footer">
+
+   <button onclick="handleBuyNow()"
+        data-i18n="buyNowBtn">
+</button>
+
+</div>
+
+</div>
+<!-- BUY -->
+<div id="buyPopup" class="popup-overlay" style="display:none">
+
+    <div class="popup-box">
+
+        <span onclick="closeBuyPopup()">✕</span>
+
+        <h2 data-i18n="orderTitle">
+            THÔNG TIN KHÁCH HÀNG
+        </h2>
+
+        <!-- LOẠI YÊU CẦU -->
+
+        <div class="request-type">
+
+            <label>
+
+                <input type="radio"
+                       name="requestType"
+                       value="order"
+                       checked>
+
+                <span data-i18n="requestOrder">
+                    Đặt hàng
+                </span>
+
+            </label>
+
+            <label>
+
+                <input type="radio"
+                       name="requestType"
+                       value="quote">
+
+                <span data-i18n="requestQuote">
+                    Yêu cầu báo giá
+                </span>
+
+            </label>
+
+        </div>
+
+        <div class="customer-grid">
+
+            <input id="customerName"
+                   data-i18n-placeholder="customerName"
+                   placeholder="Tên khách hàng">
+
+            <input id="customerPhone"
+                   data-i18n-placeholder="customerPhone"
+                   placeholder="Số điện thoại">
+
+            <input id="customerCompany"
+                   data-i18n-placeholder="customerCompany"
+                   placeholder="Tên công ty">
+
+            <input id="customerTax"
+                   data-i18n-placeholder="customerTax"
+                   placeholder="Mã số thuế">
+
+            <textarea id="customerInvoice"
+                      data-i18n-placeholder="customerInvoice"
+                      placeholder="Địa chỉ xuất hóa đơn"></textarea>
+
+            <textarea id="customerAddress"
+                      data-i18n-placeholder="customerAddress"
+                      placeholder="Địa chỉ giao hàng"></textarea>
+
+        </div>
+
+        <div id="buyCapacityList"></div>
+
+        <button class="zalo-btn"
+                onclick="sendCartOrderZalo()"
+                data-i18n="sendZalo">
+
+            GỬI ZALO
+
+        </button>
+
+        <button class="mess-btn"
+                onclick="sendCartOrderMessenger()"
+                data-i18n="sendMessenger">
+
+            GỬI MESSENGER
+
+        </button>
+
+    </div>
+
+</div>
+<!-- =====================================================
+     BEST SELLER
+     SẢN PHẨM BÁN CHẠY
+===================================================== -->
+
+<section class="best-seller-section">
+
+    <div class="best-seller-container">
+
+        <h2 class="best-seller-title">
+            SẢN PHẨM BÁN CHẠY
+        </h2>
+
+        <div
+            id="bestSellerTrack"
+            class="best-seller-track">
+        </div>
+
+    </div>
+
+</section>
+<footer id="contactSection" class="footer">
+
+<div class="footer-container">
+
+    <!-- ====================== -->
+    <!-- COMPANY -->
+    <!-- ====================== -->
+
+    <div class="footer-column footer-company">
+
+        <div class="footer-logo">
+
+            <img src="images/logo.png" alt="QTN GLOBAL">
+
+            <div class="footer-brand">
+
+                <h2>QTN GLOBAL</h2>
+
+                <span data-i18n="footerSlogan">
+                    Chính xác trong từng giá trị
+                </span>
+
+            </div>
+
+        </div>
+
+        <p data-i18n="footerDesc">
+            Chuyên cung cấp cân điện tử, đầu cân điện tử,
+            loadcell, thiết bị đo lường và giải pháp cân công nghiệp.
+        </p>
+
+        <p>
+
+            <i class="fas fa-map-marker-alt"></i>
+
+            <span data-i18n="addressText"></span>
+
+        </p>
+
+    </div>
+
+    <!-- ====================== -->
+    <!-- CONTACT -->
+    <!-- ====================== -->
+
+    <div class="footer-column">
+
+        <h3>Liên hệ</h3>
+
+        <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:0905913636">0905 913 636</a>
+        </p>
+
+        <p>
+            <i class="fas fa-headset"></i>
+            <a href="tel:0383598603">0383 598 603</a>
+        </p>
+
+        <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:qtnglobal.com@gmail.com">
+                qtnglobal.com@gmail.com
+            </a>
+        </p>
+
+        <p>
+            <i class="fas fa-globe"></i>
+            <a href="https://qtn-global.github.io" target="_blank">
+                qtn-global.github.io
+            </a>
+        </p>
+
+    </div>
+
+    <!-- ====================== -->
+    <!-- MENU -->
+    <!-- ====================== -->
+
+    <div class="footer-column">
+
+        <h3>Danh mục</h3>
+
+        <div class="footer-menu">
+
+            <a href="index.html">Trang chủ</a>
+
+            <a href="about.html">Giới thiệu</a>
+
+            <a href="news.html">Tin tức</a>
+
+            <a href="contact.html">Liên hệ</a>
+
+        </div>
+
+    </div>
+
+    <!-- ====================== -->
+    <!-- SOCIAL -->
+    <!-- ====================== -->
+
+    <div class="footer-column">
+
+        <h3>Kết nối</h3>
+
+        <div class="footer-social">
+
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-comment-dots"></i>
+                <span>Zalo</span>
+            </a>
+
+            <a href="mailto:qtnglobal.com@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div
+    class="footer-bottom"
+    id="admin-entry">
+
+    © 2026 QTN GLOBAL. All Rights Reserved.
+
+</div>
+
+</footer>
+<!-- =========================
+     SCRIPT
+========================= -->
+
+<script src="products.js"></script>
+<script src="products-i18n.js"></script>
+<!-- =========================
+     NEWS
+========================= -->
+
+<script src="js/news-data.js"></script>
+<script src="js/news-i18n.js"></script> 
+
+
+<script src="js/script-i18n.js"></script>
+
+<script src="js/script-base.js"></script>
+
+<script src="js/search-system.js"></script>
+<script src="js/script-init-new.js"></script>
+
+<script src="js/script-home.js"></script>
+
+<script src="js/script-news.js"></script>
+<script src="js/script-cart.js"></script>
+<script src="js/script-detail-addcart.js"></script>
+<script src="js/script-detail-buynow.js"></script>
+
+<script src="js/i18n-sync-tool.js"></script>
+
+<script src="js/slider-hero.js"></script>
+<script src="js/slider-brand.js"></script>
+<script src="js/slider-best-seller.js"></script>
+
+<script src="js/app-router.js"></script>
+<script src="js/script-mobile-menu.js"></script>
+<script src="js/script-admin-entry.js"></script>
+
+
+
+</body>
+
+</html>
+
