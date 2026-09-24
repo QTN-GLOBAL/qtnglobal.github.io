@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qtn-global.github.io/qtnglobal.github.io/sitemap.xml
