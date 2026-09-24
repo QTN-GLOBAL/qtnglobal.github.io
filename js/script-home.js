@@ -16,14 +16,15 @@ const brandOrder = [
     "YAOHUA",
     "VIBRA",
     "JADEVER",
-     "ONEKO",
-     "FAITHFUL",
-     "Shinko",
-     "OKS",
-     "HZ",
-     "FUJI",
-     "AMWAY"
+    "ONEKO",
+    "FAITHFUL",
+    "Shinko",
+    "OKS",
+    "HZ",
+    "FUJI",
+    "AMWAY"
 ];
+
 /* =========================
    BRAND PAGINATION
 ========================= */
@@ -142,13 +143,11 @@ function renderHomeByBrand(productList = null) {
 
     renderHomeGridPage(sortedProducts);
 }
+
 /* =========================
    HOME GRID PAGINATION
    12 PRODUCTS / PAGE
 ========================= */
-
-
-
 
 /* =========================
    RENDER HOME GRID PAGE
@@ -161,20 +160,16 @@ function renderHomeGridPage(products) {
 
     if (!container) return;
 
-
     const totalPages = Math.ceil(
         products.length / PRODUCTS_PER_PAGE
     );
-
 
     if (currentBrandPage > totalPages) {
         currentBrandPage = 1;
     }
 
-
     const start =
         (currentBrandPage - 1) * PRODUCTS_PER_PAGE;
-
 
     const pageProducts =
         products.slice(
@@ -182,11 +177,9 @@ function renderHomeGridPage(products) {
             start + PRODUCTS_PER_PAGE
         );
 
-
     let html = `
         <div class="product-grid">
     `;
-
 
     html += pageProducts.map(p => {
 
@@ -250,11 +243,9 @@ function renderHomeGridPage(products) {
 
     }).join("");
 
-
     html += `
         </div>
     `;
-
 
     /* =========================
        PAGINATION
@@ -275,7 +266,6 @@ function renderHomeGridPage(products) {
                 </button>
         `;
 
-
         for (
             let i = 1;
             i <= totalPages;
@@ -295,7 +285,6 @@ function renderHomeGridPage(products) {
 
         }
 
-
         html += `
                 <button
                     onclick="changeBrandPage(-2)"
@@ -311,9 +300,9 @@ function renderHomeGridPage(products) {
 
     }
 
-
     container.innerHTML = html;
 }
+
 /* =========================
    RENDER BRAND PAGE
 ========================= */
@@ -345,7 +334,6 @@ function renderBrandPage(brands) {
 
     });
 
-
     /*
        =========================
        TÍNH SỐ TRANG
@@ -356,7 +344,6 @@ function renderBrandPage(brands) {
         allProducts.length / PRODUCTS_PER_PAGE
     );
 
-
     if (totalPages === 0) {
 
         container.innerHTML = "";
@@ -365,13 +352,11 @@ function renderBrandPage(brands) {
 
     }
 
-
     if (currentBrandPage > totalPages) {
 
         currentBrandPage = 1;
 
     }
-
 
     /*
        =========================
@@ -388,7 +373,6 @@ function renderBrandPage(brands) {
             start + PRODUCTS_PER_PAGE
         );
 
-
     /*
        =========================
        NHÓM LẠI THEO THƯƠNG HIỆU
@@ -397,7 +381,6 @@ function renderBrandPage(brands) {
 
     const pageBrands = {};
 
-
     pageProducts.forEach(product => {
 
         if (!product.brand) return;
@@ -405,18 +388,15 @@ function renderBrandPage(brands) {
         const key =
             product.brand.trim().toUpperCase();
 
-
         if (!pageBrands[key]) {
 
             pageBrands[key] = [];
 
         }
 
-
         pageBrands[key].push(product);
 
     });
-
 
     /*
        =========================
@@ -426,11 +406,9 @@ function renderBrandPage(brands) {
 
     let html = "";
 
-
     brandOrder.forEach(brandKey => {
 
         if (!pageBrands[brandKey]) return;
-
 
         html += createBrandSection(
             brandKey,
@@ -438,7 +416,6 @@ function renderBrandPage(brands) {
         );
 
     });
-
 
     /*
        =========================
@@ -459,7 +436,6 @@ function renderBrandPage(brands) {
             </button>
         `;
 
-
         for (
             let i = 1;
             i <= totalPages;
@@ -477,7 +453,6 @@ function renderBrandPage(brands) {
 
         }
 
-
         html += `
             <button
                 onclick="changeBrandPage(-2)"
@@ -490,7 +465,6 @@ function renderBrandPage(brands) {
         `;
 
     }
-
 
     container.innerHTML = html;
 
@@ -523,11 +497,9 @@ function changeBrandPage(page) {
 
     });
 
-
     const totalPages = Math.ceil(
         sortedProducts.length / PRODUCTS_PER_PAGE
     );
-
 
     /* NÚT TRANG TRƯỚC */
 
@@ -539,7 +511,6 @@ function changeBrandPage(page) {
 
     }
 
-
     /* NÚT TRANG SAU */
 
     else if (page === -2) {
@@ -550,7 +521,6 @@ function changeBrandPage(page) {
 
     }
 
-
     /* BẤM SỐ TRANG */
 
     else {
@@ -559,9 +529,7 @@ function changeBrandPage(page) {
 
     }
 
-
     renderHomeGridPage(sortedProducts);
-
 
     /* CUỘN VỀ ĐẦU DANH SÁCH */
 
@@ -581,18 +549,26 @@ function changeBrandPage(page) {
     }
 
 }
+
 /* =========================
    BRAND SECTION (ONLY HTML)
 ========================= */
 
 function createBrandSection(brandKey, items) {
+
     return `
     <section class="brand-section">
-        <h2 class="brand-title">${formatBrandName(brandKey)}</h2>
+
+        <h2 class="brand-title">
+            ${formatBrandName(brandKey)}
+        </h2>
 
         <div class="product-grid">
+
             ${items.map(p => {
-                const product = getTranslatedProduct(p) || p;
+
+                const product =
+                    getTranslatedProduct(p) || p;
 
                 return `
                 <div class="product-card">
@@ -603,9 +579,11 @@ function createBrandSection(brandKey, items) {
                     >
 
                     <div class="product-info">
+
                         <h3>${product.name}</h3>
 
                         <div class="product-buttons">
+
                             <a
                                 class="detail-btn"
                                 href="${p.brand === 'Amway'
@@ -629,56 +607,43 @@ function createBrandSection(brandKey, items) {
                                         : t("quoteBtn")
                                 }
                             </button>
+
                         </div>
+
                     </div>
 
                 </div>
                 `;
+
             }).join("")}
+
         </div>
+
     </section>
     `;
 }
-function renderSingleSlider(products, title) {
 
-    const container =
-        document.getElementById("homeContainer");
+/* =========================
+   LEGACY SLIDER COMPATIBILITY
+   ========================= */
 
-    if (!container) return;
+function renderSingleSlider(products = [], title = "") {
 
-    const id =
-        "single-slider";
+    /*
+     * LEGACY COMPATIBILITY
+     *
+     * Các luồng cũ có thể vẫn gọi
+     * renderSingleSlider().
+     *
+     * Tuy nhiên toàn bộ trang Sản phẩm
+     * phải dùng chung:
+     *
+     * GRID + 12 sản phẩm/trang + phân trang.
+     *
+     * Vì vậy hàm này KHÔNG tạo slider nữa.
+     */
 
-    container.innerHTML = `
-
-    <section class="brand-section">
-
-        <h2 class="brand-title">
-            ${formatBrandName(title)}
-        </h2>
-
-        <div class="brand-wrapper">
-
-            <button class="slider-btn left"
-                    onclick="moveBrand('${id}',-1)">
-                ❮
-            </button>
-
-            <div class="brand-track"
-                 id="${id}"
-                 data-index="0"
-                 data-items='${JSON.stringify(products)}'>
-            </div>
-
-            <button class="slider-btn right"
-                    onclick="moveBrand('${id}',1)">
-                ❯
-            </button>
-
-        </div>
-
-    </section>
-    `;
+    renderProductList(products, title);
 }
 
 /* =========================
@@ -696,7 +661,7 @@ function goHomePage() {
     renderHomeByBrand();
 
     initHeroSlider();
-    
+
 }
 
 /* =========================
@@ -710,8 +675,14 @@ function goHomePage() {
 let currentListProducts = [];
 let currentListTitle = "";
 
-
 function renderProductList(products = [], title = "") {
+
+    /*
+     * TẤT CẢ DANH MỤC / THƯƠNG HIỆU /
+     * BUSINESS ĐỀU ĐI QUA ĐÂY.
+     *
+     * GRID + 12 SẢN PHẨM / TRANG
+     */
 
     currentListProducts = [...products]
         .filter(p => p && p.id && p.name)
@@ -722,10 +693,11 @@ function renderProductList(products = [], title = "") {
     renderListPage(1);
 }
 
-
 function renderListPage(page = 1) {
 
-    const container = document.getElementById("homeContainer");
+    const container =
+        document.getElementById("homeContainer");
+
     if (!container) return;
 
     const totalPages = Math.ceil(
@@ -733,6 +705,7 @@ function renderListPage(page = 1) {
     );
 
     if (totalPages === 0) {
+
         container.innerHTML = `
             <div class="list-header">
 
@@ -740,7 +713,9 @@ function renderListPage(page = 1) {
                     ${t("home")}
                 </button>
 
-                <h2>${formatBrandName(currentListTitle)}</h2>
+                <h2>
+                    ${formatBrandName(currentListTitle)}
+                </h2>
 
             </div>
 
@@ -750,13 +725,24 @@ function renderListPage(page = 1) {
         return;
     }
 
-    // Đảm bảo page luôn hợp lệ
-    page = Math.max(1, Math.min(page, totalPages));
+    /* Đảm bảo page luôn hợp lệ */
 
-    const start = (page - 1) * PRODUCTS_PER_PAGE;
-    const end = start + PRODUCTS_PER_PAGE;
+    page = Math.max(
+        1,
+        Math.min(page, totalPages)
+    );
 
-    const products = currentListProducts.slice(start, end);
+    const start =
+        (page - 1) * PRODUCTS_PER_PAGE;
+
+    const end =
+        start + PRODUCTS_PER_PAGE;
+
+    const products =
+        currentListProducts.slice(
+            start,
+            end
+        );
 
     container.innerHTML = `
 <div class="list-header">
@@ -765,7 +751,9 @@ function renderListPage(page = 1) {
         ${t("home")}
     </button>
 
-    <h2>${formatBrandName(currentListTitle)}</h2>
+    <h2>
+        ${formatBrandName(currentListTitle)}
+    </h2>
 
 </div>
 
@@ -773,9 +761,11 @@ function renderListPage(page = 1) {
 
 ${products.map(p => {
 
-    const product = getTranslatedProduct(p) || p;
+    const product =
+        getTranslatedProduct(p) || p;
 
-    const brand = (p.brand || "").trim();
+    const brand =
+        (p.brand || "").trim();
 
     return `
 <div class="product-card">
@@ -783,31 +773,45 @@ ${products.map(p => {
     ${brand ? `
     <div class="brand-overlay">
         ${formatBrandName(brand)}
-    </div>` : ""}
+    </div>
+    ` : ""}
 
-    <img src="images/${p.category}/${p.folder}/main.jpg">
+    <img
+        src="images/${p.category}/${p.folder}/main.jpg"
+        alt="${product.name}"
+    >
 
     <div class="product-info">
 
-        <h3>${product.name}</h3>
+        <h3>
+            ${product.name}
+        </h3>
 
         <div class="product-buttons">
 
-            <a class="detail-btn"
-               href="${p.brand === 'Amway'
-                   ? 'amway.html'
-                   : 'chitiet.html'}?id=${p.id}">
+            <a
+                class="detail-btn"
+                href="${p.brand === 'Amway'
+                    ? 'amway.html'
+                    : 'chitiet.html'}?id=${p.id}"
+            >
                 ${t("detailBtn")}
             </a>
 
-            <button class="quote-btn"
-                    onclick="${(p.brand || '').trim().toUpperCase() === 'AMWAY'
-                        ? 'location.href=\'amway-contact.html\''
-                        : 'showQuote(' + p.id + ')'}">
+            <button
+                class="quote-btn"
+                onclick="${
+                    (p.brand || '').trim().toUpperCase() === 'AMWAY'
+                        ? 'location.href=\\'amway-contact.html\\''
+                        : 'showQuote(' + p.id + ')'
+                }"
+            >
 
-                ${(p.brand || '').trim().toUpperCase() === 'AMWAY'
-                    ? t("contactConsultationBtn")
-                    : t("quoteBtn")}
+                ${
+                    (p.brand || '').trim().toUpperCase() === 'AMWAY'
+                        ? t("contactConsultationBtn")
+                        : t("quoteBtn")
+                }
 
             </button>
 
@@ -815,42 +819,55 @@ ${products.map(p => {
 
     </div>
 
-</div>`;
+</div>
+`;
+
 }).join("")}
 
 </div>
 
-${totalPages > 1 ? `
+${
+    totalPages > 1
+        ? `
 <div class="pagination">
 
     <button
         onclick="changeListPage(${page - 1})"
-        ${page === 1 ? "disabled" : ""}>
+        ${page === 1 ? "disabled" : ""}
+    >
         ❮
     </button>
 
-    ${Array.from({ length: totalPages }, (_, i) => i + 1)
+    ${
+        Array.from(
+            { length: totalPages },
+            (_, i) => i + 1
+        )
         .map(i => `
             <button
                 class="${i === page ? "active" : ""}"
-                onclick="changeListPage(${i})">
+                onclick="changeListPage(${i})"
+            >
                 ${i}
             </button>
         `)
-        .join("")}
+        .join("")
+    }
 
     <button
         onclick="changeListPage(${page + 1})"
-        ${page === totalPages ? "disabled" : ""}>
+        ${page === totalPages ? "disabled" : ""}
+    >
         ❯
     </button>
 
 </div>
-` : ""}
+`
+        : ""
+}
 
 `;
 }
-
 
 function changeListPage(page) {
 
@@ -858,7 +875,12 @@ function changeListPage(page) {
         currentListProducts.length / PRODUCTS_PER_PAGE
     );
 
-    if (page < 1 || page > totalPages) return;
+    if (
+        page < 1 ||
+        page > totalPages
+    ) {
+        return;
+    }
 
     renderListPage(page);
 
@@ -867,13 +889,50 @@ function changeListPage(page) {
         behavior: "smooth"
     });
 }
+
+/* =========================
+   BUSINESS FILTER
+   GRID + 12 SẢN PHẨM / TRANG
+========================= */
+
+function filterByBusiness(business) {
+
+    const products =
+        getProducts();
+
+    const normalizedBusiness =
+        (business || "")
+            .trim()
+            .toUpperCase();
+
+    const filtered =
+        normalizedBusiness
+            ? products.filter(p =>
+                (p.business || "")
+                    .trim()
+                    .toUpperCase() === normalizedBusiness
+            )
+            : products;
+
+    renderProductList(
+        filtered,
+        business
+    );
+}
+
 /* =========================
    SESSION NAV
 ========================= */
 
 function goHomeAndFilter(key, value) {
-    sessionStorage.setItem(key, value);
-    window.location.href = "index.html";
+
+    sessionStorage.setItem(
+        key,
+        value
+    );
+
+    window.location.href =
+        "index.html";
 }
 
 function goHomeAndCategory(category) {
@@ -886,6 +945,7 @@ function goHomeAndCategory(category) {
     window.location.href =
         "index.html";
 }
+
 function goHomeAndBrand(brand) {
 
     sessionStorage.setItem(
@@ -899,13 +959,19 @@ function goHomeAndBrand(brand) {
 
 function goHomeAndBusiness(business) {
 
-    console.log("BUSINESS CLICK:", business);
+    console.log(
+        "BUSINESS CLICK:",
+        business
+    );
 
-    sessionStorage.setItem("filterBusiness", business);
+    sessionStorage.setItem(
+        "filterBusiness",
+        business
+    );
 
-    window.location.href = "index.html";
+    window.location.href =
+        "index.html";
 }
-
 
 /* =========================
    SHOW QUOTE
@@ -913,101 +979,102 @@ function goHomeAndBusiness(business) {
 
 function showQuote(id) {
 
-    const product = getProducts().find(p => p.id === id);
+    const product =
+        getProducts().find(
+            p => p.id === id
+        );
 
     if (!product) return;
 
-    if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
+    if (
+        (product.brand || "")
+            .trim()
+            .toUpperCase() === "AMWAY"
+    ) {
 
-        location.href = "amway-contact.html?id=" + id;
+        location.href =
+            "amway-contact.html?id=" + id;
 
         return;
     }
 
-    alert("Chức năng nhận báo giá đang được cập nhật.");
-
+    alert(
+        "Chức năng nhận báo giá đang được cập nhật."
+    );
 }
-function renderGridWithBrand(products, title) {
 
-    const container = document.getElementById("homeContainer");
-    if (!container) return;
+/* =========================
+   LEGACY GRID COMPATIBILITY
+========================= */
 
-    container.innerHTML = `
-        <div class="list-header">
+function renderGridWithBrand(
+    products = [],
+    title = ""
+) {
 
-            <button onclick="goHomePage()">
-                ${t("home")}
-            </button>
+    /*
+     * DÙNG CHUNG CƠ CHẾ:
+     *
+     * GRID
+     * +
+     * 12 sản phẩm / trang
+     * +
+     * phân trang
+     */
 
-            <h2>${formatBrandName(title)}</h2>
-
-        </div>
-
-        <div class="product-grid">
-
-            ${products.map(p => {
-
-                const product = getTranslatedProduct(p) || p;
-
-                return `
-                <div class="product-card">
-
-                    <div class="brand-overlay">
-                        ${p.brand ? formatBrandName(p.brand) : ""}
-                    </div>
-
-                    <img src="images/${p.category}/${p.folder}/main.jpg">
-
-                    <div class="product-info">
-
-                        <h3>${product.name}</h3>
-
-                        <div class="product-buttons">
-
-                           <a class="detail-btn"
-   href="${p.brand === 'Amway'
-       ? 'amway.html'
-       : 'chitiet.html'}?id=${p.id}">
-                                ${t("detailBtn")}
-                            </a>
-
-                           <button class="quote-btn"
-        onclick="${(p.brand || '').trim().toUpperCase() === 'AMWAY'
-            ? 'location.href=\'amway-contact.html\''
-            : 'showQuote(' + p.id + ')'}">
-
-    ${(p.brand || '').trim().toUpperCase() === 'AMWAY'
-        ? t("contactConsultationBtn")
-        : t("quoteBtn")}
-
-</button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                `;
-            }).join("")}
-
-        </div>
-    `;
+    renderProductList(
+        products,
+        title
+    );
 }
-window.addEventListener("DOMContentLoaded", () => {
 
-    const params = new URLSearchParams(window.location.search);
-    const field = params.get("field");
+/* =========================
+   DOM READY
+========================= */
 
-    if (field) {
+window.addEventListener(
+    "DOMContentLoaded",
+    () => {
 
-        // dùng luôn system filter sẵn có của bạn
-        sessionStorage.setItem("filterBusiness", field);
+        const params =
+            new URLSearchParams(
+                window.location.search
+            );
 
-        // trigger lại flow giống index
-        goHomeAndBusiness(field);
+        const field =
+            params.get("field");
 
-        // xoá URL để tránh lặp
-        window.history.replaceState({}, "", "index.html");
+        if (field) {
+
+            /*
+             * Dùng luôn system filter
+             * sẵn có của website.
+             */
+
+            sessionStorage.setItem(
+                "filterBusiness",
+                field
+            );
+
+            /*
+             * Trigger lại flow
+             * giống index.
+             */
+
+            goHomeAndBusiness(
+                field
+            );
+
+            /*
+             * Xoá URL để tránh lặp.
+             */
+
+            window.history.replaceState(
+                {},
+                "",
+                "index.html"
+            );
+        }
+
     }
-
-});
+);
