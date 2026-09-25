@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Cân bàn điện tử chính xác | QTN GLOBAL</title>
+
+    <meta name="description"
+          content="QTN GLOBAL cung cấp cân bàn điện tử chính xác cho kho hàng, cửa hàng, nhà xưởng và sản xuất. Nhiều mức cân, kích thước và thương hiệu phù hợp nhu cầu sử dụng.">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <meta name="author"
+          content="QTN GLOBAL">
+
+    <meta name="language"
+          content="Vietnamese">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:title"
+          content="Cân bàn điện tử chính xác | QTN GLOBAL">
+
+    <meta property="og:description"
+          content="QTN GLOBAL cung cấp cân bàn điện tử cho kho hàng, cửa hàng, nhà xưởng và sản xuất.">
+
+    <meta property="og:locale"
+          content="vi_VN">
+
+    <meta name="twitter:card"
+          content="summary">
+
+    <meta name="twitter:title"
+          content="Cân bàn điện tử chính xác | QTN GLOBAL">
+
+    <meta name="twitter:description"
+          content="QTN GLOBAL cung cấp cân bàn điện tử cho nhiều nhu cầu sử dụng trong kinh doanh, kho vận và sản xuất.">
+
+
+    <!-- =========================
+         CSS GỐC CỦA WEBSITE
+    ========================= -->
+
+    <link rel="stylesheet"
+          href="css/style-base.css">
+
+    <link rel="stylesheet"
+          href="css/style-home.css">
+
+    <link rel="stylesheet"
+          href="css/style-detail-layout.css">
+
+    <link rel="stylesheet"
+          href="css/style-detail-addcart.css">
+
+    <link rel="stylesheet"
+          href="css/style-detail-buynow.css">
+
+    <link rel="stylesheet"
+          href="css/style-cart.css">
+
+    <link rel="stylesheet"
+          href="css/style-mobile.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- =========================
+         CSS RIÊNG TRANG CÂN BÀN
+    ========================= -->
+
+    <style>
+
+        /* =========================================
+           SEO INTRO
+        ========================================= */
+
+        .seo-intro {
+
+            width: 100%;
+            max-width: 1500px;
+
+            margin: 0 auto;
+
+            padding: 32px 24px 24px;
+
+            background: #fff;
+
+            box-sizing: border-box;
+        }
+
+
+        .seo-intro h1 {
+
+            margin: 0 0 14px;
+
+            font-size: 30px;
+
+            line-height: 1.3;
+
+            font-weight: 700;
+
+            color: #123b63;
+        }
+
+
+        .seo-intro p {
+
+            margin: 0 0 12px;
+
+            font-size: 16px;
+
+            line-height: 1.75;
+
+            color: #444;
+        }
+
+
+        .seo-intro p:last-child {
+
+            margin-bottom: 0;
+        }
+
+
+        /* =========================================
+           PRODUCT SECTION
+        ========================================= */
+
+        .category-products {
+
+            width: 100%;
+
+            max-width: 1500px;
+
+            margin: 0 auto;
+
+            padding: 10px 24px 40px;
+
+            box-sizing: border-box;
+
+            background: #fff;
+        }
+
+
+        .category-products-title {
+
+            margin: 0 0 22px;
+
+            font-size: 25px;
+
+            line-height: 1.3;
+
+            color: #123b63;
+
+            font-weight: 700;
+        }
+
+
+        .category-products-subtitle {
+
+            margin: -10px 0 24px;
+
+            font-size: 15px;
+
+            color: #666;
+
+            line-height: 1.6;
+        }
+
+
+        /* =========================================
+           PRODUCT GRID
+        ========================================= */
+
+        .category-product-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, minmax(0, 1fr));
+
+            gap: 22px;
+        }
+
+
+        .category-product-card {
+
+            background: #fff;
+
+            border: 1px solid #e5e5e5;
+
+            border-radius: 8px;
+
+            overflow: hidden;
+
+            transition:
+                transform .2s ease,
+                box-shadow .2s ease;
+
+            min-width: 0;
+        }
+
+
+        .category-product-card:hover {
+
+            transform: translateY(-3px);
+
+            box-shadow:
+                0 6px 18px rgba(0,0,0,.10);
+        }
+
+
+        .category-product-image {
+
+            width: 100%;
+
+            aspect-ratio: 1 / 1;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background: #fff;
+
+            overflow: hidden;
+        }
+
+
+        .category-product-image img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: contain;
+
+            display: block;
+        }
+
+
+        .category-product-info {
+
+            padding: 14px;
+        }
+
+
+        .category-product-brand {
+
+            margin-bottom: 6px;
+
+            font-size: 13px;
+
+            color: #777;
+
+            text-transform: uppercase;
+
+            font-weight: 600;
+        }
+
+
+        .category-product-name {
+
+            margin: 0 0 14px;
+
+            font-size: 17px;
+
+            line-height: 1.45;
+
+            font-weight: 700;
+
+            color: #222;
+        }
+
+
+        .category-product-actions {
+
+            display: flex;
+
+            gap: 8px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .category-detail-btn,
+        .category-quote-btn {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            min-height: 38px;
+
+            padding: 7px 12px;
+
+            border-radius: 5px;
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+        }
+
+
+        .category-detail-btn {
+
+            background: #123b63;
+
+            color: #fff;
+
+            border: 1px solid #123b63;
+        }
+
+
+        .category-quote-btn {
+
+            background: #fff;
+
+            color: #123b63;
+
+            border: 1px solid #123b63;
+        }
+
+
+        .category-detail-btn:hover {
+
+            opacity: .9;
+        }
+
+
+        .category-quote-btn:hover {
+
+            background: #f3f6f9;
+        }
+
+
+        /* =========================================
+           SEO SUPPORT CONTENT
+        ========================================= */
+
+        .seo-support {
+
+            width: 100%;
+
+            max-width: 1500px;
+
+            margin: 0 auto;
+
+            padding: 0 24px 40px;
+
+            box-sizing: border-box;
+
+            background: #fff;
+        }
+
+
+        .seo-support h2 {
+
+            margin: 0 0 12px;
+
+            font-size: 23px;
+
+            line-height: 1.4;
+
+            color: #123b63;
+        }
+
+
+        .seo-support p {
+
+            margin: 0 0 12px;
+
+            font-size: 16px;
+
+            line-height: 1.75;
+
+            color: #444;
+        }
+
+
+        .seo-support ul {
+
+            margin: 8px 0 0;
+
+            padding-left: 22px;
+        }
+
+
+        .seo-support li {
+
+            margin-bottom: 7px;
+
+            font-size: 16px;
+
+            line-height: 1.6;
+
+            color: #444;
+        }
+
+
+        /* =========================================
+           EMPTY STATE
+        ========================================= */
+
+        .category-empty {
+
+            padding: 30px;
+
+            text-align: center;
+
+            border: 1px solid #eee;
+
+            color: #666;
+
+            background: #fafafa;
+        }
+
+
+        /* =========================================
+           RESPONSIVE
+        ========================================= */
+
+        @media (max-width: 1100px) {
+
+            .category-product-grid {
+
+                grid-template-columns:
+                    repeat(3, minmax(0, 1fr));
+            }
+        }
+
+
+        @media (max-width: 768px) {
+
+            .seo-intro {
+
+                padding: 24px 16px 18px;
+            }
+
+
+            .seo-intro h1 {
+
+                font-size: 24px;
+            }
+
+
+            .seo-intro p {
+
+                font-size: 15px;
+
+                line-height: 1.7;
+            }
+
+
+            .category-products {
+
+                padding:
+                    8px 16px 30px;
+            }
+
+
+            .category-products-title {
+
+                font-size: 21px;
+            }
+
+
+            .category-product-grid {
+
+                grid-template-columns:
+                    repeat(2, minmax(0, 1fr));
+
+                gap: 14px;
+            }
+
+
+            .category-product-name {
+
+                font-size: 15px;
+            }
+
+
+            .category-product-actions {
+
+                flex-direction: column;
+            }
+
+
+            .category-detail-btn,
+            .category-quote-btn {
+
+                width: 100%;
+            }
+
+
+            .seo-support {
+
+                padding:
+                    0 16px 30px;
+            }
+
+
+            .seo-support h2 {
+
+                font-size: 20px;
+            }
+
+
+            .seo-support p,
+            .seo-support li {
+
+                font-size: 15px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+
+            .category-product-grid {
+
+                grid-template-columns:
+                    1fr;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+
+    <!-- TOP HEADER -->
+
+    <div class="top-header">
+
+
+        <!-- LOGO -->
+
+        <div class="logo-area">
+
+            <a href="index.html"
+               class="brand-logo">
+
+                <img src="images/logo.png"
+                     alt="QTN GLOBAL">
+
+            </a>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div class="top-contact">
+
+
+            <a href="tel:0905913636"
+               class="top-btn">
+
+                <i class="fa-solid fa-phone"></i>
+
+                0905 913 636
+
+            </a>
+
+
+            <a href="tel:0383598603"
+               class="top-btn">
+
+                <i class="fa-solid fa-phone"></i>
+
+                0383 598 603
+
+            </a>
+
+
+            <a href="https://zalo.me/0383598603"
+               target="_blank"
+               class="social-icon zalo">
+
+                <span class="zalo-text">
+                    Zalo
+                </span>
+
+            </a>
+
+
+            <a href="https://m.me/QTNSCALE"
+               target="_blank"
+               class="social-icon facebook">
+
+                <i class="fa-brands fa-facebook-messenger"></i>
+
+            </a>
+
+
+            <a class="top-cart-btn"
+               href="javascript:void(0)"
+               onclick="openCart()">
+
+                🛒 GIỎ HÀNG
+
+                (<span id="cartCount">0</span>)
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu">
+
+            <i class="fas fa-bars"></i>
+
+        </button>
+
+
+        <div class="nav-content"
+             id="navContent">
+
+
+            <button
+                class="menu-close"
+                id="menuClose"
+                aria-label="Close Menu">
+
+                <i class="fas fa-times"></i>
+
+            </button>
+
+
+            <a href="index.html">
+
+                <i class="fas fa-house"></i>
+
+                <span>
+                    Trang chủ
+                </span>
+
+            </a>
+
+
+            <a href="index.html">
+
+                <i class="fas fa-box"></i>
+
+                <span>
+                    Sản phẩm
+                </span>
+
+            </a>
+
+
+            <a href="about.html">
+
+                <i class="fas fa-circle-info"></i>
+
+                <span>
+                    Giới thiệu
+                </span>
+
+            </a>
+
+
+            <a href="news.html">
+
+                <i class="fas fa-newspaper"></i>
+
+                <span>
+                    Tin tức
+                </span>
+
+            </a>
+
+
+            <a href="index.html#contactSection">
+
+                <i class="fas fa-phone"></i>
+
+                <span>
+                    Liên hệ
+                </span>
+
+            </a>
+
+
+        </div>
+
+
+        <div class="menu-overlay"
+             id="menuOverlay">
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     SEO INTRO
+===================================================== -->
+
+<section class="seo-intro"
+         aria-labelledby="seo-main-title">
+
+
+    <h1 id="seo-main-title">
+
+        Cân bàn điện tử chính xác cho nhiều nhu cầu sử dụng
+
+    </h1>
+
+
+    <p>
+
+        QTN GLOBAL cung cấp
+        <strong>cân bàn điện tử</strong>
+        phục vụ nhu cầu cân hàng hóa trong cửa hàng,
+        kho hàng, nhà xưởng, sản xuất và nhiều môi trường
+        làm việc khác nhau. Các dòng cân được lựa chọn
+        theo mức cân, kích thước bàn cân và yêu cầu sử dụng
+        thực tế.
+
+    </p>
+
+
+    <p>
+
+        Cân bàn điện tử có thiết kế bàn cân chắc chắn,
+        thuận tiện khi cân các loại hàng hóa có kích thước
+        và khối lượng khác nhau. Tùy từng model, sản phẩm
+        có thể hỗ trợ các chức năng như cân trọng lượng,
+        trừ bì, đếm số lượng và kết nối thiết bị thông qua
+        cổng giao tiếp phù hợp.
+
+    </p>
+
+
+    <p>
+
+        Tại QTN GLOBAL, khách hàng có thể tham khảo các
+        dòng cân bàn điện tử với nhiều mức cân khác nhau,
+        phù hợp cho cửa hàng, kho vận, sản xuất và ứng dụng
+        công nghiệp. Thông tin về mức cân, bước nhảy,
+        kích thước bàn cân và các tính năng được trình bày
+        theo từng sản phẩm để thuận tiện cho việc lựa chọn.
+
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     PRODUCT LIST
+===================================================== -->
+
+<section class="category-products"
+         aria-labelledby="category-products-title">
+
+
+    <h2 id="category-products-title"
+        class="category-products-title">
+
+        Cân bàn điện tử
+
+    </h2>
+
+
+    <p class="category-products-subtitle">
+
+        Danh sách các sản phẩm cân bàn điện tử đang có
+        trên QTN GLOBAL.
+
+    </p>
+
+
+    <div id="categoryProductGrid"
+         class="category-product-grid">
+
+        <!-- JavaScript render sản phẩm -->
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SEO SUPPORT CONTENT
+===================================================== -->
+
+<section class="seo-support">
+
+
+    <h2>
+        Lựa chọn cân bàn điện tử phù hợp
+    </h2>
+
+
+    <p>
+
+        Khi lựa chọn cân bàn điện tử, nên xác định trước
+        mức tải trọng cần cân, kích thước hàng hóa,
+        môi trường sử dụng và các chức năng cần thiết.
+        Những yếu tố này giúp lựa chọn model phù hợp
+        với nhu cầu vận hành thực tế.
+
+    </p>
+
+
+    <ul>
+
+        <li>
+            Xác định mức cân phù hợp với khối lượng hàng hóa.
+        </li>
+
+        <li>
+            Kiểm tra kích thước bàn cân để phù hợp với
+            kích thước sản phẩm cần cân.
+        </li>
+
+        <li>
+            Xem xét chức năng trừ bì, đếm mẫu hoặc cộng dồn
+            nếu cần sử dụng trong kho và sản xuất.
+        </li>
+
+        <li>
+            Kiểm tra kết nối như RS232 khi cần truyền dữ liệu
+            sang máy tính hoặc thiết bị ngoại vi.
+        </li>
+
+        <li>
+            Xem xét nguồn điện và pin sạc nếu cân được sử dụng
+            ở nhiều vị trí khác nhau.
+        </li>
+
+    </ul>
+
+</section>
+
+
+<!-- =====================================================
+     CART
+===================================================== -->
+
+<div id="cartOverlay"
+     class="cart-overlay"
+     onclick="closeCart()">
+</div>
+
+
+<div id="cartModal"
+     class="cart-modal">
+
+
+    <div class="cart-header">
+
+        <h2>
+            Giỏ hàng
+        </h2>
+
+        <button onclick="closeCart()">
+            ✕
+        </button>
+
+    </div>
+
+
+    <div id="cartBody"
+         class="cart-body">
+    </div>
+
+
+    <div class="cart-footer">
+
+        <button onclick="handleBuyNow()">
+            Đặt hàng / Báo giá
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     BUY POPUP
+===================================================== -->
+
+<div id="buyPopup"
+     class="popup-overlay"
+     style="display:none">
+
+
+    <div class="popup-box">
+
+
+        <span onclick="closeBuyPopup()">
+            ✕
+        </span>
+
+
+        <h2>
+            THÔNG TIN KHÁCH HÀNG
+        </h2>
+
+
+        <div class="request-type">
+
+            <label>
+
+                <input type="radio"
+                       name="requestType"
+                       value="order"
+                       checked>
+
+                Đặt hàng
+
+            </label>
+
+
+            <label>
+
+                <input type="radio"
+                       name="requestType"
+                       value="quote">
+
+                Yêu cầu báo giá
+
+            </label>
+
+        </div>
+
+
+        <div class="customer-grid">
+
+
+            <input
+                id="customerName"
+                placeholder="Tên khách hàng">
+
+
+            <input
+                id="customerPhone"
+                placeholder="Số điện thoại">
+
+
+            <input
+                id="customerCompany"
+                placeholder="Tên công ty">
+
+
+            <input
+                id="customerTax"
+                placeholder="Mã số thuế">
+
+
+            <textarea
+                id="customerInvoice"
+                placeholder="Địa chỉ xuất hóa đơn">
+            </textarea>
+
+
+            <textarea
+                id="customerAddress"
+                placeholder="Địa chỉ giao hàng">
+            </textarea>
+
+        </div>
+
+
+        <div id="buyCapacityList">
+        </div>
+
+
+        <button class="zalo-btn"
+                onclick="sendCartOrderZalo()">
+
+            GỬI ZALO
+
+        </button>
+
+
+        <button class="mess-btn"
+                onclick="sendCartOrderMessenger()">
+
+            GỬI MESSENGER
+
+        </button>
+
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer id="contactSection"
+        class="footer">
+
+
+    <div class="footer-container">
+
+
+        <div class="footer-column footer-company">
+
+
+            <div class="footer-logo">
+
+                <img src="images/logo.png"
+                     alt="QTN GLOBAL">
+
+
+                <div class="footer-brand">
+
+                    <h2>
+                        QTN GLOBAL
+                    </h2>
+
+                    <span>
+                        Chính xác trong từng giá trị
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <p>
+
+                Chuyên cung cấp cân điện tử,
+                đầu cân điện tử, loadcell,
+                thiết bị đo lường và giải pháp
+                cân công nghiệp.
+
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Liên hệ
+            </h3>
+
+
+            <p>
+
+                <i class="fas fa-phone"></i>
+
+                <a href="tel:0905913636">
+                    0905 913 636
+                </a>
+
+            </p>
+
+
+            <p>
+
+                <i class="fas fa-headset"></i>
+
+                <a href="tel:0383598603">
+                    0383 598 603
+                </a>
+
+            </p>
+
+
+            <p>
+
+                <i class="fas fa-envelope"></i>
+
+                <a href="mailto:qtnglobal.com@gmail.com">
+                    qtnglobal.com@gmail.com
+                </a>
+
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Danh mục
+            </h3>
+
+
+            <div class="footer-menu">
+
+                <a href="index.html">
+                    Trang chủ
+                </a>
+
+                <a href="can-ban-dien-tu.html">
+                    Cân bàn điện tử
+                </a>
+
+                <a href="about.html">
+                    Giới thiệu
+                </a>
+
+                <a href="news.html">
+                    Tin tức
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Kết nối
+            </h3>
+
+
+            <div class="footer-social">
+
+                <a href="https://zalo.me/0383598603"
+                   target="_blank">
+
+                    <i class="fas fa-comment-dots"></i>
+
+                    <span>
+                        Zalo
+                    </span>
+
+                </a>
+
+
+                <a href="mailto:qtnglobal.com@gmail.com">
+
+                    <i class="fas fa-envelope"></i>
+
+                    <span>
+                        Email
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © 2026 QTN GLOBAL. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     SCRIPTS GỐC
+===================================================== -->
+
+<script src="products.js"></script>
+
+<script src="products-i18n.js"></script>
+
+<script src="js/script-i18n.js"></script>
+
+<script src="js/script-base.js"></script>
+
+<script src="js/script-cart.js"></script>
+
+<script src="js/script-detail-addcart.js"></script>
+
+<script src="js/script-detail-buynow.js"></script>
+
+<script src="js/script-mobile-menu.js"></script>
+
+
+<!-- =====================================================
+     RENDER TRANG CÂN BÀN ĐIỆN TỬ
+===================================================== -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+
+    const grid =
+        document.getElementById("categoryProductGrid");
+
+
+    if (!grid) return;
+
+
+    /* =========================================
+       LẤY DỮ LIỆU SẢN PHẨM GỐC
+    ========================================= */
+
+    const products =
+        typeof getProducts === "function"
+            ? getProducts()
+            : [];
+
+
+    /* =========================================
+       CHỈ LẤY NHÓM CÂN BÀN ĐIỆN TỬ
+    ========================================= */
+
+    const categoryProducts =
+        products
+            .filter(function (product) {
+
+                return product
+                    && product.category === "can-ban-dung"
+                    && product.id
+                    && product.name;
+
+            })
+            .sort(function (a, b) {
+
+                return Number(a.id) - Number(b.id);
+
+            });
+
+
+    /* =========================================
+       KHÔNG CÓ SẢN PHẨM
+    ========================================= */
+
+    if (!categoryProducts.length) {
+
+        grid.innerHTML = `
+
+            <div class="category-empty">
+
+                Hiện chưa có sản phẩm cân bàn điện tử.
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    /* =========================================
+       RENDER
+    ========================================= */
+
+    grid.innerHTML =
+        categoryProducts.map(function (product) {
+
+
+            const translatedProduct =
+                typeof getTranslatedProduct === "function"
+                    ? (getTranslatedProduct(product) || product)
+                    : product;
+
+
+            const productName =
+                translatedProduct.name
+                || product.name;
+
+
+            const imagePath =
+                "images/"
+                + product.category
+                + "/"
+                + product.folder
+                + "/main.jpg";
+
+
+            const detailUrl =
+                product.brand === "Amway"
+                    ? "amway.html?id=" + product.id
+                    : "chitiet.html?id=" + product.id;
+
+
+            const brandName =
+                product.brand
+                    ? product.brand
+                    : "QTN GLOBAL";
+
+
+            return `
+
+                <article
+                    class="category-product-card">
+
+
+                    <a
+                        href="${detailUrl}"
+                        class="category-product-image"
+                        aria-label="${productName}">
+
+                        <img
+                            src="${imagePath}"
+                            alt="${productName}"
+                            loading="lazy">
+
+                    </a>
+
+
+                    <div
+                        class="category-product-info">
+
+
+                        <div
+                            class="category-product-brand">
+
+                            ${brandName}
+
+                        </div>
+
+
+                        <h3
+                            class="category-product-name">
+
+                            ${productName}
+
+                        </h3>
+
+
+                        <div
+                            class="category-product-actions">
+
+
+                            <a
+                                href="${detailUrl}"
+                                class="category-detail-btn">
+
+                                Xem chi tiết
+
+                            </a>
+
+
+                            <button
+                                type="button"
+                                class="category-quote-btn"
+                                onclick="handleCategoryQuote(${product.id})">
+
+                                Báo giá
+
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            `;
+
+        }).join("");
+
+});
+
+
+/* =========================================
+   NÚT BÁO GIÁ
+========================================= */
+
+function handleCategoryQuote(productId) {
+
+
+    if (typeof showQuote === "function") {
+
+        showQuote(productId);
+
+        return;
+
+    }
+
+
+    /*
+       Nếu hệ thống hiện tại không có showQuote,
+       chuyển người dùng sang trang chi tiết.
+    */
+
+    window.location.href =
+        "chitiet.html?id=" + productId;
+
+}
+
+</script>
+
+
+</body>
+
+</html>
