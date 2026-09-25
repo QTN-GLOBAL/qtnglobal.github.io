@@ -44,6 +44,75 @@ function getSingleCapacity(product) {
         }
     });
 
+    /*
+     * Nếu bảng có dạng:
+     *
+     * Mức cân / Tải trọng
+     * 1.5 tấn
+     * 3 tấn
+     * 5 tấn
+     *
+     * thì tìm thêm từ hàng tiêu đề.
+     */
+
+    const tables = temp.querySelectorAll("table");
+
+    tables.forEach(table => {
+
+        const tableRows = table.querySelectorAll("tr");
+
+        if (!tableRows.length) return;
+
+        const firstRow = tableRows[0];
+
+        const headers = Array.from(
+            firstRow.querySelectorAll("th, td")
+        ).map(cell =>
+            cell.innerText
+                .trim()
+                .toLowerCase()
+        );
+
+        const capacityIndex = headers.findIndex(header =>
+            header === "mức cân" ||
+            header === "tải trọng" ||
+            header === "mức tải" ||
+            header === "mức cân / tải trọng"
+        );
+
+        if (capacityIndex === -1) return;
+
+        tableRows.forEach((row, index) => {
+
+            if (index === 0) return;
+
+            const cells = row.querySelectorAll("td, th");
+
+            if (cells.length > capacityIndex) {
+
+                const value =
+                    cells[capacityIndex]
+                        .innerText
+                        .trim();
+
+                if (
+                    value &&
+                    !capacities.includes(value)
+                ) {
+                    capacities.push(value);
+                }
+            }
+        });
+    });
+
+    /*
+     * Chỉ trả về khi THỰC SỰ có đúng 1 tải trọng.
+     *
+     * Nếu có 2, 5, 6... tải trọng
+     * → trả về rỗng
+     * → code cũ tiếp tục chạy nguyên trạng.
+     */
+
     if (capacities.length === 1) {
         return capacities[0];
     }
@@ -83,37 +152,82 @@ function openAddCartPopup() {
     const temp = document.createElement("div");
     temp.innerHTML = product.specs;
 
-    const rows = temp.querySelectorAll("tr");
 
-    rows.forEach((row, index) => {
+    /* =================================================
+       ⭐ THÊM MỚI
+       NẾU CHỈ CÓ 1 TẢI TRỌNG
+       → CHỈ HIỆN SỐ LƯỢNG
+    ================================================= */
 
-        const cols = row.querySelectorAll("td");
+    const singleCapacity = getSingleCapacity(product);
 
-        if (cols.length >= 2) {
+    if (singleCapacity) {
 
-            const label = cols[0].innerText + " - " + cols[1].innerText;
+        html = `
+        <div class="addcart-row"
+             data-index="single"
+             data-single-capacity="${singleCapacity}">
 
-            html += `
-            <div class="addcart-row"
-                 data-index="${index}">
+            <div class="addcart-left">
+                <input type="checkbox"
+                       class="detail-check"
+                       checked
+                       style="display:none">
+            </div>
 
-                <div class="addcart-left">
-                    <input type="checkbox" class="detail-check" checked>
-                </div>
+            <div class="addcart-middle">
+            </div>
 
-                <div class="addcart-middle">
-                    ${label}
-                </div>
+            <div class="addcart-right">
+                <button onclick="changeQty(this,-1)">-</button>
+                <input type="number" value="1">
+                <button onclick="changeQty(this,1)">+</button>
+            </div>
 
-                <div class="addcart-right">
-                    <button onclick="changeQty(this,-1)">-</button>
-                    <input type="number" value="1">
-                    <button onclick="changeQty(this,1)">+</button>
-                </div>
+        </div>`;
 
-            </div>`;
-        }
-    });
+    } else {
+
+
+        /* =============================================
+           CODE CŨ
+           GIỮ NGUYÊN TOÀN BỘ
+        ============================================= */
+
+        const rows = temp.querySelectorAll("tr");
+
+        rows.forEach((row, index) => {
+
+            const cols = row.querySelectorAll("td");
+
+            if (cols.length >= 2) {
+
+                const label = cols[0].innerText + " - " + cols[1].innerText;
+
+                html += `
+                <div class="addcart-row"
+                     data-index="${index}">
+
+                    <div class="addcart-left">
+                        <input type="checkbox" class="detail-check" checked>
+                    </div>
+
+                    <div class="addcart-middle">
+                        ${label}
+                    </div>
+
+                    <div class="addcart-right">
+                        <button onclick="changeQty(this,-1)">-</button>
+                        <input type="number" value="1">
+                        <button onclick="changeQty(this,1)">+</button>
+                    </div>
+
+                </div>`;
+            }
+        });
+
+    }
+
 
     document.getElementById("cartSpecList").innerHTML = html;
 
@@ -121,6 +235,19 @@ function openAddCartPopup() {
     document.querySelectorAll(".detail-check").forEach(cb => {
         cb.checked = false;
     });
+
+    // ⭐ THÊM MỚI
+    // Với sản phẩm chỉ có 1 tải trọng,
+    // checkbox bị ẩn nhưng phải luôn được chọn.
+    if (singleCapacity) {
+
+        document.querySelectorAll(
+            ".addcart-row[data-index='single'] .detail-check"
+        ).forEach(cb => {
+            cb.checked = true;
+        });
+
+    }
 
     // reset qty
     document.querySelectorAll(".addcart-row input[type='number']")
@@ -151,8 +278,32 @@ function addSelectedToCart() {
 
        const check = row.querySelector(".detail-check");
 
-if (!check || check.checked !== true) return;
-        const label = row.querySelector(".addcart-middle").innerText;
+       if (!check || check.checked !== true) return;
+
+
+        /* =========================================
+           ⭐ THÊM MỚI
+           NẾU LÀ SẢN PHẨM CHỈ CÓ 1 TẢI TRỌNG
+           → LẤY TẢI TRỌNG TỪ DATA
+        ========================================= */
+
+        let label;
+
+        if (row.dataset.singleCapacity) {
+
+            label = row.dataset.singleCapacity;
+
+        } else {
+
+            /*
+             * CODE CŨ
+             * GIỮ NGUYÊN
+             */
+
+            label = row.querySelector(".addcart-middle").innerText;
+
+        }
+
 
         const qty = parseInt(
             row.querySelector("input[type='number']").value
