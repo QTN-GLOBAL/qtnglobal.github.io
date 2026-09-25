@@ -8152,4 +8152,371 @@ business:"measure",
 "Phù hợp cho trang trại chăn nuôi và sản xuất nông sản"
 ]
 },
+{
+    business:"measure",
+    id:82,
+
+    name:"Cân treo công nghiệp OCS-30T",
+
+    category:"can-treo",
+
+    folder:"ocs-30t",
+
+    brand:"OCS",
+
+    origin:"Đài Loan",
+
+    description:"Cân treo công nghiệp OCS-30T tải trọng lớn 30 tấn, được thiết kế cho các ứng dụng công nghiệp nặng như cân thép, kim loại, máy móc, thiết bị, cuộn thép, phôi thép và các kiện hàng có tải trọng lớn. Cân có cảm biến tải bằng nhôm kích thước lớn, kết cấu chịu lực chắc chắn và khả năng cân ổn định.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>OCS-30T</th>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>30 tấn</td>
+</tr>
+
+<tr>
+<td>Cảm biến tải</td>
+<td>Cảm biến tải bằng nhôm kích thước lớn</td>
+</tr>
+
+<tr>
+<td>Kết cấu</td>
+<td>Thân cân và các bộ phận chịu lực chắc chắn</td>
+</tr>
+
+<tr>
+<td>Móc cân</td>
+<td>Móc chuyên dụng cho nâng và cân hàng hóa tải trọng lớn</td>
+</tr>
+
+<tr>
+<td>Độ ổn định</td>
+<td>Cao</td>
+</tr>
+
+<tr>
+<td>Độ lặp lại</td>
+<td>Tốt</td>
+</tr>
+
+<tr>
+<td>Ứng dụng</td>
+<td>Thép, kim loại, máy móc, thiết bị, cuộn thép, phôi thép và kiện hàng công nghiệp</td>
+</tr>
+
+</table>`,
+
+"Cân treo công nghiệp tải trọng lớn",
+
+"Cân móc cẩu",
+
+"Cân hàng hóa bằng cầu trục",
+
+"Cân cuộn thép",
+
+"Cân phôi thép",
+
+"Cân máy móc và thiết bị",
+
+"Cân nguyên vật liệu",
+
+"Phù hợp nhà máy sản xuất thép",
+
+"Phù hợp kho sắt thép và kim loại",
+
+"Phù hợp nhà máy cơ khí và luyện kim",
+
+"Phù hợp xưởng đúc",
+
+"Phù hợp cảng và kho vận",
+
+"Kết cấu chịu lực chắc chắn",
+
+"Cảm biến tải nhôm kích thước lớn"
+]
+},
+{
+    business:"measure",
+    id:83,
+
+    name:"Cân treo công nghiệp OCS-20T",
+
+    category:"can-treo",
+
+    folder:"ocs-30t",
+
+    brand:"OCS",
+
+    origin:"Đài Loan",
+
+    description:"Cân treo công nghiệp OCS-20T tải trọng 20 tấn, được thiết kế cho các ứng dụng công nghiệp nặng như cân thép, kim loại, máy móc, thiết bị, cuộn thép, phôi thép và các kiện hàng có tải trọng lớn. Cân sử dụng cảm biến tải bằng nhôm kích thước lớn, kết cấu chịu lực chắc chắn và được thiết kế cho khả năng cân ổn định.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>OCS-20T</th>
+</tr>
+
+<tr>
+<td>Tải trọng tối đa</td>
+<td>20 tấn</td>
+</tr>
+
+<tr>
+<td>Cảm biến tải</td>
+<td>Cảm biến tải bằng nhôm kích thước lớn</td>
+</tr>
+
+<tr>
+<td>Kết cấu</td>
+<td>Kết cấu thân cân và các bộ phận chịu lực chắc chắn</td>
+</tr>
+
+<tr>
+<td>Móc cân</td>
+<td>Thiết kế chuyên dụng cho nâng và cân hàng hóa tải trọng lớn</td>
+</tr>
+
+<tr>
+<td>Độ ổn định</td>
+<td>Cao</td>
+</tr>
+
+<tr>
+<td>Độ lặp lại</td>
+<td>Tốt</td>
+</tr>
+
+<tr>
+<td>Ứng dụng</td>
+<td>Thép, kim loại, máy móc, thiết bị, cuộn thép, phôi thép và kiện hàng công nghiệp</td>
+</tr>
+
+</table>`,
+
+"Cân treo công nghiệp tải trọng lớn",
+
+"Cân móc cẩu",
+
+"Cân hàng hóa bằng cầu trục",
+
+"Cân cuộn thép",
+
+"Cân phôi thép",
+
+"Cân máy móc và thiết bị tải trọng lớn",
+
+"Cân nguyên vật liệu",
+
+"Phù hợp nhà máy sản xuất thép",
+
+"Phù hợp kho sắt thép và kim loại",
+
+"Phù hợp nhà máy cơ khí",
+
+"Phù hợp nhà máy luyện kim",
+
+"Phù hợp xưởng đúc",
+
+"Phù hợp cảng và kho vận",
+
+"Kết cấu chịu lực chắc chắn",
+
+"Cảm biến tải nhôm kích thước lớn"
+]
+},
+{
+    business:"measure",
+    id:84,
+
+    name:"Cân treo điện tử chống nước OKS-HA 2 tấn",
+
+    category:"can-treo",
+
+    folder:"oks-ha-2tan",
+
+    brand:"OKS",
+
+    origin:"Đài Loan",
+
+    description:"Cân treo điện tử chống nước OKS-HA tải trọng 2 tấn, thiết kế vỏ inox 304 chắc chắn, chống gỉ sét và dễ vệ sinh. Cân phù hợp sử dụng trong môi trường ẩm ướt, nhà máy chế biến thủy hải sản, thực phẩm, kho lạnh, xưởng sản xuất và các khu vực thường xuyên phải vệ sinh thiết bị.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS-HA</td>
+</tr>
+
+<tr>
+<td>Mức tải</td>
+<td>2 tấn</td>
+</tr>
+
+<tr>
+<td>Loại cân</td>
+<td>Cân treo điện tử / cân móc cẩu</td>
+</tr>
+
+<tr>
+<td>Khả năng chống nước</td>
+<td>Chống nước, phù hợp môi trường ẩm ướt</td>
+</tr>
+
+<tr>
+<td>Vỏ cân</td>
+<td>Inox 304</td>
+</tr>
+
+<tr>
+<td>Đặc tính vỏ</td>
+<td>Chống gỉ sét, chống ăn mòn, dễ vệ sinh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Màn hình hiển thị lớn, dễ quan sát</td>
+</tr>
+
+<tr>
+<td>Dải tải của dòng sản phẩm</td>
+<td>1 tấn – 10 tấn</td>
+</tr>
+
+</table>`,
+
+"Cân treo điện tử chống nước",
+
+"Cân móc cẩu công nghiệp tải trọng 2 tấn",
+
+"Vỏ inox 304 chống gỉ",
+
+"Phù hợp môi trường ẩm ướt",
+
+"Phù hợp nhà máy chế biến thủy hải sản",
+
+"Phù hợp cơ sở sản xuất thực phẩm",
+
+"Phù hợp kho lạnh",
+
+"Phù hợp xưởng sản xuất công nghiệp",
+
+"Phù hợp khu vực thường xuyên vệ sinh",
+
+"Cân hàng hóa tải trọng lớn",
+
+"Dễ vệ sinh và bảo trì"
+
+    ]
+},
+{
+    business:"measure",
+    id:85,
+
+    name:"Cân treo điện tử chống nước OKS-HA 3 tấn",
+
+    category:"can-treo",
+
+    folder:"oks-ha-2tan",
+
+    brand:"OKS",
+
+    origin:"Đài Loan",
+
+    description:"Cân treo điện tử chống nước OKS-HA tải trọng 3 tấn, thiết kế vỏ inox 304 chắc chắn, chống gỉ sét và dễ vệ sinh. Cân phù hợp sử dụng trong môi trường ẩm ướt, nhà máy chế biến thủy hải sản, thực phẩm, kho lạnh, xưởng sản xuất và các khu vực thường xuyên phải vệ sinh thiết bị.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Chi tiết</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS-HA</td>
+</tr>
+
+<tr>
+<td>Mức tải</td>
+<td>3 tấn</td>
+</tr>
+
+<tr>
+<td>Loại cân</td>
+<td>Cân treo điện tử / cân móc cẩu</td>
+</tr>
+
+<tr>
+<td>Khả năng chống nước</td>
+<td>Chống nước, phù hợp môi trường ẩm ướt</td>
+</tr>
+
+<tr>
+<td>Vỏ cân</td>
+<td>Inox 304</td>
+</tr>
+
+<tr>
+<td>Đặc tính vỏ</td>
+<td>Chống gỉ sét, chống ăn mòn, dễ vệ sinh</td>
+</tr>
+
+<tr>
+<td>Hiển thị</td>
+<td>Màn hình hiển thị lớn, dễ quan sát</td>
+</tr>
+
+<tr>
+<td>Dải tải của dòng sản phẩm</td>
+<td>1 tấn – 10 tấn</td>
+</tr>
+
+</table>`,
+
+"Cân treo điện tử chống nước",
+
+"Cân móc cẩu công nghiệp tải trọng 3 tấn",
+
+"Vỏ inox 304 chống gỉ",
+
+"Phù hợp môi trường ẩm ướt",
+
+"Phù hợp nhà máy chế biến thủy hải sản",
+
+"Phù hợp cơ sở sản xuất thực phẩm",
+
+"Phù hợp kho lạnh",
+
+"Phù hợp xưởng sản xuất công nghiệp",
+
+"Phù hợp khu vực thường xuyên vệ sinh",
+
+"Cân hàng hóa tải trọng lớn",
+
+"Dễ vệ sinh và bảo trì"
+
+    ]
+},
+
 ];

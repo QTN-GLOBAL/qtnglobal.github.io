@@ -14502,6 +14502,691 @@ window.productTranslations = {
         ]
     }
 },
+82: {
+
+    en: {
+
+        name:"OCS-30T Industrial Crane Hanging Scale",
+
+        origin:"Not specified",
+
+        description:"OCS-30T industrial hanging crane scale with a 30-ton maximum capacity, designed for heavy-duty applications such as weighing steel, metal, machinery, equipment, steel coils, steel billets and large industrial loads. It features a large aluminum load sensor, strong load-bearing construction and stable weighing performance.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>OCS-30T</th>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>30 tons</td>
+</tr>
+
+<tr>
+<td>Load sensor</td>
+<td>Large aluminum load sensor</td>
+</tr>
+
+<tr>
+<td>Construction</td>
+<td>Strong body and load-bearing components</td>
+</tr>
+
+<tr>
+<td>Weighing hook</td>
+<td>Heavy-duty hook for lifting and weighing large loads</td>
+</tr>
+
+<tr>
+<td>Stability</td>
+<td>High</td>
+</tr>
+
+<tr>
+<td>Repeatability</td>
+<td>Good</td>
+</tr>
+
+<tr>
+<td>Applications</td>
+<td>Steel, metals, machinery, equipment, steel coils, steel billets and industrial loads</td>
+</tr>
+
+</table>`,
+
+"Heavy-duty industrial hanging scale",
+
+"Crane hanging scale",
+
+"Overhead crane weighing",
+
+"Steel coil weighing",
+
+"Steel billet weighing",
+
+"Machinery and equipment weighing",
+
+"Raw material weighing",
+
+"Suitable for steel manufacturing plants",
+
+"Suitable for steel and metal warehouses",
+
+"Suitable for mechanical and metallurgical plants",
+
+"Suitable for foundries",
+
+"Suitable for ports and logistics warehouses",
+
+"Strong load-bearing construction",
+
+"Large aluminum load sensor"
+        ]
+    },
+
+    zh: {
+
+        name:"OCS-30T 工业吊秤",
+
+        origin:"未公布",
+
+        description:"OCS-30T 工业吊秤，最大称量 30 吨，适用于钢铁、金属、机械设备、钢卷、钢坯及大型工业货物的吊装称重。采用大型铝制称重传感器、坚固的承重结构，具有良好的稳定性。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>OCS-30T</th>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>30 吨</td>
+</tr>
+
+<tr>
+<td>称重传感器</td>
+<td>大型铝制称重传感器</td>
+</tr>
+
+<tr>
+<td>结构</td>
+<td>坚固的机身及承重部件</td>
+</tr>
+
+<tr>
+<td>称重吊钩</td>
+<td>用于大型货物吊装和称重的专用吊钩</td>
+</tr>
+
+<tr>
+<td>稳定性</td>
+<td>高</td>
+</tr>
+
+<tr>
+<td>重复性</td>
+<td>良好</td>
+</tr>
+
+<tr>
+<td>应用</td>
+<td>钢铁、金属、机械设备、钢卷、钢坯及大型工业货物</td>
+</tr>
+
+</table>`,
+
+"重型工业吊秤",
+
+"起重机吊秤",
+
+"桥式起重机称重",
+
+"钢卷称重",
+
+"钢坯称重",
+
+"机械设备称重",
+
+"原材料称重",
+
+"适用于钢铁生产企业",
+
+"适用于钢铁及金属仓库",
+
+"适用于机械及冶金工厂",
+
+"适用于铸造车间",
+
+"适用于港口及物流仓库",
+
+"坚固的承重结构",
+
+"大型铝制称重传感器"
+        ]
+    }
+},
+83: {
+
+    en: {
+
+        name:"OCS-20T 20-Ton Industrial Crane Hanging Scale",
+
+        origin:"Not specified",
+
+        description:"OCS-20T industrial crane hanging scale with a 20-ton maximum capacity, designed for heavy-duty applications such as weighing steel, metals, machinery, equipment, steel coils, steel billets and large industrial loads. It features a large aluminum load sensor, strong load-bearing construction and stable weighing performance.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Model</th>
+<th>OCS-20T</th>
+</tr>
+
+<tr>
+<td>Maximum capacity</td>
+<td>20 tons</td>
+</tr>
+
+<tr>
+<td>Load sensor</td>
+<td>Large aluminum load sensor</td>
+</tr>
+
+<tr>
+<td>Construction</td>
+<td>Strong body and load-bearing components</td>
+</tr>
+
+<tr>
+<td>Weighing hook</td>
+<td>Designed for lifting and weighing large loads</td>
+</tr>
+
+<tr>
+<td>Stability</td>
+<td>High</td>
+</tr>
+
+<tr>
+<td>Repeatability</td>
+<td>Good</td>
+</tr>
+
+<tr>
+<td>Applications</td>
+<td>Steel, metals, machinery, equipment, steel coils, steel billets and industrial loads</td>
+</tr>
+
+</table>`,
+
+"Heavy-duty industrial hanging scale",
+
+"Crane hanging scale",
+
+"Overhead crane weighing",
+
+"Steel coil weighing",
+
+"Steel billet weighing",
+
+"Heavy machinery and equipment weighing",
+
+"Raw material weighing",
+
+"Suitable for steel manufacturing plants",
+
+"Suitable for steel and metal warehouses",
+
+"Suitable for mechanical plants",
+
+"Suitable for metallurgical plants",
+
+"Suitable for foundries",
+
+"Suitable for ports and logistics warehouses",
+
+"Strong load-bearing construction",
+
+"Large aluminum load sensor"
+        ]
+    },
+
+    zh: {
+
+        name:"OCS-20T 20吨工业吊秤",
+
+        origin:"未公布",
+
+        description:"OCS-20T 工业吊秤，最大称量 20 吨，适用于钢铁、金属、机械设备、钢卷、钢坯及大型工业货物的吊装称重。采用大型铝制称重传感器和坚固的承重结构，具有良好的稳定性。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>型号</th>
+<th>OCS-20T</th>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>20 吨</td>
+</tr>
+
+<tr>
+<td>称重传感器</td>
+<td>大型铝制称重传感器</td>
+</tr>
+
+<tr>
+<td>结构</td>
+<td>坚固的机身及承重部件</td>
+</tr>
+
+<tr>
+<td>称重吊钩</td>
+<td>用于大型货物吊装和称重的专用设计</td>
+</tr>
+
+<tr>
+<td>稳定性</td>
+<td>高</td>
+</tr>
+
+<tr>
+<td>重复性</td>
+<td>良好</td>
+</tr>
+
+<tr>
+<td>应用</td>
+<td>钢铁、金属、机械设备、钢卷、钢坯及大型工业货物</td>
+</tr>
+
+</table>`,
+
+"重型工业吊秤",
+
+"起重机吊秤",
+
+"桥式起重机称重",
+
+"钢卷称重",
+
+"钢坯称重",
+
+"大型机械设备称重",
+
+"原材料称重",
+
+"适用于钢铁生产企业",
+
+"适用于钢铁及金属仓库",
+
+"适用于机械制造工厂",
+
+"适用于冶金工厂",
+
+"适用于铸造车间",
+
+"适用于港口及物流仓库",
+
+"坚固的承重结构",
+
+"大型铝制称重传感器"
+        ]
+    }
+},
+84: {
+
+    en: {
+
+        name:"OKS-HA Waterproof Electronic Hanging Scale 2 Ton",
+
+        origin:"Not specified",
+
+        description:"The OKS-HA 2-ton waterproof electronic hanging scale features a durable stainless steel 304 housing that resists rust and corrosion and is easy to clean. It is suitable for humid environments, seafood and food processing plants, cold storage facilities, industrial workshops and areas requiring frequent equipment cleaning.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS-HA</td>
+</tr>
+
+<tr>
+<td>Capacity</td>
+<td>2 tons</td>
+</tr>
+
+<tr>
+<td>Scale type</td>
+<td>Electronic hanging scale / crane scale</td>
+</tr>
+
+<tr>
+<td>Water resistance</td>
+<td>Water-resistant, suitable for humid environments</td>
+</tr>
+
+<tr>
+<td>Housing</td>
+<td>Stainless steel 304</td>
+</tr>
+
+<tr>
+<td>Housing features</td>
+<td>Rust-resistant, corrosion-resistant and easy to clean</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Large display for easy viewing</td>
+</tr>
+
+<tr>
+<td>Capacity range of the product series</td>
+<td>1 ton – 10 tons</td>
+</tr>
+
+</table>`,
+
+"Waterproof electronic hanging scale",
+
+"2-ton industrial crane scale",
+
+"Stainless steel 304 housing",
+
+"Suitable for humid environments",
+
+"Suitable for seafood processing plants",
+
+"Suitable for food processing facilities",
+
+"Suitable for cold storage",
+
+"Suitable for industrial workshops",
+
+"Suitable for areas requiring frequent cleaning",
+
+"Heavy-duty goods weighing",
+
+"Easy to clean and maintain"
+
+        ]
+    },
+
+    zh: {
+
+        name:"OKS-HA 防水电子吊秤 2吨",
+
+        origin:"未公布",
+
+        description:"OKS-HA 2吨防水电子吊秤采用坚固的304不锈钢外壳，具有防锈、防腐蚀和易清洁等特点。适用于潮湿环境、水产及食品加工厂、冷库、工业车间以及需要经常清洁设备的工作区域。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细信息</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>OKS-HA</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>2吨</td>
+</tr>
+
+<tr>
+<td>秤类型</td>
+<td>电子吊秤 / 起重吊秤</td>
+</tr>
+
+<tr>
+<td>防水性能</td>
+<td>防水，适用于潮湿环境</td>
+</tr>
+
+<tr>
+<td>外壳</td>
+<td>304不锈钢</td>
+</tr>
+
+<tr>
+<td>外壳特点</td>
+<td>防锈、防腐蚀、易清洁</td>
+</tr>
+
+<tr>
+<td>显示</td>
+<td>大屏幕显示，便于观察</td>
+</tr>
+
+<tr>
+<td>系列称量范围</td>
+<td>1吨 – 10吨</td>
+</tr>
+
+</table>`,
+
+"防水电子吊秤",
+
+"2吨工业起重吊秤",
+
+"304不锈钢外壳",
+
+"适用于潮湿环境",
+
+"适用于水产加工厂",
+
+"适用于食品生产企业",
+
+"适用于冷库",
+
+"适用于工业车间",
+
+"适用于需要经常清洁的区域",
+
+"大吨位货物称重",
+
+"易于清洁和维护"
+
+        ]
+    }
+},
+85: {
+
+    en: {
+
+        name:"OKS-HA Waterproof Electronic Hanging Scale 3 Ton",
+
+        origin:"Not specified",
+
+        description:"The OKS-HA 3-ton waterproof electronic hanging scale features a durable stainless steel 304 housing that resists rust and corrosion and is easy to clean. It is suitable for humid environments, seafood and food processing plants, cold storage facilities, industrial workshops and areas requiring frequent equipment cleaning.",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>OKS-HA</td>
+</tr>
+
+<tr>
+<td>Capacity</td>
+<td>3 tons</td>
+</tr>
+
+<tr>
+<td>Scale type</td>
+<td>Electronic hanging scale / crane scale</td>
+</tr>
+
+<tr>
+<td>Water resistance</td>
+<td>Water-resistant, suitable for humid environments</td>
+</tr>
+
+<tr>
+<td>Housing</td>
+<td>Stainless steel 304</td>
+</tr>
+
+<tr>
+<td>Housing features</td>
+<td>Rust-resistant, corrosion-resistant and easy to clean</td>
+</tr>
+
+<tr>
+<td>Display</td>
+<td>Large display for easy viewing</td>
+</tr>
+
+<tr>
+<td>Capacity range of the product series</td>
+<td>1 ton – 10 tons</td>
+</tr>
+
+</table>`,
+
+"Waterproof electronic hanging scale",
+
+"3-ton industrial crane scale",
+
+"Stainless steel 304 housing",
+
+"Suitable for humid environments",
+
+"Suitable for seafood processing plants",
+
+"Suitable for food processing facilities",
+
+"Suitable for cold storage",
+
+"Suitable for industrial workshops",
+
+"Suitable for areas requiring frequent cleaning",
+
+"Heavy-duty goods weighing",
+
+"Easy to clean and maintain"
+
+        ]
+    },
+
+    zh: {
+
+        name:"OKS-HA 防水电子吊秤 3吨",
+
+        origin:"未公布",
+
+        description:"OKS-HA 3吨防水电子吊秤采用坚固的304不锈钢外壳，具有防锈、防腐蚀和易清洁等特点。适用于潮湿环境、水产及食品加工厂、冷库、工业车间以及需要经常清洁设备的工作区域。",
+
+        specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>规格</th>
+<th>详细信息</th>
+</tr>
+
+<tr>
+<td>型号</td>
+<td>OKS-HA</td>
+</tr>
+
+<tr>
+<td>最大称量</td>
+<td>3吨</td>
+</tr>
+
+<tr>
+<td>秤类型</td>
+<td>电子吊秤 / 起重吊秤</td>
+</tr>
+
+<tr>
+<td>防水性能</td>
+<td>防水，适用于潮湿环境</td>
+</tr>
+
+<tr>
+<td>外壳</td>
+<td>304不锈钢</td>
+</tr>
+
+<tr>
+<td>外壳特点</td>
+<td>防锈、防腐蚀、易清洁</td>
+</tr>
+
+<tr>
+<td>显示</td>
+<td>大屏幕显示，便于观察</td>
+</tr>
+
+<tr>
+<td>系列称量范围</td>
+<td>1吨 – 10吨</td>
+</tr>
+
+</table>`,
+
+"防水电子吊秤",
+
+"3吨工业起重吊秤",
+
+"304不锈钢外壳",
+
+"适用于潮湿环境",
+
+"适用于水产加工厂",
+
+"适用于食品生产企业",
+
+"适用于冷库",
+
+"适用于工业车间",
+
+"适用于需要经常清洁的区域",
+
+"大吨位货物称重",
+
+"易于清洁和维护"
+
+        ]
+    }
+},
+
 };
 
 
