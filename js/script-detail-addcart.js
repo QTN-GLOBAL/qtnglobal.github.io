@@ -247,6 +247,62 @@ rows.forEach((row, index) => {
 
     document.getElementById("cartSpecList").innerHTML = html;
 
+
+/* ⭐ THÊM MỚI
+   ĐẢM BẢO SẢN PHẨM 1 TẢI TRỌNG LUÔN CÓ Ô SỐ LƯỢNG
+*/
+
+const singleCapacity = getSingleCapacity(product);
+
+if (singleCapacity) {
+
+    const specList =
+        document.getElementById("cartSpecList");
+
+    /*
+     * Nếu chưa tạo được dòng số lượng
+     * thì tạo bổ sung.
+     */
+
+    if (!specList.querySelector(".addcart-row")) {
+
+        specList.innerHTML = `
+        <div class="addcart-row"
+             data-index="single"
+             data-single-capacity="${singleCapacity}">
+
+            <div class="addcart-left">
+                <input type="checkbox"
+                       class="detail-check"
+                       checked
+                       style="display:none">
+            </div>
+
+            <div class="addcart-middle"></div>
+
+            <div class="addcart-right">
+
+                <button onclick="changeQty(this,-1)">
+                    -
+                </button>
+
+                <input type="number"
+                       value="1"
+                       min="1">
+
+                <button onclick="changeQty(this,1)">
+                    +
+                </button>
+
+            </div>
+
+        </div>
+        `;
+
+    }
+
+}
+
     // reset checkbox
     document.querySelectorAll(".detail-check").forEach(cb => {
         cb.checked = false;
