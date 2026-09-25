@@ -6683,9 +6683,15 @@ specs:[
 </tr>
 
 <tr>
-<td>Tải trọng</td>
-<td>300 kg</td>
+<td>Mức cân</td>
+<td>300kg</td>
 </tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>500g</td>
+</tr>
+
 
 <tr>
 <td>Phiên bản tải trọng</td>
