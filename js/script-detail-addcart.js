@@ -1,106 +1,124 @@
-
 /* =========================
    GET PRODUCT CAPACITIES
-   MỨC CÂN / TẢI TRỌNG
+   TỰ ĐỘNG ĐỌC TẢI TRỌNG
 ========================= */
 
 function getProductCapacities(product) {
 
-    if (!product || !product.specs) {
-        return [];
-    }
+    if (!product || !product.specs) return [];
 
-    const temp = document.createElement("div");
-
-    /*
-       specs của sản phẩm là ARRAY
-       nên phải ghép lại trước khi đọc HTML
-    */
-    temp.innerHTML = Array.isArray(product.specs)
+    const specs = Array.isArray(product.specs)
         ? product.specs.join("")
         : product.specs;
 
-    const tables = temp.querySelectorAll("table");
+    const temp = document.createElement("div");
+    temp.innerHTML = specs;
 
-    for (const table of tables) {
+    const capacities = [];
 
-        const headerRow =
-            table.querySelector("tr:first-child");
+    function addCapacity(value) {
 
-        if (!headerRow) continue;
+        value = String(value || "").trim();
 
-        const headers =
-            Array.from(
-                headerRow.querySelectorAll("th")
-            ).map(th =>
-                th.innerText
-                    .trim()
-                    .toLowerCase()
-            );
+        if (!value) return;
 
-        /*
-           Nhận cả:
-           - Mức cân
-           - Tải trọng
-        */
-        const capacityIndex =
-            headers.findIndex(header =>
-                header === "mức cân" ||
-                header.includes("mức cân") ||
-                header === "tải trọng" ||
-                header.includes("tải trọng")
-            );
-
-        if (capacityIndex === -1) {
-            continue;
-        }
-
-        const capacities = [];
-
-        const rows =
-            table.querySelectorAll("tr");
-
-        rows.forEach((row, index) => {
-
-            /*
-               Bỏ dòng tiêu đề
-            */
-            if (index === 0) return;
-
-            const cells =
-                row.querySelectorAll("td");
-
-            if (!cells.length) return;
-
-            /*
-               Lưu ý:
-               rowspan ở các cột khác không ảnh hưởng
-               đến cột Mức cân / Tải trọng.
-            */
-            const cell =
-                cells[capacityIndex];
-
-            if (!cell) return;
-
-            const value =
-                cell.innerText.trim();
-
-            if (
-                value &&
-                !capacities.includes(value)
-            ) {
-
-                capacities.push(value);
-            }
-        });
-
-        if (capacities.length) {
-
-            return capacities;
+        if (!capacities.includes(value)) {
+            capacities.push(value);
         }
     }
 
-    return [];
+    /*
+     * TRƯỜNG HỢP 1:
+     *
+     * Bảng dạng:
+     *
+     * Mức cân | Bước nhảy | ...
+     * 1.5kg   | 0.1g
+     * 3kg     | 0.1g
+     * 6kg     | 0.2g
+     */
+
+    const tables = temp.querySelectorAll("table");
+
+    tables.forEach(table => {
+
+        const rows = table.querySelectorAll("tr");
+
+        if (!rows.length) return;
+
+        const firstRow = rows[0];
+
+        const headers = Array.from(
+            firstRow.querySelectorAll("th, td")
+        ).map(cell =>
+            cell.innerText
+                .trim()
+                .toLowerCase()
+        );
+
+        const capacityIndex = headers.findIndex(header =>
+            header === "mức cân" ||
+            header === "tải trọng" ||
+            header === "mức tải"
+        );
+
+        if (capacityIndex !== -1) {
+
+            rows.forEach((row, rowIndex) => {
+
+                if (rowIndex === 0) return;
+
+                const cells = row.querySelectorAll("td, th");
+
+                if (cells.length > capacityIndex) {
+
+                    addCapacity(
+                        cells[capacityIndex].innerText
+                    );
+
+                }
+
+            });
+
+        }
+
+        /*
+         * TRƯỜNG HỢP 2:
+         *
+         * Bảng dạng:
+         *
+         * Thông số | Chi tiết
+         * Mức tải  | 3 tấn
+         */
+
+        rows.forEach(row => {
+
+            const cells = row.querySelectorAll("td");
+
+            if (cells.length < 2) return;
+
+            const label = cells[0]
+                .innerText
+                .trim()
+                .toLowerCase();
+
+            if (
+                label === "mức cân" ||
+                label === "tải trọng" ||
+                label === "mức tải"
+            ) {
+
+                addCapacity(
+                    cells[1].innerText
+                );
+
+            }
+
+        });
+
+    });
+
+    return capacities;
 }
 
 
@@ -112,73 +130,41 @@ function openAddCartPopup() {
 
     if (!window.currentProduct) return;
 
-    const product =
-        window.currentProduct;
+    const product = window.currentProduct;
 
-    /*
-       CHẶN AMWAY
-    */
+    // CHẶN AMWAY
     if (product.brand === "Amway") {
-
         window.open(
             "https://www.amway.com.vn",
             "_blank"
         );
-
         return;
     }
 
-    window.selectedProduct =
-        product;
+    window.selectedProduct = product;
 
     const popup =
-        document.getElementById(
-            "addCartPopup"
-        );
+        document.getElementById("addCartPopup");
 
     if (popup) {
-
-        popup.style.display =
-            "flex";
+        popup.style.display = "flex";
     }
 
-    const name =
-        document.getElementById(
-            "popupCartName"
-        );
+    document.getElementById("popupCartName").innerText =
+        product.name;
 
-    if (name) {
+    document.getElementById("popupCartImg").src =
+        `images/${product.category}/${product.folder}/main.jpg`;
 
-        name.innerText =
-            product.name;
-    }
-
-    const img =
-        document.getElementById(
-            "popupCartImg"
-        );
-
-    if (img) {
-
-        img.src =
-            `images/${product.category}/${product.folder}/main.jpg`;
-    }
-
-
-    /*
-       LẤY DANH SÁCH MỨC CÂN / TẢI TRỌNG
-    */
     const capacities =
         getProductCapacities(product);
 
     let html = "";
 
-
     /*
-       =========================
-       NHIỀU MỨC
-       =========================
-    */
+     * NHIỀU TẢI TRỌNG
+     * → HIỆN SELECT TẢI TRỌNG
+     */
 
     if (capacities.length > 1) {
 
@@ -186,32 +172,20 @@ function openAddCartPopup() {
         <div class="addcart-row">
 
             <div class="addcart-middle">
+                <strong>Tải trọng:</strong>
 
-                <label>
-                    Mức cân / Tải trọng
-                </label>
-
-                <select
-                    class="cart-capacity-select"
-                >
-
-                    ${capacities.map(
-                        capacity => `
+                <select class="addcart-capacity">
+                    ${capacities.map(capacity => `
                         <option value="${capacity}">
                             ${capacity}
                         </option>
-                    `
-                    ).join("")}
-
+                    `).join("")}
                 </select>
-
             </div>
 
             <div class="addcart-right">
 
-                <button
-                    onclick="changeQty(this,-1)"
-                >
+                <button onclick="changeQty(this,-1)">
                     -
                 </button>
 
@@ -221,9 +195,7 @@ function openAddCartPopup() {
                     min="1"
                 >
 
-                <button
-                    onclick="changeQty(this,1)"
-                >
+                <button onclick="changeQty(this,1)">
                     +
                 </button>
 
@@ -235,42 +207,26 @@ function openAddCartPopup() {
     }
 
     /*
-       =========================
-       CHỈ MỘT MỨC
-       =========================
-    */
+     * CHỈ CÓ 1 TẢI TRỌNG
+     * → KHÔNG HIỆN SELECT
+     * → CHỈ HIỆN SỐ LƯỢNG
+     */
 
     else {
 
-        const capacity =
-            capacities.length === 1
-                ? capacities[0]
-                : "";
-
         html = `
-        <div class="addcart-row">
+        <div
+            class="addcart-row"
+            data-capacity="${capacities[0] || ""}"
+        >
 
             <div class="addcart-middle">
-
-                ${
-                    capacity
-                        ? `
-                        <span
-                            class="single-capacity"
-                        >
-                            ${capacity}
-                        </span>
-                        `
-                        : ""
-                }
-
+                <strong>Số lượng:</strong>
             </div>
 
             <div class="addcart-right">
 
-                <button
-                    onclick="changeQty(this,-1)"
-                >
+                <button onclick="changeQty(this,-1)">
                     -
                 </button>
 
@@ -280,9 +236,7 @@ function openAddCartPopup() {
                     min="1"
                 >
 
-                <button
-                    onclick="changeQty(this,1)"
-                >
+                <button onclick="changeQty(this,1)">
                     +
                 </button>
 
@@ -290,202 +244,139 @@ function openAddCartPopup() {
 
         </div>
         `;
+
     }
 
+    document.getElementById("cartSpecList").innerHTML =
+        html;
 
     /*
-       ĐƯA HTML VÀO POPUP
-    */
-    const list =
-        document.getElementById(
-            "cartSpecList"
-        );
+     * I18N
+     */
 
-    if (list) {
-
-        list.innerHTML =
-            html;
-    }
-
-
-    /*
-       I18N
-    */
     setTimeout(() => {
 
-        applyLanguage(
-            localStorage.getItem(
-                "language"
-            ) || "vi"
-        );
+        if (typeof applyLanguage === "function") {
+
+            applyLanguage(
+                localStorage.getItem("language") || "vi"
+            );
+
+        }
 
     }, 0);
 }
 
 
 /* =========================
-   ADD TO CART
+   ADD SELECTED TO CART
 ========================= */
 
 function addSelectedToCart() {
 
-    if (!window.currentProduct) {
-        return;
-    }
+    if (!window.currentProduct) return;
 
-    const product =
-        window.currentProduct;
+    const product = window.currentProduct;
 
     const popup =
-        document.getElementById(
-            "addCartPopup"
-        );
+        document.getElementById("addCartPopup");
 
-    if (!popup) {
-        return;
-    }
+    if (!popup) return;
 
     const row =
-        popup.querySelector(
-            ".addcart-row"
-        );
+        popup.querySelector(".addcart-row");
 
-    if (!row) {
-        return;
-    }
-
+    if (!row) return;
 
     /*
-       SỐ LƯỢNG
-    */
+     * LẤY TẢI TRỌNG
+     */
+
+    let capacity = "";
+
+    const select =
+        row.querySelector(".addcart-capacity");
+
+    if (select) {
+
+        capacity = select.value;
+
+    } else {
+
+        /*
+         * SẢN PHẨM CHỈ CÓ 1 TẢI TRỌNG
+         */
+
+        capacity =
+            row.dataset.capacity || "";
+
+    }
+
+    /*
+     * LẤY SỐ LƯỢNG
+     */
+
     const qtyInput =
         row.querySelector(
             "input[type='number']"
         );
 
-    let quantity =
-        parseInt(
-            qtyInput?.value || 1
-        );
-
-    if (isNaN(quantity) || quantity < 1) {
-        quantity = 1;
-    }
-
+    const qty =
+        parseInt(qtyInput?.value) || 1;
 
     /*
-       MỨC CÂN / TẢI TRỌNG
-    */
-    let capacity = "";
+     * THÊM VÀO GIỎ
+     */
 
-    const select =
-        row.querySelector(
-            ".cart-capacity-select"
-        );
-
-    /*
-       NHIỀU MỨC
-    */
-    if (select) {
-
-        capacity =
-            select.value.trim();
-
-    }
-
-    /*
-       MỘT MỨC
-    */
-    else {
-
-        const single =
-            row.querySelector(
-                ".single-capacity"
-            );
-
-        if (single) {
-
-            capacity =
-                single.innerText.trim();
-        }
-    }
-
-
-    /*
-       THÊM VÀO GIỎ
-    */
     Cart.add({
 
-        id:
-            Date.now() +
-            Math.random(),
+        id: Date.now() + Math.random(),
 
-        productId:
-            product.id,
+        productId: product.id,
 
-        name:
-            product.name,
+        name: product.name,
 
-        category:
-            product.category,
+        category: product.category,
 
-        folder:
-            product.folder,
+        folder: product.folder,
 
         /*
-           Lưu riêng mức cân /
-           tải trọng
-        */
-        spec:
-            capacity,
+         * LƯU TẢI TRỌNG VÀO SPEC
+         */
 
-        quantity:
-            quantity,
+        spec: capacity,
 
-        selected:
-            false
+        quantity: qty,
+
+        selected: false
+
     });
 
+    /*
+     * ĐÓNG POPUP
+     */
+
+    popup.style.display = "none";
 
     /*
-       ĐÓNG POPUP
-    */
-    popup.style.display =
-        "none";
+     * THÔNG BÁO
+     */
 
-
-    /*
-       THÔNG BÁO
-    */
-    alert(
-        t("addedToCart")
-    );
-
+    alert(t("addedToCart"));
 
     /*
-       CẬP NHẬT GIỎ
-    */
-    if (
-        typeof renderCart ===
-        "function"
-    ) {
+     * CẬP NHẬT GIỎ
+     */
 
+    if (typeof renderCart === "function") {
         renderCart();
     }
 
-    if (
-        typeof updateCartUI ===
-        "function"
-    ) {
-
+    if (typeof updateCartUI === "function") {
         updateCartUI();
     }
 
-    if (
-        typeof renderHeaderCart ===
-        "function"
-    ) {
-
+    if (typeof renderHeaderCart === "function") {
         renderHeaderCart();
     }
 }
@@ -498,15 +389,14 @@ function addSelectedToCart() {
 function closeAddCart() {
 
     const popup =
-        document.getElementById(
-            "addCartPopup"
-        );
+        document.getElementById("addCartPopup");
 
     if (popup) {
 
-        popup.style.display =
-            "none";
+        popup.style.display = "none";
+
     }
+
 }
 
 
@@ -517,37 +407,32 @@ function closeAddCart() {
 function confirmAddCart() {
 
     addSelectedToCart();
+
 }
 
 
 /* =========================
-   QTY CHANGE
+   QUANTITY
 ========================= */
 
 function changeQty(btn, delta) {
 
     const input =
         btn.parentElement.querySelector(
-            "input"
+            "input[type='number']"
         );
 
     if (!input) return;
 
-    let val =
-        parseInt(
-            input.value || 1
-        );
+    let value =
+        parseInt(input.value) || 1;
 
-    if (isNaN(val)) {
-        val = 1;
+    value += delta;
+
+    if (value < 1) {
+        value = 1;
     }
 
-    val += delta;
+    input.value = value;
 
-    if (val < 1) {
-        val = 1;
-    }
-
-    input.value = val;
 }
-
