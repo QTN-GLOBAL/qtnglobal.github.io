@@ -6921,7 +6921,7 @@ specs:[
 
 <tr>
 <td>Bước nhảy</td>
-<td>5 g – 10 g</td>
+<td>10 g</td>
 </tr>
 
 <tr>
