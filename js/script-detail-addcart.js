@@ -1,127 +1,4 @@
 /* =========================
-   ⭐ THÊM MỚI
-   KIỂM TRA SẢN PHẨM CÓ 1 TẢI TRỌNG
-========================= */
-
-function getSingleCapacity(product) {
-
-    if (!product || !product.specs) return "";
-
-    const temp = document.createElement("div");
-
-    temp.innerHTML = Array.isArray(product.specs)
-        ? product.specs.join("")
-        : product.specs;
-
-    const capacities = [];
-
-    const rows = temp.querySelectorAll("tr");
-
-    rows.forEach(row => {
-
-        const cols = row.querySelectorAll("td");
-
-        if (cols.length < 2) return;
-
-        const label = cols[0]
-            .innerText
-            .trim()
-            .toLowerCase();
-
-        if (
-            label === "mức cân" ||
-            label === "tải trọng" ||
-            label === "mức tải"
-        ) {
-
-            const value = cols[1]
-                .innerText
-                .trim();
-
-            if (value && !capacities.includes(value)) {
-                capacities.push(value);
-            }
-        }
-    });
-
-    /*
-     * Nếu bảng có dạng:
-     *
-     * Mức cân / Tải trọng
-     * 1.5 tấn
-     * 3 tấn
-     * 5 tấn
-     *
-     * thì tìm thêm từ hàng tiêu đề.
-     */
-
-    const tables = temp.querySelectorAll("table");
-
-    tables.forEach(table => {
-
-        const tableRows = table.querySelectorAll("tr");
-
-        if (!tableRows.length) return;
-
-        const firstRow = tableRows[0];
-
-        const headers = Array.from(
-            firstRow.querySelectorAll("th, td")
-        ).map(cell =>
-            cell.innerText
-                .trim()
-                .toLowerCase()
-        );
-
-        const capacityIndex = headers.findIndex(header =>
-            header === "mức cân" ||
-            header === "tải trọng" ||
-            header === "mức tải" ||
-            header === "mức cân / tải trọng"
-        );
-
-        if (capacityIndex === -1) return;
-
-        tableRows.forEach((row, index) => {
-
-            if (index === 0) return;
-
-            const cells = row.querySelectorAll("td, th");
-
-            if (cells.length > capacityIndex) {
-
-                const value =
-                    cells[capacityIndex]
-                        .innerText
-                        .trim();
-
-                if (
-                    value &&
-                    !capacities.includes(value)
-                ) {
-                    capacities.push(value);
-                }
-            }
-        });
-    });
-
-    /*
-     * Chỉ trả về khi THỰC SỰ có đúng 1 tải trọng.
-     *
-     * Nếu có 2, 5, 6... tải trọng
-     * → trả về rỗng
-     * → code cũ tiếp tục chạy nguyên trạng.
-     */
-
-    if (capacities.length === 1) {
-        return capacities[0];
-    }
-
-    return "";
-}
-
-
-/* =========================
    ADD CART POPUP (FIXED VERSION)
 ========================= */
 
@@ -152,174 +29,44 @@ function openAddCartPopup() {
     const temp = document.createElement("div");
     temp.innerHTML = product.specs;
 
+    const rows = temp.querySelectorAll("tr");
 
-    /* =================================================
-       ⭐ THÊM MỚI
-       NẾU CHỈ CÓ 1 TẢI TRỌNG
-       → CHỈ HIỆN SỐ LƯỢNG
-    ================================================= */
+    rows.forEach((row, index) => {
 
-    const singleCapacity = getSingleCapacity(product);
+        const cols = row.querySelectorAll("td");
 
-    if (singleCapacity) {
+        if (cols.length >= 2) {
 
-        html = `
-        <div class="addcart-row"
-             data-index="single"
-             data-single-capacity="${singleCapacity}">
+            const label = cols[0].innerText + " - " + cols[1].innerText;
 
-            <div class="addcart-left">
-                <input type="checkbox"
-                       class="detail-check"
-                       checked
-                       style="display:none">
-            </div>
+            html += `
+            <div class="addcart-row"
+                 data-index="${index}">
 
-            <div class="addcart-middle">
-            </div>
+                <div class="addcart-left">
+                    <input type="checkbox" class="detail-check" checked>
+                </div>
 
-            <div class="addcart-right">
-                <button onclick="changeQty(this,-1)">-</button>
-                <input type="number" value="1">
-                <button onclick="changeQty(this,1)">+</button>
-            </div>
+                <div class="addcart-middle">
+                    ${label}
+                </div>
 
-        </div>`;
+                <div class="addcart-right">
+                    <button onclick="changeQty(this,-1)">-</button>
+                    <input type="number" value="1">
+                    <button onclick="changeQty(this,1)">+</button>
+                </div>
 
-    } else {
-
-
-        /* =============================================
-           CODE CŨ
-           GIỮ NGUYÊN TOÀN BỘ
-        ============================================= */
-
-       const rows = temp.querySelectorAll("tr");
-
-rows.forEach((row, index) => {
-
-    const cols = row.querySelectorAll("td");
-
-    if (cols.length >= 2) {
-
-        const labelName = cols[0]
-            .innerText
-            .trim()
-            .toLowerCase();
-
-        // ⭐ CHỈ LẤY DÒNG TẢI TRỌNG
-        if (
-            labelName !== "mức cân" &&
-            labelName !== "tải trọng" &&
-            labelName !== "mức tải" &&
-            labelName !== "tải trọng tối đa"
-        ) {
-            return;
+            </div>`;
         }
-
-        const label =
-            cols[0].innerText + " - " + cols[1].innerText;
-
-        html += `
-                <div class="addcart-row"
-                     data-index="${index}">
-
-                    <div class="addcart-left">
-                        <input type="checkbox" class="detail-check" checked>
-                    </div>
-
-                    <div class="addcart-middle">
-                        ${label}
-                    </div>
-
-                    <div class="addcart-right">
-                        <button onclick="changeQty(this,-1)">-</button>
-                        <input type="number" value="1">
-                        <button onclick="changeQty(this,1)">+</button>
-                    </div>
-
-                </div>`;
-            }
-        });
-
-    }
-
+    });
 
     document.getElementById("cartSpecList").innerHTML = html;
-
-
-/* ⭐ THÊM MỚI
-   ĐẢM BẢO SẢN PHẨM 1 TẢI TRỌNG LUÔN CÓ Ô SỐ LƯỢNG
-*/
-
-const singleCapacity = getSingleCapacity(product);
-
-if (singleCapacity) {
-
-    const specList =
-        document.getElementById("cartSpecList");
-
-    /*
-     * Nếu chưa tạo được dòng số lượng
-     * thì tạo bổ sung.
-     */
-
-    if (!specList.querySelector(".addcart-row")) {
-
-        specList.innerHTML = `
-        <div class="addcart-row"
-             data-index="single"
-             data-single-capacity="${singleCapacity}">
-
-            <div class="addcart-left">
-                <input type="checkbox"
-                       class="detail-check"
-                       checked
-                       style="display:none">
-            </div>
-
-            <div class="addcart-middle"></div>
-
-            <div class="addcart-right">
-
-                <button onclick="changeQty(this,-1)">
-                    -
-                </button>
-
-                <input type="number"
-                       value="1"
-                       min="1">
-
-                <button onclick="changeQty(this,1)">
-                    +
-                </button>
-
-            </div>
-
-        </div>
-        `;
-
-    }
-
-}
 
     // reset checkbox
     document.querySelectorAll(".detail-check").forEach(cb => {
         cb.checked = false;
     });
-
-    // ⭐ THÊM MỚI
-    // Với sản phẩm chỉ có 1 tải trọng,
-    // checkbox bị ẩn nhưng phải luôn được chọn.
-    if (singleCapacity) {
-
-        document.querySelectorAll(
-            ".addcart-row[data-index='single'] .detail-check"
-        ).forEach(cb => {
-            cb.checked = true;
-        });
-
-    }
 
     // reset qty
     document.querySelectorAll(".addcart-row input[type='number']")
@@ -350,32 +97,8 @@ function addSelectedToCart() {
 
        const check = row.querySelector(".detail-check");
 
-       if (!check || check.checked !== true) return;
-
-
-        /* =========================================
-           ⭐ THÊM MỚI
-           NẾU LÀ SẢN PHẨM CHỈ CÓ 1 TẢI TRỌNG
-           → LẤY TẢI TRỌNG TỪ DATA
-        ========================================= */
-
-        let label;
-
-        if (row.dataset.singleCapacity) {
-
-            label = row.dataset.singleCapacity;
-
-        } else {
-
-            /*
-             * CODE CŨ
-             * GIỮ NGUYÊN
-             */
-
-            label = row.querySelector(".addcart-middle").innerText;
-
-        }
-
+if (!check || check.checked !== true) return;
+        const label = row.querySelector(".addcart-middle").innerText;
 
         const qty = parseInt(
             row.querySelector("input[type='number']").value
