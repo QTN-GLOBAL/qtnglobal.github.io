@@ -6689,7 +6689,7 @@ specs:[
 
 <tr>
 <td>Bước nhảy</td>
-<td>500g</td>
+<td>50g</td>
 </tr>
 
 
@@ -6777,7 +6777,7 @@ specs:[
 
     origin:"Không công bố",
 
-    description:"Cân bàn điện tử OSK có bánh xe tải trọng 500kg, thiết kế mặt bàn thép gân siêu dày, khung thép chịu lực chắc chắn và bánh xe giúp dễ dàng di chuyển trong kho, xưởng hoặc cửa hàng. Cân sử dụng màn hình LED rõ nét, cảm biến lực chất lượng cao và pin sạc kết hợp nguồn điện trực tiếp, phù hợp cân hàng hóa tải trọng lớn.",
+    description:"Cân bàn điện tử OSK tải trọng 300kg được thiết kế với mặt bàn thép gân siêu dày, khung thép chịu lực chắc chắn và hệ thống bánh xe giúp dễ dàng di chuyển trong kho, xưởng hoặc cửa hàng. Cân sử dụng màn hình LED rõ nét, cảm biến lực cho kết quả cân ổn định và nguồn pin sạc kết hợp nguồn điện trực tiếp.",
 
     specs:[
 
@@ -6794,9 +6794,15 @@ specs:[
 </tr>
 
 <tr>
-<td>Tải trọng</td>
-<td>500 kg</td>
+<td>Mức cân</td>
+<td>500kg</td>
 </tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>100g</td>
+</tr>
+
 
 <tr>
 <td>Phiên bản tải trọng</td>
@@ -6820,7 +6826,7 @@ specs:[
 
 <tr>
 <td>Bánh xe</td>
-<td>Có, dễ dàng di chuyển</td>
+<td>Có, thuận tiện di chuyển</td>
 </tr>
 
 <tr>
@@ -6850,21 +6856,21 @@ specs:[
 
 </table>`,
 
-"Mặt bàn thép gân siêu dày, chịu va đập tốt và hạn chế trơn trượt",
+"Mặt bàn thép gân siêu dày, chịu va đập và hạn chế trơn trượt",
 
 "Khung thép chịu lực chắc chắn, phù hợp cân hàng hóa tải trọng lớn",
 
 "Trang bị bánh xe giúp dễ dàng di chuyển cân",
 
-"Cảm biến lực chất lượng cao cho kết quả cân nhanh và ổn định",
-
 "Màn hình LED sáng rõ, dễ quan sát",
+
+"Cảm biến lực cho kết quả cân nhanh và ổn định",
 
 "Pin sạc kết hợp nguồn điện trực tiếp",
 
 "Phù hợp sử dụng trong kho hàng, nhà máy, xưởng sản xuất và cửa hàng",
 
-"Thích hợp cân bao bì, thực phẩm, thức ăn chăn nuôi và nhiều loại hàng hóa khác"
+"Có phiên bản tải trọng 300kg và 500kg"
 
     ]
 },
