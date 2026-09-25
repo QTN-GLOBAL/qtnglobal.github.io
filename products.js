@@ -6916,12 +6916,12 @@ specs:[
 
 <tr>
 <td>Mức cân tối đa</td>
-<td>60 kg</td>
+<td>60kg</td>
 </tr>
 
 <tr>
 <td>Bước nhảy</td>
-<td>10 g</td>
+<td>10g</td>
 </tr>
 
 <tr>
