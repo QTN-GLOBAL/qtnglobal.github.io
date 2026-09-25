@@ -1,4 +1,58 @@
 /* =========================
+   ⭐ THÊM MỚI
+   KIỂM TRA SẢN PHẨM CÓ 1 TẢI TRỌNG
+========================= */
+
+function getSingleCapacity(product) {
+
+    if (!product || !product.specs) return "";
+
+    const temp = document.createElement("div");
+
+    temp.innerHTML = Array.isArray(product.specs)
+        ? product.specs.join("")
+        : product.specs;
+
+    const capacities = [];
+
+    const rows = temp.querySelectorAll("tr");
+
+    rows.forEach(row => {
+
+        const cols = row.querySelectorAll("td");
+
+        if (cols.length < 2) return;
+
+        const label = cols[0]
+            .innerText
+            .trim()
+            .toLowerCase();
+
+        if (
+            label === "mức cân" ||
+            label === "tải trọng" ||
+            label === "mức tải"
+        ) {
+
+            const value = cols[1]
+                .innerText
+                .trim();
+
+            if (value && !capacities.includes(value)) {
+                capacities.push(value);
+            }
+        }
+    });
+
+    if (capacities.length === 1) {
+        return capacities[0];
+    }
+
+    return "";
+}
+
+
+/* =========================
    ADD CART POPUP (FIXED VERSION)
 ========================= */
 
