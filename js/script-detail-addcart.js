@@ -17,9 +17,13 @@ function openAddCartPopup() {
     window.selectedProduct = product;
 
     const popup = document.getElementById("addCartPopup");
-    if (popup) popup.style.display = "flex";
 
-    document.getElementById("popupCartName").innerText = product.name;
+    if (popup) {
+        popup.style.display = "flex";
+    }
+
+    document.getElementById("popupCartName").innerText =
+        product.name;
 
     document.getElementById("popupCartImg").src =
         `images/${product.category}/${product.folder}/main.jpg`;
@@ -27,7 +31,8 @@ function openAddCartPopup() {
     let html = "";
 
     const temp = document.createElement("div");
-    temp.innerHTML = product.specs;
+
+    temp.innerHTML = product.specs[0];
 
     const rows = temp.querySelectorAll("tr");
 
@@ -37,27 +42,39 @@ function openAddCartPopup() {
 
         if (cols.length >= 2) {
 
-            const label = cols[0].innerText + " - " + cols[1].innerText;
+            const labelName = cols[0].innerText.trim();
 
-            html += `
-            <div class="addcart-row"
-                 data-index="${index}">
+            if (labelName === "Mức cân") {
 
-                <div class="addcart-left">
-                    <input type="checkbox" class="detail-check" checked>
-                </div>
+                const label =
+                    cols[0].innerText.trim() +
+                    " - " +
+                    cols[1].innerText.trim();
 
-                <div class="addcart-middle">
-                    ${label}
-                </div>
+                html += `
+                <div class="addcart-row"
+                     data-index="${index}">
 
-                <div class="addcart-right">
-                    <button onclick="changeQty(this,-1)">-</button>
-                    <input type="number" value="1">
-                    <button onclick="changeQty(this,1)">+</button>
-                </div>
+                    <div class="addcart-left">
+                        <input type="checkbox"
+                               class="detail-check"
+                               checked>
+                    </div>
 
-            </div>`;
+                    <div class="addcart-middle">
+                        ${label}
+                    </div>
+
+                    <div class="addcart-right">
+                        <button onclick="changeQty(this,-1)">-</button>
+
+                        <input type="number" value="1">
+
+                        <button onclick="changeQty(this,1)">+</button>
+                    </div>
+
+                </div>`;
+            }
         }
     });
 
@@ -69,15 +86,19 @@ function openAddCartPopup() {
     });
 
     // reset qty
-    document.querySelectorAll(".addcart-row input[type='number']")
-        .forEach(input => input.value = 1);
+    document
+        .querySelectorAll(".addcart-row input[type='number']")
+        .forEach(input => {
+            input.value = 1;
+        });
 
-    // ✅ FIX I18N - THÊM ĐOẠN NÀY
+    // ✅ FIX I18N
     setTimeout(() => {
-        applyLanguage(localStorage.getItem("language") || "vi");
+        applyLanguage(
+            localStorage.getItem("language") || "vi"
+        );
     }, 0);
 }
-
 /* =========================
    ADD TO CART (FIXED)
 ========================= */
