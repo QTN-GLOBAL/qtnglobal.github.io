@@ -8292,8 +8292,7 @@ specs:[
 <th>OCS-20T</th>
 </tr>
 
-<tr>
-<td>Tải trọng tối đa</td>
+<td>Mức cân</td>
 <td>20 tấn</td>
 </tr>
 
@@ -8390,8 +8389,7 @@ specs:[
 <td>OKS-HA</td>
 </tr>
 
-<tr>
-<td>Mức tải</td>
+<td>Mức cân</td>
 <td>2 tấn</td>
 </tr>
 
@@ -8481,8 +8479,7 @@ specs:[
 <td>OKS-HA</td>
 </tr>
 
-<tr>
-<td>Mức tải</td>
+<td>Mức cân</td>
 <td>3 tấn</td>
 </tr>
 
