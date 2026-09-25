@@ -5635,7 +5635,7 @@ specs:[
 
 <tr>
 <td>Khả năng cân</td>
-<td>0,01 – 300 g</td>
+<td>300g</td>
 </tr>
 
 <tr>
@@ -5790,7 +5790,7 @@ specs:[
 
 <tr>
 <td>Mức cân</td>
-<td>60kg – 100kg</td>
+<td>100kg</td>
 </tr>
 
 <tr>
@@ -6121,7 +6121,7 @@ specs:[
 
 <tr>
 <td>Bước nhảy</td>
-<td>20g – 50g</td>
+<td>50g</td>
 </tr>
 
 <tr>
@@ -6282,7 +6282,7 @@ specs:[
 
 <tr>
 <td>Bước nhảy</td>
-<td>20g – 50g</td>
+<td>50g</td>
 </tr>
 
 <tr>
@@ -6443,7 +6443,7 @@ specs:[
 
 <tr>
 <td>Bước nhảy</td>
-<td>50 g – 100 g</td>
+<td>100 g</td>
 </tr>
 
 <tr>
