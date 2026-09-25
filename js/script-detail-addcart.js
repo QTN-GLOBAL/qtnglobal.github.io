@@ -32,71 +32,176 @@ function openAddCartPopup() {
 
     const temp = document.createElement("div");
 
-    temp.innerHTML = product.specs[0];
+    // ⭐ specs có thể là mảng hoặc chuỗi
+    if (Array.isArray(product.specs)) {
+        temp.innerHTML = product.specs[0] || "";
+    } else {
+        temp.innerHTML = product.specs || "";
+    }
 
     const rows = temp.querySelectorAll("tr");
 
-    rows.forEach((row, index) => {
+    let capacityIndex = -1;
 
-        const cols = row.querySelectorAll("td");
+    // =========================
+    // TÌM CỘT "MỨC CÂN"
+    // =========================
 
-        if (cols.length >= 2) {
+    rows.forEach(row => {
 
-            const labelName = cols[0].innerText.trim();
+        const headers = row.querySelectorAll("th");
 
-            if (labelName === "Mức cân") {
+        headers.forEach((header, index) => {
 
-                const label =
-                    cols[0].innerText.trim() +
-                    " - " +
-                    cols[1].innerText.trim();
-
-                html += `
-                <div class="addcart-row"
-                     data-index="${index}">
-
-                    <div class="addcart-left">
-                        <input type="checkbox"
-                               class="detail-check"
-                               checked>
-                    </div>
-
-                    <div class="addcart-middle">
-                        ${label}
-                    </div>
-
-                    <div class="addcart-right">
-                        <button onclick="changeQty(this,-1)">-</button>
-
-                        <input type="number" value="1">
-
-                        <button onclick="changeQty(this,1)">+</button>
-                    </div>
-
-                </div>`;
+            if (
+                header.innerText
+                    .trim()
+                    .toLowerCase() === "mức cân"
+            ) {
+                capacityIndex = index;
             }
-        }
+
+        });
+
     });
 
-    document.getElementById("cartSpecList").innerHTML = html;
+    // =========================
+    // TRƯỜNG HỢP BẢNG NHIỀU CỘT
+    // Ví dụ ID 41
+    // =========================
 
-    // reset checkbox
+    if (capacityIndex >= 0) {
+
+        rows.forEach((row, index) => {
+
+            const cols = row.querySelectorAll("td");
+
+            if (cols.length > capacityIndex) {
+
+                const value =
+                    cols[capacityIndex].innerText.trim();
+
+                if (value) {
+
+                    const label =
+                        "Mức cân - " + value;
+
+                    html += `
+                    <div class="addcart-row"
+                         data-index="${index}">
+
+                        <div class="addcart-left">
+                            <input type="checkbox"
+                                   class="detail-check"
+                                   checked>
+                        </div>
+
+                        <div class="addcart-middle">
+                            ${label}
+                        </div>
+
+                        <div class="addcart-right">
+                            <button onclick="changeQty(this,-1)">-</button>
+
+                            <input type="number"
+                                   value="1">
+
+                            <button onclick="changeQty(this,1)">+</button>
+                        </div>
+
+                    </div>`;
+                }
+            }
+
+        });
+
+    } else {
+
+        // =========================
+        // TRƯỜNG HỢP BẢNG 2 CỘT
+        // Ví dụ ID 59
+        // =========================
+
+        rows.forEach((row, index) => {
+
+            const cols = row.querySelectorAll("td");
+
+            if (cols.length >= 2) {
+
+                const labelName =
+                    cols[0].innerText.trim();
+
+                if (
+                    labelName.toLowerCase() === "mức cân"
+                ) {
+
+                    const value =
+                        cols[1].innerText.trim();
+
+                    const label =
+                        "Mức cân - " + value;
+
+                    html += `
+                    <div class="addcart-row"
+                         data-index="${index}">
+
+                        <div class="addcart-left">
+                            <input type="checkbox"
+                                   class="detail-check"
+                                   checked>
+                        </div>
+
+                        <div class="addcart-middle">
+                            ${label}
+                        </div>
+
+                        <div class="addcart-right">
+                            <button onclick="changeQty(this,-1)">-</button>
+
+                            <input type="number"
+                                   value="1">
+
+                            <button onclick="changeQty(this,1)">+</button>
+                        </div>
+
+                    </div>`;
+                }
+            }
+
+        });
+    }
+
+    document.getElementById("cartSpecList").innerHTML =
+        html;
+
+    // =========================
+    // RESET CHECKBOX
+    // =========================
+
     document.querySelectorAll(".detail-check").forEach(cb => {
         cb.checked = false;
     });
 
-    // reset qty
+    // =========================
+    // RESET SỐ LƯỢNG
+    // =========================
+
     document
         .querySelectorAll(".addcart-row input[type='number']")
         .forEach(input => {
             input.value = 1;
         });
 
-    // ✅ FIX I18N
+    // =========================
+    // I18N
+    // =========================
+
     setTimeout(() => {
+
         applyLanguage(
             localStorage.getItem("language") || "vi"
         );
+
     }, 0);
 }
 /* =========================
