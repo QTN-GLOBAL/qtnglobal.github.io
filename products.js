@@ -5924,7 +5924,7 @@ specs:[
 
     origin:"Nhật Bản",
 
-    description:"Cân bàn điện tử ONEKO OK-150 150kg/20g là dòng cân bàn điện tử công nghiệp có kết cấu chắc chắn, mặt bàn inox dễ vệ sinh và đầu hiển thị ONEKO. Cân phù hợp sử dụng trong nhà máy, xưởng sản xuất, đóng gói, kho hàng, chế tạo và các môi trường công nghiệp. Đầu cân hỗ trợ các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn, đồng thời có thể kết nối với máy tính hoặc máy in thông qua RS232. Loadcell có khả năng chịu quá tải cao, giúp cân hoạt động ổn định trong quá trình sử dụng.",
+    description:"Cân bàn điện tử ONEKO OK-100 là dòng cân bàn công nghiệp có khung cân chắc chắn, mặt bàn inox dễ vệ sinh và đầu cân ONEKO với màn hình LCD 6 số đèn LED xanh. Cân được thiết kế cho các nhu cầu cân trong sản xuất, đóng gói, chế tạo, định lượng, xây dựng và nhà xưởng. Đầu cân có các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn, hỗ trợ kết nối RS232 với máy tính hoặc máy in. Loadcell có khả năng chịu quá tải an toàn lên đến 200%, phù hợp sử dụng trong môi trường công nghiệp.",
 
     specs:[
 
@@ -5937,7 +5937,7 @@ specs:[
 
 <tr>
 <td>Model</td>
-<td>ONEKO SCALE OK-150</td>
+<td>ONEKO SCALE OK-100</td>
 </tr>
 
 <tr>
@@ -5952,12 +5952,12 @@ specs:[
 
 <tr>
 <td>Mức cân</td>
-<td>150 kg</td>
+<td>150kg</td>
 </tr>
 
 <tr>
 <td>Bước nhảy</td>
-<td>20 g</td>
+<td>20g</td>
 </tr>
 
 <tr>
@@ -6052,25 +6052,23 @@ specs:[
 
 </table>`,
 
-"Cân bàn điện tử ONEKO OK-150 với mức cân 150kg và bước nhảy 20g.",
+"Cân bàn điện tử ONEKO OK-100 thiết kế chắc chắn, phù hợp sử dụng trong môi trường công nghiệp.",
 
-"Thiết kế chắc chắn, phù hợp sử dụng trong nhà máy, kho hàng và xưởng sản xuất.",
+"Màn hình LCD 6 số với đèn LED xanh giúp hiển thị rõ ràng.",
 
-"Màn hình LCD 6 số với đèn LED xanh giúp hiển thị trọng lượng rõ ràng.",
-
-"Mặt bàn cân inox chống gỉ, dễ tháo rời và vệ sinh.",
+"Mặt bàn cân bằng inox, dễ tháo rời, chống gỉ và dễ vệ sinh.",
 
 "Khung bàn cân bằng thép chống gỉ, kết cấu chắc chắn.",
 
-"Loadcell cảm biến lực có khả năng chịu quá tải an toàn cao.",
+"Loadcell cảm biến lực có khả năng chịu quá tải an toàn tối đa 200%.",
 
 "Hỗ trợ các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn.",
 
-"Cổng RS232 hỗ trợ kết nối với máy tính hoặc máy in.",
+"Cổng RS232 cho phép kết nối với máy tính hoặc máy in để quản lý dữ liệu.",
 
-"Sử dụng pin sạc DC 6V/4.5Ah và có đèn báo dung lượng pin.",
+"Có đèn LED báo dung lượng pin và sử dụng pin sạc DC 6V/4.5Ah.",
 
-"Phù hợp cho sản xuất, đóng gói, chế tạo, kho hàng, nhà máy và phân xưởng."
+"Phù hợp cho sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng."
 
     ]
 },
@@ -6088,7 +6086,7 @@ specs:[
 
     origin:"Nhật Bản",
 
-    description:"Cân bàn điện tử ONEKO OK-200 200kg/50g là dòng cân bàn công nghiệp có kết cấu chắc chắn, mặt bàn inox dễ vệ sinh và đầu cân ONEKO với màn hình LCD 6 số đèn LED xanh. Cân phù hợp sử dụng trong sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng. Loadcell có khả năng chịu quá tải an toàn tối đa 200%, hỗ trợ các chức năng cân thường, hiệu chỉnh, trừ bì và tự động tắt nguồn. Cân được trang bị cổng RS232 để kết nối với máy tính hoặc máy in và sử dụng pin sạc DC 6V/4.5Ah.",
+    description:"Cân bàn điện tử ONEKO OK-100 là dòng cân bàn công nghiệp có khung cân chắc chắn, mặt bàn inox dễ vệ sinh và đầu cân ONEKO với màn hình LCD 6 số đèn LED xanh. Cân được thiết kế cho các nhu cầu cân trong sản xuất, đóng gói, chế tạo, định lượng, xây dựng và nhà xưởng. Đầu cân có các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn, hỗ trợ kết nối RS232 với máy tính hoặc máy in. Loadcell có khả năng chịu quá tải an toàn lên đến 200%, phù hợp sử dụng trong môi trường công nghiệp.",
 
     specs:[
 
@@ -6101,7 +6099,7 @@ specs:[
 
 <tr>
 <td>Model</td>
-<td>ONEKO SCALE OK-200</td>
+<td>ONEKO SCALE OK-100</td>
 </tr>
 
 <tr>
@@ -6115,8 +6113,8 @@ specs:[
 </tr>
 
 <tr>
-<td>Mức cân tối đa</td>
-<td>200 kg</td>
+<td>Mức cân</td>
+<td>200kg</td>
 </tr>
 
 <tr>
@@ -6141,12 +6139,7 @@ specs:[
 
 <tr>
 <td>Kích thước bàn cân</td>
-<td>400 × 500 mm</td>
-</tr>
-
-<tr>
-<td>Khung bàn cân</td>
-<td>Thép chống gỉ</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
 </tr>
 
 <tr>
@@ -6155,13 +6148,28 @@ specs:[
 </tr>
 
 <tr>
+<td>Khung bàn cân</td>
+<td>Thép chống gỉ</td>
+</tr>
+
+<tr>
 <td>Phương thức định lượng</td>
-<td>Loadcell cảm biến</td>
+<td>Loadcell cảm biến lực</td>
 </tr>
 
 <tr>
 <td>Màn hình</td>
 <td>LCD 6 số / LED xanh</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân thường, hiệu chỉnh, trừ bì, cộng dồn, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232</td>
 </tr>
 
 <tr>
@@ -6172,177 +6180,6 @@ specs:[
 <tr>
 <td>Quá tải phá hủy</td>
 <td>300% – 400%</td>
-</tr>
-
-<tr>
-<td>Chức năng</td>
-<td>Cân thường / Hiệu chỉnh / Trừ bì / Tự động tắt nguồn</td>
-</tr>
-
-<tr>
-<td>Cổng giao tiếp</td>
-<td>RS232</td>
-</tr>
-
-<tr>
-<td>Nhiệt độ hoạt động</td>
-<td>0°C – 40°C</td>
-</tr>
-
-<tr>
-<td>Độ ẩm hoạt động</td>
-<td>0 – 90%</td>
-</tr>
-
-<tr>
-<td>Nguồn điện</td>
-<td>DC 6V/4.5Ah</td>
-</tr>
-
-<tr>
-<td>Đầu hiển thị</td>
-<td>Nhựa ABS</td>
-</tr>
-
-<tr>
-<td>Bộ sản phẩm</td>
-<td>Đầu cân + Bàn cân + Sách hướng dẫn</td>
-</tr>
-
-</table>`,
-
-"Cân bàn điện tử ONEKO OK-200 với mức cân tối đa 200kg.",
-
-"Bước nhảy tùy cấu hình từ 20g đến 50g.",
-
-"Độ phân giải bên trong 1/30.000.",
-
-"Mặt bàn cân bằng inox, chống gỉ, chống xước và dễ vệ sinh.",
-
-"Khung bàn cân bằng thép chống gỉ, kết cấu chắc chắn.",
-
-"Loadcell cảm biến lực có khả năng chịu quá tải an toàn tối đa 200%.",
-
-"Màn hình LCD 6 số với đèn LED xanh hiển thị rõ ràng.",
-
-"Hỗ trợ các chức năng cân thường, hiệu chỉnh, trừ bì và tự động tắt nguồn.",
-
-"Cổng RS232 cho phép kết nối với máy tính hoặc máy in.",
-
-"Sử dụng pin sạc DC 6V/4.5Ah.",
-
-"Phù hợp cho sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng."
-
-    ]
-},
-  {
-    business:"measure",
-    id:67,
-
-    name:"Cân bàn điện tử ONEKO OK-300 300kg/50g",
-
-    category:"can-ban-dung",
-
-    folder:"oneko-ok-100",
-
-    brand:"ONEKO",
-
-    origin:"Nhật Bản",
-
-    description:"Cân bàn điện tử ONEKO OK-300 300kg/50g là dòng cân bàn công nghiệp có kết cấu chắc chắn, mặt bàn inox dễ vệ sinh và đầu hiển thị ONEKO. Cân phù hợp sử dụng trong sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng. Cân sử dụng loadcell cảm biến lực có khả năng chịu quá tải an toàn tối đa 200%, màn hình LCD 6 số với LED xanh và hỗ trợ các chức năng cân, hiệu chỉnh, trừ bì, cộng dồn và tự động tắt nguồn. Cổng RS232 cho phép kết nối với máy tính hoặc máy in để quản lý dữ liệu cân.",
-
-    specs:[
-
-`<table class="spec-table">
-
-<tr>
-<th>Thông số</th>
-<th>Giá trị</th>
-</tr>
-
-<tr>
-<td>Model</td>
-<td>ONEKO SCALE OK-300</td>
-</tr>
-
-<tr>
-<td>Hãng sản xuất</td>
-<td>ONEKO JAPAN</td>
-</tr>
-
-<tr>
-<td>Tiêu chuẩn chất lượng</td>
-<td>Cấp III - OIML</td>
-</tr>
-
-<tr>
-<td>Mức cân tối đa</td>
-<td>300 kg</td>
-</tr>
-
-<tr>
-<td>Bước nhảy</td>
-<td>50g</td>
-</tr>
-
-<tr>
-<td>Độ phân giải bên trong</td>
-<td>1/30.000</td>
-</tr>
-
-<tr>
-<td>Đơn vị cân</td>
-<td>kg / lb / ct / oz</td>
-</tr>
-
-<tr>
-<td>Kích thước cân</td>
-<td>420 × 520 × 800 mm</td>
-</tr>
-
-<tr>
-<td>Kích thước bàn cân</td>
-<td>400 × 500 mm / 500 × 600 mm</td>
-</tr>
-
-<tr>
-<td>Khung bàn cân</td>
-<td>Thép chống gỉ</td>
-</tr>
-
-<tr>
-<td>Mặt bàn cân</td>
-<td>Inox</td>
-</tr>
-
-<tr>
-<td>Phương thức định lượng</td>
-<td>Loadcell cảm biến</td>
-</tr>
-
-<tr>
-<td>Màn hình</td>
-<td>LCD 6 số / LED xanh</td>
-</tr>
-
-<tr>
-<td>Quá tải an toàn</td>
-<td>Tối đa 200%</td>
-</tr>
-
-<tr>
-<td>Quá tải phá hủy</td>
-<td>300% – 400%</td>
-</tr>
-
-<tr>
-<td>Chức năng</td>
-<td>Cân thường / Hiệu chỉnh / Trừ bì / Cộng dồn / Tự động tắt nguồn</td>
-</tr>
-
-<tr>
-<td>Cổng giao tiếp</td>
-<td>RS232</td>
 </tr>
 
 <tr>
@@ -6377,35 +6214,31 @@ specs:[
 
 </table>`,
 
-"Cân bàn điện tử ONEKO OK-300 với mức cân tối đa 300kg.",
-
-"Bước nhảy từ 20g đến 50g tùy cấu hình cân.",
-
-"Độ phân giải bên trong 1/30.000, phù hợp cho nhu cầu cân công nghiệp.",
+"Cân bàn điện tử ONEKO OK-100 thiết kế chắc chắn, phù hợp sử dụng trong môi trường công nghiệp.",
 
 "Màn hình LCD 6 số với đèn LED xanh giúp hiển thị rõ ràng.",
 
-"Mặt bàn cân bằng inox chống gỉ, chống xước và dễ vệ sinh.",
+"Mặt bàn cân bằng inox, dễ tháo rời, chống gỉ và dễ vệ sinh.",
 
 "Khung bàn cân bằng thép chống gỉ, kết cấu chắc chắn.",
 
 "Loadcell cảm biến lực có khả năng chịu quá tải an toàn tối đa 200%.",
 
-"Hỗ trợ cân thường, hiệu chỉnh, trừ bì, cộng dồn và tự động tắt nguồn.",
+"Hỗ trợ các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn.",
 
-"Cổng RS232 hỗ trợ kết nối máy tính hoặc máy in để quản lý dữ liệu.",
+"Cổng RS232 cho phép kết nối với máy tính hoặc máy in để quản lý dữ liệu.",
 
-"Sử dụng pin sạc DC 6V/4.5Ah và có đèn báo dung lượng pin.",
+"Có đèn LED báo dung lượng pin và sử dụng pin sạc DC 6V/4.5Ah.",
 
 "Phù hợp cho sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng."
 
     ]
 },
-{
+ {
     business:"measure",
-    id:68,
+    id:67,
 
-    name:"Cân bàn điện tử ONEKO OK-500 500kg/50g",
+    name:"Cân bàn điện tử ONEKO OK-300 300kg/50g",
 
     category:"can-ban-dung",
 
@@ -6415,7 +6248,7 @@ specs:[
 
     origin:"Nhật Bản",
 
-    description:"Cân bàn điện tử ONEKO OK-500 tải trọng 500kg, bước nhảy 50g, thiết kế khung thép chắc chắn, mặt bàn inox, đầu cân LCD 6 số LED xanh, phù hợp sử dụng trong sản xuất, đóng gói, chế tạo, định lượng, nhà máy, phân xưởng và xây dựng.",
+    description:"Cân bàn điện tử ONEKO OK-100 là dòng cân bàn công nghiệp có khung cân chắc chắn, mặt bàn inox dễ vệ sinh và đầu cân ONEKO với màn hình LCD 6 số đèn LED xanh. Cân được thiết kế cho các nhu cầu cân trong sản xuất, đóng gói, chế tạo, định lượng, xây dựng và nhà xưởng. Đầu cân có các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn, hỗ trợ kết nối RS232 với máy tính hoặc máy in. Loadcell có khả năng chịu quá tải an toàn lên đến 200%, phù hợp sử dụng trong môi trường công nghiệp.",
 
     specs:[
 
@@ -6423,27 +6256,32 @@ specs:[
 
 <tr>
 <th>Thông số</th>
-<th>Chi tiết</th>
+<th>Giá trị</th>
 </tr>
 
 <tr>
 <td>Model</td>
-<td>ONEKO SCALE OK-500</td>
+<td>ONEKO SCALE OK-100</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>ONEKO JAPAN</td>
 </tr>
 
 <tr>
 <td>Tiêu chuẩn chất lượng</td>
-<td>Cấp III-OIML</td>
+<td>Cấp III - OIML</td>
 </tr>
 
 <tr>
-<td>Mức cân tối đa</td>
-<td>500 kg</td>
+<td>Mức cân</td>
+<td>300kg</td>
 </tr>
 
 <tr>
 <td>Bước nhảy</td>
-<td>100 g</td>
+<td>50g</td>
 </tr>
 
 <tr>
@@ -6452,8 +6290,8 @@ specs:[
 </tr>
 
 <tr>
-<td>Bàn cân</td>
-<td>500 × 600 mm</td>
+<td>Đơn vị cân</td>
+<td>kg / lb / ct / oz</td>
 </tr>
 
 <tr>
@@ -6462,13 +6300,18 @@ specs:[
 </tr>
 
 <tr>
-<td>Khung bàn cân</td>
-<td>Thép chống gỉ</td>
+<td>Kích thước bàn cân</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
 </tr>
 
 <tr>
-<td>Mặt bàn</td>
-<td>Inox, dễ vệ sinh, chống gỉ</td>
+<td>Mặt bàn cân</td>
+<td>Inox</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép chống gỉ</td>
 </tr>
 
 <tr>
@@ -6478,12 +6321,17 @@ specs:[
 
 <tr>
 <td>Màn hình</td>
-<td>LCD 6 số, LED xanh</td>
+<td>LCD 6 số / LED xanh</td>
 </tr>
 
 <tr>
-<td>Đơn vị cân</td>
-<td>kg / lb / ct / oz</td>
+<td>Chức năng</td>
+<td>Cân thường, hiệu chỉnh, trừ bì, cộng dồn, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232</td>
 </tr>
 
 <tr>
@@ -6497,13 +6345,13 @@ specs:[
 </tr>
 
 <tr>
-<td>Chức năng</td>
-<td>Cân thường, hiệu chỉnh, trừ bì, cộng dồn, tự động tắt nguồn</td>
+<td>Nhiệt độ hoạt động</td>
+<td>0°C – 40°C</td>
 </tr>
 
 <tr>
-<td>Cổng kết nối</td>
-<td>RS-232</td>
+<td>Độ ẩm hoạt động</td>
+<td>0 – 90%</td>
 </tr>
 
 <tr>
@@ -6512,45 +6360,204 @@ specs:[
 </tr>
 
 <tr>
-<td>Nhiệt độ hoạt động</td>
-<td>0 – 40°C</td>
+<td>Đầu hiển thị</td>
+<td>Nhựa ABS</td>
 </tr>
 
 <tr>
-<td>Độ ẩm</td>
-<td>0 – 90%</td>
+<td>Đèn báo pin</td>
+<td>Có</td>
 </tr>
 
 <tr>
 <td>Bộ sản phẩm</td>
-<td>Đầu cân + bàn cân + sách hướng dẫn</td>
-</tr>
-
-<tr>
-<td>Xuất xứ</td>
-<td>ONEKO JAPAN</td>
+<td>Đầu cân + Bàn cân + Sách hướng dẫn</td>
 </tr>
 
 </table>`,
 
-"Cân bàn công nghiệp tải trọng lớn",
+"Cân bàn điện tử ONEKO OK-100 thiết kế chắc chắn, phù hợp sử dụng trong môi trường công nghiệp.",
 
-"Khung cân chắc chắn, chân cân có thể điều chỉnh độ cao",
+"Màn hình LCD 6 số với đèn LED xanh giúp hiển thị rõ ràng.",
 
-"Mặt bàn inox dễ vệ sinh và chống gỉ",
+"Mặt bàn cân bằng inox, dễ tháo rời, chống gỉ và dễ vệ sinh.",
 
-"Loadcell cảm biến lực chịu quá tải an toàn tối đa 200%",
+"Khung bàn cân bằng thép chống gỉ, kết cấu chắc chắn.",
 
-"Màn hình LCD 6 số LED xanh, hiển thị rõ ràng",
+"Loadcell cảm biến lực có khả năng chịu quá tải an toàn tối đa 200%.",
 
-"Pin sạc DC 6V/4.5Ah",
+"Hỗ trợ các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn.",
 
-"Kết nối RS-232 với máy tính hoặc máy in",
+"Cổng RS232 cho phép kết nối với máy tính hoặc máy in để quản lý dữ liệu.",
 
-"Phù hợp sản xuất, đóng gói, chế tạo, nhà máy và phân xưởng"
+"Có đèn LED báo dung lượng pin và sử dụng pin sạc DC 6V/4.5Ah.",
+
+"Phù hợp cho sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng."
 
     ]
-}, 
+},
+{
+    business:"measure",
+    id:68,
+
+    name:"Cân bàn điện tử ONEKO OK-500 500kg/100g",
+
+    category:"can-ban-dung",
+
+    folder:"oneko-ok-100",
+
+    brand:"ONEKO",
+
+    origin:"Nhật Bản",
+
+    description:"Cân bàn điện tử ONEKO OK-100 là dòng cân bàn công nghiệp có khung cân chắc chắn, mặt bàn inox dễ vệ sinh và đầu cân ONEKO với màn hình LCD 6 số đèn LED xanh. Cân được thiết kế cho các nhu cầu cân trong sản xuất, đóng gói, chế tạo, định lượng, xây dựng và nhà xưởng. Đầu cân có các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn, hỗ trợ kết nối RS232 với máy tính hoặc máy in. Loadcell có khả năng chịu quá tải an toàn lên đến 200%, phù hợp sử dụng trong môi trường công nghiệp.",
+
+    specs:[
+
+`<table class="spec-table">
+
+<tr>
+<th>Thông số</th>
+<th>Giá trị</th>
+</tr>
+
+<tr>
+<td>Model</td>
+<td>ONEKO SCALE OK-100</td>
+</tr>
+
+<tr>
+<td>Hãng sản xuất</td>
+<td>ONEKO JAPAN</td>
+</tr>
+
+<tr>
+<td>Tiêu chuẩn chất lượng</td>
+<td>Cấp III - OIML</td>
+</tr>
+
+<tr>
+<td>Mức cân</td>
+<td>500kg</td>
+</tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>100g</td>
+</tr>
+
+<tr>
+<td>Độ phân giải bên trong</td>
+<td>1/30.000</td>
+</tr>
+
+<tr>
+<td>Đơn vị cân</td>
+<td>kg / lb / ct / oz</td>
+</tr>
+
+<tr>
+<td>Kích thước cân</td>
+<td>420 × 520 × 800 mm</td>
+</tr>
+
+<tr>
+<td>Kích thước bàn cân</td>
+<td>300 × 400 mm / 400 × 500 mm</td>
+</tr>
+
+<tr>
+<td>Mặt bàn cân</td>
+<td>Inox</td>
+</tr>
+
+<tr>
+<td>Khung bàn cân</td>
+<td>Thép chống gỉ</td>
+</tr>
+
+<tr>
+<td>Phương thức định lượng</td>
+<td>Loadcell cảm biến lực</td>
+</tr>
+
+<tr>
+<td>Màn hình</td>
+<td>LCD 6 số / LED xanh</td>
+</tr>
+
+<tr>
+<td>Chức năng</td>
+<td>Cân thường, hiệu chỉnh, trừ bì, cộng dồn, tự động tắt nguồn</td>
+</tr>
+
+<tr>
+<td>Cổng giao tiếp</td>
+<td>RS232</td>
+</tr>
+
+<tr>
+<td>Quá tải an toàn</td>
+<td>Tối đa 200%</td>
+</tr>
+
+<tr>
+<td>Quá tải phá hủy</td>
+<td>300% – 400%</td>
+</tr>
+
+<tr>
+<td>Nhiệt độ hoạt động</td>
+<td>0°C – 40°C</td>
+</tr>
+
+<tr>
+<td>Độ ẩm hoạt động</td>
+<td>0 – 90%</td>
+</tr>
+
+<tr>
+<td>Nguồn điện</td>
+<td>DC 6V/4.5Ah</td>
+</tr>
+
+<tr>
+<td>Đầu hiển thị</td>
+<td>Nhựa ABS</td>
+</tr>
+
+<tr>
+<td>Đèn báo pin</td>
+<td>Có</td>
+</tr>
+
+<tr>
+<td>Bộ sản phẩm</td>
+<td>Đầu cân + Bàn cân + Sách hướng dẫn</td>
+</tr>
+
+</table>`,
+
+"Cân bàn điện tử ONEKO OK-100 thiết kế chắc chắn, phù hợp sử dụng trong môi trường công nghiệp.",
+
+"Màn hình LCD 6 số với đèn LED xanh giúp hiển thị rõ ràng.",
+
+"Mặt bàn cân bằng inox, dễ tháo rời, chống gỉ và dễ vệ sinh.",
+
+"Khung bàn cân bằng thép chống gỉ, kết cấu chắc chắn.",
+
+"Loadcell cảm biến lực có khả năng chịu quá tải an toàn tối đa 200%.",
+
+"Hỗ trợ các chức năng ZERO, TARE, ACCUM, FUNC và tự động tắt nguồn.",
+
+"Cổng RS232 cho phép kết nối với máy tính hoặc máy in để quản lý dữ liệu.",
+
+"Có đèn LED báo dung lượng pin và sử dụng pin sạc DC 6V/4.5Ah.",
+
+"Phù hợp cho sản xuất, đóng gói, chế tạo, định lượng, xây dựng, nhà máy và phân xưởng."
+
+    ]
+},
 {
     business:"measure",
     id:69,
