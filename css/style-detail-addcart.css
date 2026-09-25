@@ -106,11 +106,13 @@
 }
 /* =========================
    CĂN GIỮA Ô SỐ LƯỢNG
-   SẢN PHẨM CHỈ CÓ 1 TẢI TRỌNG
+   SẢN PHẨM 1 MỨC TẢI TRỌNG
 ========================= */
 
 .addcart-row[data-index="single"] {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .addcart-row[data-index="single"] .addcart-left {
@@ -122,5 +124,8 @@
 }
 
 .addcart-row[data-index="single"] .addcart-right {
-    margin: 0 auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
