@@ -6913,9 +6913,8 @@ specs:[
 <td>Tiêu chuẩn chất lượng</td>
 <td>Cấp III-OIML</td>
 </tr>
-
 <tr>
-<td>Mức cân tối đa</td>
+<td>Mức cân</td>
 <td>60kg</td>
 </tr>
 
