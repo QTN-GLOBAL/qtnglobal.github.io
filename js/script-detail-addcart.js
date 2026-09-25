@@ -194,17 +194,33 @@ function openAddCartPopup() {
            GIỮ NGUYÊN TOÀN BỘ
         ============================================= */
 
-        const rows = temp.querySelectorAll("tr");
+       const rows = temp.querySelectorAll("tr");
 
-        rows.forEach((row, index) => {
+rows.forEach((row, index) => {
 
-            const cols = row.querySelectorAll("td");
+    const cols = row.querySelectorAll("td");
 
-            if (cols.length >= 2) {
+    if (cols.length >= 2) {
 
-                const label = cols[0].innerText + " - " + cols[1].innerText;
+        const labelName = cols[0]
+            .innerText
+            .trim()
+            .toLowerCase();
 
-                html += `
+        // ⭐ CHỈ LẤY DÒNG TẢI TRỌNG
+        if (
+            labelName !== "mức cân" &&
+            labelName !== "tải trọng" &&
+            labelName !== "mức tải" &&
+            labelName !== "tải trọng tối đa"
+        ) {
+            return;
+        }
+
+        const label =
+            cols[0].innerText + " - " + cols[1].innerText;
+
+        html += `
                 <div class="addcart-row"
                      data-index="${index}">
 
