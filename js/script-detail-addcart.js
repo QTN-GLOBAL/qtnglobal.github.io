@@ -1,152 +1,524 @@
+
 /* =========================
-   ADD CART POPUP (FIXED VERSION)
+   GET PRODUCT CAPACITIES
+   MỨC CÂN / TẢI TRỌNG
+========================= */
+
+function getProductCapacities(product) {
+
+    if (!product || !product.specs) {
+        return [];
+    }
+
+    const temp = document.createElement("div");
+
+    /*
+       specs của sản phẩm là ARRAY
+       nên phải ghép lại trước khi đọc HTML
+    */
+    temp.innerHTML = Array.isArray(product.specs)
+        ? product.specs.join("")
+        : product.specs;
+
+    const tables = temp.querySelectorAll("table");
+
+    for (const table of tables) {
+
+        const headerRow =
+            table.querySelector("tr:first-child");
+
+        if (!headerRow) continue;
+
+        const headers =
+            Array.from(
+                headerRow.querySelectorAll("th")
+            ).map(th =>
+                th.innerText
+                    .trim()
+                    .toLowerCase()
+            );
+
+        /*
+           Nhận cả:
+           - Mức cân
+           - Tải trọng
+        */
+        const capacityIndex =
+            headers.findIndex(header =>
+                header === "mức cân" ||
+                header.includes("mức cân") ||
+                header === "tải trọng" ||
+                header.includes("tải trọng")
+            );
+
+        if (capacityIndex === -1) {
+            continue;
+        }
+
+        const capacities = [];
+
+        const rows =
+            table.querySelectorAll("tr");
+
+        rows.forEach((row, index) => {
+
+            /*
+               Bỏ dòng tiêu đề
+            */
+            if (index === 0) return;
+
+            const cells =
+                row.querySelectorAll("td");
+
+            if (!cells.length) return;
+
+            /*
+               Lưu ý:
+               rowspan ở các cột khác không ảnh hưởng
+               đến cột Mức cân / Tải trọng.
+            */
+            const cell =
+                cells[capacityIndex];
+
+            if (!cell) return;
+
+            const value =
+                cell.innerText.trim();
+
+            if (
+                value &&
+                !capacities.includes(value)
+            ) {
+
+                capacities.push(value);
+            }
+        });
+
+        if (capacities.length) {
+
+            return capacities;
+        }
+    }
+
+    return [];
+}
+
+
+/* =========================
+   ADD CART POPUP
 ========================= */
 
 function openAddCartPopup() {
 
     if (!window.currentProduct) return;
 
-    const product = window.currentProduct;
+    const product =
+        window.currentProduct;
 
-    // ⭐ CHẶN AMWAY NGAY TỪ ĐẦU
+    /*
+       CHẶN AMWAY
+    */
     if (product.brand === "Amway") {
-        window.open("https://www.amway.com.vn", "_blank");
+
+        window.open(
+            "https://www.amway.com.vn",
+            "_blank"
+        );
+
         return;
     }
 
-    window.selectedProduct = product;
+    window.selectedProduct =
+        product;
 
-    const popup = document.getElementById("addCartPopup");
-    if (popup) popup.style.display = "flex";
+    const popup =
+        document.getElementById(
+            "addCartPopup"
+        );
 
-    document.getElementById("popupCartName").innerText = product.name;
+    if (popup) {
 
-    document.getElementById("popupCartImg").src =
-        `images/${product.category}/${product.folder}/main.jpg`;
+        popup.style.display =
+            "flex";
+    }
+
+    const name =
+        document.getElementById(
+            "popupCartName"
+        );
+
+    if (name) {
+
+        name.innerText =
+            product.name;
+    }
+
+    const img =
+        document.getElementById(
+            "popupCartImg"
+        );
+
+    if (img) {
+
+        img.src =
+            `images/${product.category}/${product.folder}/main.jpg`;
+    }
+
+
+    /*
+       LẤY DANH SÁCH MỨC CÂN / TẢI TRỌNG
+    */
+    const capacities =
+        getProductCapacities(product);
 
     let html = "";
 
-    const temp = document.createElement("div");
-    temp.innerHTML = product.specs;
 
-    const rows = temp.querySelectorAll("tr");
+    /*
+       =========================
+       NHIỀU MỨC
+       =========================
+    */
 
-    rows.forEach((row, index) => {
+    if (capacities.length > 1) {
 
-        const cols = row.querySelectorAll("td");
+        html = `
+        <div class="addcart-row">
 
-        if (cols.length >= 2) {
+            <div class="addcart-middle">
 
-            const label = cols[0].innerText + " - " + cols[1].innerText;
+                <label>
+                    Mức cân / Tải trọng
+                </label>
 
-            html += `
-            <div class="addcart-row"
-                 data-index="${index}">
+                <select
+                    class="cart-capacity-select"
+                >
 
-                <div class="addcart-left">
-                    <input type="checkbox" class="detail-check" checked>
-                </div>
+                    ${capacities.map(
+                        capacity => `
+                        <option value="${capacity}">
+                            ${capacity}
+                        </option>
+                    `
+                    ).join("")}
 
-                <div class="addcart-middle">
-                    ${label}
-                </div>
+                </select>
 
-                <div class="addcart-right">
-                    <button onclick="changeQty(this,-1)">-</button>
-                    <input type="number" value="1">
-                    <button onclick="changeQty(this,1)">+</button>
-                </div>
+            </div>
 
-            </div>`;
-        }
-    });
+            <div class="addcart-right">
 
-    document.getElementById("cartSpecList").innerHTML = html;
+                <button
+                    onclick="changeQty(this,-1)"
+                >
+                    -
+                </button>
 
-    // reset checkbox
-    document.querySelectorAll(".detail-check").forEach(cb => {
-        cb.checked = false;
-    });
+                <input
+                    type="number"
+                    value="1"
+                    min="1"
+                >
 
-    // reset qty
-    document.querySelectorAll(".addcart-row input[type='number']")
-        .forEach(input => input.value = 1);
+                <button
+                    onclick="changeQty(this,1)"
+                >
+                    +
+                </button>
 
-    // ✅ FIX I18N - THÊM ĐOẠN NÀY
+            </div>
+
+        </div>
+        `;
+
+    }
+
+    /*
+       =========================
+       CHỈ MỘT MỨC
+       =========================
+    */
+
+    else {
+
+        const capacity =
+            capacities.length === 1
+                ? capacities[0]
+                : "";
+
+        html = `
+        <div class="addcart-row">
+
+            <div class="addcart-middle">
+
+                ${
+                    capacity
+                        ? `
+                        <span
+                            class="single-capacity"
+                        >
+                            ${capacity}
+                        </span>
+                        `
+                        : ""
+                }
+
+            </div>
+
+            <div class="addcart-right">
+
+                <button
+                    onclick="changeQty(this,-1)"
+                >
+                    -
+                </button>
+
+                <input
+                    type="number"
+                    value="1"
+                    min="1"
+                >
+
+                <button
+                    onclick="changeQty(this,1)"
+                >
+                    +
+                </button>
+
+            </div>
+
+        </div>
+        `;
+    }
+
+
+    /*
+       ĐƯA HTML VÀO POPUP
+    */
+    const list =
+        document.getElementById(
+            "cartSpecList"
+        );
+
+    if (list) {
+
+        list.innerHTML =
+            html;
+    }
+
+
+    /*
+       I18N
+    */
     setTimeout(() => {
-        applyLanguage(localStorage.getItem("language") || "vi");
+
+        applyLanguage(
+            localStorage.getItem(
+                "language"
+            ) || "vi"
+        );
+
     }, 0);
 }
 
+
 /* =========================
-   ADD TO CART (FIXED)
+   ADD TO CART
 ========================= */
 
 function addSelectedToCart() {
 
-    if (!window.currentProduct) return;
+    if (!window.currentProduct) {
+        return;
+    }
 
-    const product = window.currentProduct;
-    const popup = document.getElementById("addCartPopup");
+    const product =
+        window.currentProduct;
 
-    const rows = popup.querySelectorAll(".addcart-row");
+    const popup =
+        document.getElementById(
+            "addCartPopup"
+        );
 
-    let added = false;
+    if (!popup) {
+        return;
+    }
 
-    rows.forEach(row => {
+    const row =
+        popup.querySelector(
+            ".addcart-row"
+        );
 
-       const check = row.querySelector(".detail-check");
+    if (!row) {
+        return;
+    }
 
-if (!check || check.checked !== true) return;
-        const label = row.querySelector(".addcart-middle").innerText;
 
-        const qty = parseInt(
-            row.querySelector("input[type='number']").value
-        ) || 1;
+    /*
+       SỐ LƯỢNG
+    */
+    const qtyInput =
+        row.querySelector(
+            "input[type='number']"
+        );
 
-        // 🔥 FIX QUAN TRỌNG: luôn có id
-       Cart.add({
-            id: Date.now() + Math.random(), // id dòng giỏ hàng
-            productId: product.id,          // id sản phẩm thật
-            name: product.name,
-            category: product.category,
-            folder: product.folder,
-            spec: label,
-            quantity: qty,
-            selected: false
-        });
+    let quantity =
+        parseInt(
+            qtyInput?.value || 1
+        );
 
-        added = true;
+    if (isNaN(quantity) || quantity < 1) {
+        quantity = 1;
+    }
+
+
+    /*
+       MỨC CÂN / TẢI TRỌNG
+    */
+    let capacity = "";
+
+    const select =
+        row.querySelector(
+            ".cart-capacity-select"
+        );
+
+    /*
+       NHIỀU MỨC
+    */
+    if (select) {
+
+        capacity =
+            select.value.trim();
+
+    }
+
+    /*
+       MỘT MỨC
+    */
+    else {
+
+        const single =
+            row.querySelector(
+                ".single-capacity"
+            );
+
+        if (single) {
+
+            capacity =
+                single.innerText.trim();
+        }
+    }
+
+
+    /*
+       THÊM VÀO GIỎ
+    */
+    Cart.add({
+
+        id:
+            Date.now() +
+            Math.random(),
+
+        productId:
+            product.id,
+
+        name:
+            product.name,
+
+        category:
+            product.category,
+
+        folder:
+            product.folder,
+
+        /*
+           Lưu riêng mức cân /
+           tải trọng
+        */
+        spec:
+            capacity,
+
+        quantity:
+            quantity,
+
+        selected:
+            false
     });
 
-    if (!added) {
-    alert(t("pleaseSelectProduct"));
-    return;
+
+    /*
+       ĐÓNG POPUP
+    */
+    popup.style.display =
+        "none";
+
+
+    /*
+       THÔNG BÁO
+    */
+    alert(
+        t("addedToCart")
+    );
+
+
+    /*
+       CẬP NHẬT GIỎ
+    */
+    if (
+        typeof renderCart ===
+        "function"
+    ) {
+
+        renderCart();
+    }
+
+    if (
+        typeof updateCartUI ===
+        "function"
+    ) {
+
+        updateCartUI();
+    }
+
+    if (
+        typeof renderHeaderCart ===
+        "function"
+    ) {
+
+        renderHeaderCart();
+    }
 }
 
-popup.style.display = "none";
-
-alert(t("addedToCart"));
-
-    if (typeof renderCart === "function") renderCart();
-    if (typeof updateCartUI === "function") updateCartUI();
-    if (typeof renderHeaderCart === "function") renderHeaderCart();
-document.querySelectorAll(".detail-check").forEach(cb => cb.checked = false);
-document.querySelectorAll(".addcart-row input[type='number']").forEach(i => i.value = 1);
-}
 
 /* =========================
-   CLOSE POPUP
+   CLOSE ADD CART
 ========================= */
 
 function closeAddCart() {
-    const popup = document.getElementById("addCartPopup");
-    if (popup) popup.style.display = "none";
+
+    const popup =
+        document.getElementById(
+            "addCartPopup"
+        );
+
+    if (popup) {
+
+        popup.style.display =
+            "none";
+    }
 }
 
+
+/* =========================
+   CONFIRM ADD CART
+========================= */
+
 function confirmAddCart() {
+
     addSelectedToCart();
 }
+
 
 /* =========================
    QTY CHANGE
@@ -154,13 +526,28 @@ function confirmAddCart() {
 
 function changeQty(btn, delta) {
 
-    const input = btn.parentElement.querySelector("input");
+    const input =
+        btn.parentElement.querySelector(
+            "input"
+        );
 
-    let val = parseInt(input.value || 1);
+    if (!input) return;
+
+    let val =
+        parseInt(
+            input.value || 1
+        );
+
+    if (isNaN(val)) {
+        val = 1;
+    }
 
     val += delta;
 
-    if (val < 1) val = 1;
+    if (val < 1) {
+        val = 1;
+    }
 
     input.value = val;
 }
+
