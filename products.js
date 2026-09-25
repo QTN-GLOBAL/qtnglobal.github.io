@@ -6594,9 +6594,15 @@ specs:[
 </tr>
 
 <tr>
-<td>Tải trọng lựa chọn</td>
-<td>60kg – 500kg</td>
+<td>Mức cân</td>
+<td>60kg</td>
 </tr>
+
+<tr>
+<td>Bước nhảy</td>
+<td>10g</td>
+</tr>
+
 
 <tr>
 <td>Chức năng</td>
