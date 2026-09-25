@@ -7762,9 +7762,13 @@ specs:[
 <td>Đài Loan</td>
 </tr>
 
+<td>Mức cân</td>
+<td>100kg</td>
+</tr>
+
 <tr>
-<td>Tải trọng tối đa</td>
-<td>100 kg</td>
+<td>Bước nhảy</td>
+<td>10g</td>
 </tr>
 
 <tr>
@@ -7869,9 +7873,13 @@ specs:[
 <td>Đài Loan</td>
 </tr>
 
+<td>Mức cân</td>
+<td>150kg</td>
+</tr>
+
 <tr>
-<td>Tải trọng tối đa</td>
-<td>150 kg</td>
+<td>Bước nhảy</td>
+<td>20g</td>
 </tr>
 
 <tr>
@@ -7976,9 +7984,13 @@ specs:[
 <td>Đài Loan</td>
 </tr>
 
+<td>Mức cân</td>
+<td>300kg</td>
+</tr>
+
 <tr>
-<td>Tải trọng tối đa</td>
-<td>300 kg</td>
+<td>Bước nhảy</td>
+<td>50g</td>
 </tr>
 
 <tr>
@@ -8085,9 +8097,13 @@ specs:[
 <td>Đài Loan</td>
 </tr>
 
+<td>Mức cân</td>
+<td>500kg</td>
+</tr>
+
 <tr>
-<td>Tải trọng tối đa</td>
-<td>500 kg</td>
+<td>Bước nhảy</td>
+<td>100g</td>
 </tr>
 
 <tr>
@@ -8184,10 +8200,11 @@ specs:[
 <th>OCS-30T</th>
 </tr>
 
-<tr>
-<td>Tải trọng tối đa</td>
+<td>Mức cân</td>
 <td>30 tấn</td>
 </tr>
+
+
 
 <tr>
 <td>Cảm biến tải</td>
