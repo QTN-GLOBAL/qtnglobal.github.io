@@ -104,3 +104,23 @@
     color:#1565c0;
     font-weight:700;
 }
+/* =========================
+   CĂN GIỮA Ô SỐ LƯỢNG
+   SẢN PHẨM CHỈ CÓ 1 TẢI TRỌNG
+========================= */
+
+.addcart-row[data-index="single"] {
+    justify-content: center;
+}
+
+.addcart-row[data-index="single"] .addcart-left {
+    display: none;
+}
+
+.addcart-row[data-index="single"] .addcart-middle {
+    display: none;
+}
+
+.addcart-row[data-index="single"] .addcart-right {
+    margin: 0 auto;
+}
