@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<!-- =========================
+     SEO
+========================= -->
+
+<title data-i18n="excellSeo.title">
+    Cân điện tử EXCELL Đài Loan | QTN GLOBAL
+</title>
+
+<meta name="description"
+      data-i18n-content="excellSeo.description"
+      content="Cân điện tử EXCELL Đài Loan với nhiều dòng cân bàn, cân đếm, cân công nghiệp, cân chống nước và đầu cân điện tử. QTN GLOBAL cung cấp cân EXCELL tại Việt Nam.">
+
+<meta name="robots"
+      content="index, follow">
+
+<meta name="author"
+      content="QTN GLOBAL">
+
+<meta name="language"
+      content="Vietnamese">
+
+<link rel="canonical"
+      href="https://qtn-global.github.io/qtnglobal.github.io/can-dien-tu-excell.html">
+
+
+<!-- =========================
+     OPEN GRAPH
+========================= -->
+
+<meta property="og:type"
+      content="website">
+
+<meta property="og:title"
+      content="Cân điện tử EXCELL Đài Loan | QTN GLOBAL">
+
+<meta property="og:description"
+      content="Cân điện tử EXCELL Đài Loan với nhiều dòng cân bàn, cân đếm, cân công nghiệp, cân chống nước và đầu cân điện tử.">
+
+<meta property="og:url"
+      content="https://qtn-global.github.io/qtnglobal.github.io/can-dien-tu-excell.html">
+
+<meta property="og:locale"
+      content="vi_VN">
+
+
+<!-- =========================
+     TWITTER
+========================= -->
+
+<meta name="twitter:card"
+      content="summary">
+
+<meta name="twitter:title"
+      content="Cân điện tử EXCELL Đài Loan | QTN GLOBAL">
+
+<meta name="twitter:description"
+      content="Cân điện tử EXCELL Đài Loan và các dòng cân EXCELL tại QTN GLOBAL.">
+
+
+<!-- =========================
+     WEBSITE STYLES
+========================= -->
+
+<link rel="stylesheet"
+      href="css/style-base.css">
+
+<link rel="stylesheet"
+      href="css/style-home.css">
+
+<link rel="stylesheet"
+      href="css/style-detail-layout.css">
+
+<link rel="stylesheet"
+      href="css/style-detail-addcart.css">
+
+<link rel="stylesheet"
+      href="css/style-detail-buynow.css">
+
+<link rel="stylesheet"
+      href="css/style-cart.css">
+
+<link rel="stylesheet"
+      href="css/style-mobile.css">
+
+
+<!-- =========================
+     FONT AWESOME
+========================= -->
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header
+<div class="header-top">
+
+    <div class="header-top-inner">
+
+        <div class="logo-area">
+
+            <a href="index.html"
+               class="brand-logo">
+
+                <img src="images/logo.png"
+                     alt="QTN GLOBAL">
+
+            </a>
+
+        </div>
+
+
+        <div class="header-actions">
+
+            <a href="tel:0905913636"
+               class="header-action">
+
+                <span class="header-action-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </span>
+
+                <span>
+                    <small>HOTLINE</small>
+                    <strong>0905 913 636</strong>
+                </span>
+
+            </a>
+
+
+            <a href="tel:0383598603"
+               class="header-action">
+
+                <span class="header-action-icon">
+                    <i class="fa-solid fa-headset"></i>
+                </span>
+
+                <span>
+                    <small>HỖ TRỢ</small>
+                    <strong>0383 598 603</strong>
+                </span>
+
+            </a>
+
+
+            <a href="https://zalo.me/0383598603"
+               target="_blank"
+               class="header-action header-social">
+
+                <span class="header-action-icon">
+                    <span class="zalo-mark">Z</span>
+                </span>
+
+                <span>
+                    <small>LIÊN HỆ</small>
+                    <strong>Zalo</strong>
+                </span>
+
+            </a>
+
+
+            <a href="javascript:void(0)"
+               class="header-cart"
+               onclick="openCart()">
+
+                <span class="header-cart-icon">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <b id="cartCount">0</b>
+
+                </span>
+
+                <span>
+                    <small>GIỎ HÀNG</small>
+                    <strong>Giỏ hàng</strong>
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- GIỮ LẠI 2 PHẦN NÀY ĐỂ CÁC SCRIPT CŨ KHÔNG BỊ LỖI -->
+
+<div class="header-info legacy-header-info"
+     aria-hidden="true">
+
+    <h2 id="headerTitle"></h2>
+
+    <ul id="headerList"></ul>
+
+</div>
+
+
+<nav class="navbar">
+
+    <button class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu">
+
+        <i class="fas fa-bars"></i>
+
+    </button>
+
+
+    <div class="nav-content"
+         id="navContent">
+
+
+        <button class="menu-close"
+                id="menuClose"
+                aria-label="Close Menu">
+
+            <i class="fas fa-times"></i>
+
+        </button>
+
+
+        <a href="index.html"
+           class="nav-home-link">
+
+            <i class="fas fa-house"></i>
+
+            <span data-i18n="home">
+                Trang chủ
+            </span>
+
+        </a>
+
+
+        <div class="nav-dropdown">
+
+            <a href="index.html"
+               class="nav-dropdown-toggle">
+
+                <i class="fas fa-scale-balanced"></i>
+
+                <span>
+                    Sản phẩm
+                </span>
+
+                <i class="fas fa-chevron-down nav-chevron"></i>
+
+            </a>
+
+
+            <div class="nav-dropdown-menu">
+
+                <a href="can-ban-dien-tu.html">
+                    Cân bàn điện tử
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-ban');return false;">
+                    Cân bàn
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-ban-dung');return false;">
+                    Cân bàn đứng
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-dem');return false;">
+                    Cân đếm
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-treo');return false;">
+                    Cân treo
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('dau-can-dien-tu');return false;">
+                    Đầu cân điện tử
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-phan-tich');return false;">
+                    Cân phân tích
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-chong-nuoc');return false;">
+                    Cân chống nước
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-in-tem-ma-vach');return false;">
+                    Cân in tem mã vạch
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('can-ghe-ngoi');return false;">
+                    Cân ghế ngồi
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('air-purifier');return false;">
+                    Máy lọc không khí
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('air-filter');return false;">
+                    Phụ kiện máy lọc không khí
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('water-purifier');return false;">
+                    Máy lọc nước
+                </a>
+
+                <a href="#"
+                   onclick="goHomeAndCategory('water-filter');return false;">
+                    Lõi lọc &amp; phụ kiện
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <a href="about.html">
+
+            <i class="fas fa-circle-info"></i>
+
+            <span data-i18n="about">
+                Giới thiệu
+            </span>
+
+        </a>
+
+
+        <a href="#"
+           onclick="document.getElementById('contactSection')?.scrollIntoView({behavior:'smooth'});return false;">
+
+            <i class="fas fa-industry"></i>
+
+        </a>
+
+
+        <a href="news.html">
+
+            <i class="fas fa-newspaper"></i>
+
+            <span data-i18n="news">
+                Tin tức
+            </span>
+
+        </a>
+
+
+        <a href="#"
+           onclick="goContact();return false;">
+
+            <i class="fas fa-phone"></i>
+
+            <span data-i18n="contact">
+                Liên hệ
+            </span>
+
+        </a>
+
+
+        <div class="search-box">
+
+            <input id="searchInput"
+                   type="text"
+                   autocomplete="off"
+                   data-i18n-placeholder="searchPlaceholder"
+                   placeholder="Tìm kiếm sản phẩm...">
+
+            <button type="button"
+                    onclick="runSearch()"
+                    aria-label="Tìm kiếm">
+
+                <i class="fas fa-search"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="language-switcher">
+
+            <select id="languageSelect">
+
+                <option value="vi">
+                    🇻🇳 Tiếng Việt
+                </option>
+
+                <option value="en">
+                    🇺🇸 English
+                </option>
+
+                <option value="zh">
+                    🇨🇳 中文
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <div class="menu-overlay"
+         id="menuOverlay"></div>
+
+</nav>
+
+
+</header>
+
+<!-- =========================
+     SEO CONTENT
+========================= -->
+
+<main class="seo-content">
+
+
+<article>
+
+    <h1 data-i18n="excellSeo.h1">
+        Cân điện tử EXCELL Đài Loan
+    </h1>
+
+
+    <p data-i18n="excellSeo.intro">
+        Cân điện tử EXCELL là thương hiệu cân điện tử đến từ Đài Loan,
+        với nhiều dòng sản phẩm phục vụ nhu cầu cân trong thương mại,
+        kho hàng, sản xuất và công nghiệp. QTN GLOBAL cung cấp nhiều
+        sản phẩm cân điện tử EXCELL với các mức tải trọng và ứng dụng khác nhau.
+    </p>
+
+
+    <h2 data-i18n="excellSeo.h2_1">
+        Các dòng cân điện tử EXCELL
+    </h2>
+
+
+    <p data-i18n="excellSeo.p1">
+        EXCELL phát triển nhiều dòng cân điện tử phù hợp với từng nhu cầu
+        sử dụng. Tùy theo ứng dụng, khách hàng có thể lựa chọn cân bàn,
+        cân đếm, cân công nghiệp, cân chống nước hoặc đầu cân điện tử EXCELL.
+    </p>
+
+
+    <ul>
+
+        <li data-i18n="excellSeo.li1">
+            Cân bàn EXCELL
+        </li>
+
+        <li data-i18n="excellSeo.li2">
+            Cân đếm EXCELL
+        </li>
+
+        <li data-i18n="excellSeo.li3">
+            Cân công nghiệp EXCELL
+        </li>
+
+        <li data-i18n="excellSeo.li4">
+            Cân chống nước EXCELL
+        </li>
+
+        <li data-i18n="excellSeo.li5">
+            Đầu cân điện tử EXCELL
+        </li>
+
+    </ul>
+
+
+    <h2 data-i18n="excellSeo.h2_2">
+        Ứng dụng của cân EXCELL
+    </h2>
+
+
+    <p data-i18n="excellSeo.p2">
+        Cân điện tử EXCELL có thể được sử dụng trong nhiều lĩnh vực như
+        cân hàng hóa, kho hàng, sản xuất, kiểm tra sản phẩm, cân đếm số lượng
+        và các ứng dụng cân công nghiệp.
+    </p>
+
+
+    <h2 data-i18n="excellSeo.h2_3">
+        Lựa chọn cân điện tử EXCELL phù hợp
+    </h2>
+
+
+    <p data-i18n="excellSeo.p3">
+        Khi lựa chọn cân EXCELL, cần xem xét tải trọng cân, kích thước bàn cân,
+        môi trường sử dụng và các chức năng cần thiết. Việc lựa chọn đúng dòng
+        cân giúp quá trình cân hàng hóa và kiểm tra sản phẩm thuận tiện hơn.
+    </p>
+
+
+    <h2 data-i18n="excellSeo.h2_4">
+        Cân điện tử EXCELL tại QTN GLOBAL
+    </h2>
+
+
+    <p data-i18n="excellSeo.p4">
+        QTN GLOBAL cung cấp các sản phẩm cân điện tử EXCELL Đài Loan cho khách
+        hàng có nhu cầu sử dụng trong thương mại, kho hàng, sản xuất và công nghiệp.
+        Khách hàng có thể xem thông tin sản phẩm và thông số kỹ thuật trên website
+        QTN GLOBAL để lựa chọn mẫu cân phù hợp.
+    </p>
+
+
+    <p>
+
+        <a href="index.html"
+           data-i18n="excellSeo.link">
+
+            Xem tất cả sản phẩm cân điện tử EXCELL
+
+        </a>
+
+    </p>
+
+</article>
+
+
+</main>
+<footer id="contactSection" class="footer">
+
+<div class="footer-container">
+
+    <!-- ====================== -->
+    <!-- COMPANY -->
+    <!-- ====================== -->
+
+    <div class="footer-column footer-company">
+
+        <div class="footer-logo">
+
+            <img src="images/logo.png" alt="QTN GLOBAL">
+
+            <div class="footer-brand">
+
+                <h2>QTN GLOBAL</h2>
+
+                <span data-i18n="footerSlogan">
+                    Chính xác trong từng giá trị
+                </span>
+
+            </div>
+
+        </div>
+
+        <p data-i18n="footerDesc">
+            Chuyên cung cấp cân điện tử, đầu cân điện tử,
+            loadcell, thiết bị đo lường và giải pháp cân công nghiệp.
+        </p>
+
+        <p>
+
+            <i class="fas fa-map-marker-alt"></i>
+
+            <span data-i18n="addressText"></span>
+
+        </p>
+
+    </div>
+
+    <!-- ====================== -->
+    <!-- CONTACT -->
+    <!-- ====================== -->
+
+    <div class="footer-column">
+
+        <h3>Liên hệ</h3>
+
+        <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:0905913636">0905 913 636</a>
+        </p>
+
+        <p>
+            <i class="fas fa-headset"></i>
+            <a href="tel:0383598603">0383 598 603</a>
+        </p>
+
+        <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:qtnglobal.com@gmail.com">
+                qtnglobal.com@gmail.com
+            </a>
+        </p>
+
+        <p>
+            <i class="fas fa-globe"></i>
+            <a href="https://qtn-global.github.io" target="_blank">
+                qtn-global.github.io
+            </a>
+        </p>
+
+    </div>
+
+    <!-- ====================== -->
+    <!-- MENU -->
+    <!-- ====================== -->
+
+    <div class="footer-column">
+
+        <h3>Danh mục</h3>
+
+        <div class="footer-menu">
+
+            <a href="index.html">Trang chủ</a>
+
+            <a href="about.html">Giới thiệu</a>
+
+            <a href="news.html">Tin tức</a>
+
+            <a href="contact.html">Liên hệ</a>
+
+        </div>
+
+    </div>
+
+    <!-- ====================== -->
+    <!-- SOCIAL -->
+    <!-- ====================== -->
+
+    <div class="footer-column">
+
+        <h3>Kết nối</h3>
+
+        <div class="footer-social">
+
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-comment-dots"></i>
+                <span>Zalo</span>
+            </a>
+
+            <a href="mailto:qtnglobal.com@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div
+    class="footer-bottom"
+    id="admin-entry">
+
+    © 2026 QTN GLOBAL. All Rights Reserved.
+
+</div>
+
+</footer>
+<!-- =========================
+     SCRIPT
+========================= -->
+
+<script src="products.js"></script>
+<script src="products-i18n.js"></script>
+<!-- =========================
+     NEWS
+========================= -->
+
+<script src="js/news-data.js"></script>
+<script src="js/news-i18n.js"></script> 
+
+
+<script src="js/script-i18n.js"></script>
+
+<script src="js/script-base.js"></script>
+
+<script src="js/search-system.js"></script>
+<script src="js/script-init-new.js"></script>
+
+<script src="js/script-home.js"></script>
+
+<script src="js/script-news.js"></script>
+<script src="js/script-cart.js"></script>
+<script src="js/script-detail-addcart.js"></script>
+<script src="js/script-detail-buynow.js"></script>
+
+<script src="js/i18n-sync-tool.js"></script>
+
+<script src="js/slider-hero.js"></script>
+<script src="js/slider-brand.js"></script>
+<script src="js/slider-best-seller.js"></script>
+
+<script src="js/app-router.js"></script>
+<script src="js/script-mobile-menu.js"></script>
+<script src="js/script-admin-entry.js"></script>
+
+
+</body>
+
+</html>

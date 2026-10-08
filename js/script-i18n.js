@@ -171,7 +171,8 @@ relatedProductsTitle: "Sản phẩm cùng loại",
         hotlineLabel: "Hotline:",
         techSupport: "Hỗ trợ kỹ thuật:",
         emailLabel: "Email:",
-        websiteLabel: "Website:"
+        websiteLabel: "Website:",
+title: "Cân điện tử EXCELL Đài Loan", intro: "Cân điện tử EXCELL là thương hiệu cân điện tử đến từ Đài Loan, với nhiều dòng sản phẩm phục vụ nhu cầu cân trong thương mại, kho hàng, sản xuất và công nghiệp. QTN GLOBAL cung cấp nhiều sản phẩm cân điện tử EXCELL với các mức tải trọng và ứng dụng khác nhau.", productsTitle: "Các dòng cân điện tử EXCELL", productsText: "EXCELL phát triển nhiều dòng cân điện tử phù hợp với từng nhu cầu sử dụng. Tùy theo ứng dụng, khách hàng có thể lựa chọn cân bàn, cân đếm, cân công nghiệp, cân chống nước hoặc đầu cân điện tử EXCELL.", product1: "Cân bàn EXCELL", product2: "Cân đếm EXCELL", product3: "Cân công nghiệp EXCELL", product4: "Cân chống nước EXCELL", product5: "Đầu cân điện tử EXCELL", applicationTitle: "Ứng dụng của cân EXCELL", applicationText: "Cân điện tử EXCELL có thể được sử dụng trong nhiều lĩnh vực như cân hàng hóa, kho hàng, sản xuất, kiểm tra sản phẩm, cân đếm số lượng và các ứng dụng cân công nghiệp.", chooseTitle: "Lựa chọn cân điện tử EXCELL phù hợp", chooseText: "Khi lựa chọn cân EXCELL, cần xem xét tải trọng cân, kích thước bàn cân, môi trường sử dụng và các chức năng cần thiết. Việc lựa chọn đúng dòng cân giúp quá trình cân hàng hóa và kiểm tra sản phẩm thuận tiện hơn.", qtnTitle: "Cân điện tử EXCELL tại QTN GLOBAL", qtnText: "QTN GLOBAL cung cấp các sản phẩm cân điện tử EXCELL Đài Loan cho khách hàng có nhu cầu sử dụng trong thương mại, kho hàng, sản xuất và công nghiệp. Khách hàng có thể xem thông tin sản phẩm và thông số kỹ thuật trên website QTN GLOBAL để lựa chọn mẫu cân phù hợp.", viewProducts: "Xem tất cả sản phẩm cân đi
     },
 
     en: {
@@ -341,7 +342,8 @@ relatedProductsTitle: "Related Products",
         hotlineLabel: "Hotline:",
         techSupport: "Technical Support:",
         emailLabel: "Email:",
-        websiteLabel: "Website:"
+        websiteLabel: "Website:",
+title: "EXCELL Electronic Scales from Taiwan", intro: "EXCELL electronic scales are a weighing scale brand from Taiwan, offering a wide range of products for commercial weighing, warehouses, manufacturing and industrial applications. QTN GLOBAL provides various EXCELL electronic scales with different capacities and applications.", productsTitle: "EXCELL Electronic Scale Product Lines", productsText: "EXCELL develops a wide range of electronic scales to meet different weighing requirements. Depending on the application, customers can choose EXCELL platform scales, counting scales, industrial scales, waterproof scales or electronic weighing indicators.", product1: "EXCELL Platform Scales", product2: "EXCELL Counting Scales", product3: "EXCELL Industrial Scales", product4: "EXCELL Waterproof Scales", product5: "EXCELL Weighing Indicators", applicationTitle: "Applications of EXCELL Scales", applicationText: "EXCELL electronic scales can be used in various applications, including goods weighing, warehouses, manufacturing, product inspection, quantity counting and industrial weighing.", chooseTitle: "Choosing the Right EXCELL Electronic Scale", chooseText: "When choosing an EXCELL scale, it is important to consider weighing capacity, platform size, operating environment and required functions. Selecting the right model makes goods weighing and product inspection more convenient and efficient.", qtnTitle: "EXCELL Electronic Scales at QTN GLOBAL", qtnText: "QTN GLOBAL provides EXCELL electronic scales from Taiwan for customers in commercial, warehouse, manufacturing and industrial applications. Customers can view product information and technical specifications on the QTN GLOBAL website to choose a suitable scale.", viewProducts: "View All EXCELL Electronic Scales"
     },
 
     zh: {
@@ -510,7 +512,8 @@ relatedProductsTitle: "相关产品",
         hotlineLabel: "热线:",
         techSupport: "技术支持:",
         emailLabel: "邮箱:",
-        websiteLabel: "网站:"
+        websiteLabel: "网站:",
+title: "台湾 EXCELL 电子秤", intro: "EXCELL 是来自台湾的电子秤品牌，拥有多种产品系列，可满足商业称重、仓储、生产制造及工业领域的称重需求。QTN GLOBAL 提供多种 EXCELL 电子秤产品，具有不同的称量范围和应用功能。", productsTitle: "EXCELL 电子秤产品系列", productsText: "EXCELL 开发了多种电子秤产品，以满足不同的称重需求。根据实际应用，客户可以选择 EXCELL 台秤、计数秤、工业秤、防水秤或电子称重仪表。", product1: "EXCELL 台秤", product2: "EXCELL 计数秤", product3: "EXCELL 工业秤", product4: "EXCELL 防水秤", product5: "EXCELL 电子称重仪表", applicationTitle: "EXCELL 电子秤的应用", applicationText: "EXCELL 电子秤可广泛应用于货物称重、仓储、生产制造、产品检测、数量计数以及工业称重等领域。", chooseTitle: "如何选择合适的 EXCELL 电子秤", chooseText: "选择 EXCELL 电子秤时，需要考虑称量范围、秤台尺寸、使用环境以及所需功能。选择合适的型号，可以使货物称重和产品检测更加方便高效。", qtnTitle: "QTN GLOBAL 提供 EXCELL 电子秤", qtnText: "QTN GLOBAL 为商业、仓储、生产制造及工业领域的客户提供台湾 EXCELL 电子秤产品。客户可以通过 QTN GLOBAL 网站查看产品信息和技术参数，并选择适合的电子秤型号。", viewProducts: "查看全部 EXCELL 电子秤产品"
     }
 };
 
