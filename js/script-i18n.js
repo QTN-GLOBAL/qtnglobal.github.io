@@ -282,7 +282,24 @@ const translations = {
             "QTN GLOBAL cung cấp các sản phẩm cân điện tử EXCELL Đài Loan cho khách hàng có nhu cầu sử dụng trong thương mại, kho hàng, sản xuất và công nghiệp. Khách hàng có thể xem thông tin sản phẩm và thông số kỹ thuật trên website QTN GLOBAL để lựa chọn mẫu cân phù hợp.",
 
         excellViewProducts:
-            "Xem tất cả sản phẩm cân điện tử EXCELL"
+            "Xem tất cả sản phẩm cân điện tử EXCELL",
+headerHotline: "HOTLINE",
+headerSupport: "HỖ TRỢ",
+headerContact: "LIÊN HỆ",
+headerCartLabel: "GIỎ HÀNG",
+headerCart: "Giỏ hàng",
+menuOpen: "Mở menu",
+menuClose: "Đóng menu",
+products: "Sản phẩm",
+catElectronicPlatform: "Cân bàn điện tử",
+catPlatform: "Cân bàn",
+catStandPlatform: "Cân bàn đứng",
+catLabelScale: "Cân in tem mã vạch",
+company: "Công ty",
+footerContactTitle: "Liên hệ",
+footerCategoryTitle: "Danh mục",
+footerConnectTitle: "Kết nối"
+
     },
 
 
@@ -560,7 +577,24 @@ const translations = {
             "QTN GLOBAL provides EXCELL electronic scales from Taiwan for customers in commercial, warehouse, manufacturing and industrial applications. Customers can view product information and technical specifications on the QTN GLOBAL website to choose a suitable scale.",
 
         excellViewProducts:
-            "View All EXCELL Electronic Scales"
+            "View All EXCELL Electronic Scales",
+headerHotline: "HOTLINE",
+headerSupport: "SUPPORT",
+headerContact: "CONTACT",
+headerCartLabel: "CART",
+headerCart: "Cart",
+menuOpen: "Open Menu",
+menuClose: "Close Menu",
+products: "Products",
+catElectronicPlatform: "Electronic Platform Scales",
+catPlatform: "Platform Scales",
+catStandPlatform: "Floor Scales",
+catLabelScale: "Barcode Label Printing Scales",
+company: "Company",
+footerContactTitle: "Contact",
+footerCategoryTitle: "Categories",
+footerConnectTitle: "Connect"
+
     },
 
 
@@ -839,7 +873,24 @@ const translations = {
             "QTN GLOBAL 为商业、仓储、生产制造及工业领域的客户提供台湾 EXCELL 电子秤产品。客户可以通过 QTN GLOBAL 网站查看产品信息和技术参数，并选择适合的电子秤型号。",
 
         excellViewProducts:
-            "查看全部 EXCELL 电子秤产品"
+            "查看全部 EXCELL 电子秤产品",
+headerHotline: "热线",
+headerSupport: "客服",
+headerContact: "联系",
+headerCartLabel: "购物车",
+headerCart: "购物车",
+menuOpen: "打开菜单",
+menuClose: "关闭菜单",
+products: "产品",
+catElectronicPlatform: "电子台秤",
+catPlatform: "台秤",
+catStandPlatform: "立式台秤",
+catLabelScale: "条码标签打印秤",
+company: "公司",
+footerContactTitle: "联系我们",
+footerCategoryTitle: "产品分类",
+footerConnectTitle: "关注我们"
+
     }
 };
 
@@ -1012,39 +1063,26 @@ function setLanguage(lang) {
 
 
 /* =========================
-   INIT
+INIT LANGUAGE SELECT
 ========================= */
 
-document.addEventListener(
-    "DOMContentLoaded",
-    () => {
-
-        const select =
-            document.getElementById("languageSelect");
-
-        const lang =
-            localStorage.getItem("language") || "vi";
-
-        setLanguage(lang);
+document.addEventListener("DOMContentLoaded", () => {
+const select = document.getElementById("languageSelect");
+const savedLang = localStorage.getItem("language") || "vi";
+const lang = translations[savedLang] ? savedLang : "vi";
 
 
-        if (select) {
+setLanguage(lang);
 
-            select.value = lang;
+if (select) {
+    select.value = lang;
+}
 
-            select.addEventListener(
-                "change",
-                function () {
 
-                    setLanguage(
-                        this.value
-                    );
+});
 
-                }
-            );
-
-        }
-
-    }
-);
-
+document.addEventListener("change", (event) => {
+if (event.target && event.target.id === "languageSelect") {
+setLanguage(event.target.value);
+}
+});
