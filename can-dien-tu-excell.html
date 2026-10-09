@@ -105,6 +105,71 @@
 <link rel="stylesheet"
       href="css/style-mobile.css">
 
+<style>
+/* LƯỚI ẢNH EXCELL */
+.excell-image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin: 28px 0;
+}
+
+.excell-image-card {
+    min-width: 0;
+    margin: 0;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.excell-image-card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
+}
+
+.excell-image-card figcaption {
+    margin-top: 12px;
+    color: #174f91;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* Máy tính bảng: 2 cột */
+@media (max-width: 900px) {
+    .excell-image-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .excell-image-card img {
+        height: 200px;
+    }
+}
+
+/* Điện thoại nhỏ: 1 cột */
+@media (max-width: 420px) {
+    .excell-image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .excell-image-card img {
+        height: 240px;
+    }
+}
+</style>
+
+
+
 
 <!-- =========================
      FONT AWESOME
@@ -467,47 +532,51 @@
         sản phẩm cân điện tử EXCELL với các mức tải trọng và ứng dụng khác nhau.
     </p>
 
-<figure class="excell-seo-image">
-    <img
-        src="images/can-ban-dung/fb530/1.jpg"
-        alt="Cân điện tử EXCELL Đài Loan với nhiều dòng cân điện tử tại QTN GLOBAL"
-        width="1200"
-        height="600"
-        loading="eager"
-        fetchpriority="high">
-<img
-        src="images/can-ban/awh4/1.jpg"
-        alt="Cân điện tử EXCELL Đài Loan với nhiều dòng cân điện tử tại QTN GLOBAL"
-        width="1200"
-        height="600"
-        loading="eager"
-        fetchpriority="high">
-<img
-        src="images/can-ban/si132/1.jpg"
-        alt="Cân điện tử EXCELL Đài Loan với nhiều dòng cân điện tử tại QTN GLOBAL"
-        width="1200"
-        height="600"
-        loading="eager"
-        fetchpriority="high">
-<img
-        src="images/can-treo/fj5/1.jpg"
-        alt="Cân điện tử EXCELL Đài Loan với nhiều dòng cân điện tử tại QTN GLOBAL"
-        width="1200"
-        height="600"
-        loading="eager"
-        fetchpriority="high">
-<img
-        src="images/can-phan-tich/bh/1.jpg"
-        alt="Cân điện tử EXCELL Đài Loan với nhiều dòng cân điện tử tại QTN GLOBAL"
-        width="1200"
-        height="600"
-        loading="eager"
-        fetchpriority="high">
 
-    <figcaption>
-        Các dòng cân điện tử EXCELL Đài Loan do QTN GLOBAL cung cấp.
-    </figcaption>
-</figure>
+<div class="excell-image-grid">
+
+    <figure class="excell-image-card">
+        <img
+            src="images/can-ban-dung/fb530/1.jpg"
+            alt="Cân điện tử EXCELL FB530"
+            loading="eager">
+        <figcaption>Cân bàn đứng EXCELL FB530</figcaption>
+    </figure>
+
+    <figure class="excell-image-card">
+        <img
+            src="images/can-ban/awh4/1.jpg"
+            alt="Cân điện tử EXCELL AWH4"
+            loading="lazy">
+        <figcaption>Cân bàn EXCELL AWH4</figcaption>
+    </figure>
+
+    <figure class="excell-image-card">
+        <img
+            src="images/can-ban/si132/1.jpg"
+            alt="Cân điện tử EXCELL SI-132"
+            loading="lazy">
+        <figcaption>Cân bàn EXCELL SI-132</figcaption>
+    </figure>
+
+    <figure class="excell-image-card">
+        <img
+            src="images/can-treo/fj5/1.jpg"
+            alt="Cân treo điện tử EXCELL FJ5"
+            loading="lazy">
+        <figcaption>Cân treo EXCELL FJ5</figcaption>
+    </figure>
+
+    <figure class="excell-image-card">
+        <img
+            src="images/can-phan-tich/bh/1.jpg"
+            alt="Cân phân tích EXCELL BH"
+            loading="lazy">
+        <figcaption>Cân phân tích EXCELL BH</figcaption>
+    </figure>
+
+</div>
+
 
 
 
