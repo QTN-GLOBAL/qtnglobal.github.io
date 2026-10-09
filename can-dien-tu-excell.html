@@ -166,6 +166,83 @@
         height: 240px;
     }
 }
+
+
+/* BANNER GIỚI THIỆU EXCELL */
+.excell-banner {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
+    width: 100%;
+    margin: 24px 0 32px;
+    padding: 18px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #f3f8fd, #ffffff);
+    border: 1px solid #dce8f5;
+    border-radius: 14px;
+}
+
+.excell-banner-item {
+    min-width: 0;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #e6edf5;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.excell-banner-item img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.excell-banner-item span {
+    display: block;
+    margin-top: 10px;
+    padding: 7px 4px;
+    color: #ffffff;
+    background: #075da8;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Tablet: 3 cột */
+@media (max-width: 900px) {
+    .excell-banner {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .excell-banner-item img {
+        height: 140px;
+    }
+}
+
+/* Điện thoại: 2 cột */
+@media (max-width: 520px) {
+    .excell-banner {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+        padding: 8px;
+    }
+
+    .excell-banner-item {
+        padding: 8px;
+    }
+
+    .excell-banner-item img {
+        height: 130px;
+    }
+}
+
+
+
 </style>
 
 
@@ -533,49 +610,46 @@
     </p>
 
 
-<div class="excell-image-grid">
 
-    <figure class="excell-image-card">
-        <img
-            src="images/can-ban-dung/fb530/1.jpg"
-            alt="Cân điện tử EXCELL FB530"
-            loading="eager">
-        <figcaption>Cân bàn đứng EXCELL FB530</figcaption>
-    </figure>
+<div class="excell-banner">
 
-    <figure class="excell-image-card">
-        <img
-            src="images/can-ban/awh4/1.jpg"
-            alt="Cân điện tử EXCELL AWH4"
-            loading="lazy">
-        <figcaption>Cân bàn EXCELL AWH4</figcaption>
-    </figure>
+    <div class="excell-banner-item">
+        <img src="images/can-ban-dung/fb530/1.jpg"
+             alt="Cân bàn đứng EXCELL FB530"
+             fetchpriority="high">
+        <span>FB530</span>
+    </div>
 
-    <figure class="excell-image-card">
-        <img
-            src="images/can-ban/si132/1.jpg"
-            alt="Cân điện tử EXCELL SI-132"
-            loading="lazy">
-        <figcaption>Cân bàn EXCELL SI-132</figcaption>
-    </figure>
+    <div class="excell-banner-item">
+        <img src="images/can-ban/awh4/1.jpg"
+             alt="Cân bàn EXCELL AWH4"
+             loading="lazy">
+        <span>AWH4</span>
+    </div>
 
-    <figure class="excell-image-card">
-        <img
-            src="images/can-treo/fj5/1.jpg"
-            alt="Cân treo điện tử EXCELL FJ5"
-            loading="lazy">
-        <figcaption>Cân treo EXCELL FJ5</figcaption>
-    </figure>
+    <div class="excell-banner-item">
+        <img src="images/can-ban/si132/1.jpg"
+             alt="Cân bàn EXCELL SI-132"
+             loading="lazy">
+        <span>SI-132</span>
+    </div>
 
-    <figure class="excell-image-card">
-        <img
-            src="images/can-phan-tich/bh/1.jpg"
-            alt="Cân phân tích EXCELL BH"
-            loading="lazy">
-        <figcaption>Cân phân tích EXCELL BH</figcaption>
-    </figure>
+    <div class="excell-banner-item">
+        <img src="images/can-treo/fj5/1.jpg"
+             alt="Cân treo EXCELL FJ5"
+             loading="lazy">
+        <span>FJ5</span>
+    </div>
+
+    <div class="excell-banner-item">
+        <img src="images/can-phan-tich/bh/1.jpg"
+             alt="Cân phân tích EXCELL BH"
+             loading="lazy">
+        <span>BH</span>
+    </div>
 
 </div>
+
 
 
 
