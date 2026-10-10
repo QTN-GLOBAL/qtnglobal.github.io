@@ -298,7 +298,10 @@ catLabelScale: "Cân in tem mã vạch",
 company: "Công ty",
 footerContactTitle: "Liên hệ",
 footerCategoryTitle: "Danh mục",
-footerConnectTitle: "Kết nối"
+footerConnectTitle: "Kết nối",
+heroTitle: "Cân điện tử chính xác cho doanh nghiệp",
+heroDescription: "QTN GLOBAL cung cấp cân điện tử và thiết bị đo lường phục vụ nhiều nhu cầu trong kinh doanh, sản xuất, kho vận và công nghiệp. Sản phẩm được lựa chọn theo từng nhu cầu sử dụng, từ cân bàn, cân bàn đứng, cân đếm, cân treo đến cân phân tích và đầu cân điện tử.",
+heroDescription2: "Với nhiều dòng sản phẩm và mức cân khác nhau, QTN GLOBAL hướng đến các giải pháp cân phù hợp cho doanh nghiệp, cửa hàng, kho hàng và môi trường sản xuất. Thông tin sản phẩm được trình bày rõ ràng để khách hàng dễ dàng tìm hiểu và lựa chọn thiết bị phù hợp.",
 
     },
 
@@ -593,7 +596,10 @@ catLabelScale: "Barcode Label Printing Scales",
 company: "Company",
 footerContactTitle: "Contact",
 footerCategoryTitle: "Categories",
-footerConnectTitle: "Connect"
+footerConnectTitle: "Connect",
+heroTitle: "Accurate Electronic Weighing Scales for Businesses",
+heroDescription: "QTN GLOBAL provides electronic weighing scales and measurement equipment for a wide range of business, manufacturing, warehousing, logistics, and industrial needs. Our product range includes platform scales, stand platform scales, counting scales, crane scales, analytical balances, and weighing indicators.",
+heroDescription2: "With a variety of product lines and weighing capacities, QTN GLOBAL aims to provide suitable weighing solutions for businesses, retail stores, warehouses, and manufacturing environments. Product information is presented clearly to help customers explore their options and choose the right equipment.",
 
     },
 
@@ -889,7 +895,10 @@ catLabelScale: "条码标签打印秤",
 company: "公司",
 footerContactTitle: "联系我们",
 footerCategoryTitle: "产品分类",
-footerConnectTitle: "关注我们"
+footerConnectTitle: "关注我们",
+heroTitle: "为企业提供精准的电子称重解决方案",
+heroDescription: "QTN GLOBAL 提供电子秤及测量设备，满足商业经营、生产制造、仓储物流和工业领域的多种需求。产品涵盖台秤、立式台秤、计数秤、吊秤、分析天平和称重仪表等类型。",
+heroDescription2: "QTN GLOBAL 提供多种产品系列和不同量程的称重设备，致力于为企业、商店、仓库及生产环境提供合适的称重解决方案。我们清晰地展示产品信息，帮助客户了解产品并选择适合自身需求的设备。",
 
     }
 };

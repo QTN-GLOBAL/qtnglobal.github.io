@@ -118,7 +118,7 @@
                 <a href="tel:0905913636" class="header-action">
                     <span class="header-action-icon"><i class="fa-solid fa-phone"></i></span>
                     <span>
-                        <small>HOTLINE</small>
+                        <small data-i18n="headerHotline">HOTLINE</small>
                         <strong>0905 913 636</strong>
                     </span>
                 </a>
@@ -126,7 +126,7 @@
                 <a href="tel:0383598603" class="header-action">
                     <span class="header-action-icon"><i class="fa-solid fa-headset"></i></span>
                     <span>
-                        <small>HỖ TRỢ</small>
+                        <small data-i18n="headerSupport">HỖ TRỢ</small>
                         <strong>0383 598 603</strong>
                     </span>
                 </a>
@@ -134,7 +134,7 @@
                 <a href="https://zalo.me/0383598603" target="_blank" class="header-action header-social">
                     <span class="header-action-icon"><span class="zalo-mark">Z</span></span>
                     <span>
-                        <small>LIÊN HỆ</small>
+                        <small data-i18n="headerContact">LIÊN HỆ</small>
                         <strong>Zalo</strong>
                     </span>
                 </a>
@@ -142,7 +142,7 @@
                 <a href="javascript:void(0)" class="header-cart" onclick="openCart()">
                     <span class="header-cart-icon"><i class="fa-solid fa-cart-shopping"></i><b id="cartCount">0</b></span>
                     <span>
-                        <small>GIỎ HÀNG</small>
+                        <small data-i18n="headerCartLabel">GIỎ HÀNG</small>
                         <strong>Giỏ hàng</strong>
                     </span>
                 </a>
@@ -161,13 +161,13 @@
 
     <nav class="navbar">
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+        <button class="menu-toggle" id="menuToggle" data-i18n-aria-label="menuOpen" aria-label="Mở menu">
             <i class="fas fa-bars"></i>
         </button>
 
         <div class="nav-content" id="navContent">
 
-            <button class="menu-close" id="menuClose" aria-label="Close Menu">
+            <button class="menu-close" id="menuClose" data-i18n-aria-label="menuClose" aria-label="Đóng menu">
                 <i class="fas fa-times"></i>
             </button>
 
@@ -179,34 +179,32 @@
             <div class="nav-dropdown">
                 <a href="index.html" class="nav-dropdown-toggle">
                     <i class="fas fa-scale-balanced"></i>
-                    <span>Sản phẩm</span>
+                    <span data-i18n="products">Sản phẩm</span>
                     <i class="fas fa-chevron-down nav-chevron"></i>
                 </a>
 
                 <div class="nav-dropdown-menu">
 
-    <a href="can-ban-dien-tu.html">
+    <a href="can-ban-dien-tu.html" data-i18n="catElectronicPlatform">
         Cân bàn điện tử
     </a>
 
-    <a href="#" onclick="goHomeAndCategory('can-ban');return false;">
-        Cân bàn
-    </a>
+    <a href="#" data-i18n="catPlatform" onclick="goHomeAndCategory('can-ban');return false;">Cân bàn</a>
 
-    <a href="#" onclick="goHomeAndCategory('can-ban-dung');return false;">
+    <a href="#" onclick="goHomeAndCategory('can-ban-dung');return false;" data-i18n="catStandPlatform">
         Cân bàn đứng
     </a>
-                    <a href="#" onclick="goHomeAndCategory('can-dem');return false;">Cân đếm</a>
-                    <a href="#" onclick="goHomeAndCategory('can-treo');return false;">Cân treo</a>
-                    <a href="#" onclick="goHomeAndCategory('dau-can-dien-tu');return false;">Đầu cân điện tử</a>
-                    <a href="#" onclick="goHomeAndCategory('can-phan-tich');return false;">Cân phân tích</a>
-                    <a href="#" onclick="goHomeAndCategory('can-chong-nuoc');return false;">Cân chống nước</a>
-                    <a href="#" onclick="goHomeAndCategory('can-in-tem-ma-vach');return false;">Cân in tem mã vạch</a>
-                    <a href="#" onclick="goHomeAndCategory('can-ghe-ngoi');return false;">Cân ghế ngồi</a>
-                    <a href="#" onclick="goHomeAndCategory('air-purifier');return false;">Máy lọc không khí</a>
-                    <a href="#" onclick="goHomeAndCategory('air-filter');return false;">Phụ kiện máy lọc không khí</a>
-                    <a href="#" onclick="goHomeAndCategory('water-purifier');return false;">Máy lọc nước</a>
-                    <a href="#" onclick="goHomeAndCategory('water-filter');return false;">Lõi lọc &amp; phụ kiện</a>
+                    <a href="#" onclick="goHomeAndCategory('can-dem');return false;" data-i18n="catCountingScale">Cân đếm</a>
+                    <a href="#" onclick="goHomeAndCategory('can-treo');return false;" data-i18n="catCraneScale">Cân treo</a>
+                    <a href="#" onclick="goHomeAndCategory('dau-can-dien-tu');return false;" data-i18n="catIndicator">Đầu cân điện tử</a>
+                    <a href="#" onclick="goHomeAndCategory('can-phan-tich');return false;" data-i18n="catAnalyticalScale">Cân phân tích</a>
+                    <a href="#" onclick="goHomeAndCategory('can-chong-nuoc');return false;" data-i18n="catWaterproofScale">Cân chống nước</a>
+                    <a href="#" onclick="goHomeAndCategory('can-in-tem-ma-vach');return false;" data-i18n="catLabelPrintingScale">Cân in tem mã vạch</a>
+                    <a href="#" onclick="goHomeAndCategory('can-ghe-ngoi');return false;" data-i18n="catChairScale">Cân ghế ngồi</a>
+                    <a href="#" onclick="goHomeAndCategory('air-purifier');return false;" data-i18n="catAirPurifier">Máy lọc không khí</a>
+                    <a href="#" onclick="goHomeAndCategory('air-filter');return false;" data-i18n="catAirFilter">Phụ kiện máy lọc không khí</a>
+                    <a href="#" onclick="goHomeAndCategory('water-purifier');return false;" data-i18n="catWaterPurifier">Máy lọc nước</a>
+                    <a href="#" onclick="goHomeAndCategory('water-filter');return false;" data-i18n="catWaterFilter">Lõi lọc &amp; phụ kiện</a>
                 </div>
             </div>
 
@@ -270,23 +268,17 @@
 
 <section class="seo-intro" aria-labelledby="seo-main-title">
 
-    <h1 id="seo-main-title">
-        Cân điện tử chính xác cho doanh nghiệp
-    </h1>
+    <h1 data-i18n="heroTitle">
+    Cân điện tử chính xác cho doanh nghiệp
+</h1>
 
-    <p>
-        QTN GLOBAL cung cấp <strong>cân điện tử</strong> và thiết bị đo lường
-        phục vụ nhiều nhu cầu trong kinh doanh, sản xuất, kho vận và công nghiệp.
-        Sản phẩm được lựa chọn theo từng nhu cầu sử dụng, từ cân bàn, cân bàn đứng,
-        cân đếm, cân treo đến cân phân tích và đầu cân điện tử.
-    </p>
+<p data-i18n="heroDescription">
+    QTN GLOBAL cung cấp cân điện tử và thiết bị đo lường phục vụ nhiều nhu cầu trong kinh doanh, sản xuất, kho vận và công nghiệp. Sản phẩm được lựa chọn theo từng nhu cầu sử dụng, từ cân bàn, cân bàn đứng, cân đếm, cân treo đến cân phân tích và đầu cân điện tử.
+</p>
 
-    <p>
-        Với nhiều dòng sản phẩm và mức cân khác nhau, QTN GLOBAL hướng đến
-        các giải pháp cân phù hợp cho doanh nghiệp, cửa hàng, kho hàng và
-        môi trường sản xuất. Thông tin sản phẩm được trình bày rõ ràng để
-        khách hàng dễ dàng tìm hiểu và lựa chọn thiết bị phù hợp.
-    </p>
+<p data-i18n="heroDescription2">
+    Với nhiều dòng sản phẩm và mức cân khác nhau, QTN GLOBAL hướng đến các giải pháp cân phù hợp cho doanh nghiệp, cửa hàng, kho hàng và môi trường sản xuất. Thông tin sản phẩm được trình bày rõ ràng để khách hàng dễ dàng tìm hiểu và lựa chọn thiết bị phù hợp.
+</p>
 
 </section>
 
@@ -552,9 +544,7 @@ class="cart-body">
 
     <div class="best-seller-container">
 
-        <h2 class="best-seller-title">
-            SẢN PHẨM BÁN CHẠY
-        </h2>
+        <h2 class="best-seller-title" data-i18n="bestSellerTitle">SẢN PHẨM BÁN CHẠY</h2>
 
         <div
             id="bestSellerTrack"
@@ -611,7 +601,7 @@ class="cart-body">
 
     <div class="footer-column">
 
-        <h3>Liên hệ</h3>
+        <h3 data-i18n="footerContactTitle">Liên hệ</h3>
 
         <p>
             <i class="fas fa-phone"></i>
@@ -645,7 +635,7 @@ class="cart-body">
 
     <div class="footer-column">
 
-        <h3>Danh mục</h3>
+        <h3 data-i18n="footerCategoryTitle">Danh mục</h3>
 
         <div class="footer-menu">
 
@@ -670,23 +660,23 @@ class="cart-body">
 
     <div class="footer-column">
 
-        <h3>Kết nối</h3>
+        <h3 data-i18n="footerConnectTitle">Kết nối</h3>
 
         <div class="footer-social">
 
             <a href="#">
                 <i class="fab fa-facebook-f"></i>
-                <span>Facebook</span>
+                <span data-i18n="facebook">Facebook</span>
             </a>
 
             <a href="#">
                 <i class="fas fa-comment-dots"></i>
-                <span>Zalo</span>
+                <span data-i18n="zalo">Zalo</span>
             </a>
 
             <a href="mailto:qtnglobal.com@gmail.com">
                 <i class="fas fa-envelope"></i>
-                <span>Email</span>
+                <span data-i18n="email">Email</span>
             </a>
 
         </div>
