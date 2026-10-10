@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -26,10 +27,15 @@
     <url>
         <loc>https://qtn-global.github.io/qtnglobal.github.io/can-dien-tu-excell.html</loc>
     </url>
-<!-- CÂN ĐIỆN TỬ JADEVER JWL --> 
-<url> 
-<loc>https://qtn-global.github.io/qtnglobal.github.io/can-dien-tu-jadever-jwl.html</loc> 
-</url>
+
+    <!-- CÂN ĐIỆN TỬ JADEVER JWL -->
+    <url>
+        <loc>https://qtn-global.github.io/qtnglobal.github.io/can-dien-tu-jadever-jwl.html</loc>
+    </url>
+
+    <!-- BÀI SEO CÂN BÀN ĐIỆN TỬ 30KG, 75KG, 150KG, 300KG -->
+    <url>
+        <loc>https://qtn-global.github.io/qtnglobal.github.io/can-ban-dien-tu-30kg-75kg-150kg-300kg.html</loc>
+    </url>
 
 </urlset>
-
