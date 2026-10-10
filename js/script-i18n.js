@@ -283,6 +283,11 @@ const translations = {
 
         excellViewProducts:
             "Xem tất cả sản phẩm cân điện tử EXCELL",
+descriptionTab: "MÔ TẢ",
+specificationsTab: "THÔNG SỐ KỸ THUẬT",
+optionsTab: "TÙY CHỌN",
+usageGuideTab: "HƯỚNG DẪN SỬ DỤNG",
+
 headerHotline: "HOTLINE",
 headerSupport: "HỖ TRỢ",
 headerContact: "LIÊN HỆ",
@@ -582,6 +587,10 @@ heroDescription2: "Với nhiều dòng sản phẩm và mức cân khác nhau, Q
 
         excellViewProducts:
             "View All EXCELL Electronic Scales",
+descriptionTab: "DESCRIPTION",
+specificationsTab: "TECHNICAL SPECIFICATIONS",
+optionsTab: "OPTIONS",
+usageGuideTab: "USER GUIDE",
 headerHotline: "HOTLINE",
 headerSupport: "SUPPORT",
 headerContact: "CONTACT",
@@ -882,6 +891,10 @@ heroDescription2: "With a variety of product lines and weighing capacities, QTN 
 
         excellViewProducts:
             "查看全部 EXCELL 电子秤产品",
+descriptionTab: "产品描述",
+specificationsTab: "技术参数",
+optionsTab: "可选配置",
+usageGuideTab: "使用说明",
 headerHotline: "热线",
 headerSupport: "客服",
 headerContact: "联系",
