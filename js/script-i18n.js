@@ -1042,6 +1042,9 @@ function refreshUIAfterLanguageChange() {
     if (typeof renderProductDetail === "function") {
         renderProductDetail();
     }
+if (typeof window.renderRelatedProducts === "function") {
+    window.renderRelatedProducts();
+}
 
 
     /* =========================

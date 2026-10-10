@@ -393,6 +393,7 @@ function renderRelatedProducts(){
 
 
 }
+window.renderRelatedProducts = renderRelatedProducts;
 
 
 function startRelatedSlider(){
