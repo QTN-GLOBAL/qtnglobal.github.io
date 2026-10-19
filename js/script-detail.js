@@ -14,7 +14,7 @@
 
 
 // =====================================================
-// 1. LẤY ID HOẶC SLUG SẢN PHẨM TỪ URL
+// 1. LẤY ID HOẶC SLUG TỪ URL
 // =====================================================
 
 const urlParams = new URLSearchParams(location.search);
@@ -28,20 +28,21 @@ const requestedSlug = location.pathname
 
 
 // =====================================================
-// 2. TÌM SẢN PHẨM
-// Hỗ trợ cả URL cũ ?id=1 và URL SEO mới
+// 2. TÌM SẢN PHẨM THEO ID HOẶC SLUG
 // =====================================================
 
 const rawProduct = products.find(p =>
     p.id === detailId ||
-    (p.slug && p.slug === requestedSlug)
+    p.slug === requestedSlug
 );
 
 const product = rawProduct
     ? (getTranslatedProduct(rawProduct) || rawProduct)
     : null;
 
-// Lưu sản phẩm hiện tại
+
+// LƯU SẢN PHẨM HIỆN TẠI
+
 window.currentProduct = product;
 
 // =====================================================
