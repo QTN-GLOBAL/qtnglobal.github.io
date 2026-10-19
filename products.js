@@ -79,6 +79,7 @@ window.products = [
 {
     business:"measure",
     id:2,
+slug: "can-dem-vibra-alc",
     name:"Cân điện tử đếm Vibra ALC",
     category:"can-dem",
     folder:"vibra-alc",
