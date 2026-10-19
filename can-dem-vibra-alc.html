@@ -1308,308 +1308,206 @@
     </main>
 
 
-    <!-- ========================================
-         POPUP THÊM VÀO GIỎ HÀNG
-    ======================================== -->
+    <!-- =========================================
+     POPUP THÊM VÀO GIỎ HÀNG
+========================================= -->
 
-    <div id="addCartPopup" class="popup" style="display:none;">
+<div id="addCartPopup"
+     class="popup-overlay"
+     style="display:none">
 
-        <div class="popup-content">
+    <div class="popup-box">
 
-            <button
-                type="button"
+        <button type="button"
                 class="popup-close"
-                onclick="document.getElementById('addCartPopup').style.display='none'"
-                aria-label="Đóng popup"
-            >
-                &times;
+                onclick="closeAddCart()"
+                aria-label="Đóng">
+            ✕
+        </button>
+
+        <h2 data-i18n="addCartTitle">
+            Thêm vào giỏ hàng
+        </h2>
+
+        <img id="popupCartImg"
+             src="images/can-ban/jwl/1.jpg"
+             alt="Cân điện tử Jadever JWL">
+
+        <h3 id="popupCartName">
+            Cân điện tử Jadever JWL
+        </h3>
+
+        <div id="cartSpecList"></div>
+
+        <button type="button"
+                class="add-cart-btn"
+                onclick="addSelectedToCart()">
+
+            <span data-i18n="addBtn">
+                Xác nhận thêm vào giỏ
+            </span>
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     POPUP GIỎ HÀNG
+========================================= -->
+
+<div id="cartPopup"
+     class="popup-overlay"
+     style="display:none">
+
+    <div class="popup-box">
+
+        <button type="button"
+                class="popup-close"
+                onclick="closeCart()"
+                aria-label="Đóng">
+            ✕
+        </button>
+
+        <h2 data-i18n="cartTitle">
+            Giỏ hàng
+        </h2>
+
+        <div id="cartList"></div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     POPUP ĐẶT HÀNG / YÊU CẦU BÁO GIÁ
+========================================= -->
+
+<div id="buyPopup"
+     class="popup-overlay"
+     style="display:none">
+
+    <div class="popup-box">
+
+        <button type="button"
+                class="popup-close"
+                onclick="closeBuyPopup()"
+                aria-label="Đóng">
+            ✕
+        </button>
+
+        <h2 data-i18n="orderTitle">
+            Đặt hàng / Yêu cầu báo giá
+        </h2>
+
+        <div class="request-type">
+
+            <label>
+                <input type="radio"
+                       name="requestType"
+                       value="order"
+                       checked>
+
+                <span data-i18n="requestOrder">
+                    Đặt hàng
+                </span>
+            </label>
+
+            <label>
+                <input type="radio"
+                       name="requestType"
+                       value="quote">
+
+                <span data-i18n="requestQuote">
+                    Yêu cầu báo giá
+                </span>
+            </label>
+
+        </div>
+
+        <div class="buy-form-grid">
+
+            <input id="customerName"
+                   type="text"
+                   autocomplete="name"
+                   data-i18n-placeholder="customerName"
+                   placeholder="Họ và tên">
+
+            <input id="customerPhone"
+                   type="tel"
+                   autocomplete="tel"
+                   data-i18n-placeholder="customerPhone"
+                   placeholder="Số điện thoại">
+
+            <input id="customerCompany"
+                   type="text"
+                   autocomplete="organization"
+                   data-i18n-placeholder="customerCompany"
+                   placeholder="Tên công ty">
+
+            <input id="customerTax"
+                   type="text"
+                   data-i18n-placeholder="customerTax"
+                   placeholder="Mã số thuế">
+
+        </div>
+
+        <div class="buy-address-grid">
+
+            <textarea id="customerInvoice"
+                      data-i18n-placeholder="invoiceAddress"
+                      placeholder="Địa chỉ xuất hóa đơn"></textarea>
+
+            <textarea id="customerAddress"
+                      data-i18n-placeholder="shippingAddress"
+                      placeholder="Địa chỉ giao hàng"></textarea>
+
+        </div>
+
+        <div class="buy-product-info">
+
+            <img id="buyProductImg"
+                 src="images/can-ban/jwl/1.jpg"
+                 alt="Cân điện tử Jadever JWL">
+
+            <h3 id="buyProductName">
+                Cân điện tử Jadever JWL
+            </h3>
+
+        </div>
+
+        <div id="buyCapacityList"></div>
+
+        <div class="buy-buttons">
+
+            <button type="button"
+                    class="zalo-btn"
+                    onclick="sendOrderZalo()">
+
+                <span data-i18n="sendZalo">
+                    Gửi yêu cầu qua Zalo
+                </span>
+
             </button>
 
-            <h2 data-vibra-i18n="popup_addcart_title">
-                Thêm sản phẩm vào giỏ hàng
-            </h2>
+            <button type="button"
+                    class="mess-btn"
+                    onclick="sendOrderMessenger()">
 
-            <div class="popup-product-info">
+                <span data-i18n="sendMessenger">
+                    Gửi yêu cầu qua Messenger
+                </span>
 
-                <img
-                    id="popupCartImg"
-                    src="images/can-dem/vibra-alc/main.jpg"
-                    alt="Cân điện tử đếm Vibra ALC"
-                    style="max-width:120px;"
-                >
-
-                <div>
-                    <h3 id="popupCartName">
-                        Cân điện tử đếm Vibra ALC
-                    </h3>
-
-                    <p data-vibra-i18n="popup_choose_capacity">
-                        Chọn mức cân cần đặt:
-                    </p>
-                </div>
-
-            </div>
-
-            <div id="cartSpecList">
-
-                <label>
-                    <input type="checkbox" value="1.5kg - bước nhảy 0.05g">
-                    1.5kg - bước nhảy 0.05g
-                </label>
-
-                <label>
-                    <input type="checkbox" value="3kg - bước nhảy 0.1g">
-                    3kg - bước nhảy 0.1g
-                </label>
-
-                <label>
-                    <input type="checkbox" value="6kg - bước nhảy 0.2g">
-                    6kg - bước nhảy 0.2g
-                </label>
-
-                <label>
-                    <input type="checkbox" value="7.5kg - bước nhảy 0.5g">
-                    7.5kg - bước nhảy 0.5g
-                </label>
-
-                <label>
-                    <input type="checkbox" value="15kg - bước nhảy 0.5g">
-                    15kg - bước nhảy 0.5g
-                </label>
-
-                <label>
-                    <input type="checkbox" value="20kg - bước nhảy 1g">
-                    20kg - bước nhảy 1g
-                </label>
-
-                <label>
-                    <input type="checkbox" value="30kg - bước nhảy 1g">
-                    30kg - bước nhảy 1g
-                </label>
-
-            </div>
-
-            <button
-                type="button"
-                class="btn-addcart"
-                onclick="addSelectedToCart()"
-                data-vibra-i18n="popup_addcart_button"
-            >
-                Thêm lựa chọn vào giỏ
             </button>
 
         </div>
 
     </div>
 
-
-    <!-- ========================================
-         POPUP GIỎ HÀNG
-    ======================================== -->
-
-    <div id="cartPopup" class="popup" style="display:none;">
-
-        <div class="popup-content">
-
-            <button
-                type="button"
-                class="popup-close"
-                onclick="document.getElementById('cartPopup').style.display='none'"
-                aria-label="Đóng giỏ hàng"
-            >
-                &times;
-            </button>
-
-            <h2 data-vibra-i18n="cart_heading">
-                Giỏ hàng của bạn
-            </h2>
-
-            <div id="cartList"></div>
-
-            <div class="cart-popup-actions">
-
-                <button
-                    type="button"
-                    onclick="document.getElementById('cartPopup').style.display='none'"
-                    data-vibra-i18n="continue_shopping"
-                >
-                    Tiếp tục xem sản phẩm
-                </button>
-
-                <button
-                    type="button"
-                    class="btn-buynow"
-                    onclick="document.getElementById('cartPopup').style.display='none'; openBuyPopup();"
-                    data-vibra-i18n="cart_order_button"
-                >
-                    Đặt hàng / Báo giá
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- ========================================
-         POPUP ĐẶT HÀNG / BÁO GIÁ
-    ======================================== -->
-
-    <div id="buyPopup" class="popup" style="display:none;">
-
-        <div class="popup-content">
-
-            <button
-                type="button"
-                class="popup-close"
-                onclick="document.getElementById('buyPopup').style.display='none'"
-                aria-label="Đóng popup"
-            >
-                &times;
-            </button>
-
-            <h2 data-vibra-i18n="buy_heading">
-                Đặt hàng / Yêu cầu báo giá
-            </h2>
-
-            <div class="popup-product-info">
-
-                <img
-                    id="buyProductImg"
-                    src="images/can-dem/vibra-alc/main.jpg"
-                    alt="Cân điện tử đếm Vibra ALC"
-                    style="max-width:120px;"
-                >
-
-                <h3 id="buyProductName">
-                    Cân điện tử đếm Vibra ALC
-                </h3>
-
-            </div>
-
-
-            <form id="buyForm" onsubmit="return false;">
-
-                <label for="customerName" data-vibra-i18n="form_name">
-                    Họ và tên *
-                </label>
-
-                <input
-                    type="text"
-                    id="customerName"
-                    name="customerName"
-                    required
-                    autocomplete="name"
-                    placeholder="Nhập họ và tên"
-                >
-
-
-                <label for="customerPhone" data-vibra-i18n="form_phone">
-                    Số điện thoại *
-                </label>
-
-                <input
-                    type="tel"
-                    id="customerPhone"
-                    name="customerPhone"
-                    required
-                    autocomplete="tel"
-                    placeholder="Nhập số điện thoại"
-                >
-
-
-                <label for="customerCompany" data-vibra-i18n="form_company">
-                    Công ty
-                </label>
-
-                <input
-                    type="text"
-                    id="customerCompany"
-                    name="customerCompany"
-                    autocomplete="organization"
-                    placeholder="Tên công ty (nếu có)"
-                >
-
-
-                <label for="customerTax" data-vibra-i18n="form_tax">
-                    Mã số thuế
-                </label>
-
-                <input
-                    type="text"
-                    id="customerTax"
-                    name="customerTax"
-                    placeholder="Mã số thuế (nếu có)"
-                >
-
-
-                <label for="customerInvoice" data-vibra-i18n="form_invoice">
-                    Yêu cầu hóa đơn
-                </label>
-
-                <select id="customerInvoice" name="customerInvoice">
-
-                    <option value="Không yêu cầu" data-vibra-i18n="invoice_no">
-                        Không yêu cầu
-                    </option>
-
-                    <option value="Có yêu cầu hóa đơn" data-vibra-i18n="invoice_yes">
-                        Có yêu cầu hóa đơn
-                    </option>
-
-                </select>
-
-
-                <label for="customerAddress" data-vibra-i18n="form_address">
-                    Địa chỉ và nội dung yêu cầu
-                </label>
-
-                <textarea
-                    id="customerAddress"
-                    name="customerAddress"
-                    rows="3"
-                    placeholder="Địa chỉ nhận hàng, mức cân, số lượng..."
-                ></textarea>
-
-
-                <div id="buyCapacityList">
-
-                    <p data-vibra-i18n="buy_capacity_hint">
-                        Vui lòng ghi mức cân và số lượng cần mua trong phần
-                        nội dung yêu cầu nếu chưa chọn từ giỏ hàng.
-                    </p>
-
-                </div>
-
-
-                <div class="buy-popup-actions">
-
-                    <button
-                        type="button"
-                        class="btn-buynow"
-                        onclick="sendOrderZalo()"
-                        data-vibra-i18n="send_zalo"
-                    >
-                        Gửi yêu cầu qua Zalo
-                    </button>
-
-                    <button
-                        type="button"
-                        class="btn-buynow"
-                        onclick="sendOrderMessenger()"
-                        data-vibra-i18n="send_messenger"
-                    >
-                        Gửi yêu cầu qua Messenger
-                    </button>
-
-                </div>
-
-            </form>
-
-        </div>
-
-    </div>
+</div>
 
 
     <!-- ========================================
