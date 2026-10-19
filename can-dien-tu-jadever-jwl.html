@@ -1783,28 +1783,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+<script>
 (function () {
     function initJwlSlider() {
-        const mainImage = document.getElementById("jwlMainImage");
-        const thumbnails = Array.from(
-            document.querySelectorAll(".jwl-thumb")
-        );
-        const prevButton = document.querySelector(".jwl-slider-prev");
-        const nextButton = document.querySelector(".jwl-slider-next");
+        const slider = document.querySelector(".jwl-image");
 
-        if (!mainImage || thumbnails.length === 0) {
+        if (!slider || slider.dataset.sliderReady === "true") {
             return;
         }
 
+        const mainImage = slider.querySelector("#jwlMainImage");
+        const thumbnails = Array.from(
+            slider.querySelectorAll(".jwl-thumb")
+        );
+        const prevButton = slider.querySelector(".jwl-slider-prev");
+        const nextButton = slider.querySelector(".jwl-slider-next");
+
+        if (!mainImage || thumbnails.length === 0) {
+            console.warn("JWL slider: Không tìm thấy ảnh hoặc thumbnail.");
+            return;
+        }
+
+        slider.dataset.sliderReady = "true";
+
         let currentIndex = 0;
-        let autoPlay;
+        let autoPlay = null;
+        let isHovering = false;
 
         function showImage(index) {
             currentIndex =
                 (index + thumbnails.length) % thumbnails.length;
 
-            const thumb = thumbnails[currentIndex];
-            const imagePath = thumb.getAttribute("data-image");
+            const thumbnail = thumbnails[currentIndex];
+            const imagePath = thumbnail.getAttribute("data-image");
 
             if (!imagePath) {
                 return;
@@ -1813,22 +1824,36 @@ document.addEventListener("DOMContentLoaded", () => {
             mainImage.src = imagePath;
 
             thumbnails.forEach(function (item, i) {
-                item.classList.toggle("active", i === currentIndex);
+                const isActive = i === currentIndex;
+
+                item.classList.toggle("active", isActive);
+                item.setAttribute("aria-pressed", String(isActive));
             });
         }
 
-        function startAutoPlay() {
-            clearInterval(autoPlay);
-
-            if (thumbnails.length > 1) {
-                autoPlay = setInterval(function () {
-                    showImage(currentIndex + 1);
-                }, 3000);
+        function stopAutoPlay() {
+            if (autoPlay !== null) {
+                clearInterval(autoPlay);
+                autoPlay = null;
             }
         }
 
-        thumbnails.forEach(function (thumb, index) {
-            thumb.addEventListener("click", function () {
+        function startAutoPlay() {
+            stopAutoPlay();
+
+            if (thumbnails.length <= 1) {
+                return;
+            }
+
+            autoPlay = setInterval(function () {
+                if (!isHovering && !document.hidden) {
+                    showImage(currentIndex + 1);
+                }
+            }, 4000);
+        }
+
+        thumbnails.forEach(function (thumbnail, index) {
+            thumbnail.addEventListener("click", function () {
                 showImage(index);
                 startAutoPlay();
             });
@@ -1848,19 +1873,34 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
+        slider.addEventListener("mouseenter", function () {
+            isHovering = true;
+        });
+
+        slider.addEventListener("mouseleave", function () {
+            isHovering = false;
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (!document.hidden) {
+                startAutoPlay();
+            }
+        });
+
         showImage(0);
         startAutoPlay();
+
+        console.log("JWL slider: Đã khởi tạo thành công.");
     }
 
     if (document.readyState === "loading") {
-        document.addEventListener(
-            "DOMContentLoaded",
-            initJwlSlider
-        );
+        document.addEventListener("DOMContentLoaded", initJwlSlider);
     } else {
         initJwlSlider();
     }
 })();
+</script>
+
 
 
 </body>
