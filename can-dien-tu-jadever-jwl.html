@@ -193,6 +193,93 @@
                 font-size: 14px;
             }
         }
+
+.jwl-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f5f5f5;
+}
+
+.jwl-slider > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+}
+
+.jwl-slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.jwl-slider-prev {
+    left: 10px;
+}
+
+.jwl-slider-next {
+    right: 10px;
+}
+
+.jwl-slider-thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.jwl-thumb {
+    width: 75px;
+    height: 60px;
+    padding: 3px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.jwl-thumb.active {
+    border-color: #c28b36;
+}
+
+.jwl-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.jwl-image figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .jwl-slider-arrow {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    .jwl-thumb {
+        width: 62px;
+        height: 50px;
+    }
+}
+
     </style>
 </head>
 
@@ -470,17 +557,59 @@
 
         <section class="jwl-intro">
 
-            <figure class="jwl-image">
-                <img src="images/can-ban/jwl/1.jpg"
-                     alt="Cân điện tử Jadever JWL Đài Loan"
-                     width="600"
-                     height="450"
-                     fetchpriority="high">
+            
+<figure class="jwl-image">
 
-                <figcaption data-jwl-i18n="imageCaption">
-                    Cân điện tử Jadever JWL.
-                </figcaption>
-            </figure>
+    <div class="jwl-slider">
+
+        <button type="button"
+                class="jwl-slider-arrow jwl-slider-prev"
+                aria-label="Ảnh trước">
+            &#10094;
+        </button>
+
+        <img
+            id="jwlMainImage"
+            src="images/can-ban/jwl/1.jpg"
+            alt="Cân điện tử Jadever JWL Đài Loan"
+            width="600"
+            height="450"
+            fetchpriority="high">
+
+        <button type="button"
+                class="jwl-slider-arrow jwl-slider-next"
+                aria-label="Ảnh tiếp theo">
+            &#10095;
+        </button>
+
+    </div>
+
+    <div class="jwl-slider-thumbnails">
+        <button type="button" class="jwl-thumb active"
+                data-image="images/can-ban/jwl/1.jpg"
+                aria-label="Xem ảnh 1">
+            <img src="images/can-ban/jwl/1.jpg" alt="Ảnh 1 cân Jadever JWL">
+        </button>
+
+        <button type="button" class="jwl-thumb"
+                data-image="images/can-ban/jwl/2.jpg"
+                aria-label="Xem ảnh 2">
+            <img src="images/can-ban/jwl/2.jpg" alt="Ảnh 2 cân Jadever JWL">
+        </button>
+
+        <button type="button" class="jwl-thumb"
+                data-image="images/can-ban/jwl/3.jpg"
+                aria-label="Xem ảnh 3">
+            <img src="images/can-ban/jwl/3.jpg" alt="Ảnh 3 cân Jadever JWL">
+        </button>
+    </div>
+
+    <figcaption data-jwl-i18n="imageCaption">
+        Cân điện tử Jadever JWL.
+    </figcaption>
+
+</figure>
+
 
             <div>
                 <p data-jwl-i18n="intro1">
@@ -1652,6 +1781,53 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const mainImage = document.getElementById("jwlMainImage");
+    const thumbnails = Array.from(
+        document.querySelectorAll(".jwl-thumb")
+    );
+    const prevButton = document.querySelector(".jwl-slider-prev");
+    const nextButton = document.querySelector(".jwl-slider-next");
+
+    if (!mainImage || thumbnails.length === 0) {
+        return;
+    }
+
+    let currentIndex = 0;
+
+    function showImage(index) {
+        currentIndex =
+            (index + thumbnails.length) % thumbnails.length;
+
+        const selectedThumb = thumbnails[currentIndex];
+        const imagePath = selectedThumb.dataset.image;
+
+        mainImage.src = imagePath;
+
+        thumbnails.forEach(function (thumb, i) {
+            thumb.classList.toggle("active", i === currentIndex);
+        });
+    }
+
+    thumbnails.forEach(function (thumb, index) {
+        thumb.addEventListener("click", function () {
+            showImage(index);
+        });
+    });
+
+    if (prevButton) {
+        prevButton.addEventListener("click", function () {
+            showImage(currentIndex - 1);
+        });
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener("click", function () {
+            showImage(currentIndex + 1);
+        });
+    }
+});
 
 
 </body>
