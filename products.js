@@ -3,6 +3,7 @@ window.products = [
 {
     business:"measure",
     id:1,
+    slug: "can-dien-tu-jadever-jwl",
     name:"Cân điện tử Jadever JWL",
     category:"can-ban",
     folder:"jwl",
