@@ -9,21 +9,28 @@ let allProductsCache = [];
    PRODUCT DETAIL URL
 ========================= */
 
+
 function getProductDetailUrl(product) {
 
-    // Jadever JWL - ID 1: dùng trang SEO riêng
+    // Jadever JWL - ID 1
     if (Number(product.id) === 1) {
         return "can-dien-tu-jadever-jwl.html";
     }
 
-    // Amway: giữ nguyên trang riêng hiện tại
+    // Vibra ALC - ID 2
+    if (Number(product.id) === 2) {
+        return "can-dem-vibra-alc.html";
+    }
+
+    // Amway
     if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
         return "amway.html?id=" + product.id;
     }
 
-    // Các sản phẩm còn lại: giữ nguyên hệ thống cũ
+    // Các sản phẩm còn lại
     return "chitiet.html?id=" + product.id;
 }
+
 
 /* =========================
    BRAND ORDER
@@ -72,15 +79,7 @@ function renderProducts(productList = []) {
             const product = getTranslatedProduct(p) || p;
 
             // Đường dẫn chi tiết sản phẩm
-            let detailUrl;
-
-            if (Number(p.id) === 1) {
-                detailUrl = "can-dien-tu-jadever-jwl.html";
-            } else if (p.brand === "Amway") {
-                detailUrl = "amway.html?id=" + p.id;
-            } else {
-                detailUrl = "chitiet.html?id=" + p.id;
-            }
+            const detailUrl = getProductDetailUrl(p);
 
             return `
 <div class="product-card">
@@ -216,15 +215,7 @@ function renderHomeGridPage(products = []) {
                     (p.brand || "").trim();
 
                 // Đường dẫn chi tiết sản phẩm
-                let detailUrl;
-
-                if (Number(p.id) === 1) {
-                    detailUrl = "can-dien-tu-jadever-jwl.html";
-                } else if (p.brand === "Amway") {
-                    detailUrl = "amway.html?id=" + p.id;
-                } else {
-                    detailUrl = "chitiet.html?id=" + p.id;
-                }
+                const detailUrl = getProductDetailUrl(p);
 
                 return `
                 <div class="product-card">
@@ -533,15 +524,7 @@ function renderListPage(page = 1) {
                     (p.brand || "").trim();
 
                 // Đường dẫn chi tiết sản phẩm
-                let detailUrl;
-
-                if (Number(p.id) === 1) {
-                    detailUrl = "can-dien-tu-jadever-jwl.html";
-                } else if (p.brand === "Amway") {
-                    detailUrl = "amway.html?id=" + p.id;
-                } else {
-                    detailUrl = "chitiet.html?id=" + p.id;
-                }
+                const detailUrl = getProductDetailUrl(p);
 
                 return `
                 <div class="product-card">
