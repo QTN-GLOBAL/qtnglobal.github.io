@@ -5,6 +5,25 @@
 ========================= */
 
 let allProductsCache = [];
+/* =========================
+   PRODUCT DETAIL URL
+========================= */
+
+function getProductDetailUrl(product) {
+
+    // Jadever JWL - ID 1: dùng trang SEO riêng
+    if (Number(product.id) === 1) {
+        return "can-dien-tu-jadever-jwl.html";
+    }
+
+    // Amway: giữ nguyên trang riêng hiện tại
+    if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
+        return "amway.html?id=" + product.id;
+    }
+
+    // Các sản phẩm còn lại: giữ nguyên hệ thống cũ
+    return "chitiet.html?id=" + product.id;
+}
 
 /* =========================
    BRAND ORDER
@@ -40,6 +59,7 @@ let currentListTitle = "";
    RENDER GRID (GENERIC)
 ========================= */
 
+
 function renderProducts(productList = []) {
 
     const grid = document.getElementById("productGrid");
@@ -51,6 +71,17 @@ function renderProducts(productList = []) {
 
             const product = getTranslatedProduct(p) || p;
 
+            // Đường dẫn chi tiết sản phẩm
+            let detailUrl;
+
+            if (Number(p.id) === 1) {
+                detailUrl = "can-dien-tu-jadever-jwl.html";
+            } else if (p.brand === "Amway") {
+                detailUrl = "amway.html?id=" + p.id;
+            } else {
+                detailUrl = "chitiet.html?id=" + p.id;
+            }
+
             return `
 <div class="product-card">
     <img src="images/${p.category}/${p.folder}/main.jpg">
@@ -61,10 +92,7 @@ function renderProducts(productList = []) {
 
         <div class="product-buttons">
 
-            <a class="detail-btn"
-   href="${p.brand === 'Amway'
-       ? 'amway.html'
-       : 'chitiet.html'}?id=${p.id}">
+            <a class="detail-btn" href="${detailUrl}">
                 ${t("detailBtn")}
             </a>
 
@@ -86,6 +114,7 @@ function renderProducts(productList = []) {
         })
         .join("");
 }
+
 
 /* =========================
    FILTER
@@ -152,6 +181,7 @@ function renderHomeByBrand(productList = null) {
    12 PRODUCTS / PAGE
 ========================= */
 
+
 function renderHomeGridPage(products = []) {
 
     const container = document.getElementById("homeContainer");
@@ -185,6 +215,17 @@ function renderHomeGridPage(products = []) {
                 const brand =
                     (p.brand || "").trim();
 
+                // Đường dẫn chi tiết sản phẩm
+                let detailUrl;
+
+                if (Number(p.id) === 1) {
+                    detailUrl = "can-dien-tu-jadever-jwl.html";
+                } else if (p.brand === "Amway") {
+                    detailUrl = "amway.html?id=" + p.id;
+                } else {
+                    detailUrl = "chitiet.html?id=" + p.id;
+                }
+
                 return `
                 <div class="product-card">
 
@@ -207,9 +248,7 @@ function renderHomeGridPage(products = []) {
 
                             <a
                                 class="detail-btn"
-                                href="${p.brand === 'Amway'
-                                    ? 'amway.html'
-                                    : 'chitiet.html'}?id=${p.id}"
+                                href="${detailUrl}"
                             >
                                 ${t("detailBtn")}
                             </a>
@@ -283,6 +322,7 @@ function renderHomeGridPage(products = []) {
 
     container.innerHTML = html;
 }
+
 
 /* =========================
    CHANGE HOME GRID PAGE
@@ -394,6 +434,7 @@ function goHomePage() {
    PRODUCT LIST PAGE
 ========================= */
 
+
 function renderProductList(products = [], title = "") {
 
     currentListProducts = [...products]
@@ -491,6 +532,17 @@ function renderListPage(page = 1) {
                 const brand =
                     (p.brand || "").trim();
 
+                // Đường dẫn chi tiết sản phẩm
+                let detailUrl;
+
+                if (Number(p.id) === 1) {
+                    detailUrl = "can-dien-tu-jadever-jwl.html";
+                } else if (p.brand === "Amway") {
+                    detailUrl = "amway.html?id=" + p.id;
+                } else {
+                    detailUrl = "chitiet.html?id=" + p.id;
+                }
+
                 return `
                 <div class="product-card">
 
@@ -513,9 +565,7 @@ function renderListPage(page = 1) {
 
                             <a
                                 class="detail-btn"
-                                href="${p.brand === 'Amway'
-                                    ? 'amway.html'
-                                    : 'chitiet.html'}?id=${p.id}"
+                                href="${detailUrl}"
                             >
                                 ${t("detailBtn")}
                             </a>
@@ -590,6 +640,7 @@ function renderListPage(page = 1) {
 
     container.innerHTML = html;
 }
+
 
 function changeListPage(page) {
 
