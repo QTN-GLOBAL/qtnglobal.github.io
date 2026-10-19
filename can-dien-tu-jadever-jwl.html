@@ -1782,52 +1782,85 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const mainImage = document.getElementById("jwlMainImage");
-    const thumbnails = Array.from(
-        document.querySelectorAll(".jwl-thumb")
-    );
-    const prevButton = document.querySelector(".jwl-slider-prev");
-    const nextButton = document.querySelector(".jwl-slider-next");
 
-    if (!mainImage || thumbnails.length === 0) {
-        return;
+(function () {
+    function initJwlSlider() {
+        const mainImage = document.getElementById("jwlMainImage");
+        const thumbnails = Array.from(
+            document.querySelectorAll(".jwl-thumb")
+        );
+        const prevButton = document.querySelector(".jwl-slider-prev");
+        const nextButton = document.querySelector(".jwl-slider-next");
+
+        if (!mainImage || thumbnails.length === 0) {
+            return;
+        }
+
+        let currentIndex = 0;
+        let autoPlay;
+
+        function showImage(index) {
+            currentIndex =
+                (index + thumbnails.length) % thumbnails.length;
+
+            const thumb = thumbnails[currentIndex];
+            const imagePath = thumb.getAttribute("data-image");
+
+            if (!imagePath) {
+                return;
+            }
+
+            mainImage.src = imagePath;
+
+            thumbnails.forEach(function (item, i) {
+                item.classList.toggle("active", i === currentIndex);
+            });
+        }
+
+        function startAutoPlay() {
+            clearInterval(autoPlay);
+
+            if (thumbnails.length > 1) {
+                autoPlay = setInterval(function () {
+                    showImage(currentIndex + 1);
+                }, 3000);
+            }
+        }
+
+        thumbnails.forEach(function (thumb, index) {
+            thumb.addEventListener("click", function () {
+                showImage(index);
+                startAutoPlay();
+            });
+        });
+
+        if (prevButton) {
+            prevButton.addEventListener("click", function () {
+                showImage(currentIndex - 1);
+                startAutoPlay();
+            });
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", function () {
+                showImage(currentIndex + 1);
+                startAutoPlay();
+            });
+        }
+
+        showImage(0);
+        startAutoPlay();
     }
 
-    let currentIndex = 0;
-
-    function showImage(index) {
-        currentIndex =
-            (index + thumbnails.length) % thumbnails.length;
-
-        const selectedThumb = thumbnails[currentIndex];
-        const imagePath = selectedThumb.dataset.image;
-
-        mainImage.src = imagePath;
-
-        thumbnails.forEach(function (thumb, i) {
-            thumb.classList.toggle("active", i === currentIndex);
-        });
+    if (document.readyState === "loading") {
+        document.addEventListener(
+            "DOMContentLoaded",
+            initJwlSlider
+        );
+    } else {
+        initJwlSlider();
     }
-
-    thumbnails.forEach(function (thumb, index) {
-        thumb.addEventListener("click", function () {
-            showImage(index);
-        });
-    });
-
-    if (prevButton) {
-        prevButton.addEventListener("click", function () {
-            showImage(currentIndex - 1);
-        });
-    }
-
-    if (nextButton) {
-        nextButton.addEventListener("click", function () {
-            showImage(currentIndex + 1);
-        });
-    }
-});
+})();
 
 
 </body>
