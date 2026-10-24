@@ -21,6 +21,10 @@ function getProductDetailUrl(product) {
     if (Number(product.id) === 2) {
         return "can-dem-vibra-alc.html";
     }
+// Cân treo điện tử chống nước OKS-HA 3 tấn - ID 85
+    if (Number(product.id) === 85) {
+        return "can-treo-dien-tu-chong-nuoc-oks-ha-3-tan.html";
+    }
 
     // Amway
     if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
