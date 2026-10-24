@@ -8454,6 +8454,8 @@ specs:[
 {
     business:"measure",
     id:85,
+slug: "oks-ha-3-tan-seo",
+
 
     name:"Cân treo điện tử chống nước OKS-HA 3 tấn",
 
