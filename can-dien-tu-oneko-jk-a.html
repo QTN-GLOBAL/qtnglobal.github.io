@@ -194,6 +194,100 @@
             }
         }
     </style>
+
+    <style>
+    /* Popup giỏ hàng và đặt hàng riêng cho trang SEO Oneko JK-A */
+    .oneko-popup-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        background: rgba(0, 0, 0, .62);
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .oneko-popup-box {
+        width: min(680px, 100%);
+        max-height: 90vh;
+        overflow-y: auto;
+        background: #fff;
+        color: #222;
+        border-radius: 12px;
+        padding: 22px;
+        box-sizing: border-box;
+        box-shadow: 0 12px 40px rgba(0,0,0,.25);
+        font-family: Arial, sans-serif;
+    }
+    .oneko-popup-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+    .oneko-popup-head h2 { margin: 0; font-size: 22px; }
+    .oneko-popup-close {
+        border: 0; background: transparent; color: #333;
+        font-size: 28px; cursor: pointer; line-height: 1;
+    }
+    .oneko-popup-product {
+        display: flex; align-items: center; gap: 14px; margin-bottom: 16px;
+    }
+    .oneko-popup-product img {
+        width: 76px; height: 76px; object-fit: contain;
+        border: 1px solid #eee; border-radius: 8px;
+    }
+    .oneko-popup-product strong { font-size: 17px; }
+    .oneko-option-list { display: grid; gap: 8px; margin: 14px 0; }
+    .addcart-row, .buy-row {
+        display: grid; grid-template-columns: 28px minmax(0,1fr) 112px;
+        gap: 8px; align-items: center; padding: 10px;
+        border: 1px solid #e5e7eb; border-radius: 8px;
+    }
+    .addcart-middle, .buy-middle { overflow-wrap: anywhere; }
+    .addcart-right, .buy-right { display: flex; align-items: center; gap: 5px; }
+    .addcart-right button, .buy-right button {
+        width: 28px; height: 30px; border: 1px solid #ccc;
+        border-radius: 5px; background: #f5f5f5; cursor: pointer;
+    }
+    .addcart-right input, .buy-right input {
+        width: 42px; min-width: 0; box-sizing: border-box;
+        padding: 5px 2px; text-align: center;
+    }
+    .oneko-popup-box input[type="text"],
+    .oneko-popup-box input[type="tel"],
+    .oneko-popup-box input[type="number"],
+    .oneko-popup-box textarea {
+        font: inherit; border: 1px solid #d1d5db; border-radius: 6px;
+        padding: 9px; box-sizing: border-box; max-width: 100%;
+    }
+    .oneko-customer-grid {
+        display: grid; grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 10px; margin: 14px 0;
+    }
+    .oneko-customer-grid label { display: grid; gap: 5px; font-size: 14px; }
+    .oneko-customer-grid input { width: 100%; }
+    .oneko-request-type { display: flex; flex-wrap: wrap; gap: 18px; margin: 12px 0; }
+    .oneko-popup-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .oneko-popup-actions button {
+        border: 0; border-radius: 7px; padding: 11px 16px;
+        font-weight: 600; cursor: pointer;
+    }
+    .oneko-popup-primary { background: #087f5b; color: white; }
+    .oneko-popup-secondary { background: #e5e7eb; color: #222; }
+    .oneko-popup-social { background: #0877e8; color: white; }
+    .oneko-popup-box .input-error { border: 2px solid #dc2626 !important; }
+    @media (max-width: 520px) {
+        .oneko-popup-box { padding: 16px; }
+        .oneko-popup-head h2 { font-size: 19px; }
+        .addcart-row, .buy-row { grid-template-columns: 24px minmax(0,1fr); }
+        .addcart-right, .buy-right { grid-column: 2; }
+        .oneko-customer-grid { grid-template-columns: 1fr; }
+    }
+    </style>
+
 </head>
 
 <body>
@@ -716,6 +810,73 @@
 
 </footer>
 
+
+
+<!-- POPUP THÊM VÀO GIỎ HÀNG -->
+<div id="addCartPopup" class="oneko-popup-overlay" role="dialog" aria-modal="true" aria-labelledby="addCartTitle">
+    <div class="oneko-popup-box">
+        <div class="oneko-popup-head">
+            <h2 id="addCartTitle">Thêm vào giỏ hàng</h2>
+            <button type="button" class="oneko-popup-close" onclick="closeAddCart()" aria-label="Đóng">&times;</button>
+        </div>
+        <div class="oneko-popup-product">
+            <img id="popupCartImg" src="images/can-ban/oneko-jk-a/main.jpg" alt="Cân điện tử Oneko JK-A">
+            <strong id="popupCartName">Cân điện tử Oneko JK-A</strong>
+        </div>
+        <p>Chọn mức cân/cấu hình cần thêm vào giỏ hàng:</p>
+        <div id="cartSpecList" class="oneko-option-list"></div>
+        <div class="oneko-popup-actions">
+            <button type="button" class="oneko-popup-primary" onclick="confirmAddCart()">Xác nhận thêm vào giỏ</button>
+            <button type="button" class="oneko-popup-secondary" onclick="closeAddCart()">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<!-- POPUP MUA NGAY / BÁO GIÁ -->
+<div id="buyPopup" class="oneko-popup-overlay" role="dialog" aria-modal="true" aria-labelledby="buyTitle">
+    <div class="oneko-popup-box">
+        <div class="oneko-popup-head">
+            <h2 id="buyTitle">Đặt hàng / Báo giá</h2>
+            <button type="button" class="oneko-popup-close" onclick="closeBuyPopup()" aria-label="Đóng">&times;</button>
+        </div>
+        <div class="oneko-popup-product">
+            <img id="buyProductImg" src="images/can-ban/oneko-jk-a/main.jpg" alt="Cân điện tử Oneko JK-A">
+            <strong id="buyProductName">Cân điện tử Oneko JK-A</strong>
+        </div>
+        <div class="oneko-request-type">
+            <label><input type="radio" name="requestType" value="order" checked> Đặt hàng</label>
+            <label><input type="radio" name="requestType" value="quote"> Yêu cầu báo giá</label>
+        </div>
+        <p>Chọn mức cân/cấu hình cần đặt hàng hoặc báo giá:</p>
+        <div id="buyCapacityList" class="oneko-option-list"></div>
+        <div class="oneko-customer-grid">
+            <label>Họ và tên *
+                <input type="text" id="customerName" autocomplete="name" placeholder="Nhập họ và tên">
+            </label>
+            <label>Số điện thoại *
+                <input type="tel" id="customerPhone" autocomplete="tel" placeholder="Nhập số điện thoại">
+            </label>
+            <label>Tên công ty
+                <input type="text" id="customerCompany" autocomplete="organization" placeholder="Tên công ty (nếu có)">
+            </label>
+            <label>Mã số thuế
+                <input type="text" id="customerTax" placeholder="Mã số thuế (nếu có)">
+            </label>
+            <label>Địa chỉ hóa đơn *
+                <input type="text" id="customerInvoice" autocomplete="street-address" placeholder="Địa chỉ xuất hóa đơn">
+            </label>
+            <label>Địa chỉ giao hàng *
+                <input type="text" id="customerAddress" placeholder="Địa chỉ nhận hàng">
+            </label>
+        </div>
+        <div class="oneko-popup-actions">
+            <button type="button" class="oneko-popup-social" onclick="sendOrderZalo()">Gửi qua Zalo</button>
+            <button type="button" class="oneko-popup-social" onclick="sendOrderMessenger()">Gửi qua Messenger</button>
+            <button type="button" class="oneko-popup-secondary" onclick="closeBuyPopup()">Đóng</button>
+        </div>
+        <p style="font-size:13px;color:#666;margin-top:12px;">Thông tin sẽ được sao chép để bạn dán vào cuộc trò chuyện Zalo hoặc Messenger.</p>
+    </div>
+</div>
 
     <!-- WEBSITE SCRIPTS -->
     <script src="products.js"></script>
