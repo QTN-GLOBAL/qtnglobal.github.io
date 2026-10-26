@@ -170,7 +170,7 @@ slug: "can-dem-vibra-alc",
 {
     business:"measure",
     id:3,
-
+slug: "can-dien-tu-oneko-jk-a",
     name:"Cân điện tử Oneko JK-A",
 
     category:"can-ban",
