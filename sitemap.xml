@@ -5,38 +5,59 @@
     <!-- TRANG CHỦ -->
     <url>
         <loc>https://qtn-global.com/</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- GIỚI THIỆU -->
     <url>
         <loc>https://qtn-global.com/about.html</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- TIN TỨC -->
     <url>
         <loc>https://qtn-global.com/news.html</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- CÂN BÀN ĐIỆN TỬ -->
     <url>
         <loc>https://qtn-global.com/can-ban-dien-tu.html</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- CÂN ĐIỆN TỬ EXCELL -->
     
 <url>
   <loc>https://qtn-global.com/can-dien-tu-excell-chinh-hang.html</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
 </url>
 
 
     <!-- CÂN ĐIỆN TỬ JADEVER JWL -->
     <url>
         <loc>https://qtn-global.com/can-dien-tu-jadever-jwl.html</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- BÀI SEO CÂN BÀN ĐIỆN TỬ CÔNG NGHIỆP -->
     <url>
         <loc>https://qtn-global.com/can-ban-dien-tu-cong-nghiep.html</loc>
+<lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 <!-- CÂN ĐIỆN TỬ ĐẾM VIBRA ALC -->
 <url>
@@ -44,10 +65,19 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+<!-- CÂN TREO ĐIỆN TỬ CHỐNG NƯỚC OKS HA 3 TẤN -->
 <url>
     <loc>https://qtn-global.com/can-treo-dien-tu-chong-nuoc-oks-ha-3-tan.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+<!-- CÂN ĐIỆN TỬ ONEKO JK A-->
+    <url>
+        <loc>https://qtn-global.com/can-dien-tu-oneko-jk-a.html</loc>
+        <lastmod>2026-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 
 </urlset>
