@@ -25,6 +25,10 @@ function getProductDetailUrl(product) {
     if (Number(product.id) === 85) {
         return "can-treo-dien-tu-chong-nuoc-oks-ha-3-tan.html";
     }
+// Cân điện tử Oneko JK-A - ID 3
+if (Number(product.id) === 3) {
+    return "can-dien-tu-oneko-jk-a.html";
+}
 
     // Amway
     if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
