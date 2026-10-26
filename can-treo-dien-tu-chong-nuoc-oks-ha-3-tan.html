@@ -1149,6 +1149,15 @@ document.addEventListener("DOMContentLoaded", function(){
     thumbnails.forEach((thumb, i) => thumb.addEventListener("click", () => showImage(i)));
     if (prevButton) prevButton.addEventListener("click", () => showImage(currentIndex - 1));
     if (nextButton) nextButton.addEventListener("click", () => showImage(currentIndex + 1));
+
+    // Tự động chuyển ảnh sau mỗi 3 giây; tạm dừng khi rê chuột vào vùng ảnh.
+    let autoSlide = setInterval(() => showImage(currentIndex + 1), 3000);
+    slider.addEventListener("mouseenter", () => clearInterval(autoSlide));
+    slider.addEventListener("mouseleave", () => {
+      clearInterval(autoSlide);
+      autoSlide = setInterval(() => showImage(currentIndex + 1), 3000);
+    });
+
     showImage(0);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
