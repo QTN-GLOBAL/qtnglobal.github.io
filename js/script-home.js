@@ -29,7 +29,10 @@ function getProductDetailUrl(product) {
 if (Number(product.id) === 3) {
     return "can-dien-tu-oneko-jk-a.html";
 }
-
+ // Ohaus RC21PE - ID 4
+    if (Number(product.id) === 4) {
+        return "can-dien-tu-ohaus-rc21pe.html";
+    }
     // Amway
     if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
         return "amway.html?id=" + product.id;
