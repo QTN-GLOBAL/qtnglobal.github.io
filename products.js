@@ -264,7 +264,7 @@ slug: "can-dien-tu-oneko-jk-a",
 {
     business:"measure",
     id:4,
-
+ slug: "can-dien-tu-ohaus-rc21pe",
     name:"Cân điện tử Ohaus RC21PE",
 
     category:"can-ban",
