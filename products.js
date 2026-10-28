@@ -351,6 +351,7 @@ slug: "can-dien-tu-oneko-jk-a",
    {
     business:"measure",
     id:5,
+slug: "can-dien-tu-vibra-haw.html",
 
     name:"Cân điện tử Nhật Bản VIBRA HAW",
 
