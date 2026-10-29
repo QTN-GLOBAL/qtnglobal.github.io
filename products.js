@@ -451,6 +451,7 @@ slug: "can-dien-tu-vibra-haw.html",
 {
     business:"measure",
     id:6,
+slug: "can-dem-dien-tu-jadever-jcl.html",
 
     name:"Cân đếm Jadever JCL",
 

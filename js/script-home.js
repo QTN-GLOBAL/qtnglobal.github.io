@@ -37,6 +37,11 @@ if (Number(product.id) === 3) {
 if (Number(product.id) === 5) {
     return "can-dien-tu-vibra-haw.html";
 }
+// Cân đếm Jadever JCL - ID 6
+if (Number(product.id) === 6) {
+    return "can-dem-dien-tu-jadever-jcl.html";
+}
+
     // Amway
     if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
         return "amway.html?id=" + product.id;
