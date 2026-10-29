@@ -1,0 +1,1835 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Cân Đếm Điện Tử Jadever JCL Chính Hãng | QTN GLOBAL</title>
+
+    <meta name="description"
+          content="Cân đếm điện tử Jadever JCL xuất xứ Đài Loan, mức cân 1.5kg đến 30kg, màn hình LCD 3 cửa sổ, chức năng cân, đếm số lượng, trừ bì và cộng dồn. Liên hệ QTN GLOBAL để được tư vấn.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical"
+          href="https://qtn-global.com/can-dem-dien-tu-jadever-jcl.html">
+
+    <meta property="og:type" content="product">
+    <meta property="og:title"
+          content="Cân Đếm Điện Tử Jadever JCL | QTN GLOBAL">
+    <meta property="og:description"
+          content="Tìm hiểu cân đếm Jadever JCL với các mức cân từ 1.5kg đến 30kg và chức năng đếm số lượng.">
+    <meta property="og:url"
+          content="https://qtn-global.com/can-dem-dien-tu-jadever-jcl.html">
+    <meta property="og:site_name" content="QTN GLOBAL">
+
+    <!-- CSS hiện có của website -->
+    <link rel="stylesheet" href="css/style-base.css">
+    <link rel="stylesheet" href="css/style-home.css">
+    <link rel="stylesheet" href="css/style-detail-layout.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
+
+    <style>
+        /* =====================================
+           JADEVER JCL - CSS RIÊNG CHO TRANG
+        ===================================== */
+
+        :root {
+            --jcl-primary: #164b83;
+            --jcl-primary-dark: #10375f;
+            --jcl-accent: #eaf2fb;
+            --jcl-border: #dfe5ec;
+            --jcl-text: #303844;
+            --jcl-muted: #667085;
+            --jcl-white: #ffffff;
+        }
+
+        .jcl-page,
+        .jcl-page * {
+            box-sizing: border-box;
+        }
+
+        .jcl-page {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 18px 50px;
+            color: var(--jcl-text);
+            font-size: 16px;
+            line-height: 1.75;
+        }
+
+        .jcl-page img {
+            max-width: 100%;
+        }
+
+        .jcl-page a {
+            overflow-wrap: anywhere;
+        }
+
+        .jcl-breadcrumb {
+            margin-bottom: 18px;
+            font-size: 14px;
+            color: var(--jcl-muted);
+        }
+
+        .jcl-breadcrumb a {
+            color: var(--jcl-primary);
+            text-decoration: none;
+        }
+
+        .jcl-language {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            gap: 7px;
+            margin-bottom: 15px;
+        }
+
+        .jcl-language button {
+            padding: 7px 12px;
+            border: 1px solid var(--jcl-primary);
+            border-radius: 5px;
+            background: var(--jcl-white);
+            color: var(--jcl-primary);
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .jcl-language button.active {
+            background: var(--jcl-primary);
+            color: var(--jcl-white);
+        }
+
+        .jcl-page h1 {
+            margin: 10px 0 20px;
+            color: var(--jcl-primary-dark);
+            font-size: 30px;
+            line-height: 1.4;
+        }
+
+        .jcl-page h2 {
+            margin: 32px 0 15px;
+            color: var(--jcl-primary-dark);
+            font-size: 24px;
+            line-height: 1.45;
+        }
+
+        .jcl-page h3 {
+            margin: 0 0 9px;
+            color: var(--jcl-primary);
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .jcl-product-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 30px;
+            align-items: start;
+        }
+
+        /* Slider ảnh */
+
+        .jcl-gallery {
+            min-width: 0;
+        }
+
+        .jcl-main-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 350px;
+            padding: 18px;
+            overflow: hidden;
+            border: 1px solid var(--jcl-border);
+            border-radius: 10px;
+            background: var(--jcl-white);
+        }
+
+        .jcl-main-image img {
+            display: block;
+            width: 100%;
+            max-height: 430px;
+            object-fit: contain;
+        }
+
+        .jcl-slide-btn {
+            position: absolute;
+            top: 50%;
+            z-index: 2;
+            width: 40px;
+            height: 40px;
+            transform: translateY(-50%);
+            border: 1px solid #d7dce3;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.94);
+            color: var(--jcl-primary);
+            cursor: pointer;
+            font-size: 23px;
+            line-height: 1;
+        }
+
+        .jcl-slide-prev {
+            left: 10px;
+        }
+
+        .jcl-slide-next {
+            right: 10px;
+        }
+
+        .jcl-thumbnails {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .jcl-thumb {
+            width: 76px;
+            height: 76px;
+            padding: 4px;
+            border: 1px solid var(--jcl-border);
+            border-radius: 6px;
+            background: var(--jcl-white);
+            cursor: pointer;
+        }
+
+        .jcl-thumb.active {
+            border: 2px solid var(--jcl-primary);
+        }
+
+        .jcl-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .jcl-image-caption {
+            margin: 8px 0 0;
+            color: var(--jcl-muted);
+            font-size: 13px;
+        }
+
+        /* Thông tin sản phẩm */
+
+        .jcl-product-info {
+            min-width: 0;
+        }
+
+        .jcl-summary {
+            padding: 22px;
+            border: 1px solid var(--jcl-border);
+            border-radius: 10px;
+            background: #f8fafc;
+        }
+
+        .jcl-summary p:first-child {
+            margin-top: 0;
+        }
+
+        .jcl-product-meta {
+            display: grid;
+            grid-template-columns: 120px minmax(0, 1fr);
+            gap: 7px 12px;
+            margin: 18px 0;
+        }
+
+        .jcl-product-meta strong {
+            color: var(--jcl-primary-dark);
+        }
+
+        .jcl-action-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .jcl-btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 46px;
+            padding: 11px 15px;
+            border: 0;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .jcl-btn-cart {
+            background: var(--jcl-primary);
+        }
+
+        .jcl-btn-cart:hover {
+            background: var(--jcl-primary-dark);
+        }
+
+        .jcl-btn-buy {
+            background: #d97706;
+        }
+
+        .jcl-btn-buy:hover {
+            background: #b85f05;
+        }
+
+        .jcl-small-note {
+            margin-top: 12px;
+            color: var(--jcl-muted);
+            font-size: 13px;
+        }
+
+        /* Bảng thông số */
+
+        .jcl-table-wrap {
+            width: 100%;
+            overflow-x: auto;
+            margin: 18px 0 25px;
+        }
+
+        .jcl-spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+        }
+
+        .jcl-spec-table th,
+        .jcl-spec-table td {
+            padding: 11px 13px;
+            border: 1px solid #d9e0e8;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .jcl-spec-table thead th {
+            background: var(--jcl-primary);
+            color: #fff;
+            white-space: nowrap;
+        }
+
+        .jcl-spec-table tbody tr:nth-child(even) {
+            background: #f5f8fc;
+        }
+
+        .jcl-spec-table tbody th {
+            width: 34%;
+            background: #edf3fa;
+            color: var(--jcl-primary-dark);
+        }
+
+        /* Các tính năng */
+
+        .jcl-feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+
+        .jcl-feature-card {
+            padding: 19px;
+            border: 1px solid var(--jcl-border);
+            border-radius: 8px;
+            background: var(--jcl-white);
+        }
+
+        .jcl-feature-card p {
+            margin-bottom: 0;
+        }
+
+        .jcl-page ul {
+            padding-left: 24px;
+        }
+
+        .jcl-page li {
+            margin-bottom: 8px;
+        }
+
+        .jcl-contact {
+            margin-top: 35px;
+            padding: 24px;
+            border: 1px solid #d6e3f2;
+            border-radius: 10px;
+            background: var(--jcl-accent);
+        }
+
+        .jcl-contact h2 {
+            margin-top: 0;
+        }
+
+        .jcl-contact p {
+            margin: 8px 0;
+        }
+
+        .jcl-contact a {
+            color: var(--jcl-primary);
+            font-weight: 600;
+        }
+
+        .jcl-contact-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 17px;
+        }
+
+        .jcl-contact-buttons a {
+            display: inline-block;
+            padding: 10px 16px;
+            border-radius: 5px;
+            background: var(--jcl-primary);
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .jcl-contact-buttons a:hover {
+            background: var(--jcl-primary-dark);
+        }
+
+        .jcl-note {
+            color: var(--jcl-muted);
+            font-size: 13px;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 850px) {
+            .jcl-product-layout {
+                grid-template-columns: 1fr;
+                gap: 22px;
+            }
+
+            .jcl-feature-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 560px) {
+            .jcl-page {
+                padding: 15px 12px 35px;
+                font-size: 15px;
+            }
+
+            .jcl-page h1 {
+                font-size: 25px;
+            }
+
+            .jcl-page h2 {
+                font-size: 21px;
+            }
+
+            .jcl-main-image {
+                min-height: 260px;
+            }
+
+            .jcl-main-image img {
+                max-height: 310px;
+            }
+
+            .jcl-feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .jcl-action-buttons {
+                grid-template-columns: 1fr;
+            }
+
+            .jcl-product-meta {
+                grid-template-columns: 105px minmax(0, 1fr);
+            }
+
+            .jcl-spec-table {
+                min-width: 570px;
+                font-size: 13px;
+            }
+
+            .jcl-summary,
+            .jcl-contact {
+                padding: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!-- =========================
+     HEADER FULL CONTENT
+========================= -->
+
+<header class="header">
+
+    <div class="header-top">
+
+        <div class="header-top-inner">
+
+            <div class="logo-area">
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.png" alt="QTN GLOBAL">
+                </a>
+            </div>
+
+            
+
+            <div class="header-actions">
+
+                <a href="tel:0905913636" class="header-action">
+                    <span class="header-action-icon"><i class="fa-solid fa-phone"></i></span>
+                    <span>
+                        <small data-i18n="headerHotline">HOTLINE</small>
+                        <strong>0905 913 636</strong>
+                    </span>
+                </a>
+
+                <a href="tel:0383598603" class="header-action">
+                    <span class="header-action-icon"><i class="fa-solid fa-headset"></i></span>
+                    <span>
+                        <small data-i18n="headerSupport">HỖ TRỢ</small>
+                        <strong>0383 598 603</strong>
+                    </span>
+                </a>
+
+                <a href="https://zalo.me/0383598603" target="_blank" class="header-action header-social">
+                    <span class="header-action-icon"><span class="zalo-mark">Z</span></span>
+                    <span>
+                        <small data-i18n="headerContact">LIÊN HỆ</small>
+                        <strong>Zalo</strong>
+                    </span>
+                </a>
+
+                <a href="javascript:void(0)" class="header-cart" onclick="openCart()">
+                    <span class="header-cart-icon"><i class="fa-solid fa-cart-shopping"></i><b id="cartCount">0</b></span>
+                    <span>
+                        <small data-i18n="headerCartLabel">GIỎ HÀNG</small>
+                        <strong>Giỏ hàng</strong>
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- GIỮ LẠI 2 PHẦN NÀY ĐỂ CÁC SCRIPT CŨ KHÔNG BỊ LỖI -->
+    <div class="header-info legacy-header-info" aria-hidden="true">
+        <h2 id="headerTitle"></h2>
+        <ul id="headerList"></ul>
+    </div>
+
+    <nav class="navbar">
+
+        <button class="menu-toggle" id="menuToggle" data-i18n-aria-label="menuOpen" aria-label="Mở menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-content" id="navContent">
+
+            <button class="menu-close" id="menuClose" data-i18n-aria-label="menuClose" aria-label="Đóng menu">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <a href="index.html" class="nav-home-link">
+                <i class="fas fa-house"></i>
+                <span data-i18n="home">Trang chủ</span>
+            </a>
+
+            <div class="nav-dropdown">
+                <a href="index.html" class="nav-dropdown-toggle">
+                    <i class="fas fa-scale-balanced"></i>
+                    <span data-i18n="products">Sản phẩm</span>
+                    <i class="fas fa-chevron-down nav-chevron"></i>
+                </a>
+
+                <div class="nav-dropdown-menu">
+
+    <a href="can-ban-dien-tu.html" data-i18n="catElectronicPlatform">
+        Cân bàn điện tử
+    </a>
+
+    <a href="#" data-i18n="catPlatform" onclick="goHomeAndCategory('can-ban');return false;">Cân bàn</a>
+
+    <a href="#" onclick="goHomeAndCategory('can-ban-dung');return false;" data-i18n="catStandPlatform">
+        Cân bàn đứng
+    </a>
+                    <a href="#" onclick="goHomeAndCategory('can-dem');return false;" data-i18n="catCountingScale">Cân đếm</a>
+                    <a href="#" onclick="goHomeAndCategory('can-treo');return false;" data-i18n="catCraneScale">Cân treo</a>
+                    <a href="#" onclick="goHomeAndCategory('dau-can-dien-tu');return false;" data-i18n="catIndicator">Đầu cân điện tử</a>
+                    <a href="#" onclick="goHomeAndCategory('can-phan-tich');return false;" data-i18n="catAnalyticalScale">Cân phân tích</a>
+                    <a href="#" onclick="goHomeAndCategory('can-chong-nuoc');return false;" data-i18n="catWaterproofScale">Cân chống nước</a>
+                    <a href="#" onclick="goHomeAndCategory('can-in-tem-ma-vach');return false;" data-i18n="catLabelPrintingScale">Cân in tem mã vạch</a>
+                    <a href="#" onclick="goHomeAndCategory('can-ghe-ngoi');return false;" data-i18n="catChairScale">Cân ghế ngồi</a>
+                    <a href="#" onclick="goHomeAndCategory('air-purifier');return false;" data-i18n="catAirPurifier">Máy lọc không khí</a>
+                    <a href="#" onclick="goHomeAndCategory('air-filter');return false;" data-i18n="catAirFilter">Phụ kiện máy lọc không khí</a>
+                    <a href="#" onclick="goHomeAndCategory('water-purifier');return false;" data-i18n="catWaterPurifier">Máy lọc nước</a>
+                    <a href="#" onclick="goHomeAndCategory('water-filter');return false;" data-i18n="catWaterFilter">Lõi lọc &amp; phụ kiện</a>
+                </div>
+            </div>
+
+            <a href="about.html">
+                <i class="fas fa-circle-info"></i>
+                <span data-i18n="about">Giới thiệu</span>
+            </a>
+
+            <a href="#" onclick="document.getElementById('contactSection')?.scrollIntoView({behavior:'smooth'});return false;">
+                <i class="fas fa-industry"></i>
+            </a>
+
+            <a href="news.html">
+                <i class="fas fa-newspaper"></i>
+                <span data-i18n="news">Tin tức</span>
+            </a>
+
+            <a href="#" onclick="goContact();return false;">
+                <i class="fas fa-phone"></i>
+                <span data-i18n="contact">Liên hệ</span>
+            </a>
+
+            <div class="search-box">
+                <input id="searchInput" type="text" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Tìm kiếm sản phẩm...">
+                <button type="button" onclick="runSearch()" aria-label="Tìm kiếm">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="language-switcher">
+                <select id="languageSelect">
+                    <option value="vi">🇻🇳 Tiếng Việt</option>
+                    <option value="en">🇺🇸 English</option>
+                    <option value="zh">🇨🇳 中文</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="menu-overlay" id="menuOverlay"></div>
+
+    </nav>
+
+</header>
+
+    <!-- Breadcrumb -->
+    <nav class="jcl-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html" data-jcl="home">Trang chủ</a>
+        /
+        <a href="can-dem.html" data-jcl="countingScales">Cân đếm điện tử</a>
+        /
+        <span data-jcl="productName">Cân đếm Jadever JCL</span>
+    </nav>
+
+    <!-- Thông tin sản phẩm -->
+    <section>
+        <h1 data-jcl="title">
+            Cân đếm điện tử Jadever JCL chính hãng
+        </h1>
+
+        <div class="jcl-product-layout">
+
+            <!-- SLIDER ẢNH -->
+            <div class="jcl-gallery">
+
+                <div class="jcl-main-image">
+
+                    <button type="button"
+                            class="jcl-slide-btn jcl-slide-prev"
+                            onclick="jclChangeSlide(-1)"
+                            aria-label="Ảnh trước">
+                        &#8249;
+                    </button>
+
+                    <img
+                        id="jcl-main-photo"
+                        src="images/can-dem/jcl/main.jpg"
+                        alt="Cân đếm điện tử Jadever JCL"
+                        width="600"
+                        height="500"
+                        fetchpriority="high"
+                    >
+
+                    <button type="button"
+                            class="jcl-slide-btn jcl-slide-next"
+                            onclick="jclChangeSlide(1)"
+                            aria-label="Ảnh tiếp theo">
+                        &#8250;
+                    </button>
+
+                </div>
+
+                <div class="jcl-thumbnails" id="jcl-thumbnails">
+
+                    <button type="button"
+                            class="jcl-thumb active"
+                            onclick="jclSelectSlide(0)"
+                            aria-label="Xem ảnh sản phẩm 1">
+                        <img src="images/can-dem/jcl/main.jpg"
+                             alt="Jadever JCL ảnh 1">
+                    </button>
+
+                    <button type="button"
+                            class="jcl-thumb"
+                            onclick="jclSelectSlide(1)"
+                            aria-label="Xem ảnh sản phẩm 2">
+                        <img src="images/can-dem/jcl/1.jpg"
+                             alt="Jadever JCL ảnh 2">
+                    </button>
+
+                    <button type="button"
+                            class="jcl-thumb"
+                            onclick="jclSelectSlide(2)"
+                            aria-label="Xem ảnh sản phẩm 3">
+                        <img src="images/can-dem/jcl/2.jpg"
+                             alt="Jadever JCL ảnh 3">
+                    </button>
+
+                </div>
+
+                <p class="jcl-image-caption" data-jcl="imageCaption">
+                    Hình ảnh sản phẩm cân đếm điện tử Jadever JCL.
+                </p>
+            </div>
+
+            <!-- THÔNG TIN VÀ NÚT MUA -->
+            <div class="jcl-product-info">
+
+                <div class="jcl-summary">
+
+                    <h2 style="margin-top:0;" data-jcl="introHeading">
+                        Giới thiệu sản phẩm
+                    </h2>
+
+                    <p data-jcl="intro1">
+                        Cân đếm Jadever JCL có thiết kế chắc chắn, được sử dụng
+                        trong công việc cân và kiểm đếm linh kiện, phụ tùng,
+                        sản xuất và kho vận.
+                    </p>
+
+                    <p data-jcl="intro2">
+                        Sản phẩm có màn hình LCD 3 cửa sổ đèn nền xanh,
+                        hỗ trợ hiển thị trọng lượng, đơn trọng lượng và số
+                        lượng đếm, giúp người dùng theo dõi các thông tin
+                        cân trong cùng một lần thao tác.
+                    </p>
+
+                    <div class="jcl-product-meta">
+                        <strong data-jcl="brandLabel">Thương hiệu:</strong>
+                        <span>Jadever</span>
+
+                        <strong data-jcl="modelLabel">Model:</strong>
+                        <span>JCL</span>
+
+                        <strong data-jcl="originLabel">Xuất xứ:</strong>
+                        <span data-jcl="originValue">Đài Loan</span>
+
+                        <strong data-jcl="capacityLabel">Mức cân:</strong>
+                        <span>1.5kg / 3kg / 6kg / 15kg / 30kg</span>
+                    </div>
+
+                    <p data-jcl="priceNote">
+                        Liên hệ QTN GLOBAL để được tư vấn cấu hình và báo giá.
+                    </p>
+
+                    <!--
+                      Hai nút dùng hàm hiện có của website.
+                      Cần giữ các script giỏ hàng/mua ngay tương thích
+                      với mẫu trang chi tiết hiện tại.
+                    -->
+                    <div class="jcl-action-buttons">
+
+                        <button type="button"
+                                class="jcl-btn jcl-btn-cart"
+                                onclick="jclAddToCart()"
+                                data-jcl="addCart">
+                            🛒 Thêm vào giỏ hàng
+                        </button>
+
+                        <button type="button"
+                                class="jcl-btn jcl-btn-buy"
+                                onclick="jclBuyNow()"
+                                data-jcl="buyNow">
+                            Mua ngay
+                        </button>
+
+                    </div>
+
+                    <p class="jcl-small-note" data-jcl="orderNote">
+                        Vui lòng xác nhận mức cân và cấu hình trước khi đặt hàng.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THÔNG SỐ KỸ THUẬT -->
+    <section>
+        <h2 data-jcl="specHeading">
+            Thông số kỹ thuật cân đếm Jadever JCL
+        </h2>
+
+        <div class="jcl-table-wrap">
+            <table class="jcl-spec-table">
+                <thead>
+                    <tr>
+                        <th data-jcl="capacityLabel">Mức cân</th>
+                        <th data-jcl="divisionLabel">Bước nhảy</th>
+                        <th data-jcl="panSizeLabel">Kích thước đĩa cân</th>
+                        <th data-jcl="scaleSizeLabel">Kích thước cân</th>
+                        <th data-jcl="unitLabel">Đơn vị cân</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1.5kg</td>
+                        <td>0.05g</td>
+                        <td rowspan="5">294 × 228 mm</td>
+                        <td rowspan="5">341 × 294 × 104 mm</td>
+                        <td rowspan="5">kg / g / lb / oz / pcs</td>
+                    </tr>
+
+                    <tr>
+                        <td>3kg</td>
+                        <td>0.1g</td>
+                    </tr>
+
+                    <tr>
+                        <td>6kg</td>
+                        <td>0.2g</td>
+                    </tr>
+
+                    <tr>
+                        <td>15kg</td>
+                        <td>0.5g</td>
+                    </tr>
+
+                    <tr>
+                        <td>30kg</td>
+                        <td>1g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="jcl-table-wrap">
+            <table class="jcl-spec-table">
+                <tbody>
+                    <tr>
+                        <th data-jcl="brandLabel">Thương hiệu</th>
+                        <td>Jadever</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="modelLabel">Model</th>
+                        <td>JCL</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="originLabel">Xuất xứ</th>
+                        <td data-jcl="originValue">Đài Loan</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="resolutionLabel">Độ phân giải nội</th>
+                        <td>1/30.000</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="accuracyLabel">Tiêu chuẩn chính xác</th>
+                        <td data-jcl="accuracyValue">
+                            Cấp III theo OIML
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="displayLabel">Màn hình</th>
+                        <td data-jcl="displayValue">
+                            LCD 3 cửa sổ, đèn nền xanh
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="displayInfoLabel">Thông tin hiển thị</th>
+                        <td data-jcl="displayInfoValue">
+                            Trọng lượng / đơn trọng lượng / số lượng đếm
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="panMaterialLabel">Mặt bàn cân</th>
+                        <td data-jcl="panMaterialValue">
+                            Inox chống gỉ
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="housingLabel">Vỏ cân</th>
+                        <td data-jcl="housingValue">
+                            Nhựa ABS công nghiệp
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="functionsLabel">Chức năng</th>
+                        <td data-jcl="functionsValue">
+                            Cân trọng lượng, đếm số lượng, trừ bì, cộng dồn
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="zeroLabel">Tự động về zero</th>
+                        <td data-jcl="yesValue">Có khi khởi động</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="overloadLabel">Cảnh báo quá tải</th>
+                        <td data-jcl="yesValue">Có</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="interfaceLabel">Cổng giao tiếp</th>
+                        <td data-jcl="rs232Value">RS232 tùy chọn</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="powerLabel">Nguồn điện</th>
+                        <td data-jcl="powerValue">
+                            AC 220V hoặc pin sạc 6V/4Ah
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="batteryLabel">Thời gian sử dụng pin</th>
+                        <td data-jcl="batteryValue">Khoảng 70 giờ</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="temperatureLabel">Nhiệt độ hoạt động</th>
+                        <td>-5°C đến 40°C</td>
+                    </tr>
+
+                    <tr>
+                        <th data-jcl="environmentLabel">Thiết kế</th>
+                        <td data-jcl="environmentValue">
+                            Thiết kế hạn chế ảnh hưởng của bụi và môi trường công nghiệp theo mô tả sản phẩm
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="jcl-note" data-jcl="specNote">
+            Lưu ý: Vui lòng xác nhận thông số của model và cấu hình thực tế
+            trước khi đặt hàng.
+        </p>
+    </section>
+
+    <!-- ĐẶC ĐIỂM -->
+    <section>
+        <h2 data-jcl="featureHeading">
+            Đặc điểm nổi bật của cân đếm Jadever JCL
+        </h2>
+
+        <div class="jcl-feature-grid">
+
+            <article class="jcl-feature-card">
+                <h3 data-jcl="feature1Title">Nhiều mức cân</h3>
+                <p data-jcl="feature1Text">
+                    Có các mức cân 1.5kg, 3kg, 6kg, 15kg và 30kg,
+                    với bước nhảy tương ứng theo từng mức cân.
+                </p>
+            </article>
+
+            <article class="jcl-feature-card">
+                <h3 data-jcl="feature2Title">Màn hình 3 cửa sổ</h3>
+                <p data-jcl="feature2Text">
+                    Màn hình LCD đèn nền xanh hiển thị trọng lượng,
+                    đơn trọng lượng và số lượng đếm.
+                </p>
+            </article>
+
+            <article class="jcl-feature-card">
+                <h3 data-jcl="feature3Title">Chức năng đếm</h3>
+                <p data-jcl="feature3Text">
+                    Hỗ trợ kiểm đếm linh kiện, phụ tùng và các sản phẩm
+                    có khối lượng đơn chiếc phù hợp.
+                </p>
+            </article>
+
+            <article class="jcl-feature-card">
+                <h3 data-jcl="feature4Title">Các chức năng cân cơ bản</h3>
+                <p data-jcl="feature4Text">
+                    Bao gồm cân trọng lượng, trừ bì và cộng dồn.
+                </p>
+            </article>
+
+            <article class="jcl-feature-card">
+                <h3 data-jcl="feature5Title">Kết cấu sử dụng công nghiệp</h3>
+                <p data-jcl="feature5Text">
+                    Mặt bàn cân inox chống gỉ và vỏ cân nhựa ABS công nghiệp
+                    theo thông số được cung cấp.
+                </p>
+            </article>
+
+            <article class="jcl-feature-card">
+                <h3 data-jcl="feature6Title">Giao tiếp tùy chọn</h3>
+                <p data-jcl="feature6Text">
+                    Cổng RS232 là tùy chọn; cần xác nhận khi chọn cấu hình.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ỨNG DỤNG -->
+    <section>
+        <h2 data-jcl="applicationHeading">
+            Ứng dụng của cân đếm điện tử Jadever JCL
+        </h2>
+
+        <p data-jcl="applicationIntro">
+            Cân đếm Jadever JCL có thể được cân nhắc cho các công việc
+            kiểm đếm và cân hàng hóa khi mức cân, bước nhảy và môi trường
+            sử dụng phù hợp.
+        </p>
+
+        <ul>
+            <li data-jcl="application1">
+                Kiểm đếm linh kiện và phụ tùng.
+            </li>
+
+            <li data-jcl="application2">
+                Cân và kiểm đếm sản phẩm trong quá trình sản xuất.
+            </li>
+
+            <li data-jcl="application3">
+                Kiểm kê hàng hóa tại kho và khu vực đóng gói.
+            </li>
+
+            <li data-jcl="application4">
+                Cân các chi tiết có khối lượng đơn chiếc phù hợp với độ chia
+                của model được lựa chọn.
+            </li>
+        </ul>
+    </section>
+
+    <!-- HƯỚNG DẪN LỰA CHỌN -->
+    <section>
+        <h2 data-jcl="chooseHeading">
+            Cách lựa chọn cân đếm Jadever JCL
+        </h2>
+
+        <p data-jcl="chooseIntro">
+            Khi lựa chọn cân đếm điện tử, cần xác định mức cân tối đa,
+            bước nhảy, khối lượng trung bình của một sản phẩm và số lượng
+            cần đếm trong mỗi lần thao tác.
+        </p>
+
+        <ul>
+            <li data-jcl="choose1">
+                Chọn mức cân phù hợp với khối lượng thực tế cần cân.
+            </li>
+
+            <li data-jcl="choose2">
+                Kiểm tra bước nhảy của đúng model trước khi mua.
+            </li>
+
+            <li data-jcl="choose3">
+                Xác nhận kích thước đĩa cân có phù hợp với hàng hóa.
+            </li>
+
+            <li data-jcl="choose4">
+                Xác nhận nhu cầu dùng pin, nguồn điện và giao tiếp RS232.
+            </li>
+
+            <li data-jcl="choose5">
+                Trao đổi với nhà cung cấp về điều kiện sử dụng và yêu cầu
+                kiểm đếm cụ thể.
+            </li>
+        </ul>
+    </section>
+
+    <!-- LIÊN HỆ -->
+    <section class="jcl-contact">
+        <h2 data-jcl="contactHeading">
+            Liên hệ QTN GLOBAL để được tư vấn
+        </h2>
+
+        <p data-jcl="contactIntro">
+            QTN GLOBAL hỗ trợ tư vấn lựa chọn cân đếm Jadever JCL theo
+            mức cân, bước nhảy và nhu cầu sử dụng.
+        </p>
+
+        <p>
+            <strong data-jcl="hotlineLabel">Hotline:</strong>
+            <a href="tel:0905913636">0905 913 636</a>
+        </p>
+
+        <p>
+            <strong data-jcl="supportLabel">Hỗ trợ / Zalo:</strong>
+            <a href="https://zalo.me/0383598603"
+               target="_blank"
+               rel="noopener noreferrer">0383 598 603</a>
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:infoqtnglobal@gmail.com">
+                infoqtnglobal@gmail.com
+            </a>
+        </p>
+
+        <div class="jcl-contact-buttons">
+            <a href="tel:0905913636" data-jcl="callNow">
+                Gọi ngay
+            </a>
+
+            <a href="https://zalo.me/0383598603"
+               target="_blank"
+               rel="noopener noreferrer">
+                Zalo
+            </a>
+
+            <a href="mailto:infoqtnglobal@gmail.com"
+               data-jcl="sendEmail">
+                Gửi email
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<!-- =================================================
+     FOOTER QTN GLOBAL
+================================================== -->
+
+<footer class="jcl-site-footer">
+    <div style="max-width:1200px; margin:0 auto; padding:28px 18px;">
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:25px;">
+
+            <div>
+                <a href="index.html">
+                    <img src="images/logo.png"
+                         alt="QTN GLOBAL"
+                         style="width:170px; max-width:100%; height:auto;">
+                </a>
+
+                <p data-jcl="footerSlogan">
+                    Giải pháp cân điện tử cho doanh nghiệp.
+                </p>
+            </div>
+
+            <div>
+                <h3 data-jcl="footerContactHeading">Thông tin liên hệ</h3>
+
+                <p>
+                    <span data-jcl="hotlineLabel">Hotline:</span>
+                    <a href="tel:0905913636">0905 913 636</a>
+                </p>
+
+                <p>
+                    Zalo:
+                    <a href="https://zalo.me/0383598603"
+                       target="_blank"
+                       rel="noopener noreferrer">0383 598 603</a>
+                </p>
+
+                <p>
+                    Email:
+                    <a href="mailto:infoqtnglobal@gmail.com">
+                        infoqtnglobal@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    Website:
+                    <a href="https://qtn-global.com/">qtn-global.com</a>
+                </p>
+            </div>
+
+            <div>
+                <h3 data-jcl="footerLinksHeading">Liên kết</h3>
+
+                <p><a href="index.html" data-jcl="home">Trang chủ</a></p>
+                <p><a href="about.html" data-jcl="about">Giới thiệu</a></p>
+                <p><a href="can-dem.html" data-jcl="countingScales">Cân đếm điện tử</a></p>
+                <p><a href="news.html" data-jcl="news">Tin tức</a></p>
+                <p><a href="contact.html" data-jcl="contact">Liên hệ</a></p>
+            </div>
+
+            <div>
+                <h3 data-jcl="footerConnectHeading">Kết nối với QTN GLOBAL</h3>
+
+                <p>
+                    <a href="https://zalo.me/0383598603"
+                       target="_blank"
+                       rel="noopener noreferrer">Zalo</a>
+                </p>
+
+                <p>
+                    <a href="mailto:infoqtnglobal@gmail.com">Email</a>
+                </p>
+
+                <p>
+                    <a href="https://www.facebook.com/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       data-jcl="facebookPage">
+                        Facebook
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <hr style="margin:25px 0; border:0; border-top:1px solid #ddd;">
+
+        <p style="text-align:center; margin:0;">
+            © <span id="jcl-year"></span> QTN GLOBAL.
+            <span data-jcl="copyright">Bảo lưu mọi quyền.</span>
+        </p>
+
+    </div>
+</footer>
+
+<!-- =================================================
+     JAVASCRIPT
+================================================== -->
+
+<script>
+    /* ---------------------------------------------
+       1. SLIDER ẢNH
+       Đặt ảnh tại:
+       images/can-dem/jcl/main.jpg
+       images/can-dem/jcl/1.jpg
+       images/can-dem/jcl/2.jpg
+    --------------------------------------------- */
+
+    const jclImages = [
+        {
+            src: "images/can-dem/vibra-alc/main.jpg",
+            alt: "Cân đếm điện tử Jadever JCL"
+        },
+        {
+            src: "images/can-dem/vibra-alc/1.jpg",
+            alt: "Cân đếm Jadever JCL - ảnh 2"
+        },
+        {
+            src: "images/can-dem/vibra-alc/2.jpg",
+            alt: "Cân đếm Jadever JCL - ảnh 3"
+        },
+{
+            src: "images/can-dem/vibra-alc/3.jpg",
+            alt: "Cân đếm Jadever JCL - ảnh 2"
+        }
+    ];
+
+    let jclCurrentSlide = 0;
+
+    function jclSelectSlide(index) {
+        if (index < 0 || index >= jclImages.length) {
+            return;
+        }
+
+        jclCurrentSlide = index;
+
+        const mainPhoto = document.getElementById("jcl-main-photo");
+        mainPhoto.src = jclImages[index].src;
+        mainPhoto.alt = jclImages[index].alt;
+
+        document.querySelectorAll(".jcl-thumb").forEach(function (thumb, i) {
+            thumb.classList.toggle("active", i === index);
+        });
+    }
+
+    function jclChangeSlide(direction) {
+        jclCurrentSlide =
+            (jclCurrentSlide + direction + jclImages.length) %
+            jclImages.length;
+
+        jclSelectSlide(jclCurrentSlide);
+    }
+
+    /*
+      Nếu ảnh không tồn tại, ẩn riêng ảnh lỗi.
+      Hãy bảo đảm tên file ảnh khớp với tên trên GitHub.
+    */
+    document.querySelectorAll(".jcl-thumb img").forEach(function (img) {
+        img.addEventListener("error", function () {
+            this.style.visibility = "hidden";
+        });
+    });
+
+    document.getElementById("jcl-main-photo").addEventListener(
+        "error",
+        function () {
+            this.alt = "Không tìm thấy ảnh. Vui lòng kiểm tra thư mục images/can-dem/jcl/";
+        }
+    );
+
+
+    /* ---------------------------------------------
+       2. NGÔN NGỮ VIỆT - ANH - TRUNG
+    --------------------------------------------- */
+
+    const jclTranslations = {
+        vi: {
+            home: "TRANG CHỦ",
+            about: "GIỚI THIỆU",
+            products: "SẢN PHẨM",
+            news: "TIN TỨC",
+            contact: "LIÊN HỆ",
+            cart: "GIỎ HÀNG",
+            countingScales: "Cân đếm điện tử",
+            productName: "Cân đếm Jadever JCL",
+            title: "Cân đếm điện tử Jadever JCL chính hãng",
+            imageCaption: "Hình ảnh sản phẩm cân đếm điện tử Jadever JCL.",
+            introHeading: "Giới thiệu sản phẩm",
+            intro1: "Cân đếm Jadever JCL có thiết kế chắc chắn, được sử dụng trong công việc cân và kiểm đếm linh kiện, phụ tùng, sản xuất và kho vận.",
+            intro2: "Sản phẩm có màn hình LCD 3 cửa sổ đèn nền xanh, hỗ trợ hiển thị trọng lượng, đơn trọng lượng và số lượng đếm, giúp người dùng theo dõi các thông tin cân trong cùng một lần thao tác.",
+            brandLabel: "Thương hiệu:",
+            modelLabel: "Model:",
+            originLabel: "Xuất xứ:",
+            originValue: "Đài Loan",
+            capacityLabel: "Mức cân",
+            priceNote: "Liên hệ QTN GLOBAL để được tư vấn cấu hình và báo giá.",
+            addCart: "🛒 Thêm vào giỏ hàng",
+            buyNow: "Mua ngay",
+            orderNote: "Vui lòng xác nhận mức cân và cấu hình trước khi đặt hàng.",
+            specHeading: "Thông số kỹ thuật cân đếm Jadever JCL",
+            divisionLabel: "Bước nhảy",
+            panSizeLabel: "Kích thước đĩa cân",
+            scaleSizeLabel: "Kích thước cân",
+            unitLabel: "Đơn vị cân",
+            resolutionLabel: "Độ phân giải nội",
+            accuracyLabel: "Tiêu chuẩn chính xác",
+            accuracyValue: "Cấp III theo OIML",
+            displayLabel: "Màn hình",
+            displayValue: "LCD 3 cửa sổ, đèn nền xanh",
+            displayInfoLabel: "Thông tin hiển thị",
+            displayInfoValue: "Trọng lượng / đơn trọng lượng / số lượng đếm",
+            panMaterialLabel: "Mặt bàn cân",
+            panMaterialValue: "Inox chống gỉ",
+            housingLabel: "Vỏ cân",
+            housingValue: "Nhựa ABS công nghiệp",
+            functionsLabel: "Chức năng",
+            functionsValue: "Cân trọng lượng, đếm số lượng, trừ bì, cộng dồn",
+            zeroLabel: "Tự động về zero",
+            yesValue: "Có",
+            overloadLabel: "Cảnh báo quá tải",
+            interfaceLabel: "Cổng giao tiếp",
+            rs232Value: "RS232 tùy chọn",
+            powerLabel: "Nguồn điện",
+            powerValue: "AC 220V hoặc pin sạc 6V/4Ah",
+            batteryLabel: "Thời gian sử dụng pin",
+            batteryValue: "Khoảng 70 giờ",
+            temperatureLabel: "Nhiệt độ hoạt động",
+            environmentLabel: "Thiết kế",
+            environmentValue: "Thiết kế hạn chế ảnh hưởng của bụi và môi trường công nghiệp theo mô tả sản phẩm",
+            specNote: "Lưu ý: Vui lòng xác nhận thông số của model và cấu hình thực tế trước khi đặt hàng.",
+            featureHeading: "Đặc điểm nổi bật của cân đếm Jadever JCL",
+            feature1Title: "Nhiều mức cân",
+            feature1Text: "Có các mức cân 1.5kg, 3kg, 6kg, 15kg và 30kg, với bước nhảy tương ứng theo từng mức cân.",
+            feature2Title: "Màn hình 3 cửa sổ",
+            feature2Text: "Màn hình LCD đèn nền xanh hiển thị trọng lượng, đơn trọng lượng và số lượng đếm.",
+            feature3Title: "Chức năng đếm",
+            feature3Text: "Hỗ trợ kiểm đếm linh kiện, phụ tùng và các sản phẩm có khối lượng đơn chiếc phù hợp.",
+            feature4Title: "Các chức năng cân cơ bản",
+            feature4Text: "Bao gồm cân trọng lượng, trừ bì và cộng dồn.",
+            feature5Title: "Kết cấu sử dụng công nghiệp",
+            feature5Text: "Mặt bàn cân inox chống gỉ và vỏ cân nhựa ABS công nghiệp theo thông số được cung cấp.",
+            feature6Title: "Giao tiếp tùy chọn",
+            feature6Text: "Cổng RS232 là tùy chọn; cần xác nhận khi chọn cấu hình.",
+            applicationHeading: "Ứng dụng của cân đếm điện tử Jadever JCL",
+            applicationIntro: "Cân đếm Jadever JCL có thể được cân nhắc cho các công việc kiểm đếm và cân hàng hóa khi mức cân, bước nhảy và môi trường sử dụng phù hợp.",
+            application1: "Kiểm đếm linh kiện và phụ tùng.",
+            application2: "Cân và kiểm đếm sản phẩm trong quá trình sản xuất.",
+            application3: "Kiểm kê hàng hóa tại kho và khu vực đóng gói.",
+            application4: "Cân các chi tiết có khối lượng đơn chiếc phù hợp với độ chia của model được lựa chọn.",
+            chooseHeading: "Cách lựa chọn cân đếm Jadever JCL",
+            chooseIntro: "Khi lựa chọn cân đếm điện tử, cần xác định mức cân tối đa, bước nhảy, khối lượng trung bình của một sản phẩm và số lượng cần đếm trong mỗi lần thao tác.",
+            choose1: "Chọn mức cân phù hợp với khối lượng thực tế cần cân.",
+            choose2: "Kiểm tra bước nhảy của đúng model trước khi mua.",
+            choose3: "Xác nhận kích thước đĩa cân có phù hợp với hàng hóa.",
+            choose4: "Xác nhận nhu cầu dùng pin, nguồn điện và giao tiếp RS232.",
+            choose5: "Trao đổi với nhà cung cấp về điều kiện sử dụng và yêu cầu kiểm đếm cụ thể.",
+            contactHeading: "Liên hệ QTN GLOBAL để được tư vấn",
+            contactIntro: "QTN GLOBAL hỗ trợ tư vấn lựa chọn cân đếm Jadever JCL theo mức cân, bước nhảy và nhu cầu sử dụng.",
+            hotlineLabel: "Hotline:",
+            supportLabel: "Hỗ trợ / Zalo:",
+            callNow: "Gọi ngay",
+            sendEmail: "Gửi email",
+            footerSlogan: "Giải pháp cân điện tử cho doanh nghiệp.",
+            footerContactHeading: "Thông tin liên hệ",
+            footerLinksHeading: "Liên kết",
+            footerConnectHeading: "Kết nối với QTN GLOBAL",
+            facebookPage: "Facebook",
+            copyright: "Bảo lưu mọi quyền."
+        },
+
+        en: {
+            home: "HOME",
+            about: "ABOUT US",
+            products: "PRODUCTS",
+            news: "NEWS",
+            contact: "CONTACT",
+            cart: "CART",
+            countingScales: "Counting Scales",
+            productName: "Jadever JCL Counting Scale",
+            title: "Jadever JCL Electronic Counting Scale",
+            imageCaption: "Jadever JCL electronic counting scale product images.",
+            introHeading: "Product Overview",
+            intro1: "The Jadever JCL counting scale has a sturdy design and is intended for weighing and counting components, spare parts, production items and warehouse goods.",
+            intro2: "It features a three-window LCD with blue backlight for displaying weight, unit weight and piece count, allowing users to view these weighing details together.",
+            brandLabel: "Brand:",
+            modelLabel: "Model:",
+            originLabel: "Origin:",
+            originValue: "Taiwan",
+            capacityLabel: "Capacity",
+            priceNote: "Contact QTN GLOBAL for configuration advice and a quotation.",
+            addCart: "🛒 Add to Cart",
+            buyNow: "Buy Now",
+            orderNote: "Please confirm the capacity and configuration before ordering.",
+            specHeading: "Jadever JCL Technical Specifications",
+            divisionLabel: "Readability",
+            panSizeLabel: "Pan Size",
+            scaleSizeLabel: "Scale Dimensions",
+            unitLabel: "Weighing Units",
+            resolutionLabel: "Internal Resolution",
+            accuracyLabel: "Accuracy Standard",
+            accuracyValue: "OIML Class III",
+            displayLabel: "Display",
+            displayValue: "Three-window LCD with blue backlight",
+            displayInfoLabel: "Display Information",
+            displayInfoValue: "Weight / unit weight / piece count",
+            panMaterialLabel: "Weighing Pan",
+            panMaterialValue: "Stainless steel",
+            housingLabel: "Housing",
+            housingValue: "Industrial ABS plastic",
+            functionsLabel: "Functions",
+            functionsValue: "Weighing, counting, tare and accumulation",
+            zeroLabel: "Automatic Zero",
+            yesValue: "Yes",
+            overloadLabel: "Overload Warning",
+            interfaceLabel: "Interface",
+            rs232Value: "Optional RS232",
+            powerLabel: "Power Supply",
+            powerValue: "AC 220V or rechargeable 6V/4Ah battery",
+            batteryLabel: "Battery Life",
+            batteryValue: "Approximately 70 hours",
+            temperatureLabel: "Operating Temperature",
+            environmentLabel: "Design",
+            environmentValue: "Designed to limit the effects of dust and industrial environments, according to the supplied description",
+            specNote: "Note: Confirm the specifications and configuration of the exact model before ordering.",
+            featureHeading: "Key Features of the Jadever JCL",
+            feature1Title: "Multiple Capacities",
+            feature1Text: "Available in 1.5kg, 3kg, 6kg, 15kg and 30kg capacities with corresponding readability.",
+            feature2Title: "Three-Window Display",
+            feature2Text: "The blue-backlit LCD displays weight, unit weight and piece count.",
+            feature3Title: "Counting Function",
+            feature3Text: "Supports counting components, spare parts and items with a suitable individual weight.",
+            feature4Title: "Basic Weighing Functions",
+            feature4Text: "Includes weighing, tare and accumulation.",
+            feature5Title: "Industrial Construction",
+            feature5Text: "Stainless-steel pan and industrial ABS housing according to the supplied specifications.",
+            feature6Title: "Optional Interface",
+            feature6Text: "RS232 is optional and should be confirmed when selecting a configuration.",
+            applicationHeading: "Applications of the Jadever JCL Counting Scale",
+            applicationIntro: "The Jadever JCL may be considered for counting and weighing tasks when the capacity, readability and operating environment are suitable.",
+            application1: "Counting components and spare parts.",
+            application2: "Weighing and counting products during production.",
+            application3: "Inventory checks in warehouses and packing areas.",
+            application4: "Weighing items whose individual mass is suitable for the selected model's readability.",
+            chooseHeading: "How to Choose a Jadever JCL Model",
+            chooseIntro: "When selecting a counting scale, consider maximum capacity, readability, average unit weight and the number of pieces to count per operation.",
+            choose1: "Choose a capacity suitable for the actual load.",
+            choose2: "Check the readability of the exact model before purchase.",
+            choose3: "Confirm that the pan size suits the items being weighed.",
+            choose4: "Confirm battery, power supply and RS232 requirements.",
+            choose5: "Discuss the operating conditions and counting requirements with the supplier.",
+            contactHeading: "Contact QTN GLOBAL for Advice",
+            contactIntro: "QTN GLOBAL can help you select a Jadever JCL counting scale based on capacity, readability and application.",
+            hotlineLabel: "Hotline:",
+            supportLabel: "Support / Zalo:",
+            callNow: "Call Now",
+            sendEmail: "Send Email",
+            footerSlogan: "Electronic weighing solutions for businesses.",
+            footerContactHeading: "Contact Information",
+            footerLinksHeading: "Links",
+            footerConnectHeading: "Connect with QTN GLOBAL",
+            facebookPage: "Facebook",
+            copyright: "All rights reserved."
+        },
+
+        zh: {
+            home: "首页",
+            about: "关于我们",
+            products: "产品",
+            news: "新闻",
+            contact: "联系我们",
+            cart: "购物车",
+            countingScales: "计数秤",
+            productName: "Jadever JCL 电子计数秤",
+            title: "Jadever JCL 电子计数秤",
+            imageCaption: "Jadever JCL 电子计数秤产品图片。",
+            introHeading: "产品介绍",
+            intro1: "Jadever JCL 计数秤结构坚固，适用于零件、配件、生产物料及仓储货物的称重与计数工作。",
+            intro2: "产品配备蓝色背光三窗口 LCD 显示屏，可显示重量、单重和计数，方便用户同时查看相关称重信息。",
+            brandLabel: "品牌：",
+            modelLabel: "型号：",
+            originLabel: "产地：",
+            originValue: "中国台湾",
+            capacityLabel: "称量范围",
+            priceNote: "请联系 QTN GLOBAL 咨询产品配置及报价。",
+            addCart: "🛒 加入购物车",
+            buyNow: "立即购买",
+            orderNote: "下单前请确认称量范围和产品配置。",
+            specHeading: "Jadever JCL 技术参数",
+            divisionLabel: "分度值",
+            panSizeLabel: "秤盘尺寸",
+            scaleSizeLabel: "秤体尺寸",
+            unitLabel: "称重单位",
+            resolutionLabel: "内部分辨率",
+            accuracyLabel: "准确度标准",
+            accuracyValue: "OIML III 级",
+            displayLabel: "显示屏",
+            displayValue: "蓝色背光三窗口 LCD",
+            displayInfoLabel: "显示内容",
+            displayInfoValue: "重量 / 单重 / 计数",
+            panMaterialLabel: "秤盘材质",
+            panMaterialValue: "不锈钢",
+            housingLabel: "外壳",
+            housingValue: "工业 ABS 塑料",
+            functionsLabel: "功能",
+            functionsValue: "称重、计数、去皮和累加",
+            zeroLabel: "自动归零",
+            yesValue: "支持",
+            overloadLabel: "超载提示",
+            interfaceLabel: "接口",
+            rs232Value: "RS232 可选",
+            powerLabel: "电源",
+            powerValue: "AC 220V 或 6V/4Ah 充电电池",
+            batteryLabel: "电池续航",
+            batteryValue: "约 70 小时",
+            temperatureLabel: "工作温度",
+            environmentLabel: "设计",
+            environmentValue: "根据所提供的产品说明，采用有助于减少灰尘及工业环境影响的设计",
+            specNote: "注意：订购前请确认具体型号的技术参数和配置。",
+            featureHeading: "Jadever JCL 主要特点",
+            feature1Title: "多种称量范围",
+            feature1Text: "提供 1.5kg、3kg、6kg、15kg 和 30kg 等称量范围，对应不同分度值。",
+            feature2Title: "三窗口显示",
+            feature2Text: "蓝色背光 LCD 显示重量、单重和计数。",
+            feature3Title: "计数功能",
+            feature3Text: "适用于符合单件重量要求的零件、配件及产品计数。",
+            feature4Title: "基本称重功能",
+            feature4Text: "包括称重、去皮和累加功能。",
+            feature5Title: "工业结构",
+            feature5Text: "根据所提供的参数，采用不锈钢秤盘和工业 ABS 外壳。",
+            feature6Title: "可选接口",
+            feature6Text: "RS232 为可选配置，选择时请确认。",
+            applicationHeading: "Jadever JCL 计数秤的应用",
+            applicationIntro: "当称量范围、分度值和使用环境符合要求时，可考虑将 Jadever JCL 用于称重和计数工作。",
+            application1: "零件及配件计数。",
+            application2: "生产过程中的产品称重与计数。",
+            application3: "仓库和包装区域的库存盘点。",
+            application4: "称量单件重量符合所选型号分度值要求的物品。",
+            chooseHeading: "如何选择 Jadever JCL 型号",
+            chooseIntro: "选择计数秤时，应考虑最大称量范围、分度值、单件平均重量以及每次需要计数的数量。",
+            choose1: "根据实际称重需求选择合适的量程。",
+            choose2: "购买前确认具体型号的分度值。",
+            choose3: "确认秤盘尺寸适合待称物品。",
+            choose4: "确认电池、电源和 RS232 接口需求。",
+            choose5: "与供应商沟通实际使用环境和计数要求。",
+            contactHeading: "联系 QTN GLOBAL 获取咨询",
+            contactIntro: "QTN GLOBAL 可根据称量范围、分度值和使用需求，协助选择 Jadever JCL 计数秤。",
+            hotlineLabel: "热线：",
+            supportLabel: "支持 / Zalo：",
+            callNow: "立即致电",
+            sendEmail: "发送邮件",
+            footerSlogan: "为企业提供电子称重解决方案。",
+            footerContactHeading: "联系信息",
+            footerLinksHeading: "相关链接",
+            footerConnectHeading: "关注 QTN GLOBAL",
+            facebookPage: "Facebook",
+            copyright: "版权所有。"
+        }
+    };
+
+    function jclChangeLanguage(language) {
+        const dictionary = jclTranslations[language];
+
+        if (!dictionary) {
+            return;
+        }
+
+        document.documentElement.lang =
+            language === "zh" ? "zh-CN" : language;
+
+        document.querySelectorAll("[data-jcl]").forEach(function (element) {
+            const key = element.getAttribute("data-jcl");
+
+            if (Object.prototype.hasOwnProperty.call(dictionary, key)) {
+                element.textContent = dictionary[key];
+            }
+        });
+
+        ["vi", "en", "zh"].forEach(function (lang) {
+            const button = document.getElementById("jcl-lang-" + lang);
+
+            if (button) {
+                button.classList.toggle("active", lang === language);
+            }
+        });
+
+        const titles = {
+            vi: "Cân Đếm Điện Tử Jadever JCL Chính Hãng | QTN GLOBAL",
+            en: "Jadever JCL Electronic Counting Scale | QTN GLOBAL",
+            zh: "Jadever JCL 电子计数秤 | QTN GLOBAL"
+        };
+
+        const descriptions = {
+            vi: "Cân đếm điện tử Jadever JCL xuất xứ Đài Loan, mức cân 1.5kg đến 30kg, màn hình LCD 3 cửa sổ, chức năng cân, đếm số lượng, trừ bì và cộng dồn. Liên hệ QTN GLOBAL để được tư vấn.",
+            en: "Jadever JCL electronic counting scale from Taiwan, with capacities from 1.5kg to 30kg, three-window LCD and weighing, counting, tare and accumulation functions. Contact QTN GLOBAL.",
+            zh: "Jadever JCL 电子计数秤，提供 1.5kg 至 30kg 称量范围，配备三窗口 LCD 显示屏及称重、计数、去皮和累加功能。欢迎联系 QTN GLOBAL。"
+        };
+
+        document.title = titles[language];
+
+        document.querySelector('meta[name="description"]').setAttribute(
+            "content",
+            descriptions[language]
+        );
+    }
+
+
+    /* ---------------------------------------------
+       3. TÌM SẢN PHẨM ID 6 TỪ products.js
+       Giữ đối tượng sản phẩm gốc để tương thích giỏ hàng.
+    --------------------------------------------- */
+
+    function jclFindProduct() {
+        let productList = [];
+
+        if (typeof getProducts === "function") {
+            try {
+                productList = getProducts() || [];
+            } catch (error) {
+                productList = [];
+            }
+        }
+
+        if (!Array.isArray(productList) && Array.isArray(window.allProductsCache)) {
+            productList = window.allProductsCache;
+        }
+
+        if (!Array.isArray(productList) && Array.isArray(window.products)) {
+            productList = window.products;
+        }
+
+        if (!Array.isArray(productList)) {
+            productList = [];
+        }
+
+        return productList.find(function (product) {
+            return Number(product.id) === 6;
+        }) || {
+            business: "measure",
+            id: 6,
+            name: "Cân đếm Jadever JCL",
+            category: "can-dem",
+            folder: "jcl",
+            brand: "Jadever",
+            origin: "Đài Loan",
+            detailUrl: "can-dem-dien-tu-jadever-jcl.html",
+            image: "images/can-dem/jcl/main.jpg",
+            specs: [
+                "Mức cân: 1.5kg / 3kg / 6kg / 15kg / 30kg",
+                "Bước nhảy: 0.05g / 0.1g / 0.2g / 0.5g / 1g"
+            ]
+        };
+    }
+
+    function jclPrepareProduct() {
+        const product = jclFindProduct();
+
+        window.currentProduct = product;
+
+        return product;
+    }
+
+
+    /* ---------------------------------------------
+       4. NÚT THÊM GIỎ HÀNG
+       Ưu tiên dùng hàm hiện có của website.
+    --------------------------------------------- */
+
+    function jclAddToCart() {
+        const product = jclPrepareProduct();
+
+        if (typeof openAddCartPopup === "function") {
+            openAddCartPopup();
+            return;
+        }
+
+        if (window.Cart && typeof window.Cart.add === "function") {
+            window.Cart.add(product);
+
+            if (typeof openCart === "function") {
+                openCart();
+            } else {
+                alert(
+                    document.documentElement.lang === "en"
+                        ? "The product was sent to the cart system."
+                        : document.documentElement.lang === "zh-CN"
+                            ? "已将产品提交至购物车系统。"
+                            : "Đã gửi sản phẩm đến hệ thống giỏ hàng."
+                );
+            }
+
+            return;
+        }
+
+        alert(
+            document.documentElement.lang === "en"
+                ? "Please connect the existing cart scripts to enable this function."
+                : document.documentElement.lang === "zh-CN"
+                    ? "请连接网站现有的购物车脚本以启用此功能。"
+                    : "Cần kết nối đúng script giỏ hàng hiện có của website để sử dụng chức năng này."
+        );
+    }
+
+
+    /* ---------------------------------------------
+       5. NÚT MUA NGAY
+       Mở popup mua hàng hiện có của website.
+    --------------------------------------------- */
+
+    function jclBuyNow() {
+        jclPrepareProduct();
+
+        if (typeof openBuyPopup === "function") {
+            openBuyPopup();
+            return;
+        }
+
+        if (typeof openAddCartPopup === "function") {
+            openAddCartPopup();
+            return;
+        }
+
+        if (window.Cart && typeof window.Cart.add === "function") {
+            window.Cart.add(window.currentProduct);
+
+            if (typeof openCart === "function") {
+                openCart();
+            } else {
+                alert(
+                    document.documentElement.lang === "en"
+                        ? "The product was sent to the cart system. Please check the checkout flow."
+                        : document.documentElement.lang === "zh-CN"
+                            ? "已将产品提交至购物车系统，请检查结算流程。"
+                            : "Đã gửi sản phẩm đến giỏ hàng. Vui lòng kiểm tra quy trình đặt hàng."
+                );
+            }
+
+            return;
+        }
+
+        alert(
+            document.documentElement.lang === "en"
+                ? "Please connect the existing buy-now scripts to enable this function."
+                : document.documentElement.lang === "zh-CN"
+                    ? "请连接网站现有的立即购买脚本以启用此功能。"
+                    : "Cần kết nối đúng script mua ngay hiện có của website để sử dụng chức năng này."
+        );
+    }
+
+
+    /* ---------------------------------------------
+       6. CẬP NHẬT SỐ LƯỢNG TRONG GIỎ
+    --------------------------------------------- */
+
+    function jclUpdateCartCount() {
+        const countElement = document.getElementById("jcl-cart-count");
+
+        if (!countElement) {
+            return;
+        }
+
+        const existingCount = document.getElementById("cartCount");
+
+        if (existingCount) {
+            countElement.textContent = existingCount.textContent.trim();
+            return;
+        }
+
+        /*
+          Nếu website có hàm cập nhật giỏ hàng riêng,
+          phần header hiện tại của website sẽ tiếp tục dùng hàm đó.
+          Không tự đọc localStorage nếu chưa xác nhận cấu trúc giỏ hàng.
+        */
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("jcl-year").textContent =
+            new Date().getFullYear();
+
+        jclPrepareProduct();
+        jclUpdateCartCount();
+
+        /*
+          Mặc định tiếng Việt.
+          Có thể đổi thành "en" hoặc "zh" nếu muốn mở trang bằng ngôn ngữ khác.
+        */
+        jclChangeLanguage("vi");
+    });
+</script>
+
+<!-- =========================
+     SCRIPT
+========================= -->
+
+<script src="products.js"></script>
+<script src="products-i18n.js"></script>
+<!-- =========================
+     NEWS
+========================= -->
+
+<script src="js/news-data.js"></script>
+<script src="js/news-i18n.js"></script> 
+
+
+<script src="js/script-i18n.js"></script>
+
+<script src="js/script-base.js"></script>
+
+<script src="js/search-system.js"></script>
+<script src="js/script-init-new.js"></script>
+
+<script src="js/script-home.js"></script>
+
+<script src="js/script-news.js"></script>
+<script src="js/script-cart.js"></script>
+<script src="js/script-detail-addcart.js"></script>
+<script src="js/script-detail-buynow.js"></script>
+
+<script src="js/i18n-sync-tool.js"></script>
+
+<script src="js/slider-hero.js"></script>
+<script src="js/slider-brand.js"></script>
+<script src="js/slider-best-seller.js"></script>
+
+<script src="js/app-router.js"></script>
+<script src="js/script-mobile-menu.js"></script>
+<script src="js/script-admin-entry.js"></script>
+
+</body>
+</html>
