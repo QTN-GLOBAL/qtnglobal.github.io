@@ -39,7 +39,7 @@ if (Number(product.id) === 5) {
 }
 // Cân đếm Jadever JCL - ID 6
 if (Number(product.id) === 6) {
-    return "can-dem-dien-tu-jadever-jcl.html";
+    return "can-dem-jadever-jcl.html";
 }
 
     // Amway
