@@ -16,11 +16,11 @@
 <style>
 .p{max-width:1200px;margin:auto;padding:24px 18px 50px;line-height:1.75;color:#333}.p h1,.p h2{color:#163f69;line-height:1.35}.p h1{font-size:clamp(26px,4vw,36px)}.p h2{font-size:clamp(21px,3vw,27px);margin-top:32px}
 .crumb{font-size:14px;margin-bottom:20px}.crumb a{color:#155e9b;text-decoration:none}.intro{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
-.gallery{min-width:0}.main-wrap{position:relative;border:1px solid #ddd;border-radius:10px}.main-img{width:100%;height:420px;object-fit:contain;padding:12px}.arr{position:absolute;top:48%;border:0;border-radius:50%;background:#163f69;color:white;font-size:25px;width:42px;height:42px;cursor:pointer}.prev{left:10px}.next{right:10px}
-.thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}.thumb{padding:4px;border:2px solid #ddd;background:white;border-radius:7px}.thumb.active{border-color:#155e9b}.thumb img{width:100%;height:75px;object-fit:contain}
+.gallery{width:100%;min-width:0}.main-wrap{position:relative;overflow:hidden;width:100%;border:1px solid #e2e7ec;border-radius:12px;background:#fff}.main-img{display:block;width:100%;height:420px;object-fit:contain;padding:12px;background:#fff}.arr{position:absolute;top:50%;z-index:2;display:flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;border:0;border-radius:50%;background:rgba(22,63,105,.82);color:#fff;font-size:25px;cursor:pointer;transform:translateY(-50%)}.prev{left:12px}.next{right:12px}.arr:hover{background:#0e3155}
+.thumbs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:12px}.thumb{display:flex;align-items:center;justify-content:center;overflow:hidden;min-width:0;padding:4px;border:2px solid #e0e5eb;border-radius:8px;background:#fff;cursor:pointer}.thumb.active{border-color:#155e9b}.thumb img{display:block;width:100%;height:80px;object-fit:contain}
 .tag{display:inline-block;background:#edf4fa;color:#214f76;padding:5px 10px;border-radius:5px;margin:3px;font-size:13px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}.actions button{padding:12px 18px;border:0;border-radius:6px;color:white;font-weight:bold;cursor:pointer}.btn-addcart{background:#155e9b}.btn-buynow{background:#d97706}
 .note{background:#f2f7fb;border-left:4px solid #155e9b;padding:14px;margin-top:18px}.table-wrap{overflow-x:auto;margin:16px 0}.spec{width:100%;min-width:650px;border-collapse:collapse}.spec th,.spec td{border:1px solid #dce3e9;padding:11px;text-align:left}.spec th{background:#edf4fa;color:#163f69}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.feature{border:1px solid #e0e7ed;border-radius:9px;padding:16px}.cta{text-align:center;background:#edf4fa;border-radius:10px;padding:22px;margin-top:30px}.cta a{display:inline-block;background:#155e9b;color:white;text-decoration:none;padding:10px 16px;margin:5px;border-radius:5px}
-@media(max-width:760px){.intro{grid-template-columns:1fr}.main-img{height:300px}.grid{grid-template-columns:1fr}.actions{flex-direction:column}.actions button{width:100%}}
+@media(max-width:768px){.intro{grid-template-columns:1fr;gap:24px}.main-img{height:310px}.thumb img{height:62px}.grid{grid-template-columns:1fr}.actions{flex-direction:column}.actions button{width:100%}}
 </style></head>
 <body>
 <header class="header">
@@ -36,8 +36,8 @@
 <nav class="crumb"><a href="index.html">Trang chủ</a> / <a href="can-dem-dien-tu.html">Cân đếm điện tử</a> / Cân điện tử đếm Oneko JK-A+</nav>
 <h1>Cân điện tử đếm Oneko JK-A+ Nhật Bản chính hãng</h1>
 <p>Cân điện tử đếm Oneko JK-A+ thiết kế chắc chắn, độ chính xác cao, màn hình LCD đèn nền dễ quan sát, chuyên dùng cân đếm linh kiện, kho vận, sản xuất và kiểm kê hàng hóa.</p>
-<section class="intro"><div class="gallery"><div class="main-wrap"><img id="mainImage" class="main-img" src="images/can-dem/oneko-jk-a+/main.jpg" alt="Cân điện tử đếm Oneko JK-A+"><button class="arr prev" type="button">‹</button><button class="arr next" type="button">›</button></div>
-<div class="thumbs"><button class="thumb active" data-img="images/can-dem/oneko-jk-a+/main.jpg"><img src="images/can-dem/oneko-jk-a+/main.jpg" alt="Oneko JK-A+ ảnh chính"></button><button class="thumb" data-img="images/can-dem/oneko-jk-a+/1.jpg"><img src="images/can-dem/oneko-jk-a+/1.jpg" alt="Oneko JK-A+ ảnh 1"></button><button class="thumb" data-img="images/can-dem/oneko-jk-a+/2.jpg"><img src="images/can-dem/oneko-jk-a+/2.jpg" alt="Oneko JK-A+ ảnh 2"></button><button class="thumb" data-img="images/can-dem/oneko-jk-a+/3.jpg"><img src="images/can-dem/oneko-jk-a+/3.jpg" alt="Oneko JK-A+ ảnh 3"></button></div></div>
+<section class="intro"><div class="gallery" aria-label="Thư viện ảnh cân Oneko JK-A+"><div class="main-wrap"><img id="mainImage" class="main-img" src="images/can-dem/oneko-jk-a+/main.jpg" alt="Cân điện tử đếm Oneko JK-A+ Nhật Bản" fetchpriority="high"><button class="arr prev" type="button" aria-label="Ảnh trước">&#8249;</button><button class="arr next" type="button" aria-label="Ảnh tiếp theo">&#8250;</button></div>
+<div class="thumbs"><button type="button" class="thumb active" data-image="images/can-dem/oneko-jk-a+/main.jpg" aria-label="Xem ảnh chính" aria-pressed="true"><img src="images/can-dem/oneko-jk-a+/main.jpg" alt="Oneko JK-A+ ảnh chính"></button><button type="button" class="thumb" data-image="images/can-dem/oneko-jk-a+/1.jpg" aria-label="Xem ảnh 1" aria-pressed="false"><img src="images/can-dem/oneko-jk-a+/1.jpg" alt="Oneko JK-A+ ảnh 1" loading="lazy"></button><button type="button" class="thumb" data-image="images/can-dem/oneko-jk-a+/2.jpg" aria-label="Xem ảnh 2" aria-pressed="false"><img src="images/can-dem/oneko-jk-a+/2.jpg" alt="Oneko JK-A+ ảnh 2" loading="lazy"></button><button type="button" class="thumb" data-image="images/can-dem/oneko-jk-a+/3.jpg" aria-label="Xem ảnh 3" aria-pressed="false"><img src="images/can-dem/oneko-jk-a+/3.jpg" alt="Oneko JK-A+ ảnh 3" loading="lazy"></button></div></div>
 <div><h2 style="margin-top:0">Cân điện tử đếm Oneko JK-A+</h2><span class="tag">Thương hiệu: Oneko</span><span class="tag">Xuất xứ: Nhật Bản</span><span class="tag">Cân đếm điện tử</span>
 <p>Cân hiển thị trọng lượng, đơn trọng lượng và số lượng đếm trên 3 cửa sổ LCD. Có 5 mức cân để lựa chọn theo khối lượng và bước nhảy cần thiết.</p>
 <ul><li>Mức cân: 1.5kg, 3kg, 6kg, 15kg, 30kg.</li><li>Màn hình LCD 3 cửa sổ, đèn nền xanh.</li><li>Cân trọng lượng, đếm số lượng, trừ bì, cộng dồn.</li><li>Nguồn AC 220V hoặc pin sạc 6V/4Ah.</li><li>RS232 tùy chọn.</li></ul>
@@ -73,91 +73,65 @@
 <div class="footer-column"><h3>Danh mục</h3><div class="footer-menu"><a href="index.html">Trang chủ</a><a href="about.html">Giới thiệu</a><a href="news.html">Tin tức</a><a href="contact.html">Liên hệ</a></div></div>
 <div class="footer-column"><h3>Kết nối</h3><div class="footer-social"><a href="https://www.facebook.com/QTNSCALE" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a><a href="https://zalo.me/0383598603" target="_blank"><i class="fas fa-comment-dots"></i><span>Zalo</span></a><a href="mailto:infoqtnglobal@gmail.com"><i class="fas fa-envelope"></i><span>Gmail</span></a></div></div></div><div class="footer-bottom">© 2026 QTN GLOBAL. All Rights Reserved.</div></footer>
 
-<!-- JAVASCRIPT: MỖI FILE CHỈ NẠP MỘT LẦN -->
-<script src="products.js"></script>
-<script src="products-i18n.js"></script>
+<script src="products.js"></script><script src="products-i18n.js"></script>
+<script>
+(function(){const p=(window.products||[]).find(x=>Number(x.id)===7);if(!p){console.error("Không tìm thấy sản phẩm ID 7 trong products.js");return;}window.currentProduct=typeof getTranslatedProduct==="function"?(getTranslatedProduct(p)||p):p;})();
+</script>
+<script src="js/news-data.js"></script><script src="js/news-i18n.js"></script><script src="js/script-i18n.js"></script><script src="js/script-base.js"></script><script src="js/search-system.js"></script><script src="js/script-init-new.js"></script><script src="js/script-home.js"></script><script src="js/script-news.js"></script><script src="js/script-cart.js"></script><script src="js/script-detail.js"></script><script src="js/script-detail-addcart.js"></script><script src="js/script-detail-buynow.js"></script><script src="js/i18n-sync-tool.js"></script><script src="js/slider-hero.js"></script><script src="js/slider-brand.js"></script><script src="js/slider-best-seller.js"></script><script src="js/app-router.js"></script><script src="js/script-mobile-menu.js"></script><script src="js/script-admin-entry.js"></script>
 <script>
 (function () {
-  const product = (window.products || []).find(item => Number(item.id) === 7);
-  if (!product) {
-    console.error("Không tìm thấy sản phẩm ID 7 trong products.js");
-    return;
+  function initOnekoSlider() {
+    const slider = document.querySelector(".gallery");
+    if (!slider || slider.dataset.sliderReady === "true") return;
+    const mainImage = slider.querySelector("#mainImage");
+    const thumbnails = Array.from(slider.querySelectorAll(".thumb"));
+    const prevButton = slider.querySelector(".prev");
+    const nextButton = slider.querySelector(".next");
+    if (!mainImage || thumbnails.length === 0) return;
+    slider.dataset.sliderReady = "true";
+    let currentIndex = 0;
+    let autoPlay = null;
+    let isHovering = false;
+    function showImage(index) {
+      currentIndex = (index + thumbnails.length) % thumbnails.length;
+      const thumbnail = thumbnails[currentIndex];
+      const imagePath = thumbnail.getAttribute("data-image");
+      if (!imagePath) return;
+      mainImage.src = imagePath;
+      const thumbnailImage = thumbnail.querySelector("img");
+      if (thumbnailImage && thumbnailImage.alt) mainImage.alt = thumbnailImage.alt;
+      thumbnails.forEach(function (item, i) {
+        const active = i === currentIndex;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-pressed", String(active));
+      });
+    }
+    function stopAutoPlay() {
+      if (autoPlay !== null) { clearInterval(autoPlay); autoPlay = null; }
+    }
+    function startAutoPlay() {
+      stopAutoPlay();
+      if (thumbnails.length <= 1) return;
+      autoPlay = setInterval(function () {
+        if (!isHovering && !document.hidden) showImage(currentIndex + 1);
+      }, 4000);
+    }
+    thumbnails.forEach(function (thumbnail, index) {
+      thumbnail.addEventListener("click", function () { showImage(index); startAutoPlay(); });
+    });
+    if (prevButton) prevButton.addEventListener("click", function () { showImage(currentIndex - 1); startAutoPlay(); });
+    if (nextButton) nextButton.addEventListener("click", function () { showImage(currentIndex + 1); startAutoPlay(); });
+    slider.addEventListener("mouseenter", function () { isHovering = true; });
+    slider.addEventListener("mouseleave", function () { isHovering = false; });
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) stopAutoPlay(); else startAutoPlay();
+    });
+    showImage(0);
+    startAutoPlay();
+    console.log("Oneko JK-A+ slider: Đã khởi tạo thành công.");
   }
-  window.currentProduct = typeof getTranslatedProduct === "function"
-    ? (getTranslatedProduct(product) || product)
-    : product;
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initOnekoSlider);
+  else initOnekoSlider();
 })();
 </script>
-
-<script src="js/news-data.js"></script>
-<script src="js/news-i18n.js"></script>
-<script src="js/script-i18n.js"></script>
-<script src="js/script-base.js"></script>
-<script src="js/search-system.js"></script>
-<script src="js/script-init-new.js"></script>
-<script src="js/script-home.js"></script>
-<script src="js/script-news.js"></script>
-<script src="js/script-cart.js"></script>
-<script src="js/script-detail.js"></script>
-<script src="js/script-detail-addcart.js"></script>
-<script src="js/script-detail-buynow.js"></script>
-<script src="js/i18n-sync-tool.js"></script>
-<script src="js/slider-hero.js"></script>
-<script src="js/slider-brand.js"></script>
-<script src="js/slider-best-seller.js"></script>
-<script src="js/app-router.js"></script>
-<script src="js/script-mobile-menu.js"></script>
-<script src="js/script-admin-entry.js"></script>
-
-<!-- ĐIỀU KHIỂN SLIDER ẢNH SẢN PHẨM -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const gallery = document.querySelector(".gallery");
-  if (!gallery) return;
-
-  const mainImage = gallery.querySelector("#mainImage");
-  const thumbnails = Array.from(gallery.querySelectorAll(".thumb"));
-  const previousButton = gallery.querySelector(".prev");
-  const nextButton = gallery.querySelector(".next");
-
-  if (!mainImage || thumbnails.length === 0) {
-    console.warn("Slider Oneko JK-A+: chưa tìm thấy ảnh chính hoặc ảnh thu nhỏ.");
-    return;
-  }
-
-  let currentIndex = 0;
-
-  function showImage(index) {
-    currentIndex = (index + thumbnails.length) % thumbnails.length;
-    const imagePath = thumbnails[currentIndex].getAttribute("data-img");
-    if (!imagePath) return;
-
-    mainImage.src = imagePath;
-    thumbnails.forEach(function (thumbnail, position) {
-      thumbnail.classList.toggle("active", position === currentIndex);
-    });
-  }
-
-  thumbnails.forEach(function (thumbnail, index) {
-    thumbnail.addEventListener("click", function () {
-      showImage(index);
-    });
-  });
-
-  if (previousButton) {
-    previousButton.addEventListener("click", function () {
-      showImage(currentIndex - 1);
-    });
-  }
-
-  if (nextButton) {
-    nextButton.addEventListener("click", function () {
-      showImage(currentIndex + 1);
-    });
-  }
-
-  showImage(0);
-});
-</script>
-</body>
-</html>
+</body></html>
