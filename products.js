@@ -542,6 +542,7 @@ slug: "can-dem-jadever-jcl.html",
     {
     business:"measure",
     id:7,
+slug: "can-dem-dien-tu-oneko-jk-a-plus",
 
     name:"Cân điện tử đếm Oneko JK-A+",
 

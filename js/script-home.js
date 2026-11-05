@@ -41,6 +41,10 @@ if (Number(product.id) === 5) {
 if (Number(product.id) === 6) {
     return "can-dem-jadever-jcl.html";
 }
+// Oneko JK-A+ - ID 7
+if (Number(product.id) === 7) {
+    return "can-dem-dien-tu-oneko-jk-a-plus.html";
+}
 
     // Amway
     if ((product.brand || "").trim().toUpperCase() === "AMWAY") {
