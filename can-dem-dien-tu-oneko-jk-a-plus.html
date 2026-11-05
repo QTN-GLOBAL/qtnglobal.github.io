@@ -73,49 +73,91 @@
 <div class="footer-column"><h3>Danh mục</h3><div class="footer-menu"><a href="index.html">Trang chủ</a><a href="about.html">Giới thiệu</a><a href="news.html">Tin tức</a><a href="contact.html">Liên hệ</a></div></div>
 <div class="footer-column"><h3>Kết nối</h3><div class="footer-social"><a href="https://www.facebook.com/QTNSCALE" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a><a href="https://zalo.me/0383598603" target="_blank"><i class="fas fa-comment-dots"></i><span>Zalo</span></a><a href="mailto:infoqtnglobal@gmail.com"><i class="fas fa-envelope"></i><span>Gmail</span></a></div></div></div><div class="footer-bottom">© 2026 QTN GLOBAL. All Rights Reserved.</div></footer>
 
-<script src="products.js"></script><script src="products-i18n.js"></script>
-<script>
-(function(){const p=(window.products||[]).find(x=>Number(x.id)===7);if(!p){console.error("Không tìm thấy sản phẩm ID 7 trong products.js");return;}window.currentProduct=typeof getTranslatedProduct==="function"?(getTranslatedProduct(p)||p):p;})();
-</script>
-<script src="js/news-data.js"></script><script src="js/news-i18n.js"></script><script src="js/script-i18n.js"></script><script src="js/script-base.js"></script><script src="js/search-system.js"></script><script src="js/script-init-new.js"></script><script src="js/script-home.js"></script><script src="js/script-news.js"></script><script src="js/script-cart.js"></script><script src="js/script-detail.js"></script><script src="js/script-detail-addcart.js"></script><script src="js/script-detail-buynow.js"></script><script src="js/i18n-sync-tool.js"></script><script src="js/slider-hero.js"></script><script src="js/slider-brand.js"></script><script src="js/slider-best-seller.js"></script><script src="js/app-router.js"></script><script src="js/script-mobile-menu.js"></script><script src="js/script-admin-entry.js"></script>
-<script>
-(function(){const g=document.querySelector(".gallery"),m=document.getElementById("mainImage"),t=[...document.querySelectorAll(".thumb")];let i=0;function show(n){i=(n+t.length)%t.length;m.src=t[i].dataset.img;t.forEach((b,k)=>b.classList.toggle("active",k===i));}t.forEach((b,k)=>b.addEventListener("click",()=>show(k)));g.querySelector(".prev").addEventListener("click",()=>show(i-1));g.querySelector(".next").addEventListener("click",()=>show(i+1));})();
-</script>
-<!-- =========================
-     SCRIPT
-========================= -->
-
+<!-- JAVASCRIPT: MỖI FILE CHỈ NẠP MỘT LẦN -->
 <script src="products.js"></script>
 <script src="products-i18n.js"></script>
-<!-- =========================
-     NEWS
-========================= -->
+<script>
+(function () {
+  const product = (window.products || []).find(item => Number(item.id) === 7);
+  if (!product) {
+    console.error("Không tìm thấy sản phẩm ID 7 trong products.js");
+    return;
+  }
+  window.currentProduct = typeof getTranslatedProduct === "function"
+    ? (getTranslatedProduct(product) || product)
+    : product;
+})();
+</script>
 
 <script src="js/news-data.js"></script>
-<script src="js/news-i18n.js"></script> 
-
-
+<script src="js/news-i18n.js"></script>
 <script src="js/script-i18n.js"></script>
-
 <script src="js/script-base.js"></script>
-
 <script src="js/search-system.js"></script>
 <script src="js/script-init-new.js"></script>
-
 <script src="js/script-home.js"></script>
-
 <script src="js/script-news.js"></script>
 <script src="js/script-cart.js"></script>
+<script src="js/script-detail.js"></script>
 <script src="js/script-detail-addcart.js"></script>
 <script src="js/script-detail-buynow.js"></script>
-
 <script src="js/i18n-sync-tool.js"></script>
-
 <script src="js/slider-hero.js"></script>
 <script src="js/slider-brand.js"></script>
 <script src="js/slider-best-seller.js"></script>
-
 <script src="js/app-router.js"></script>
 <script src="js/script-mobile-menu.js"></script>
 <script src="js/script-admin-entry.js"></script>
-</body></html>
+
+<!-- ĐIỀU KHIỂN SLIDER ẢNH SẢN PHẨM -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.querySelector(".gallery");
+  if (!gallery) return;
+
+  const mainImage = gallery.querySelector("#mainImage");
+  const thumbnails = Array.from(gallery.querySelectorAll(".thumb"));
+  const previousButton = gallery.querySelector(".prev");
+  const nextButton = gallery.querySelector(".next");
+
+  if (!mainImage || thumbnails.length === 0) {
+    console.warn("Slider Oneko JK-A+: chưa tìm thấy ảnh chính hoặc ảnh thu nhỏ.");
+    return;
+  }
+
+  let currentIndex = 0;
+
+  function showImage(index) {
+    currentIndex = (index + thumbnails.length) % thumbnails.length;
+    const imagePath = thumbnails[currentIndex].getAttribute("data-img");
+    if (!imagePath) return;
+
+    mainImage.src = imagePath;
+    thumbnails.forEach(function (thumbnail, position) {
+      thumbnail.classList.toggle("active", position === currentIndex);
+    });
+  }
+
+  thumbnails.forEach(function (thumbnail, index) {
+    thumbnail.addEventListener("click", function () {
+      showImage(index);
+    });
+  });
+
+  if (previousButton) {
+    previousButton.addEventListener("click", function () {
+      showImage(currentIndex - 1);
+    });
+  }
+
+  if (nextButton) {
+    nextButton.addEventListener("click", function () {
+      showImage(currentIndex + 1);
+    });
+  }
+
+  showImage(0);
+});
+</script>
+</body>
+</html>
