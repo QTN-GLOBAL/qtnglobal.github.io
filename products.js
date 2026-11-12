@@ -635,6 +635,7 @@ slug: "can-dem-dien-tu-oneko-jk-a-plus",
    {
     business:"measure",
     id:8,
+ slug: "can-dem-mau-ohaus-rc21p.html",
 
     name:"Cân đếm mẫu Ohaus RC21P",
 
