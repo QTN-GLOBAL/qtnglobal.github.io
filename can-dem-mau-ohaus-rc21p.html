@@ -193,12 +193,63 @@
 <div class="footer-column"><h3 data-page-i18n="categories">Danh mục</h3><div class="footer-menu"><a href="index.html" data-page-i18n="home">Trang chủ</a><a href="about.html" data-page-i18n="about">Giới thiệu</a><a href="news.html" data-page-i18n="news">Tin tức</a><a href="contact.html" data-page-i18n="contact">Liên hệ</a></div></div>
 <div class="footer-column"><h3 data-page-i18n="connect">Kết nối</h3><div class="footer-social"><a href="https://www.facebook.com/QTNSCALE" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a><a href="https://zalo.me/0383598603" target="_blank"><i class="fas fa-comment-dots"></i><span>Zalo</span></a><a href="mailto:infoqtnglobal@gmail.com"><i class="fas fa-envelope"></i><span>Gmail</span></a></div></div>
 </div><div class="footer-bottom">© 2026 QTN GLOBAL. All Rights Reserved.</div></footer>
-<script>
+
 <script src="products.js"></script>
 <script src="products-i18n.js"></script>
+<script>
+(function(){
+  // Tìm sản phẩm trong các mảng dữ liệu đang được website sử dụng.
+  const pools = [window.products, window.allProductsCache, window.allProducts];
+  let p = null;
+  for (const pool of pools) {
+    if (Array.isArray(pool)) {
+      p = pool.find(item => Number(item.id) === 8);
+      if (p) break;
+    }
+  }
 
+  // Dự phòng: nếu ID 8 chưa được thêm vào products.js thì vẫn cung cấp
+  // đầy đủ dữ liệu tối thiểu để popup giỏ hàng/đặt hàng nhận đúng sản phẩm.
+  if (!p) {
+    console.warn("Chưa tìm thấy ID 8 trong products.js; đang dùng dữ liệu dự phòng của Ohaus RC21P.");
+    p = {
+      business: "measure",
+      id: 8,
+      name: "Cân đếm mẫu Ohaus RC21P",
+      slug: "can-dem-mau-ohaus-rc21p.html",
+      category: "can-dem",
+      folder: "rc21p",
+      brand: "Ohaus",
+      origin: "Mỹ",
+      description: "Cân đếm mẫu Ohaus RC21P thuộc dòng Ranger Count 2000 của Ohaus, thiết kế chắc chắn, tốc độ xử lý nhanh, độ chính xác cao, phù hợp kiểm đếm linh kiện, kho vận, sản xuất và kiểm kê hàng hóa.",
+      specs: [
+        '<table class="spec-table"><tr><th>Mức cân</th><th>Bước nhảy</th><th>Đĩa cân inox</th><th>Kích thước cân</th><th>Đơn vị cân</th></tr><tr><td>3kg</td><td>0.1g</td><td rowspan="4">300 × 225 mm</td><td rowspan="4">311 × 327 × 117 mm</td><td rowspan="4">kg / g / lb / oz / pcs</td></tr><tr><td>6kg</td><td>0.2g</td></tr><tr><td>15kg</td><td>0.5g</td></tr><tr><td>30kg</td><td>1g</td></tr></table>',
+        "Độ phân giải nội lên đến 1/600.000",
+        "Tiêu chuẩn chính xác cấp III theo OIML",
+        "Thời gian ổn định khoảng 1 giây",
+        "Màn hình LCD 3 cửa sổ đèn nền trắng",
+        "Hiển thị: trọng lượng / trọng lượng mẫu / số lượng đếm",
+        "Đèn LED kiểm tra trọng lượng 3 màu",
+        "Vỏ nhựa ABS công nghiệp",
+        "Chức năng: cân trọng lượng, đếm số lượng, kiểm tra trọng lượng, cộng dồn",
+        "Tự động tối ưu hóa lấy mẫu đếm",
+        "RS232 tiêu chuẩn",
+        "Nguồn AC Adapter hoặc pin sạc",
+        "Thời gian sử dụng pin khoảng 110 giờ",
+        "Nhiệt độ làm việc: -10°C ~ 40°C",
+        "Thiết kế chống bụi phù hợp môi trường công nghiệp"
+      ]
+    };
+  }
 
-
+  // Giữ đúng sản phẩm hiện tại ở phạm vi toàn trang để các script dùng chung đọc được.
+  window.currentProduct = typeof window.getTranslatedProduct === "function"
+    ? (window.getTranslatedProduct(p) || p)
+    : p;
+  window.currentProduct.id = 8;
+  console.log("Ohaus RC21P currentProduct:", window.currentProduct);
+})();
+</script>
 <script src="js/news-data.js"></script><script src="js/news-i18n.js"></script>
 <script src="js/script-i18n.js"></script><script src="js/script-base.js"></script><script src="js/search-system.js"></script>
 <script src="js/script-init-new.js"></script><script src="js/script-home.js"></script><script src="js/script-news.js"></script>
