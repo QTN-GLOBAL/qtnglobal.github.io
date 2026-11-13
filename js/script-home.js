@@ -45,6 +45,7 @@ if (Number(product.id) === 6) {
 if (Number(product.id) === 7) {
     return "can-dem-dien-tu-oneko-jk-a-plus.html";
 }
+// Cân đếm mẫu Ohaus RC21P - ID 8
 if (Number(product.id) === 8) {
     return "can-dem-mau-ohaus-rc21p.html";
 }
